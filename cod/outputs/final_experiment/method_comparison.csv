@@ -1,4 +1,4 @@
-method,accuracy,macro_f1,total
-lexicon,0.9167,0.9187,24
-nb,0.7917,0.778,24
-hybrid,0.875,0.8708,24
+method,accuracy,macro_precision,macro_recall,macro_f1,total
+lexicon,0.7167,0.7272,0.7167,0.703,120
+nb,0.625,0.6702,0.625,0.6211,120
+hybrid,0.6917,0.7314,0.6917,0.6858,120

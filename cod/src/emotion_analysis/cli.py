@@ -107,10 +107,10 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.command == "predict-file":
         rows = read_text_rows(args.input, text_column=args.text_column)
-        predictions = [
-            flatten_prediction(row, analyzer.analyze(row[args.text_column], method=args.method))
-            for row in rows
-        ]
+        predictions = []
+        for row in rows:
+            prediction = analyzer.analyze(row[args.text_column], method=args.method)
+            predictions.append(flatten_prediction(row, prediction))
         write_prediction_rows(args.output, predictions)
         print(f"Wrote {len(predictions)} predictions to {args.output}")
         return 0
@@ -158,6 +158,8 @@ def print_experiment_summary(summary: dict[str, Any], *, output_dir: str) -> Non
         metrics = details["metrics"]
         print(
             f"  {method}: accuracy={metrics['accuracy']:.4f} "
+            f"macro_precision={metrics['macro_precision']:.4f} "
+            f"macro_recall={metrics['macro_recall']:.4f} "
             f"macro_f1={metrics['macro_f1']:.4f} total={metrics['total']}"
         )
 

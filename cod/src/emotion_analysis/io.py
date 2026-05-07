@@ -9,6 +9,11 @@ from typing import Any
 from .constants import EMOTIONS
 
 
+ID_COLUMN = "ID"
+SOURCE_ID_COLUMN = "source_id"
+PREDICTION_COLUMN = "prediction"
+
+
 def read_text_rows(path: str | Path, *, text_column: str = "text") -> list[dict[str, str]]:
     csv_path = Path(path)
     with csv_path.open("r", encoding="utf-8-sig", newline="") as handle:
@@ -21,7 +26,16 @@ def read_text_rows(path: str | Path, *, text_column: str = "text") -> list[dict[
 def write_prediction_rows(path: str | Path, rows: list[dict[str, Any]]) -> None:
     output_path = Path(path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    columns = ["id", "text", "method", "dominant_emotion", "confidence", "coverage"]
+    columns = [
+        ID_COLUMN,
+        SOURCE_ID_COLUMN,
+        "text",
+        "method",
+        "dominant_emotion",
+        PREDICTION_COLUMN,
+        "confidence",
+        "coverage",
+    ]
     columns.extend(f"score_{emotion}" for emotion in EMOTIONS)
 
     with output_path.open("w", encoding="utf-8", newline="") as handle:
@@ -32,11 +46,14 @@ def write_prediction_rows(path: str | Path, rows: list[dict[str, Any]]) -> None:
 
 
 def flatten_prediction(source_row: dict[str, str], prediction: dict[str, Any]) -> dict[str, Any]:
+    row_id = source_row.get(ID_COLUMN) or source_row.get("id") or source_row.get(SOURCE_ID_COLUMN, "")
     csv_row: dict[str, Any] = {
-        "id": source_row.get("id", ""),
+        ID_COLUMN: row_id,
+        SOURCE_ID_COLUMN: row_id,
         "text": prediction["text"],
         "method": prediction["method"],
         "dominant_emotion": prediction["dominant_emotion"],
+        PREDICTION_COLUMN: prediction["dominant_emotion"],
         "confidence": round(float(prediction["confidence"]), 4),
         "coverage": round(float(prediction.get("coverage", 0.0)), 4),
     }

@@ -36,9 +36,13 @@ def classification_metrics(
             "support": support,
         }
 
+    macro_precision = sum(float(values["precision"]) for values in per_label.values()) / len(labels)
+    macro_recall = sum(float(values["recall"]) for values in per_label.values()) / len(labels)
     macro_f1 = sum(float(values["f1"]) for values in per_label.values()) / len(labels)
     return {
         "accuracy": round(correct / total, 4) if total else 0.0,
+        "macro_precision": round(macro_precision, 4),
+        "macro_recall": round(macro_recall, 4),
         "macro_f1": round(macro_f1, 4),
         "total": total,
         "per_label": per_label,

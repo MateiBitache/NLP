@@ -36,7 +36,7 @@ class EmotionAnalyzer:
         if method == "lexicon":
             return self.lexicon_model.score(text)
         if method == "nb":
-            return self._nb().predict(text)
+            return self._nb_model().predict(text)
         if method != "hybrid":
             raise ValueError("method must be one of: lexicon, nb, hybrid")
 

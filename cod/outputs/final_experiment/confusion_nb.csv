@@ -1,9 +1,9 @@
 gold\predicted,anger,anticipation,disgust,fear,joy,sadness,surprise,trust
-anger,3,0,0,0,0,0,0,0
-anticipation,0,1,0,2,0,0,0,0
-disgust,0,0,3,0,0,0,0,0
-fear,0,0,0,3,0,0,0,0
-joy,0,0,0,0,3,0,0,0
-sadness,0,0,0,0,0,3,0,0
-surprise,0,1,0,0,0,0,2,0
-trust,0,0,0,1,0,1,0,1
+anger,11,0,3,1,0,0,0,0
+anticipation,0,4,1,9,0,0,0,1
+disgust,0,0,14,1,0,0,0,0
+fear,2,0,0,12,0,0,0,1
+joy,0,2,0,0,12,0,1,0
+sadness,1,0,0,3,0,10,0,1
+surprise,1,5,1,1,0,0,7,0
+trust,1,2,1,3,2,1,0,5

@@ -1,0 +1,7 @@
+interface:
+  display_name: "SemEval Code Quality"
+  short_description: "Review code with SemEval-style quality checks"
+  default_prompt: "Use $semeval-code-quality to refactor this code for maintainability while preserving behavior and tests."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,25 +1,121 @@
 id,domain,label,text
-anger_1,social,anger,I am furious that the company ignored every complaint.
-anger_2,news,anger,Residents were angry after officials delayed the promised repairs.
-anger_3,blog,anger,The rude answer made me irritated and upset for the rest of the day.
-anticipation_1,social,anticipation,I am waiting for the results and feeling excited about what comes next.
-anticipation_2,news,anticipation,Investors expected the announcement and watched the market closely.
-anticipation_3,blog,anticipation,Tomorrow's trip makes me curious hopeful and full of anticipation.
-disgust_1,social,disgust,The spoiled food smelled awful and made everyone disgusted.
-disgust_2,news,disgust,The report described filthy rooms and unacceptable hygiene problems.
-disgust_3,blog,disgust,I felt repulsed by the gross mess left in the kitchen.
-fear_1,social,fear,I was afraid during the storm because the windows kept shaking.
-fear_2,news,fear,The emergency warning created fear among families near the river.
-fear_3,blog,fear,Walking alone at night made me nervous scared and anxious.
-joy_1,social,joy,I am happy proud and delighted about the scholarship.
-joy_2,news,joy,The team celebrated a joyful victory after the final whistle.
-joy_3,blog,joy,Her smile and kind words made the whole morning wonderful.
-sadness_1,social,sadness,I felt lonely and sad after reading the last message.
-sadness_2,news,sadness,The community mourned the tragic loss of a beloved teacher.
-sadness_3,blog,sadness,It was a gloomy day and I missed my old friends terribly.
-surprise_1,social,surprise,I was shocked when my friends planned a sudden party.
-surprise_2,news,surprise,Analysts were amazed by the unexpected election result.
-surprise_3,blog,surprise,The plot twist was astonishing and completely unexpected.
-trust_1,social,trust,I trust the doctor because she explained the plan clearly.
-trust_2,news,trust,Officials expressed confidence in the safety of the new bridge.
-trust_3,blog,trust,His honest apology made me feel secure and reassured.
+anger_social_01,social,anger,I am furious that the company ignored every complaint.
+anger_social_02,social,anger,This update broke everything again and I am angry about it.
+anger_social_03,social,anger,The rude reply made me irritated for the rest of the day.
+anger_social_04,social,anger,I hate how they keep promising fixes and doing nothing.
+anger_social_05,social,anger,People in the comments were mad about the unfair decision.
+anger_news_01,news,anger,Residents were angry after officials delayed the promised repairs.
+anger_news_02,news,anger,Workers protested after the company refused to pay overtime.
+anger_news_03,news,anger,Parents criticized the school board for ignoring safety complaints.
+anger_news_04,news,anger,The mayor faced public outrage after the budget cuts.
+anger_news_05,news,anger,Customers accused the airline of disrespectful treatment during cancellations.
+anger_blog_01,blog,anger,The rude answer made me upset and tense all evening.
+anger_blog_02,blog,anger,I slammed the laptop shut after the same error returned.
+anger_blog_03,blog,anger,It annoys me when simple requests are treated like a burden.
+anger_blog_04,blog,anger,My patience disappeared after waiting three hours for help.
+anger_blog_05,blog,anger,The unfair criticism left me resentful and frustrated.
+anticipation_social_01,social,anticipation,I am waiting for the results and feeling excited about what comes next.
+anticipation_social_02,social,anticipation,Only two hours until the announcement and everyone is refreshing the page.
+anticipation_social_03,social,anticipation,I cannot sleep because tomorrow might change everything.
+anticipation_social_04,social,anticipation,The countdown has started and I keep imagining the surprise.
+anticipation_social_05,social,anticipation,We are all eager to see the first trailer tonight.
+anticipation_news_01,news,anticipation,Investors expected the announcement and watched the market closely.
+anticipation_news_02,news,anticipation,Fans waited outside the stadium before the final team list.
+anticipation_news_03,news,anticipation,Scientists prepared for the launch scheduled before sunrise.
+anticipation_news_04,news,anticipation,Voters looked ahead to the debate for clearer answers.
+anticipation_news_05,news,anticipation,Analysts predicted a major decision before the end of the week.
+anticipation_blog_01,blog,anticipation,Tomorrow's trip makes me curious hopeful and full of anticipation.
+anticipation_blog_02,blog,anticipation,I packed early because I am eager for the weekend retreat.
+anticipation_blog_03,blog,anticipation,The unopened letter sat on my desk like a promise.
+anticipation_blog_04,blog,anticipation,I kept checking the doorway hoping she would arrive soon.
+anticipation_blog_05,blog,anticipation,The smell of fresh paint made me imagine the finished room.
+disgust_social_01,social,disgust,The spoiled food smelled awful and made everyone disgusted.
+disgust_social_02,social,disgust,That filthy bathroom photo made me feel sick.
+disgust_social_03,social,disgust,I cannot believe they served something so gross.
+disgust_social_04,social,disgust,The comments about cheating were vile and repulsive.
+disgust_social_05,social,disgust,Seeing trash dumped in the park made me nauseous.
+disgust_news_01,news,disgust,The report described filthy rooms and unacceptable hygiene problems.
+disgust_news_02,news,disgust,Inspectors found rotten supplies in the restaurant kitchen.
+disgust_news_03,news,disgust,The investigation exposed disgusting conditions inside the facility.
+disgust_news_04,news,disgust,Officials condemned the toxic waste left near homes.
+disgust_news_05,news,disgust,Residents complained about sewage smells spreading through the street.
+disgust_blog_01,blog,disgust,I felt repulsed by the gross mess left in the kitchen.
+disgust_blog_02,blog,disgust,The moldy bread and sour milk ruined my appetite.
+disgust_blog_03,blog,disgust,I wanted to leave as soon as I saw the dirty table.
+disgust_blog_04,blog,disgust,The slimy texture made me push the plate away.
+disgust_blog_05,blog,disgust,His cruel joke felt ugly and made me uncomfortable.
+fear_social_01,social,fear,I was afraid during the storm because the windows kept shaking.
+fear_social_02,social,fear,The strange noise outside made my hands tremble.
+fear_social_03,social,fear,I feel scared walking home after those warnings.
+fear_social_04,social,fear,Everyone panicked when the lights went out.
+fear_social_05,social,fear,My heart raced when the phone showed the emergency alert.
+fear_news_01,news,fear,The emergency warning created fear among families near the river.
+fear_news_02,news,fear,Evacuation orders frightened residents as the fire moved closer.
+fear_news_03,news,fear,Doctors warned that the outbreak could spread quickly.
+fear_news_04,news,fear,The crash raised concerns about safety on the route.
+fear_news_05,news,fear,Parents worried after reports of threats near the school.
+fear_blog_01,blog,fear,Walking alone at night made me nervous scared and anxious.
+fear_blog_02,blog,fear,I froze when the elevator stopped between floors.
+fear_blog_03,blog,fear,The medical results made me fear the worst.
+fear_blog_04,blog,fear,I kept imagining everything that could go wrong.
+fear_blog_05,blog,fear,The dark hallway made every small sound feel dangerous.
+joy_social_01,social,joy,I am happy proud and delighted about the scholarship.
+joy_social_02,social,joy,We finally won and I cannot stop smiling.
+joy_social_03,social,joy,This birthday message made my whole day brighter.
+joy_social_04,social,joy,I feel grateful excited and full of joy right now.
+joy_social_05,social,joy,Our group chat exploded with happy celebration.
+joy_news_01,news,joy,The team celebrated a joyful victory after the final whistle.
+joy_news_02,news,joy,Students cheered after the school received new funding.
+joy_news_03,news,joy,The rescued family smiled as they thanked the volunteers.
+joy_news_04,news,joy,The festival opened with music dancing and laughter.
+joy_news_05,news,joy,Supporters celebrated the historic win in the city center.
+joy_blog_01,blog,joy,Her smile and kind words made the whole morning wonderful.
+joy_blog_02,blog,joy,Baking with my sister filled the kitchen with warmth and laughter.
+joy_blog_03,blog,joy,I felt peaceful and happy watching the sunrise.
+joy_blog_04,blog,joy,The little gift made me feel loved and appreciated.
+joy_blog_05,blog,joy,Finishing the project gave me a deep sense of satisfaction.
+sadness_social_01,social,sadness,I felt lonely and sad after reading the last message.
+sadness_social_02,social,sadness,Missing the old team chat made me feel empty.
+sadness_social_03,social,sadness,I cried when I saw the goodbye post.
+sadness_social_04,social,sadness,The cancelled visit left me disappointed and low.
+sadness_social_05,social,sadness,Everyone moved on and I felt forgotten.
+sadness_news_01,news,sadness,The community mourned the tragic loss of a beloved teacher.
+sadness_news_02,news,sadness,Families gathered in grief after the accident.
+sadness_news_03,news,sadness,The closing factory left workers facing a painful future.
+sadness_news_04,news,sadness,The memorial honored victims of the devastating flood.
+sadness_news_05,news,sadness,Residents described heartbreak after losing their homes.
+sadness_blog_01,blog,sadness,It was a gloomy day and I missed my old friends terribly.
+sadness_blog_02,blog,sadness,The quiet apartment felt heavier after she left.
+sadness_blog_03,blog,sadness,I reread the note and felt tears return.
+sadness_blog_04,blog,sadness,The empty chair at dinner made everyone silent.
+sadness_blog_05,blog,sadness,I felt a dull ache thinking about what we lost.
+surprise_social_01,social,surprise,I was shocked when my friends planned a sudden party.
+surprise_social_02,social,surprise,I opened the app and saw an unexpected message.
+surprise_social_03,social,surprise,No one expected that hilarious twist at the end.
+surprise_social_04,social,surprise,The announcement came out of nowhere and stunned everyone.
+surprise_social_05,social,surprise,I gasped when the hidden guest walked in.
+surprise_news_01,news,surprise,Analysts were amazed by the unexpected election result.
+surprise_news_02,news,surprise,The sudden resignation surprised officials across the country.
+surprise_news_03,news,surprise,Researchers discovered an unexpected signal in the data.
+surprise_news_04,news,surprise,The underdog victory shocked sports commentators.
+surprise_news_05,news,surprise,Markets reacted sharply to the surprising policy reversal.
+surprise_blog_01,blog,surprise,The plot twist was astonishing and completely unexpected.
+surprise_blog_02,blog,surprise,I found an old photo hidden inside the book.
+surprise_blog_03,blog,surprise,The recipe tasted completely different from what I imagined.
+surprise_blog_04,blog,surprise,She arrived early and caught me totally off guard.
+surprise_blog_05,blog,surprise,The small cafe turned out to be a secret music venue.
+trust_social_01,social,trust,I trust the doctor because she explained the plan clearly.
+trust_social_02,social,trust,Your honest update made me feel confident again.
+trust_social_03,social,trust,I believe the team will handle this carefully.
+trust_social_04,social,trust,She kept her promise and I feel safe with her.
+trust_social_05,social,trust,The clear instructions made everyone more confident.
+trust_news_01,news,trust,Officials expressed confidence in the safety of the new bridge.
+trust_news_02,news,trust,Auditors confirmed that the charity used funds responsibly.
+trust_news_03,news,trust,Doctors said the treatment plan was reliable and well tested.
+trust_news_04,news,trust,The agency assured residents that water quality remained safe.
+trust_news_05,news,trust,Independent experts backed the report and its conclusions.
+trust_blog_01,blog,trust,His honest apology made me feel secure and reassured.
+trust_blog_02,blog,trust,I relaxed because my friend had handled this before.
+trust_blog_03,blog,trust,Her calm explanation helped me believe the plan would work.
+trust_blog_04,blog,trust,The familiar routine made the new place feel safe.
+trust_blog_05,blog,trust,I left the keys with him because he has always been dependable.

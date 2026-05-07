@@ -1,25 +1,121 @@
-id,domain,label,text,method,dominant_emotion,confidence,coverage,score_anger,score_anticipation,score_disgust,score_fear,score_joy,score_sadness,score_surprise,score_trust
-anger_1,social,anger,I am furious that the company ignored every complaint.,nb,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-anger_2,news,anger,Residents were angry after officials delayed the promised repairs.,nb,anger,0.6719,0.0,0.6719,0.0,0.0164,0.3116,0.0,0.0,0.0,0.0
-anger_3,blog,anger,The rude answer made me irritated and upset for the rest of the day.,nb,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-anticipation_1,social,anticipation,I am waiting for the results and feeling excited about what comes next.,nb,fear,0.9746,0.0,0.0,0.0254,0.0,0.9746,0.0,0.0,0.0,0.0
-anticipation_2,news,anticipation,Investors expected the announcement and watched the market closely.,nb,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-anticipation_3,blog,anticipation,Tomorrow's trip makes me curious hopeful and full of anticipation.,nb,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-disgust_1,social,disgust,The spoiled food smelled awful and made everyone disgusted.,nb,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-disgust_2,news,disgust,The report described filthy rooms and unacceptable hygiene problems.,nb,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-disgust_3,blog,disgust,I felt repulsed by the gross mess left in the kitchen.,nb,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-fear_1,social,fear,I was afraid during the storm because the windows kept shaking.,nb,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-fear_2,news,fear,The emergency warning created fear among families near the river.,nb,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-fear_3,blog,fear,Walking alone at night made me nervous scared and anxious.,nb,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-joy_1,social,joy,I am happy proud and delighted about the scholarship.,nb,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-joy_2,news,joy,The team celebrated a joyful victory after the final whistle.,nb,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-joy_3,blog,joy,Her smile and kind words made the whole morning wonderful.,nb,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-sadness_1,social,sadness,I felt lonely and sad after reading the last message.,nb,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
-sadness_2,news,sadness,The community mourned the tragic loss of a beloved teacher.,nb,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
-sadness_3,blog,sadness,It was a gloomy day and I missed my old friends terribly.,nb,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
-surprise_1,social,surprise,I was shocked when my friends planned a sudden party.,nb,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
-surprise_2,news,surprise,Analysts were amazed by the unexpected election result.,nb,anticipation,0.8705,0.0,0.0,0.8705,0.0,0.0,0.0,0.0,0.1295,0.0
-surprise_3,blog,surprise,The plot twist was astonishing and completely unexpected.,nb,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
-trust_1,social,trust,I trust the doctor because she explained the plan clearly.,nb,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
-trust_2,news,trust,Officials expressed confidence in the safety of the new bridge.,nb,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-trust_3,blog,trust,His honest apology made me feel secure and reassured.,nb,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+ID,source_id,domain,label,text,method,dominant_emotion,prediction,confidence,coverage,score_anger,score_anticipation,score_disgust,score_fear,score_joy,score_sadness,score_surprise,score_trust
+anger_social_01,anger_social_01,social,anger,I am furious that the company ignored every complaint.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_social_02,anger_social_02,social,anger,This update broke everything again and I am angry about it.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_social_03,anger_social_03,social,anger,The rude reply made me irritated for the rest of the day.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_social_04,anger_social_04,social,anger,I hate how they keep promising fixes and doing nothing.,nb,anger,anger,0.9886,0.0,0.9886,0.0,0.0,0.0,0.0,0.0,0.0,0.0114
+anger_social_05,anger_social_05,social,anger,People in the comments were mad about the unfair decision.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_news_01,anger_news_01,news,anger,Residents were angry after officials delayed the promised repairs.,nb,anger,anger,0.6719,0.0,0.6719,0.0,0.0164,0.3116,0.0,0.0,0.0,0.0
+anger_news_02,anger_news_02,news,anger,Workers protested after the company refused to pay overtime.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+anger_news_03,anger_news_03,news,anger,Parents criticized the school board for ignoring safety complaints.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_news_04,anger_news_04,news,anger,The mayor faced public outrage after the budget cuts.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+anger_news_05,anger_news_05,news,anger,Customers accused the airline of disrespectful treatment during cancellations.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+anger_blog_01,anger_blog_01,blog,anger,The rude answer made me upset and tense all evening.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_blog_02,anger_blog_02,blog,anger,I slammed the laptop shut after the same error returned.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_blog_03,anger_blog_03,blog,anger,It annoys me when simple requests are treated like a burden.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_blog_04,anger_blog_04,blog,anger,My patience disappeared after waiting three hours for help.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anger_blog_05,anger_blog_05,blog,anger,The unfair criticism left me resentful and frustrated.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_social_01,anticipation_social_01,social,anticipation,I am waiting for the results and feeling excited about what comes next.,nb,fear,fear,0.9746,0.0,0.0,0.0254,0.0,0.9746,0.0,0.0,0.0,0.0
+anticipation_social_02,anticipation_social_02,social,anticipation,Only two hours until the announcement and everyone is refreshing the page.,nb,fear,fear,0.6063,0.0,0.0,0.3937,0.0,0.6063,0.0,0.0,0.0,0.0
+anticipation_social_03,anticipation_social_03,social,anticipation,I cannot sleep because tomorrow might change everything.,nb,fear,fear,0.9404,0.0,0.0466,0.013,0.0,0.9404,0.0,0.0,0.0,0.0
+anticipation_social_04,anticipation_social_04,social,anticipation,The countdown has started and I keep imagining the surprise.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_social_05,anticipation_social_05,social,anticipation,We are all eager to see the first trailer tonight.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_news_01,anticipation_news_01,news,anticipation,Investors expected the announcement and watched the market closely.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_news_02,anticipation_news_02,news,anticipation,Fans waited outside the stadium before the final team list.,nb,fear,fear,0.9999,0.0,0.0,0.0001,0.0,0.9999,0.0,0.0,0.0,0.0
+anticipation_news_03,anticipation_news_03,news,anticipation,Scientists prepared for the launch scheduled before sunrise.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_news_04,anticipation_news_04,news,anticipation,Voters looked ahead to the debate for clearer answers.,nb,anticipation,anticipation,0.995,0.0,0.0,0.995,0.0049,0.0,0.0,0.0,0.0,0.0
+anticipation_news_05,anticipation_news_05,news,anticipation,Analysts predicted a major decision before the end of the week.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_blog_01,anticipation_blog_01,blog,anticipation,Tomorrow's trip makes me curious hopeful and full of anticipation.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_blog_02,anticipation_blog_02,blog,anticipation,I packed early because I am eager for the weekend retreat.,nb,fear,fear,0.5529,0.0,0.0,0.4471,0.0,0.5529,0.0,0.0,0.0,0.0
+anticipation_blog_03,anticipation_blog_03,blog,anticipation,The unopened letter sat on my desk like a promise.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+anticipation_blog_04,anticipation_blog_04,blog,anticipation,I kept checking the doorway hoping she would arrive soon.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_blog_05,anticipation_blog_05,blog,anticipation,The smell of fresh paint made me imagine the finished room.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_01,disgust_social_01,social,disgust,The spoiled food smelled awful and made everyone disgusted.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_02,disgust_social_02,social,disgust,That filthy bathroom photo made me feel sick.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_03,disgust_social_03,social,disgust,I cannot believe they served something so gross.,nb,disgust,disgust,0.9902,0.0,0.0,0.0,0.9902,0.0,0.0,0.0,0.0,0.0098
+disgust_social_04,disgust_social_04,social,disgust,The comments about cheating were vile and repulsive.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_05,disgust_social_05,social,disgust,Seeing trash dumped in the park made me nauseous.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_01,disgust_news_01,news,disgust,The report described filthy rooms and unacceptable hygiene problems.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_02,disgust_news_02,news,disgust,Inspectors found rotten supplies in the restaurant kitchen.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_03,disgust_news_03,news,disgust,The investigation exposed disgusting conditions inside the facility.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_04,disgust_news_04,news,disgust,Officials condemned the toxic waste left near homes.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+disgust_news_05,disgust_news_05,news,disgust,Residents complained about sewage smells spreading through the street.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_01,disgust_blog_01,blog,disgust,I felt repulsed by the gross mess left in the kitchen.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_02,disgust_blog_02,blog,disgust,The moldy bread and sour milk ruined my appetite.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_03,disgust_blog_03,blog,disgust,I wanted to leave as soon as I saw the dirty table.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_04,disgust_blog_04,blog,disgust,The slimy texture made me push the plate away.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_05,disgust_blog_05,blog,disgust,His cruel joke felt ugly and made me uncomfortable.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+fear_social_01,fear_social_01,social,fear,I was afraid during the storm because the windows kept shaking.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_social_02,fear_social_02,social,fear,The strange noise outside made my hands tremble.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fear_social_03,fear_social_03,social,fear,I feel scared walking home after those warnings.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_social_04,fear_social_04,social,fear,Everyone panicked when the lights went out.,nb,fear,fear,0.9385,0.0,0.0615,0.0,0.0,0.9385,0.0,0.0,0.0,0.0
+fear_social_05,fear_social_05,social,fear,My heart raced when the phone showed the emergency alert.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_news_01,fear_news_01,news,fear,The emergency warning created fear among families near the river.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_news_02,fear_news_02,news,fear,Evacuation orders frightened residents as the fire moved closer.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_news_03,fear_news_03,news,fear,Doctors warned that the outbreak could spread quickly.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_news_04,fear_news_04,news,fear,The crash raised concerns about safety on the route.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_news_05,fear_news_05,news,fear,Parents worried after reports of threats near the school.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_01,fear_blog_01,blog,fear,Walking alone at night made me nervous scared and anxious.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_02,fear_blog_02,blog,fear,I froze when the elevator stopped between floors.,nb,anger,anger,0.9007,0.0,0.9007,0.0,0.0,0.0993,0.0,0.0,0.0,0.0
+fear_blog_03,fear_blog_03,blog,fear,The medical results made me fear the worst.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_04,fear_blog_04,blog,fear,I kept imagining everything that could go wrong.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+fear_blog_05,fear_blog_05,blog,fear,The dark hallway made every small sound feel dangerous.,nb,fear,fear,0.705,0.0,0.295,0.0,0.0,0.705,0.0,0.0,0.0,0.0
+joy_social_01,joy_social_01,social,joy,I am happy proud and delighted about the scholarship.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_social_02,joy_social_02,social,joy,We finally won and I cannot stop smiling.,nb,anticipation,anticipation,0.7514,0.0,0.0009,0.7514,0.0,0.0,0.2477,0.0,0.0,0.0
+joy_social_03,joy_social_03,social,joy,This birthday message made my whole day brighter.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_social_04,joy_social_04,social,joy,I feel grateful excited and full of joy right now.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_social_05,joy_social_05,social,joy,Our group chat exploded with happy celebration.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_news_01,joy_news_01,news,joy,The team celebrated a joyful victory after the final whistle.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_news_02,joy_news_02,news,joy,Students cheered after the school received new funding.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_news_03,joy_news_03,news,joy,The rescued family smiled as they thanked the volunteers.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_news_04,joy_news_04,news,joy,The festival opened with music dancing and laughter.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_news_05,joy_news_05,news,joy,Supporters celebrated the historic win in the city center.,nb,anticipation,anticipation,0.9989,0.0,0.0,0.9989,0.0,0.0,0.0011,0.0,0.0,0.0
+joy_blog_01,joy_blog_01,blog,joy,Her smile and kind words made the whole morning wonderful.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_blog_02,joy_blog_02,blog,joy,Baking with my sister filled the kitchen with warmth and laughter.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_blog_03,joy_blog_03,blog,joy,I felt peaceful and happy watching the sunrise.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_blog_04,joy_blog_04,blog,joy,The little gift made me feel loved and appreciated.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_blog_05,joy_blog_05,blog,joy,Finishing the project gave me a deep sense of satisfaction.,nb,surprise,surprise,0.9945,0.0,0.0,0.0002,0.0,0.0,0.0,0.0,0.9945,0.0052
+sadness_social_01,sadness_social_01,social,sadness,I felt lonely and sad after reading the last message.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_social_02,sadness_social_02,social,sadness,Missing the old team chat made me feel empty.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_social_03,sadness_social_03,social,sadness,I cried when I saw the goodbye post.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_social_04,sadness_social_04,social,sadness,The cancelled visit left me disappointed and low.,nb,sadness,sadness,0.9999,0.0,0.0001,0.0,0.0,0.0,0.0,0.9999,0.0,0.0
+sadness_social_05,sadness_social_05,social,sadness,Everyone moved on and I felt forgotten.,nb,trust,trust,0.9911,0.0,0.0,0.0,0.0089,0.0,0.0,0.0,0.0,0.9911
+sadness_news_01,sadness_news_01,news,sadness,The community mourned the tragic loss of a beloved teacher.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_news_02,sadness_news_02,news,sadness,Families gathered in grief after the accident.,nb,fear,fear,0.9875,0.0,0.0,0.0,0.0,0.9875,0.0,0.0125,0.0,0.0
+sadness_news_03,sadness_news_03,news,sadness,The closing factory left workers facing a painful future.,nb,fear,fear,0.9104,0.0,0.0,0.0,0.0,0.9104,0.0001,0.0895,0.0,0.0
+sadness_news_04,sadness_news_04,news,sadness,The memorial honored victims of the devastating flood.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_news_05,sadness_news_05,news,sadness,Residents described heartbreak after losing their homes.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_blog_01,sadness_blog_01,blog,sadness,It was a gloomy day and I missed my old friends terribly.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_blog_02,sadness_blog_02,blog,sadness,The quiet apartment felt heavier after she left.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_blog_03,sadness_blog_03,blog,sadness,I reread the note and felt tears return.,nb,sadness,sadness,0.8029,0.0,0.0,0.197,0.0,0.0,0.0,0.8029,0.0,0.0
+sadness_blog_04,sadness_blog_04,blog,sadness,The empty chair at dinner made everyone silent.,nb,anger,anger,0.9969,0.0,0.9969,0.0,0.0001,0.0,0.0001,0.0,0.0,0.0029
+sadness_blog_05,sadness_blog_05,blog,sadness,I felt a dull ache thinking about what we lost.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+surprise_social_01,surprise_social_01,social,surprise,I was shocked when my friends planned a sudden party.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_social_02,surprise_social_02,social,surprise,I opened the app and saw an unexpected message.,nb,surprise,surprise,0.9994,0.0,0.0,0.0006,0.0,0.0,0.0,0.0,0.9994,0.0
+surprise_social_03,surprise_social_03,social,surprise,No one expected that hilarious twist at the end.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_social_04,surprise_social_04,social,surprise,The announcement came out of nowhere and stunned everyone.,nb,anger,anger,0.9531,0.0,0.9531,0.0469,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_social_05,surprise_social_05,social,surprise,I gasped when the hidden guest walked in.,nb,anticipation,anticipation,0.9993,0.0,0.0001,0.9993,0.0,0.0,0.0,0.0,0.0005,0.0
+surprise_news_01,surprise_news_01,news,surprise,Analysts were amazed by the unexpected election result.,nb,anticipation,anticipation,0.8705,0.0,0.0,0.8705,0.0,0.0,0.0,0.0,0.1295,0.0
+surprise_news_02,surprise_news_02,news,surprise,The sudden resignation surprised officials across the country.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_news_03,surprise_news_03,news,surprise,Researchers discovered an unexpected signal in the data.,nb,anticipation,anticipation,0.9995,0.0,0.0,0.9995,0.0,0.0,0.0,0.0,0.0005,0.0
+surprise_news_04,surprise_news_04,news,surprise,The underdog victory shocked sports commentators.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+surprise_news_05,surprise_news_05,news,surprise,Markets reacted sharply to the surprising policy reversal.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_blog_01,surprise_blog_01,blog,surprise,The plot twist was astonishing and completely unexpected.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_blog_02,surprise_blog_02,blog,surprise,I found an old photo hidden inside the book.,nb,surprise,surprise,0.9988,0.0,0.0,0.0012,0.0,0.0,0.0,0.0,0.9988,0.0
+surprise_blog_03,surprise_blog_03,blog,surprise,The recipe tasted completely different from what I imagined.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_blog_04,surprise_blog_04,blog,surprise,She arrived early and caught me totally off guard.,nb,fear,fear,0.5742,0.0,0.0574,0.3678,0.0,0.5742,0.0,0.0001,0.0006,0.0
+surprise_blog_05,surprise_blog_05,blog,surprise,The small cafe turned out to be a secret music venue.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+trust_social_01,trust_social_01,social,trust,I trust the doctor because she explained the plan clearly.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+trust_social_02,trust_social_02,social,trust,Your honest update made me feel confident again.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+trust_social_03,trust_social_03,social,trust,I believe the team will handle this carefully.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+trust_social_04,trust_social_04,social,trust,She kept her promise and I feel safe with her.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+trust_social_05,trust_social_05,social,trust,The clear instructions made everyone more confident.,nb,fear,fear,0.9999,0.0,0.0,0.0,0.0,0.9999,0.0,0.0,0.0,0.0001
+trust_news_01,trust_news_01,news,trust,Officials expressed confidence in the safety of the new bridge.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_news_02,trust_news_02,news,trust,Auditors confirmed that the charity used funds responsibly.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+trust_news_03,trust_news_03,news,trust,Doctors said the treatment plan was reliable and well tested.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+trust_news_04,trust_news_04,news,trust,The agency assured residents that water quality remained safe.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_news_05,trust_news_05,news,trust,Independent experts backed the report and its conclusions.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+trust_blog_01,trust_blog_01,blog,trust,His honest apology made me feel secure and reassured.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+trust_blog_02,trust_blog_02,blog,trust,I relaxed because my friend had handled this before.,nb,joy,joy,0.9999,0.0,0.0,0.0,0.0,0.0,0.9999,0.0,0.0,0.0001
+trust_blog_03,trust_blog_03,blog,trust,Her calm explanation helped me believe the plan would work.,nb,anger,anger,0.9906,0.0,0.9906,0.0,0.0,0.0,0.0016,0.0,0.0032,0.0047
+trust_blog_04,trust_blog_04,blog,trust,The familiar routine made the new place feel safe.,nb,joy,joy,0.9995,0.0,0.0,0.0,0.0,0.0005,0.9995,0.0,0.0,0.0
+trust_blog_05,trust_blog_05,blog,trust,I left the keys with him because he has always been dependable.,nb,trust,trust,0.6511,0.0,0.3489,0.0,0.0,0.0,0.0,0.0,0.0,0.6511
