@@ -2,7 +2,6 @@ from pathlib import Path
 import sys
 
 
-# Keep this wrapper tiny: it lets the project run without installing the package.
 ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "src"
 if str(SRC) not in sys.path:

@@ -1,3 +1,5 @@
+"""Weighted NRC hashtag lexicon scorer used by the rule-based baseline."""
+
 from __future__ import annotations
 
 from collections import defaultdict
@@ -9,12 +11,8 @@ from .resources import load_hashtag_lexicon
 from .text import has_recent_intensifier, has_recent_negation, token_variants, tokenize
 
 
-"""Classic emotion detection baseline based on weighted lexicon lookup."""
-
 @dataclass
-class Match:
-    """A single lexical match that explains part of an emotion score."""
-
+class LexiconHit:
     emotion: str
     term: str
     token_index: int
@@ -22,8 +20,6 @@ class Match:
 
 
 class WeightedEmotionLexicon:
-    """Classic lexicon baseline using weighted NRC hashtag emotion associations."""
-
     def __init__(
         self,
         lexicon: dict[str, dict[str, float]] | None = None,
@@ -38,35 +34,27 @@ class WeightedEmotionLexicon:
         )
 
     def score(self, text: str) -> dict[str, Any]:
-        """Score one text and return normalized emotion probabilities plus evidence."""
         tokens = tokenize(text)
-        raw_scores = {emotion: 0.0 for emotion in EMOTIONS}
-        matches: list[Match] = []
+        emotion_totals = {emotion: 0.0 for emotion in EMOTIONS}
+        lexicon_hits: list[LexiconHit] = []
 
         for index, token in enumerate(tokens):
-            multiplier = 1.0
+            context_multiplier = recent_context_multiplier(tokens, index)
 
-            # Negation and intensifiers are simple heuristics, not full syntax parsing.
-            if has_recent_negation(tokens, index):
-                multiplier *= 0.35
-            if has_recent_intensifier(tokens, index):
-                multiplier *= 1.35
-
-            seen_terms: set[str] = set()
+            checked_terms: set[str] = set()
             for term in token_variants(token):
-                if term in seen_terms:
+                if term in checked_terms:
                     continue
-                seen_terms.add(term)
+                checked_terms.add(term)
 
-                # A term can contribute to several emotions in the NRC resource.
                 for emotion in EMOTIONS:
                     weight = self.lexicon[emotion].get(term)
                     if weight is None or weight <= 0:
                         continue
-                    contribution = weight * multiplier
-                    raw_scores[emotion] += contribution
-                    matches.append(
-                        Match(
+                    contribution = weight * context_multiplier
+                    emotion_totals[emotion] += contribution
+                    lexicon_hits.append(
+                        LexiconHit(
                             emotion=emotion,
                             term=term,
                             token_index=index,
@@ -74,38 +62,56 @@ class WeightedEmotionLexicon:
                         )
                     )
 
-        normalized = normalize_scores(raw_scores)
+        normalized = normalize_emotion_totals(emotion_totals)
         dominant = max(normalized, key=normalized.get) if normalized else None
-        coverage = len({match.token_index for match in matches}) / max(len(tokens), 1)
+        matched_positions = {hit.token_index for hit in lexicon_hits}
+        coverage = len(matched_positions) / max(len(tokens), 1)
         return {
             "method": "lexicon",
             "text": text,
             "tokens": tokens,
-            "raw_scores": raw_scores,
+            "raw_scores": emotion_totals,
             "scores": normalized,
             "dominant_emotion": dominant,
             "confidence": normalized.get(dominant, 0.0) if dominant else 0.0,
             "coverage": coverage,
-            "matches": summarize_matches(matches),
+            "matches": summarize_lexicon_hits(lexicon_hits),
         }
 
 
-def normalize_scores(scores: dict[str, float]) -> dict[str, float]:
-    """Convert raw positive scores to a distribution over emotions."""
-    positive = {emotion: max(value, 0.0) for emotion, value in scores.items()}
-    total = sum(positive.values())
+def recent_context_multiplier(tokens: list[str], token_index: int) -> float:
+    multiplier = 1.0
+    if has_recent_negation(tokens, token_index):
+        multiplier *= 0.35
+    if has_recent_intensifier(tokens, token_index):
+        multiplier *= 1.35
+    return multiplier
+
+
+def normalize_emotion_totals(emotion_totals: dict[str, float]) -> dict[str, float]:
+    positive_scores = {
+        emotion: max(score, 0.0)
+        for emotion, score in emotion_totals.items()
+    }
+    total = sum(positive_scores.values())
     if total <= 0:
         return {emotion: 0.0 for emotion in EMOTIONS}
-    return {emotion: value / total for emotion, value in positive.items()}
+    return {
+        emotion: score / total
+        for emotion, score in positive_scores.items()
+    }
 
 
-def summarize_matches(matches: list[Match], limit: int = 12) -> list[dict[str, Any]]:
-    """Group repeated matches so CLI/CSV evidence stays readable."""
+def summarize_lexicon_hits(
+    hits: list[LexiconHit],
+    limit: int = 12,
+) -> list[dict[str, Any]]:
     grouped: dict[tuple[str, str], float] = defaultdict(float)
-    for match in matches:
-        grouped[(match.emotion, match.term)] += match.contribution
-    ranked = sorted(grouped.items(), key=lambda item: item[1], reverse=True)
+    for hit in hits:
+        grouped[(hit.emotion, hit.term)] += hit.contribution
+
+    ranked_hits = sorted(grouped.items(), key=lambda group: group[1], reverse=True)
     return [
-        {"emotion": emotion, "term": term, "contribution": round(score, 4)}
-        for (emotion, term), score in ranked[:limit]
+        {"emotion": emotion, "term": term, "contribution": round(contribution, 4)}
+        for (emotion, term), contribution in ranked_hits[:limit]
     ]

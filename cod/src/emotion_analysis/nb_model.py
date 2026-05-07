@@ -1,3 +1,5 @@
+"""Naive Bayes baseline trained from NRC hashtag emotion associations."""
+
 from __future__ import annotations
 
 import math
@@ -11,20 +13,18 @@ from .resources import LexiconEntry, load_hashtag_entries
 from .text import tokenize
 
 
-"""Weakly supervised Naive Bayes model for emotion classification."""
-
 @dataclass
 class TrainingExample:
-    """One training item for the Naive Bayes baseline."""
-
     text: str
     label: str
     weight: float = 1.0
 
 
-class EmotionNaiveBayes:
-    """A lightweight learned baseline trained from emotion-labeled lexical items."""
+class NaiveBayesNotFittedError(RuntimeError):
+    pass
 
+
+class EmotionNaiveBayes:
     def __init__(self, *, alpha: float = 0.5) -> None:
         self.alpha = alpha
         self.labels = list(EMOTIONS)
@@ -37,53 +37,54 @@ class EmotionNaiveBayes:
         self._fitted = False
 
     def fit(self, examples: Iterable[TrainingExample]) -> "EmotionNaiveBayes":
-        """Estimate class priors and feature likelihoods from weighted examples."""
-        class_weights = {label: 0.0 for label in self.labels}
+        label_weights = {label: 0.0 for label in self.labels}
+
         for example in examples:
             if example.label not in self.class_feature_counts:
                 continue
-            features = extract_features(example.text)
-            if not features:
+
+            feature_counts = count_emotion_token_features(example.text)
+            if not feature_counts:
                 continue
+
             weight = max(float(example.weight), 0.001)
-            class_weights[example.label] += weight
-            for feature, count in features.items():
-                # Weighted counts let stronger lexicon associations influence training more.
-                weighted_count = count * weight
-                self.class_feature_counts[example.label][feature] += weighted_count
-                self.class_totals[example.label] += weighted_count
+            label_weights[example.label] += weight
+
+            for feature, count in feature_counts.items():
+                weighted_hits = count * weight
+                self.class_feature_counts[example.label][feature] += weighted_hits
+                self.class_totals[example.label] += weighted_hits
                 self.vocabulary.add(feature)
 
-        total_class_weight = sum(class_weights.values())
-        if total_class_weight <= 0:
+        total_label_weight = sum(label_weights.values())
+        if total_label_weight <= 0:
             raise ValueError("Cannot fit model: no usable training examples.")
+
         for label in self.labels:
             self.class_priors[label] = (
-                class_weights[label] + self.alpha
-            ) / (total_class_weight + self.alpha * len(self.labels))
+                label_weights[label] + self.alpha
+            ) / (total_label_weight + self.alpha * len(self.labels))
         self._fitted = True
         return self
 
     def predict_proba(self, text: str) -> dict[str, float]:
-        """Return a probability distribution over the eight emotions."""
         self._require_fitted()
-        features = extract_features(text)
+        features = count_emotion_token_features(text)
         vocab_size = max(len(self.vocabulary), 1)
         log_scores: dict[str, float] = {}
         for label in self.labels:
             log_score = math.log(self.class_priors[label])
             denominator = self.class_totals[label] + self.alpha * vocab_size
+
             for feature, count in features.items():
                 observed = self.class_feature_counts[label].get(feature, 0.0)
 
-                # Additive smoothing keeps unseen features from producing zero probability.
                 probability = (observed + self.alpha) / denominator
                 log_score += count * math.log(probability)
             log_scores[label] = log_score
-        return softmax(log_scores)
+        return normalize_log_emotion_scores(log_scores)
 
     def predict(self, text: str) -> dict[str, Any]:
-        """Return the dominant emotion and all emotion scores for one text."""
         scores = self.predict_proba(text)
         dominant = max(scores, key=scores.get)
         return {
@@ -97,7 +98,9 @@ class EmotionNaiveBayes:
 
     def _require_fitted(self) -> None:
         if not self._fitted:
-            raise RuntimeError("EmotionNaiveBayes must be fitted before prediction.")
+            raise NaiveBayesNotFittedError(
+                "Train EmotionNaiveBayes with fit() or train_nb_from_lexicon() before prediction."
+            )
 
 
 def train_nb_from_lexicon(
@@ -106,13 +109,16 @@ def train_nb_from_lexicon(
     max_per_emotion: int = 3500,
     min_score: float = 0.3,
 ) -> EmotionNaiveBayes:
-    """Build the learned baseline directly from the NRC lexicon."""
     entries = load_hashtag_entries(
         lexicon_path,
         max_entries_per_emotion=max_per_emotion,
         min_score=min_score,
     )
-    examples = [entry_to_example(entry) for entry in entries if is_training_term(entry.term)]
+    examples = [
+        nrc_entry_to_training_example(entry)
+        for entry in entries
+        if looks_like_training_phrase(entry.term)
+    ]
     return EmotionNaiveBayes().fit(examples)
 
 
@@ -124,7 +130,6 @@ def evaluate_nb_from_lexicon(
     test_ratio: float = 0.2,
     seed: int = 13,
 ) -> dict[str, Any]:
-    """Evaluate NB with a deterministic held-out split from the lexicon."""
     entries = [
         entry
         for entry in load_hashtag_entries(
@@ -132,28 +137,33 @@ def evaluate_nb_from_lexicon(
             max_entries_per_emotion=max_per_emotion,
             min_score=min_score,
         )
-        if is_training_term(entry.term)
+        if looks_like_training_phrase(entry.term)
     ]
     by_label: dict[str, list[LexiconEntry]] = defaultdict(list)
     for entry in entries:
         by_label[entry.emotion].append(entry)
 
     rng = random.Random(seed)
-    train: list[TrainingExample] = []
-    test: list[TrainingExample] = []
+    train_examples: list[TrainingExample] = []
+    test_examples: list[TrainingExample] = []
+
     for label in EMOTIONS:
-        label_entries = by_label[label]
-        rng.shuffle(label_entries)
+        emotion_entries = by_label[label]
+        rng.shuffle(emotion_entries)
 
-        # Split each emotion separately so every class appears in train and test.
-        split = max(1, int(len(label_entries) * test_ratio))
-        test.extend(entry_to_example(entry) for entry in label_entries[:split])
-        train.extend(entry_to_example(entry) for entry in label_entries[split:])
+        test_size = max(1, int(len(emotion_entries) * test_ratio))
+        test_examples.extend(
+            nrc_entry_to_training_example(entry) for entry in emotion_entries[:test_size]
+        )
+        train_examples.extend(
+            nrc_entry_to_training_example(entry) for entry in emotion_entries[test_size:]
+        )
 
-    model = EmotionNaiveBayes().fit(train)
+    model = EmotionNaiveBayes().fit(train_examples)
     confusion = {gold: {pred: 0 for pred in EMOTIONS} for gold in EMOTIONS}
     correct = 0
-    for example in test:
+
+    for example in test_examples:
         probabilities = model.predict_proba(example.text)
         prediction = max(probabilities, key=probabilities.get)
         confusion[example.label][prediction] += 1
@@ -175,50 +185,54 @@ def evaluate_nb_from_lexicon(
         }
     macro_f1 = sum(metrics["f1"] for metrics in per_label.values()) / len(EMOTIONS)
     return {
-        "examples": {"train": len(train), "test": len(test)},
-        "accuracy": round(correct / max(len(test), 1), 4),
+        "examples": {"train": len(train_examples), "test": len(test_examples)},
+        "accuracy": round(correct / max(len(test_examples), 1), 4),
         "macro_f1": round(macro_f1, 4),
         "per_label": per_label,
         "confusion": confusion,
     }
 
 
-def extract_features(text: str) -> Counter[str]:
-    """Extract word and character n-gram features for robust short-text matching."""
-    features: Counter[str] = Counter()
+def count_emotion_token_features(text: str) -> Counter[str]:
+    counts: Counter[str] = Counter()
     tokens = tokenize(text)
+
     for token in tokens:
         if token.startswith("#") and len(token) > 1:
-            features[f"word={token[1:]}"] += 1
-        features[f"word={token}"] += 2
-        compact = f"^{token}$"
+            counts[f"word={token[1:]}"] += 1
+        counts[f"word={token}"] += 2
 
-        # Character n-grams help with related word forms, typos and hashtags.
-        for n in (3, 4, 5):
-            if len(compact) < n:
+        padded_token = f"^{token}$"
+
+        for width in (3, 4, 5):
+            last_start = len(padded_token) - width
+            if last_start < 0:
                 continue
-            for index in range(0, len(compact) - n + 1):
-                features[f"char{n}={compact[index:index+n]}"] += 1
-    return features
+
+            for start in range(last_start + 1):
+                ngram = padded_token[start:start + width]
+                counts[f"char{width}={ngram}"] += 1
+    return counts
 
 
-def entry_to_example(entry: LexiconEntry) -> TrainingExample:
-    """Convert a lexical association into a weakly supervised training example."""
-    weight = 1.0 + min(max(entry.score, 0.0), 3.0)
-    return TrainingExample(text=entry.term.replace("_", " "), label=entry.emotion, weight=weight)
+def nrc_entry_to_training_example(entry: LexiconEntry) -> TrainingExample:
+    usable_score = min(max(entry.score, 0.0), 3.0)
+    phrase = entry.term.replace("_", " ")
+    return TrainingExample(text=phrase, label=entry.emotion, weight=1.0 + usable_score)
 
 
-def is_training_term(term: str) -> bool:
-    """Filter noisy social-media artifacts that are not useful as training text."""
+def looks_like_training_phrase(term: str) -> bool:
     if term.startswith("@") or "http" in term:
         return False
-    letters = sum(ch.isalpha() for ch in term)
-    return letters >= 3
+    letter_count = sum(ch.isalpha() for ch in term)
+    return letter_count >= 3
 
 
-def softmax(log_scores: dict[str, float]) -> dict[str, float]:
-    """Normalize log-scores in a numerically stable way."""
+def normalize_log_emotion_scores(log_scores: dict[str, float]) -> dict[str, float]:
     max_log = max(log_scores.values())
-    exps = {label: math.exp(value - max_log) for label, value in log_scores.items()}
-    total = sum(exps.values())
-    return {label: value / total for label, value in exps.items()}
+    shifted_scores = {
+        label: math.exp(value - max_log)
+        for label, value in log_scores.items()
+    }
+    total = sum(shifted_scores.values())
+    return {label: value / total for label, value in shifted_scores.items()}

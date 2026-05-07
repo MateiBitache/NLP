@@ -1,3 +1,5 @@
+"""Evaluation helpers shared by experiments and tests."""
+
 from __future__ import annotations
 
 from typing import Any
@@ -5,15 +7,12 @@ from typing import Any
 from .constants import EMOTIONS
 
 
-"""Evaluation utilities independent of any specific model."""
-
 def classification_metrics(
     gold_labels: list[str],
     predicted_labels: list[str],
     *,
     labels: tuple[str, ...] = EMOTIONS,
 ) -> dict[str, Any]:
-    """Compute accuracy, macro-F1, per-label metrics and confusion matrix."""
     if len(gold_labels) != len(predicted_labels):
         raise ValueError("gold_labels and predicted_labels must have the same length.")
 
@@ -23,7 +22,6 @@ def classification_metrics(
     per_label: dict[str, dict[str, float | int]] = {}
 
     for label in labels:
-        # One-vs-rest counts for each class.
         tp = confusion[label][label]
         fp = sum(confusion[other][label] for other in labels if other != label)
         fn = sum(confusion[label][other] for other in labels if other != label)
@@ -54,9 +52,9 @@ def confusion_matrix(
     *,
     labels: tuple[str, ...] = EMOTIONS,
 ) -> dict[str, dict[str, int]]:
-    """Build a gold-label by predicted-label confusion matrix."""
     label_set = set(labels)
     matrix = {gold: {pred: 0 for pred in labels} for gold in labels}
+
     for gold, predicted in zip(gold_labels, predicted_labels):
         if gold not in label_set or predicted not in label_set:
             continue
@@ -65,5 +63,4 @@ def confusion_matrix(
 
 
 def label_distribution(labels: list[str]) -> dict[str, int]:
-    """Count how many examples belong to each emotion label."""
     return {label: labels.count(label) for label in EMOTIONS}

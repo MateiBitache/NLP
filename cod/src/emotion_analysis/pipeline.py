@@ -1,3 +1,5 @@
+"""High-level analyzer for lexicon, NB and hybrid emotion prediction."""
+
 from __future__ import annotations
 
 from typing import Any
@@ -7,11 +9,7 @@ from .lexicon_model import WeightedEmotionLexicon
 from .nb_model import EmotionNaiveBayes, train_nb_from_lexicon
 
 
-"""High-level analyzer that exposes lexicon, NB and hybrid methods."""
-
 class EmotionAnalyzer:
-    """Facade used by the CLI and experiments to run emotion analysis."""
-
     def __init__(
         self,
         *,
@@ -25,7 +23,6 @@ class EmotionAnalyzer:
         if not 0.0 <= hybrid_lexicon_weight <= 1.0:
             raise ValueError("hybrid_lexicon_weight must be between 0 and 1.")
 
-        # Model injection is used by tests; normal CLI usage loads models from resources.
         self.lexicon_model = lexicon_model or WeightedEmotionLexicon(
             lexicon_path=lexicon_path, max_entries_per_emotion=lexicon_max_entries
         )
@@ -35,7 +32,6 @@ class EmotionAnalyzer:
         self.hybrid_lexicon_weight = hybrid_lexicon_weight
 
     def analyze(self, text: str, *, method: str = "hybrid") -> dict[str, Any]:
-        """Run the selected method on a single text."""
         method = method.lower()
         if method == "lexicon":
             return self.lexicon_model.score(text)
@@ -44,13 +40,13 @@ class EmotionAnalyzer:
         if method != "hybrid":
             raise ValueError("method must be one of: lexicon, nb, hybrid")
 
-        # Hybrid keeps the interpretable lexical signal and adds the learned NB signal.
         lexicon_result = self.lexicon_model.score(text)
-        nb_result = self._nb().predict(text)
-        weight = self.hybrid_lexicon_weight
+        nb_result = self._nb_model().predict(text)
+        lexicon_share = self.hybrid_lexicon_weight
+        nb_share = 1.0 - lexicon_share
         scores = {
-            emotion: weight * lexicon_result["scores"][emotion]
-            + (1.0 - weight) * nb_result["scores"][emotion]
+            emotion: lexicon_share * lexicon_result["scores"][emotion]
+            + nb_share * nb_result["scores"][emotion]
             for emotion in EMOTIONS
         }
         dominant = max(scores, key=scores.get)
@@ -66,12 +62,11 @@ class EmotionAnalyzer:
             "components": {
                 "lexicon": lexicon_result["scores"],
                 "nb": nb_result["scores"],
-                "hybrid_lexicon_weight": weight,
+                "hybrid_lexicon_weight": lexicon_share,
             },
         }
 
-    def _nb(self) -> EmotionNaiveBayes:
-        """Train NB lazily so lexicon-only commands start quickly."""
+    def _nb_model(self) -> EmotionNaiveBayes:
         if self.nb_model is None:
             self.nb_model = train_nb_from_lexicon(
                 self.lexicon_path,
