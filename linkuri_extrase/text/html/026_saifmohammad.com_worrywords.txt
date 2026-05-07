@@ -1,0 +1,142 @@
+Saif | Anxiety Lexicon 
+
+Home 
+
+Research 
+ 
+ Publications 
+ 
+ Lexicons 
+
+ Labeled Data 
+ 
+ Invited Talks 
+ Contact 
+
+WorryWords: The NRC Word--Anxiety Association Lexicon 
+
+The NRC WorryWords Lexicon is a list of over 44,000 English words and real-valued scores indicating their associations with anxiety: from -3 (maximum calmness) to 3 (maximum anxiety). The scores were obtained by taking the means of individual labels by various native speakers of English (from manual annotations through crowdsourcing). One can also make use of the dicrete ordinal classes assigned to each word: 
+
+3: very anxious (when mean anxiety score >= 2.5) 
+ 
+2: moderately anxious (when mean >= 1.5 and < 2.5) 
+ 
+1: slightly anxious (when mean >= 0.5 and < 1.5) 
+ 
+0: not associated with feeling anxious or calm (when mean > -0.5 and < 0.5) 
+ 
+-1: slightly calm (when mean > -1.5 and <= -0.5) 
+ 
+-2: moderately calm (when mean > -2.5 and <= -1.5) 
+ 
+-3: very calm (when mean <= -2.5) 
+
+Summary 
+ 
+Anxiety, the anticipatory unease about a potential negative outcome, is a common and beneficial human emotion. However, there is still much that is not known about anxiety, such as how it relates to our body and how it manifests in language; especially pertinent given the increasing impact of related disorders. In this work, we introduce WorryWords, the first large-scale repository of manually derived word–anxiety associations for over 44,000 English words. We show that the anxiety associations are highly reliable. We use WorryWords to study the relationship between anxiety and other emotion constructs, as well as the rate at which children acquire anxiety words with age. Finally, we show that using WorryWords alone, one can accurately track the change of anxiety in streams of text. WorryWords enables a wide variety of anxiety-related research in psychology, NLP, public health, and social sciences. 
+ 
+ Download the WorryWords Lexicon (Non-Commercial Use Only -- Research or Educational) 
+
+ Copyright (C) 2011 National Research Council Canada (NRC) 
+
+Version : 1
+
+ Released : October 2024
+
+ Created By : Dr. Saif M. Mohammad
+
+ Home Page : http://saifmohammad.com/worrywords.html 
+ 
+ Readme Last Updated : October 2024 
+ 
+ Contact: Dr. Saif M. Mohammad (Principal Research Scientist, National Research Council Canada)
+
+ saif.mohammad@nrc-cnrc.gc.ca, uvgotsaif@gmail.com 
+
+See terms of use at the bottom of the page. See the Emotion Lexicons: Ethics and Data Statement before using the lexicon.
+
+You may also be interested in these companion lexicons: NRC Emotion Lexicon and NRC Emotion Intensity Lexicon.  The full list of word-emotion, word-sentiment, and word-colour lexicons is available in the Lexicons page ). 
+
+Paper 
+
+WorryWords: Norms of Anxiety Association for over 44k English Words. Saif M. Mohammad. In  Proceedings of the Empirical Methods on Natural Language Processing ( EMNLP 2024 , Main) , November 2024, Miami, FL.  
+
+ Paper (pdf)      BibTeX      Video      Poster 
+
+Practical and Ethical Considerations 
+
+Please see the papers below for ethical considerations involved in automatic emotion detection and the use of emotion lexicons. (These also acts as the Ethics and Data Statements for the lexicon.) 
+
+Ethics Sheet for Automatic Emotion Recognition and Sentiment Analysis . Computational Linguistics .  June 2022. 
+
+ Paper (pdf)     BibTeX     Slides 
+
+Best Practices in the Creation and Use of Emotion Lexicons. 
+
+ Saif M. Mohammad. arXiv preprint arXiv:2011.03492. December 2020. 
+
+ Paper (pdf)     BibTex 
+
+Python Code to Analyze Emotions in Text 
+
+There are many third party software packages that can be used in conjunction with the NRC Emotion Lexicon to analyze emotion word use in text. We recommend Emotion Dynamics . 
+ 
+It is the primary package that we use to analyze text using the NRC Emotion Lexicon and the NRC VAD Lexicon. It can be used to generate a csv file with a number of emotion features pertaining to the text of interest, including metrics of utterance emotion dynamics. 
+
+WorryWords in Various Languages 
+ 
+ (Will be available in November 2024) 
+ 
+The NRC WorryWords Lexicon has affect annotations for English words. Despite some cultural differences, it has been shown that a majority of affective norms are stable acrosslanguages. Thus, we provide versions of the lexicon in over 100 languages by translating the English terms using Google Translate. 
+ 
+The lexicon is thus available for English and these languages: 
+ 
+Afrikaans, Albanian, Amharic, Arabic, Armenian, Azerbaijani, Basque, Belarusian, Bengali, Bosnian, Bulgarian, Burmese, Catalan, Cebuano, Chichewa, Corsican, Croatian, Czech, Danish, Dutch, Esperanto, Estonian, Filipino, Finnish, French, Frisian, Gaelic, Galician, Georgian, German, Greek, Gujarati, HaitianCreole, Hausa, Hawaiian, Hebrew, Hindi, Hmong, Hungarian, Icelandic, Igbo, Indonesian, Irish, Italian, Japanese, Javanese, Kannada, Kazakh, Khmer, Kinyarwanda, Korean, Kurmanji, Kyrgyz, Lao, Latin, Latvian, Lithuanian, Luxembourgish, Macedonian, Malagasy, Malay, Malayalam, Maltese, Maori, Marathi, Mongolian, Nepali, Norwegian, Odia, Pashto, Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Samoan, Sanskrit, Serbian, Sesotho, Shona, Simplified, Sindhi, Sinhala, Slovak, Slovenian, Somali, Spanish, Sundanese, Swahili, Swedish, Tajik, Tamil, Tatar, Telugu, Thai, Traditional, Turkish, Turkmen, Ukranian, Urdu, Uyghur, Uzbek, Vietnamese, Welsh, Xhosa, Yiddish, Yoruba, Zulu. 
+ 
+Applications 
+ 
+The NRC WorryWords Lexicon has a broad range of applications in Computational Lingustics, Psychology, Digital Humanities, Computational Social Sciences, and beyond. Notably it can be used for: 
+
+Understanding anxiety and the underlying mechanisms; how anxiety relates to other emotions; how it relates to our body; how anxiety changes with age, socio-economic status, weather, green spaces, etc.
+
+Determining how anxiety manifests in language; how language shapes anxiety; how culture shapes the language of anxiety; etc.
+
+Tracking the degree of anxiety towards targets of interest such as climate change, government policies, biological vectors, etc. 
+
+Identifying effective coping mechanisms and clinical interventions to manage anxiety.
+
+Developing automatic systems for detecting anxiety; developing chat systems that are sensitive to nuances and diverse expressions of anxiety by people from various demographics.
+
+Studying anxiety and uneasiness in story telling; its relationship with central elements of narratology such as conflict and resilience.
+
+Studying how anxiety impacts social behaviour in physical and virtual environments.
+
+Terms of Use 
+
+Research Use: The lexicon mentioned in this page can be used freely for non-commercial research and educational purposes.
+
+Citation: Cite the papers associated with the lexicon in your research papers and articles that make use of them. 
+
+Media Mentions: In news articles and online posts on work using the lexicon, cite the lexicon. For example: "We make use of the <resource name>, created by <author(s)> at the National Research Council Canada." We would appreciate a hyperlink to the lexicon home page and an email to the contact author (saif.mohammad@nrc-cnrc.gc.ca). (Authors and homepage information provided at the top of the README.)
+
+Credit: If you use the lexicon in a product or application, then acknowledge this in the 'About' page and other relevant documentation of the application by stating the name of the resource, the authors, and NRC. For example: "This application/product/tool makes use of the <resource name>, created by <author(s)> at the National Research Council Canada." We would appreciate a hyperlink to the lexicon home page and an email to the contact author (saif.mohammad@nrc-cnrc.gc.ca).
+
+No Redistribution: Do not redistribute the data. Direct interested parties to the lexicon home page. You may not rent or license the use of the lexicon nor otherwise permit third parties to use it. Do not upload the lexicon on a public website. 
+
+** Important ** 
+
+ Do not upload or store the lexicon in any location that can be scanned by companies or other entities to create large language models. for example, do not upload to a public website, Hugging Face, GitHub, etc.
+
+Proprietary Notice: You will ensure that any copyright notices, trademarks or other proprietary right notices placed by NRC on the lexicon remains in evidence.
+
+Title: All intellectual property rights in and to the lexicon shall remain the property of NRC. All proprietary interests, rights, unencumbered titles, copyrights, or other Intellectual Property Rights in the lexicon and all copies thereof remain at all times with NRC.
+
+Commercial License: If interested in commercial use of the lexicon, contact the author: saif.mohammad@nrc-cnrc.gc.ca
+
+Disclaimer: National Research Council Canada (NRC) disclaims any responsibility for the use of the lexicon and does not provide technical support. NRC makes no representation and gives no warranty of any kind with respect to the accuracy, usefulness, novelty, validity, scope, or completeness of the lexicon and expressly disclaims any implied warranty of merchantability or fitness for a particular purpose of the lexicon. That said, the contact listed above welcomes queries and clarifications.
+
+Limitation of Liability: You will not make claims of any kind whatsoever upon or against NRC or the creators of the lexicon, either on your own account or on behalf of any third party, arising directly or indirectly out of your use of the lexicon. In no event will NRC or the creators be liable on any theory of liability, whether in an action of contract or strict liability (including negligence or otherwise), for any losses or damages incurred by you, whether direct, indirect, incidental, special, exemplary or
+
+ consequential, including lost or anticipated profits, savings, interruption to business, loss of business opportunities, loss of business information, the cost of recovering such lost information, the cost of substitute intellectual property or any other pecuniary loss arising from the use of, or the inability to use, the lexicon regardless of whether you have advised NRC or NRC has advised you of the possibility of such damages. 
+
+Poster (click to download the pdf)

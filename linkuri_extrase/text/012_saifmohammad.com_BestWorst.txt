@@ -1,0 +1,83 @@
+﻿Best-Worst Scaling 
+
+Home 
+ About Saif 
+ 
+ Research 
+ 
+ Publications 
+ 
+ Lexicons 
+
+ Labeled Data 
+ 
+ Invited Talks 
+ Contact 
+
+Best-Worst Scaling aka Maximum Difference Scaling (MaxDiff) 
+
+Contact: 
+
+ Saif M. Mohammad (saif.mohammad@nrc-cnrc.gc.ca) 
+
+Obtaining real-valued annotations has several challenges. Respondents are faced with a higher cognitive load when asked for real-valued scores as opposed to simply classifying terms into pre-chosen discrete classes. Besides, it is difficult for an annotator to remain consistent with his/her annotations. Further, the same score may map to different sentiment scores in the minds of different annotators. One could overcome these problems by providing annotators with pairs of terms and asking which is stronger in terms of association with the property of interest (a comparative approach); however, that requires a much larger set of annotations (order NxN, where N is the number of instances to be annotated). 
+
+Best–Worst Scaling (BWS), also sometimes referred to as Maximum Difference Scaling (MaxDiff), is an annotation scheme that exploits the comparative approach to annotation (Louviere and Woodworth, 1990; Cohen, 2003; Louviere et al., 2015). Annotators are given four items (4-tuple) and asked which item is the Best (highest in terms of the property of interest) and which is the Worst (least in terms of the property of interest). These annotations can then be easily converted into real-valued scores of association between the items and the property, which eventually allows for creating a ranked list of items as per their association with the property of interest. 
+ 
+We show that ranking of terms remains remarkably consistent even when the annotation process is repeated with a different set of annotators (Kiritchenko and Mohammad, 2016, 2017). Go here for details on Reliability of the Annotations and a comparison of BWS with Rating Scales. 
+
+BWS Datasets: 
+
+Affect/Emotion Intensity Labeled Tweets
+
+Tweet Emotion Intensity Dataset - used in the WASSA-2017 Shared Task on Emotion Intensity
+
+ Four datasets of tweets manually annotated for intensity of anger, fear, joy, and sadness, respectively, using best-worst scaling. The annotations are converted into real-valued scores between 0 and 1. 
+ 
+ Affect in Tweets Dataset - to be used in the SemEval-2018 Task #1: Affect in Tweets
+
+ Nine datasets of tweets manually annotated for intensity of nine emotions, using best-worst scaling. The annotations are converted into real-valued scores between 0 and 1. A tenth dataset is annotated for valence, arousal, and dominance.
+
+Affect/Emotion Intensity Lexicons
+
+NRC Affect Intensity Lexicon 
+
+ Provides real-valued affect intensity scores for four basic emotions (anger, fear, sadness, joy). We will be adding entries for four more emotions, as well as, valence, arousal, and dominance, shortly.  
+
+Sentiment Intensity (Valence) and Sentiment Composition Lexicons (both the phrases and their constituent content words are annotated with real-valued scores of sentiment intensity)
+
+Sentiment Composition Lexicon of Opposing Polarity Phrases (SCL-OPP) aka SemEval-2016 English Twitter Mixed Polarity Lexicon - one of the official test sets in SemEval-2016 Task #7: Determining Sentiment Intensity of English and Arabic Phrases
+
+ Includes phrases that have at least one positive and at least one negative word—for example, phrases such as happy accident, best winter break, couldn’t stop smiling, and lazy sundays. 
+ 
+ Sentiment Composition Lexicon of Negators, Modals, and Adverbs (SCL-NMA) aka SemEval-2016 General English Sentiment Modifiers Lexicon - one of the official tests set in the SemEval-2016 Task #7: Detecting Sentiment Intensity of English and Arabic Phrases
+
+ Includes phrases that have negators (such as  no  and  cannot ), modals (such as  would have been  and  could ), degree adverbs (such as  quite  and  less ), and their combinations. 
+ 
+ SemEval-2016 Arabic Twitter Sentiment Lexicon - one of the official test sets in the SemEval-2016 Task #7: Detecting Sentiment Intensity of English and Arabic Phrases
+
+ Includes terms from Arabic Tweets. 
+ 
+ SemEval-2015 English Twitter Sentiment Lexicon - official test set in the SemEval-2015 Task #10: Subtask E
+
+ Includes terms from English Tweets. 
+
+Relational Similarity Dataset
+
+Official training and test data for SemEval-2012 Task #2: Measuring Degrees of Relational Similarity 
+
+Papers: 
+
+Capturing Reliable Fine-Grained Sentiment Associations by Crowdsourcing and Best-Worst Scaling. Svetlana Kiritchenko and Saif M. Mohammad. In Proceedings of the 15th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. June 2016. San Diego, CA.
+
+ Paper (pdf)      BibTeX     Presentation     
+ 
+ Best-Worst Scaling More Reliable than Rating Scales: A Case Study on Sentiment Intensity Annotation. Kiritchenko, S. and Mohammad, S. In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL-2017) , Vancouver, Canada, 2017.
+
+ Paper (pdf)      BibTeX       Poster       All Data        Rating Scale Questionnaire        BWS Questionnaire        
+
+ Rating Scale Annotations        Scores Obtained By Rating Scale         BWS Annotations         Scores Obtained by BWS   
+
+Scripts (last updated May, 2017) : Code to assist with best-worst-scaling annotations can be downloaded by clicking here . It includes a script to produce 4-tuples with desired term distributions, a script to produce real-valued scores from best-worst annotations, as well as a script to calculate split-half reliability of the annotations . 
+
+Last updated: July 2017.

@@ -1,0 +1,251 @@
+[2204.04862] Tweet Emotion Dynamics: Emotion Word Usage in Tweets from US and Canada 
+
+Skip to main content 
+
+Learn about arXiv becoming an independent nonprofit. 
+
+We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors. 
+ Donate 
+
+> cs > arXiv:2204.04862
+
+Help | Advanced Search 
+
+All fields 
+ Title 
+ Author 
+ Abstract 
+ Comments 
+ Journal reference 
+ ACM classification 
+ MSC classification 
+ Report number 
+ arXiv identifier 
+ DOI 
+ ORCID 
+ arXiv author ID 
+ Help pages 
+ Full text 
+
+Search 
+
+GO 
+
+quick links 
+
+Login 
+ 
+ Help Pages 
+ 
+ About 
+
+-->
+
+Computer Science > Computation and Language 
+
+arXiv:2204.04862 (cs)
+
+COVID-19 e-print 
+ 
+ Important: e-prints posted on arXiv are not peer-reviewed by arXiv; they should not be relied upon without context to guide clinical practice or health-related behavior and should not be reported in news media as established information without consulting multiple experts in the field. 
+
+[Submitted on 11 Apr 2022 ( v1 ), last revised 5 May 2022 (this version, v3)] 
+ 
+ Title: Tweet Emotion Dynamics: Emotion Word Usage in Tweets from US and Canada 
+ 
+ Authors: Krishnapriya Vishnubhotla , Saif M. Mohammad 
+View a PDF of the paper titled Tweet Emotion Dynamics: Emotion Word Usage in Tweets from US and Canada, by Krishnapriya Vishnubhotla and Saif M. Mohammad 
+ View PDF 
+
+Abstract: Over the last decade, Twitter has emerged as one of the most influential forums for social, political, and health discourse. In this paper, we introduce a massive dataset of more than 45 million geo-located tweets posted between 2015 and 2021 from US and Canada (TUSC), especially curated for natural language analysis. We also introduce Tweet Emotion Dynamics (TED) -- metrics to capture patterns of emotions associated with tweets over time. We use TED and TUSC to explore the use of emotion-associated words across US and Canada; across 2019 (pre-pandemic), 2020 (the year the pandemic hit), and 2021 (the second year of the pandemic); and across individual tweeters. We show that Canadian tweets tend to have higher valence, lower arousal, and higher dominance than the US tweets. Further, we show that the COVID-19 pandemic had a marked impact on the emotional signature of tweets posted in 2020, when compared to the adjoining years. Finally, we determine metrics of TED for 170,000 tweeters to benchmark characteristics of TED metrics at an aggregate level. TUSC and the metrics for TED will enable a wide variety of research on studying how we use language to express ourselves, persuade, communicate, and influence, with particularly promising applications in public health, affective science, social science, and psychology.
+
+Comments: 
+ Accepted for publication at LREC 2022 (camera-ready) 
+
+Subjects: 
+ 
+ Computation and Language (cs.CL) 
+
+Cite as: 
+ arXiv:2204.04862 [cs.CL] 
+
+(or 
+ arXiv:2204.04862v3 [cs.CL] for this version)
+
+https://doi.org/10.48550/arXiv.2204.04862 
+
+Focus to learn more 
+
+arXiv-issued DOI via DataCite 
+
+Submission history From: Krishnapriya Vishnubhotla [ view email ] 
+ [v1] 
+ Mon, 11 Apr 2022 04:39:39 UTC (4,838 KB)
+
+ [v2] 
+ Wed, 27 Apr 2022 14:06:27 UTC (4,838 KB)
+
+ [v3] 
+ Thu, 5 May 2022 00:59:04 UTC (5,059 KB)
+
+Full-text links: 
+ 
+Access Paper: 
+
+View a PDF of the paper titled Tweet Emotion Dynamics: Emotion Word Usage in Tweets from US and Canada, by Krishnapriya Vishnubhotla and Saif M. Mohammad 
+ View PDF 
+ TeX Source
+
+view license 
+
+Current browse context: 
+ 
+cs.CL 
+
+< prev 
+ 
+   |   
+ next > 
+
+new 
+ | 
+ recent 
+ | 2022-04 
+
+Change to browse by:
+
+cs 
+
+References & Citations 
+
+NASA ADS 
+ Google Scholar 
+ 
+ Semantic Scholar 
+
+export BibTeX citation 
+ Loading... 
+
+BibTeX formatted citation 
+ × 
+
+loading... 
+
+Data provided by: 
+
+Bookmark 
+
+Bibliographic Tools 
+
+Bibliographic and Citation Tools 
+
+Bibliographic Explorer Toggle 
+
+Bibliographic Explorer ( What is the Explorer? ) 
+
+Connected Papers Toggle 
+
+Connected Papers ( What is Connected Papers? ) 
+
+Litmaps Toggle 
+
+Litmaps ( What is Litmaps? ) 
+
+scite.ai Toggle 
+
+scite Smart Citations ( What are Smart Citations? ) 
+
+Code, Data, Media 
+
+Code, Data and Media Associated with this Article 
+
+alphaXiv Toggle 
+
+alphaXiv ( What is alphaXiv? ) 
+
+Links to Code Toggle 
+
+CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) 
+
+DagsHub Toggle 
+
+DagsHub ( What is DagsHub? ) 
+
+GotitPub Toggle 
+
+Gotit.pub ( What is GotitPub? ) 
+
+Huggingface Toggle 
+
+Hugging Face ( What is Huggingface? ) 
+
+ScienceCast Toggle 
+
+ScienceCast ( What is ScienceCast? ) 
+
+Demos 
+
+Demos 
+
+Replicate Toggle 
+
+Replicate ( What is Replicate? ) 
+
+Spaces Toggle 
+
+Hugging Face Spaces ( What is Spaces? ) 
+
+Spaces Toggle 
+
+TXYZ.AI ( What is TXYZ.AI? ) 
+
+Related Papers 
+
+Recommenders and Search Tools 
+
+Link to Influence Flower 
+
+Influence Flower ( What are Influence Flowers? ) 
+
+Core recommender toggle 
+
+CORE Recommender ( What is CORE? ) 
+
+Author 
+ 
+ Venue 
+ 
+ Institution 
+ 
+ Topic 
+
+About arXivLabs
+
+arXivLabs: experimental projects with community collaborators 
+ 
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. 
+ 
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. 
+ 
+Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . 
+
+Which authors of this paper are endorsers? |
+ Disable MathJax ( What is MathJax? )
+
+About 
+ 
+ Help 
+
+contact arXiv Click here to contact arXiv 
+ Contact 
+
+subscribe to arXiv mailings Click here to subscribe 
+ Subscribe 
+
+Copyright 
+ 
+ Privacy Policy 
+
+Web Accessibility Assistance 
+
+arXiv Operational Status

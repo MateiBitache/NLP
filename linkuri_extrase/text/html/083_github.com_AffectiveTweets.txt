@@ -1,0 +1,524 @@
+GitHub - felipebravom/AffectiveTweets: A WEKA package for analyzing emotion and sentiment of tweets. · GitHub 
+
+Skip to content 
+
+Navigation Menu 
+
+Toggle navigation 
+
+Sign in
+
+Appearance settings 
+
+Platform 
+
+AI CODE CREATION 
+
+GitHub Copilot Write better code with AI 
+ 
+ GitHub Spark Build and deploy intelligent apps 
+ 
+ GitHub Models Manage and compare prompts 
+ 
+ MCP Registry New Integrate external tools 
+
+ DEVELOPER WORKFLOWS 
+
+Actions Automate any workflow 
+ 
+ Codespaces Instant dev environments 
+ 
+ Issues Plan and track work 
+ 
+ Code Review Manage code changes 
+
+ APPLICATION SECURITY 
+
+GitHub Advanced Security Find and fix vulnerabilities 
+ 
+ Code security Secure your code as you build 
+ 
+ Secret protection Stop leaks before they start 
+
+ EXPLORE 
+
+ Why GitHub 
+ Documentation 
+ Blog 
+ Changelog 
+ Marketplace 
+ View all features 
+
+ Solutions 
+
+BY COMPANY SIZE 
+
+ Enterprises 
+ Small and medium teams 
+ Startups 
+ Nonprofits 
+
+ BY USE CASE 
+
+ App Modernization 
+ DevSecOps 
+ DevOps 
+ CI/CD 
+ View all use cases 
+
+ BY INDUSTRY 
+
+ Healthcare 
+ Financial services 
+ Manufacturing 
+ Government 
+ View all industries 
+ View all solutions 
+
+ Resources 
+
+EXPLORE BY TOPIC 
+
+ AI 
+ Software Development 
+ DevOps 
+ Security 
+ View all topics 
+
+ EXPLORE BY TYPE 
+
+ Customer stories 
+ Events & webinars 
+ Ebooks & reports 
+ Business insights 
+ GitHub Skills 
+
+ SUPPORT & SERVICES 
+
+ Documentation 
+ Customer support 
+ Community forum 
+ Trust center 
+ Partners 
+ View all resources 
+
+ Open Source 
+
+COMMUNITY 
+
+GitHub Sponsors Fund open source developers 
+
+ PROGRAMS 
+
+ Security Lab 
+ Maintainer Community 
+ Accelerator 
+ GitHub Stars 
+ Archive Program 
+
+ REPOSITORIES 
+
+ Topics 
+ Trending 
+ Collections 
+
+ Enterprise 
+
+ENTERPRISE SOLUTIONS 
+
+Enterprise platform AI-powered developer platform 
+
+ AVAILABLE ADD-ONS 
+
+GitHub Advanced Security Enterprise-grade security features 
+ 
+ Copilot for Business Enterprise-grade AI features 
+ 
+ Premium Support Enterprise-grade 24/7 support 
+ Pricing 
+
+Search or jump to... 
+
+Search code, repositories, users, issues, pull requests... 
+
+--> 
+
+Search
+
+Clear 
+
+Search syntax tips 
+
+Provide feedback
+
+--> 
+ 
+We read every piece of feedback, and take your input very seriously. 
+
+Include my email address so I can be contacted 
+
+Cancel
+ 
+ Submit feedback
+
+Saved searches
+
+Use saved searches to filter your results more quickly 
+
+--> 
+
+Name 
+
+Query 
+
+To see all available qualifiers, see our documentation .
+
+Cancel
+ 
+ Create saved search
+
+Sign in
+
+Sign up
+
+Appearance settings 
+
+Resetting focus 
+
+You signed in with another tab or window. Reload to refresh your session. 
+ You signed out in another tab or window. Reload to refresh your session. 
+ You switched accounts on another tab or window. Reload to refresh your session. 
+
+Dismiss alert 
+
+{{ message }} 
+
+felipebravom
+ 
+ / 
+ 
+ AffectiveTweets 
+
+Public 
+
+Notifications
+ You must be signed in to change notification settings 
+
+Fork
+ 21 
+
+Star
+ 82 
+
+Code 
+
+Issues 
+ 0 
+
+Pull requests 
+ 0 
+
+Actions 
+
+Projects 
+
+Wiki 
+
+Security and quality 
+ 0 
+
+Insights 
+
+Additional navigation options 
+
+Code
+
+Issues
+
+Pull requests
+
+Actions
+
+Projects
+
+Wiki
+
+Security and quality
+
+Insights
+
+felipebravom/AffectiveTweets 
+
+master 
+ 
+ Branches Tags 
+
+Go to file Code 
+ Open more actions menu 
+
+Folders and files 
+ 
+ Name Name 
+ Last commit message 
+ Last commit date 
+
+Latest commit 
+
+History 311 Commits 
+ 
+ 311 Commits 
+
+benchmark 
+
+benchmark 
+
+doc 
+
+doc 
+
+docs 
+
+docs 
+
+img 
+
+img 
+
+src 
+
+src 
+
+wekarefs/ weka/ filters 
+
+wekarefs/ weka/ filters 
+
+.gitignore 
+
+.gitignore 
+
+CODE_OF_CONDUCT.md 
+
+CODE_OF_CONDUCT.md 
+
+CONTRIBUTING.md 
+
+CONTRIBUTING.md 
+
+Description.props 
+
+Description.props 
+
+GUIEditors.props 
+
+GUIEditors.props 
+
+GenericPropertiesCreator.props 
+
+GenericPropertiesCreator.props 
+
+ISSUE_TEMPLATE.md 
+
+ISSUE_TEMPLATE.md 
+
+LICENSE 
+
+LICENSE 
+
+README.md 
+
+README.md 
+
+_config.yml 
+
+_config.yml 
+
+build_package.xml 
+
+build_package.xml 
+
+mkdocs.yml 
+
+mkdocs.yml 
+
+View all files 
+
+Repository files navigation 
+
+ README 
+ Code of conduct 
+ Contributing 
+ License 
+
+About 
+
+ AffectiveTweets is a WEKA package for analyzing emotion and sentiment of English written tweets. 
+
+The package implements WEKA filters for calculating state-of-the-art affective analysis features from tweets that can be fed into machine learning algorithms. Many of these features were drawn from the NRC-Canada System . It also implements methods for building affective lexicons and distant supervision methods for training affective models from unlabelled tweets. 
+
+The package was made available as the official baseline system for the WASSA-2017 Shared Task on Emotion Intensity (EmoInt) and for SemEval-2018 Task 1: Affect in Tweets . 
+
+Five participating teams used AffectiveTweets in WASSA-2017 to generate feature vectors, including the teams that eventually ranked first, second, and third. For SemEval-2018, the package was used by 15 teams. 
+
+ https://affectivetweets.cms.waikato.ac.nz/ 
+
+Using AffectiveTweets 
+
+About 
+
+ Installation 
+
+ Examples 
+
+Relevant Papers 
+
+The most relevant papers on which this package is based are: 
+
+Sentiment Analysis of Short Informal Texts . Svetlana Kiritchenko, Xiaodan Zhu and Saif Mohammad. Journal of Artificial Intelligence Research, volume 50, pages 723-762, August 2014. BibTeX 
+
+ Meta-Level Sentiment Models for Big Social Data Analysis . F. Bravo-Marquez, M. Mendoza and B. Poblete. Knowledge-Based Systems Volume 69, October 2014, Pages 86–99. BibTex 
+
+ Stance and sentiment in tweets . Saif M. Mohammad, Parinaz Sobhani, and Svetlana Kiritchenko. 2017. Special Section of the ACM Transactions on Internet Technology on Argumentation in Social Media 17(3). BibTeX 
+
+ Sentiment strength detection for the social Web . Thelwall, M., Buckley, K., & Paltoglou, G. (2012). Journal of the American Society for Information Science and Technology, 63(1), 163-173. BibTex 
+
+Citation 
+
+Please cite the following paper if using this package in an academic publication: 
+
+F. Bravo-Marquez, E. Frank, B. Pfahringer, and S. M. Mohammad AffectiveTweets: a WEKA Package for Analyzing Affect in Tweets , In Journal of Machine Learning Research Volume 20(92), pages 1−6, 2019. ( pdf ) 
+
+You are also welcome to cite a previous publication describing the package: 
+
+S. M. Mohammad and F. Bravo-Marquez Emotion Intensities in Tweets , In *Sem '17: Proceedings of the sixth joint conference on lexical and computational semantics (*Sem) , August 2017, Vancouver, Canada. ( pdf ) 
+
+You should also cite the papers describing any of the lexicons or resources you are using with this package. 
+
+Here is the BibTex entry for the package along with the entries for the resources included in the package. 
+
+Here is the BibTex entry just for the package. 
+
+Contact 
+
+Email: fbravoma at waikato.ac.nz 
+
+If you have questions about Weka please refer to the Weka mailing list . 
+
+About 
+
+A WEKA package for analyzing emotion and sentiment of tweets.
+
+affectivetweets.cms.waikato.ac.nz/ 
+
+Topics 
+
+tweets
+
+sentiment
+
+emotion
+
+weka
+
+lexicon
+
+cmu-tweet-nlp
+
+Resources 
+
+Readme
+
+License 
+
+GPL-3.0 license
+
+Code of conduct 
+
+Code of conduct
+
+Contributing 
+
+Contributing
+
+Uh oh!
+
+There was an error while loading. Please reload this page . 
+
+Activity 
+
+Stars 
+
+82 
+ stars 
+
+Watchers 
+
+8 
+ watching 
+
+Forks 
+
+21 
+ forks 
+
+Report repository
+
+Releases
+ 3 
+
+AffectiveTweets1.0.2 
+ 
+ Latest
+
+Feb 20, 2019 
+
++ 2 releases 
+
+Packages
+ 0 
+
+Uh oh!
+
+There was an error while loading. Please reload this page . 
+
+Contributors 
+
+Uh oh!
+
+There was an error while loading. Please reload this page . 
+
+Languages 
+
+Java 
+ 92.7% 
+
+Python 
+ 5.2% 
+
+Shell 
+ 2.1% 
+
+Footer 
+
+© 2026 GitHub, Inc.
+
+Footer navigation 
+
+Terms 
+
+Privacy 
+
+Security 
+
+Status 
+
+Community 
+
+Docs 
+
+Contact 
+
+Manage cookies
+
+Do not share my personal information
+
+You can’t perform that action at this time.

@@ -1,0 +1,136 @@
+﻿Sentiment Analysis of Tweets 
+
+NRC-Canada: 
+ Sentiment Analysis System for Tweets 
+ 
+(Contact: Saif M. Mohammad , email: uvgotsaif@gmail.com) 
+ 
+ About: 
+
+The NRC-Canada system (Kiritchenko et al. 2014) ranked first in three sentiment shared tasks: SemEval-2013 Task 2 (Mohammad, Kiritchenko, and Zhu, 2013), SemEval-2014 Task 9 (Zhu, Kiritchenko, and Mohammad, 2014), and SemEval- 2014 Task 4 (Kiritchenko, Zhu, and Mohammad, 2014). Many of the same features used in NRC-Canada were also used in a stance-detection system that outperformed submissions from all 19 teams that participated in SemEval-2016 Task 6 (Mohammad et al., 2017). 
+ 
+SENTIMENT ANALYSIS OF TWEETS: 
+
+NRC-Canada: Building the State-of-the-Art in Sentiment Analysis of Tweets, Saif M. Mohammad, Svetlana Kiritchenko, and Xiaodan Zhu, In Proceedings of the seventh international workshop on Semantic Evaluation Exercises (SemEval-2013), June 2013, Atlanta, USA.
+
+ Paper (pdf)      BibTeX      System Description and Downloads       Poster       Slides 
+ 
+Sentiment Analysis of Short Informal Texts. Svetlana Kiritchenko, Xiaodan Zhu and Saif Mohammad.  Journal of Artificial Intelligence Research,  volume 50, pages 723-762, August 2014.
+
+ Paper (pdf)      BibTeX 
+ 
+NRC-Canada-2014: Recent Improvements in Sentiment Analysis of Tweets, Xiaodan Zhu, Svetlana Kiritchenko, and Saif M. Mohammad. In Proceedings of the eighth international workshop on Semantic Evaluation Exercises (SemEval-2014), August 2014, Dublin, Ireland.
+
+ Paper (pdf)     BibTeX
+
+ Official Rankings:  Our team (NRC-Canada) ranked first in five of the ten subtask-domain combinations. About 40 teams participated. 
+
+ASPECT-BASED SENTIMENT ANALYSIS (ABSA): 
+
+NRC-Canada-2014: Detecting Aspects and Sentiment in Customer Reviews, Svetlana Kiritchenko, Xiaodan Zhu, Colin Cherry, and Saif M. Mohammad. In Proceedings of the eighth international workshop on Semantic Evaluation Exercises (SemEval-2014), August 2014, Dublin, Ireland.
+
+ Paper (pdf)      BibTeX       Poster
+
+ Official Rankings: Our team (NRC-Canada) ranked first in three of the six subtasks. About 30 teams participated. 
+
+STANCE: 
+
+Semeval-2016 Task 6: Detecting Stance in Tweets. Saif M. Mohammad, Svetlana Kiritchenko, Parinaz Sobhani, Xiaodan Zhu, and Colin Cherry. In  Proceedings of the International Workshop on Semantic Evaluation (SemEval ’16) . June 2016. San Diego, California.
+
+ Paper (pdf)     BibTeX     Presentation     Task Website 
+ 
+Stance and Sentiment in Tweets. Saif M. Mohammad, Parinaz Sobhani, and Svetlana Kiritchenko.  Special Section of the ACM Transactions on Internet Technology on Argumentation in Social Media,  2017, 17(3) . 
+
+ Paper (pdf)     BibTeX         Data and Visualization 
+
+CODE: 
+
+The NRC-Canada system code used is copyright of the Crown, and hence not currently available for download. However, we encourage the use of software packages that implement parts of the NRC-Canada system such as those listed below: 
+ 
+ Direct download and use of code available: 
+
+The AffectiveTweets Package : Felipe Bravo-Marquez implemented the AffectiveTweets for the Weka machine learning workbench that provides a collection of filters for extracting state-of-the-art features from tweets for sentiment classification/regression and other related tasks. The package is especially useful to generate feature vectors from a large number of affect lexicons. The vector can then be concatenated to other features vectors (say dense-distributed representations of the text) to improve perfomance.
+
+Webis : Software used in a SemEval-2015 shared task. 
+
+Papers that mention re-implementing the NRC-Canada system (code may be obtained by requesing the authors directly): 
+
+Abreau et al. 2017 
+ 
+ Qadir, Riloff, and Walker, 2015 
+ 
+ Zhang et al. 2016 
+
+If you know of other re-implementations, please let us know (email: uvgotsaif@gmail.com). 
+
+LEXICONS USED : 
+
+A large number of manually created and automatically generated lexicons were utlized. They are available here . You may also be interested in the The AffectiveTweets Package to generate feature vectors from a large number of affect lexicons.
+
+Please see the Emotion Lexicons: Ethics and Data Statement before using the lexicon. 
+
+FEATURES USED: 
+
+- all-caps: the number of words with 
+ all characters in upper case;
+
+ - clusters: presence/absence of tokens 
+ from each of the 1000 clusters (provided by Carnegie Mellon University's 
+ Twitter NLP tool);
+
+ - elongated words: the number of words 
+ with one character repeated more than 2 times, e.g. 'soooo';
+
+ - emoticons: 
+
+       - presence/absence of positive 
+ and negative emoticons at any position in the tweet; 
+
+       - whether the last token is a 
+ positive or negative emoticon;
+
+ - hashtags: the number of hashtags;
+
+ - negation: 
+ the number of negated contexts. A negated context 
+ also affects the ngram and lexicon features: each word and associated 
+ with it polarity in a negated context become negated (e.g., 'not perfect' 
+ becomes 'not perfect_NEG', 'POLARITY_positive' becomes 'POLARITY_positive_NEG');
+
+ - POS: the number of occurrences for 
+ each part-of-speech tag;
+
+ - punctuation: 
+
+       - the number of contiguous sequences 
+ of exclamation marks, question marks, and both exclamation and question 
+ marks;
+
+       - whether the last token contains 
+ exclamation or question mark;
+
+ - sentiment lexicons: automatically created 
+ lexicons (NRC Hashtag Sentiment Lexicon, Sentiment140 Lexicon), manually 
+ created sentiment lexicons (NRC Emotion Lexicon, MPQA, Bing Liu Lexicon). 
+ For each lexicon and each polarity we calculated:
+
+       - total count of tokens in the 
+ tweet with score greater than 0;
+
+       - the sum of the scores for all 
+ tokens in the tweet;
+
+       - the maximal score;
+
+       - the non-zero score of the last 
+ token in the tweet;
+
+       The lexicon features were created 
+ for all tokens in the tweet, for each part-of-speech tag, for hashtags, 
+ and for all-caps tokens.
+
+ - word ngrams, character ngrams . 
+
+- word embeddings (these were used in the stance system)
+
+Updated: June, 2017

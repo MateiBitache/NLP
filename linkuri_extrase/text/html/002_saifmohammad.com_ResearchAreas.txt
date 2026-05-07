@@ -1,0 +1,354 @@
+Saif | Research 
+
+Home 
+
+Research 
+ 
+ Publications 
+ 
+ Lexicons 
+
+ Labeled Data 
+ 
+ Invited Talks 
+ 
+ Contact 
+
+Research 
+ Areas of Interest 
+
+See this webpage introducing Computational Affective Science (CAS) . 
+
+Emotions and Language, CAS 
+ Digital Humanities 
+ AI/NLP Ethics 
+
+Sentiment Analysis Computational Social Science AI/NLP Scientometrics 
+ 
+ Lexical Semantics NLP for Psychology, Well-Being AI/NLP for Africa, Asia 
+
+Emotions and Language Digital Humanities AI/NLP Ethics 
+ Sentiment Analysis Computational Social Science AI/NLP Scientometrics 
+ Lexical Semantics NLP for Psychology, Well-Being AI/NLP for Africa, Asia 
+
+-->
+
+in Emotions and Language , Sentiment Analysis 
+
+emotion
+
+ analysis 
+ CAS 
+ sentiment
+
+ analysis 
+ Sentiment (Africa, Asia) 
+ Stance
+
+detection* 
+ Best-Worst
+
+Annotations* 
+ Personality
+
+Traits 
+ 
+ Music 
+
+from Text* 
+
+in Lexical Semantics
+
+antonymy,
+
+ contrast 
+ evolution of words 
+
+metaphor 
+ relational
+
+ similarity 
+ semantic
+
+ distance 
+ text
+
+ summarization 
+ textual
+
+ inference 
+ word-colour
+
+ associations 
+ word sense
+
+ disambiguation 
+
+Publications for areas marked with a * are interspersed within sentiment analysis and emotion analysis; clicking on them leads to separate dedicated pages that present only the relevant information. 
+
+ If you are a student interested in working with me, go here . 
+
+ Data for download (The publication page also provides data associated with individual publications. See terms of use at the bottom of the page.) 
+
+ Word-association lexicons for sentiment and emotion
+
+ (Note: A table summarizing various word-association lexicons can be found here .) 
+
+NRC Emotion Lexicon (aka EmoLex ): manually annotated for emotions (joy, sadness, fear, etc.) and sentiment (positive and negative).
+
+NRC Twitter Sentiment Lexicons (NRC Hashtag sentiment and Sentiment140 lexicons) : Twitter-specific sentimet lexicons that contributed to the success of our sentiment analysis system (NRC-Canada) in SemEval shared task competitions. 
+
+Sentiment Composition Lexicons (SCLs) : lexicons that include sentiment associations for phrases as well as their constituent words can be very useful in studying sentiment composition.
+
+Sentiment Composition Lexicon of Opposing Polarity Phrases (SCL-OPP) 
+ 
+ Sentiment Composition Lexicon of Negators, Modals, and Adverbs (SCL-NMA) 
+ 
+ SemEval-2015 English Twitter Sentiment Lexicon 
+ 
+ SemEval-2016 Arabic Twitter Sentiment Lexicon 
+
+Arabic sentiment lexicons 
+
+Other word-sentiment lexicons 
+
+Other lexicons 
+
+Lexical contrast (antonymy) lexicons 
+
+NRC word-colour association lexicon : human annotations of colours associated with more than 24,200 word senses (about 14,200 word types).
+
+Annotated Corpora 
+
+Ruddit: Norms of Offensiveness for English Reddit Comments. Reddit comments annotated for degree of offensiveness and supportiveness. Paper (pdf)     BibTeX     Code and Data 
+
+Semeval-2018 Task 1: Affect in Tweets : Data for an array of sentiment and emotion tasks where systems have to automatically determine the intensity of emotions (E) and intensity of sentiment (aka valence V) of the tweeters from their tweets. For each task, we provide separate training and test datasets for English, Arabic, and Spanish tweets.
+
+Metaphor as a Medium for Emotion: An Empirical Study 
+
+Electoral tweets (political tweets) annotated for who felt what emotion towards whom, purpose, style
+
+Hashtag Emotion Corpus (aka Twitter Emotion Corpus, or TEC) used to create the NRC Hashtag Emotion Lexicon 
+
+A corpus of Arabic blog post sentences and their English translations both separately annoted for sentiment 
+ 
+ Other Data 
+
+What Makes Sentences Semantically Related: A Textual Relatedness Dataset and Empirical Study : 5500 English sentence pairs with manually annotated, fine-grained, semantic relatedness scores.
+
+ Paper     Data 
+
+Data for the NLP Scholar Project: A single unified source of information from both the ACL Anthology (AA) and Google Scholar for tens of thousands of NLP papers.
+
+PoKi: A Large Dataset of Poems by Children (Paper: pdf )
+
+SOLO: A Corpus of Tweets for Examining the State of Being Alone 
+
+WordWars: A Dataset to Examine the Natural Selection of Words 
+
+Big Bird: A Large, Fine-Grained, Bigram Relatedness Dataset for Examining Semantic Composition 
+
+Examining Gender and Race Bias in Two Hundred Sentiment Analysis Systems 
+
+WikiArt Emotions: An Annotated Dataset of Emotions Evoked by Art 
+
+A dataset that allows to examine how complex positions on controversial issues are formed by relevant assertions. The data was created by combining qualitative and quantitative surveys.
+
+Lexical contrast (antonymy) data : includes closest-opposite questions, TURN dataset, LZQZ dataset, different kinds of opposites, lists of automatically generated contrast pairs, etc.
+
+WordNet verb usages annotated for metaphoricness and literalness, as well as for emotionality . 
+
+I nformation visualization and Data sonification demos 
+
+TransProse: Converting Text to Music . Hannah Davis and Saif M. Mohammad. 
+
+ A system that takes as input classic English novels and generates music that captures the flow of emotions in it. 
+
+ImagiSaurus: An Interactive Visualization of the Roget’s Thesaurus
+
+ Imagisaurus helps users quickly grasp the nature and size of the thesaurus taxonomy. Addition- ally, Imagisaurus allows exploration of affectual categories in the thesaurus.
+
+Lexichrome: An Interactive Word–Color Catalogue for Scholars, Designers, and Writers. Chris Kim, Saif M. Mohammad, and Christopher Colins.
+
+ Lexichrome is an application that maps the NRC Word–Colour Association Lexicon to a web- based catalogue that users can browse and analyze. It allows visitors to view the chromatic makeup (color associations) of a user-provided text. 
+
+An Interactive Visualizer for the NRC Emotion Lexicon
+
+ The NRC Emotion Lexicon is a list of English words and their associations with eight basic emotions (anger, fear, anticipation, trust, surprise, sadness, joy, and disgust) and two sentiments (negative and positive). The annotations were manually done by crowdsourcing. 
+
+Interactive Visualizers for Sentiment Composition Lexicons
+
+ Sentiment composition is the determining of sentiment of a multi-word linguistic unit, such as a phrase or a sentence, based on its constituents. We present two visualizations: (1) exploring sentiment composition in phrases formed by at least one positive and at least one negative word- phrases like happy accident and best winter break, and (2) exploring sentiment composition in phrases formed with negators, modals, and degree adverbs. 
+
+An Interactive Visualizer for the Stance Dataset
+
+ We visualize a dataset of tweets manually annotated for stance towards given target, target of opinion (opinion towards), and sentiment (polarity). 
+
+WordNet verb usages annotated for metaphoricness and literalness, as well as for emotionality 
+
+Systems and Code 
+
+The NRC-Canada sentiment anaysis system.
+
+The AffectiveTweets Package : Felipe Bravo-Marquez implemented AffectiveTweets for the Weka machine learning workbench that provides a collection of filters for extracting state-of-the-art features from tweets for sentiment classification/regression and other related tasks. The package is especially useful to generate feature vectors from a large number of affect lexicons. The vector can then be concatenated to other features vectors (say dense-distributed representations of the text) to improve perfomance. (You can use the feature vector with any classifier -- not just one with support from Weka.)
+
+Code to assist with best-worst-scaling annotations . It includes a script to produce 4-tuples with desired term distributions, a script to produce real-valued scores from best-worst annotations, as well as a script to calculate split-half reliability of the annotations . 
+
+The Natural Selection of Words: Finding the Features of Fitness 
+
+Submissions to International Shared Task Competitions 
+
+AMIA Shared Task on detecting adverse drug reactions in tweets,Washington, DC, USA, 2017
+
+ Task: Classification of tweets mentioning adverse drug reactions
+
+ Result: 1st place (9 teams participated) 
+
+NRC-Canada at SMM4H Shared Task: Classifying Tweets Mentioning Adverse Drug Reactions and Medication Intake. Svetlana Kiritchenko, Saif M. Mohammad, Jason Morin, and Berry de Bruijn (2017). In Proceedings of the Social Media Mining for Health Applications Workshop at AMIA-2017 , Washington, DC, USA, 2017.
+
+ Paper (pdf)      BibTeX        Our System Homepage 
+
+SemEval-2014 Task 4: Aspect Based Sentiment Analysis, August 2014, Dublin, Ireland
+
+ Task: Determine sentiment towards aspect terms and aspect categories
+
+ Result: 1st place in two of the three sentiment tasks (30+ teams participated) 
+
+NRC-Canada-2014: Detecting Aspects and Sentiment in Customer 
+ Reviews. Svetlana Kiritchenko, Xiaodan Zhu, Colin Cherry, and 
+ Saif M. Mohammad. In Proceedings of the eighth international workshop on 
+ Semantic Evaluation Exercises (SemEval-2014) , August 2014, Dublin, Ireland.
+
+ Paper (pdf)     BibTeX     Poster     Various Yelp and Amazon Datasets and Lexicons 
+
+SemEval-2014 Task 9: Sentiment Analysis in Twitter, August 2014, Dublin, Ireland
+
+ Task: Determine sentiment of tweets, SMS messages, and blog posts
+
+ Result: 1st place in five of ten sub-tasks (40+ teams participated) 
+
+NRC-Canada-2014: Recent Improvements in Sentiment Analysis of 
+ Tweets. Xiaodan Zhu, Svetlana Kiritchenko, and Saif M. Mohammad. 
+ In Proceedings of the eighth international workshop on Semantic Evaluation 
+ Exercises (SemEval-2014) , August 2014, Dublin, Ireland.
+
+ Paper (pdf)     
+ BibTeX 
+
+SemEval-2013 Task 2: Sentiment Analysis in Twitter, June 2013, Atlanta, USA
+
+ Task: Determine sentiment of tweets and SMS messages
+
+ Result: 1st place in three of four sub-tasks (40+ teams participated) 
+
+NRC-Canada: Building the State-of-the-Art in Sentiment Analysis 
+ of Tweets. Saif M. Mohammad, Svetlana Kiritchenko, and Xiaodan 
+ Zhu. In Proceedings of the seventh international workshop on Semantic 
+ Evaluation Exercises (SemEval-2013) , June 2013, Atlanta, USA.
+
+ Paper (pdf)     BibTeX    System 
+ Description and Downloads     Poster     Slides 
+
+Tutorials 
+
+Computational Analysis of Affect and Emotion in Language. Saif M. Mohammad and Cecilia Ovesdotter Alm. Tutorial at the 2015 
+ Conference on Empirical Methods on Natural Language Processing, September 2015, Lisboa, Portugal.
+
+ Presentation          Annotated Bibliography          Extended Bibliography        Proposal 
+
+Sentiment Analysis of Social 
+ Media Texts. Saif M. Mohammad and Xiaodan Zhu. Tutorial at the 
+ 2014 Conference on Empirical Methods on Natural Language Processing, October 
+ 2014, Doha, Qatar.
+
+ Presentation    Video    Proposal 
+
+A Practical Guide to Sentiment Annotation: Challenges and Solutions. Saif M. Mohammad, In Proceedings of the NAACL 2016 Workshop on Computational Approaches to Subjectivity, Sentiment, and Social Media (WASSA) , June 2014, San Diego, California.
+
+ Paper (pdf)      BibTeX     Presentation     
+
+Book Chapters 
+
+Sentiment Analysis: Automatically Detecting Valence, Emotions, and Other Affectual States from Text. Saif M. Mohammad, Emotion Measurement (Second Edition), Elsevier , 2021.
+
+ PDF (arxiv preprint arXiv:2005.11882 )      BibTeX 
+
+Challenges in Sentiment Analysis. Saif M. Mohammad, A Practical Guide to Sentiment Analysis , Springer, 2016.
+
+ Pre-print version (pdf)      BibTeX 
+
+Sentiment Analysis: Detecting Valence, Emotions, and Other Affectual States from Text. Saif M. Mohammad, Emotion Measurement , 2016. 
+
+ Pre-print version      BibTeX 
+
+ (This is a survey on automatic methods for affect analysis.) 
+
+Videos 
+
+The Search for Emotions, Creativity, and Fairness in Language . The Alan Turing Institute . March 11, 2019. London, UK.
+
+ Slides      Video (This video gives a summary of my work in recent years.) 
+
+Examining Fairness in Language Through Emotions . Keynote speech at the 2019 Canada--UK Workshop on Practical AI Ethics , March 12, 2019, London, UK.
+
+ Slides    Video 
+
+Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words. Saif M. Mohammad.
+ In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics, Melbourne, Australia, July 2018.
+
+ Paper (pdf)      BibTeX       Interactive Visualization        Key Ideas        Presentation      Video      Poster 
+
+Sentiment Lexicons for Arabic Social Media. Saif M. Mohammad, Mohammad Salameh, and Svetlana Kiritchenko. In Proceedings of the 10th edition of the Language Resources and Evaluation Conference , May 2016, Portoro (Slovenia).
+
+ Paper (pdf)      BibTeX     Presentation    Video          Data: Arabic Sentiment Lexicons 
+
+Sentiment Analysis of Social 
+ Media Texts. Saif M. Mohammad and Xiaodan Zhu. Tutorial at the 
+ 2014 Conference on Empirical Methods on Natural Language Processing, October 
+ 2014, Doha, Qatar.
+
+ Slides    Video 
+
+An Overview of Emotions and Language Work from 2010-2018. 
+
+Designated Contact Person: 
+
+Dr. Saif M. Mohammad 
+
+ Senior Research Officer at NRC (and one of the creators of the resource on this page)
+
+ saif.mohammad@nrc-cnrc.gc.ca 
+
+Terms of Use: 
+
+All rights for the resource(s) listed on this page are held by National Research Council Canada. 
+
+The resources listed here are available free for research purposes. If you make use of them, cite the paper(s) associated with the resource in your research papers and articles. 
+
+If interested in commercial use of any of these resources, send email to the designated contact person. A nominal one-time licensing fee may apply. 
+
+If referenced in news articles and online posts, then cite the resource appropriately. For example: "This application/product/tool makes use of the <resource name>, created by <author(s)> at the National Research Council Canada." If possible, hyperlink the resource name to this page. 
+
+If you use the resource in a product or application, then acknowledge this in the 'About' page and other relevant documentation of the application by stating the name of the resource, the authors, and NRC. For example: "This application/product/tool makes use of the <resource name>, created by <author(s)> at the National Research Council Canada." If possible, hyperlink the resource name to this page. 
+
+Do not redistribute the resource/data. Direct interested parties to this page. They can also email the designated contact person. 
+
+If you create a derivative resource from one of the resources listed on this page:  
+
+Please ask users to cite the source data paper (in addition to your paper).  
+
+Do not distribute the source data. See #6 above. 
+
+Examples of derivative resources include: translations into other languages, added annotations to the text instances, aggregations of multiple datasets, etc. 
+
+If you are interested in uploading our resource on a third-party website or to include the resource in any collection/aggregate of datasets, then: 
+
+Email the designated contact person to begin the process to obtain permission. 
+
+After obtaining permission, any curator of datasets that includes a resource listed here must take steps to ensure that users of the aggregate dataset still cite the papers associated with the individual datasets. This includes at minimum: stating this clearly in the README and providing the citing information of the source dataset. 
+
+By default, no one other than the creators of the resource have permission to upload the resource on a third-party website or to include the resource in any collection/aggregate of datasets. 
+
+National Research Council Canada (NRC) disclaims any responsibility for the use of the resource(s) listed on this page and does not provide technical support. However, the contact listed above will be happy to respond to queries and clarifications. 
+
+If you send us an email, we will be thrilled to know about how you have used the resource.

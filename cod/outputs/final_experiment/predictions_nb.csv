@@ -1,0 +1,25 @@
+id,domain,label,text,method,dominant_emotion,confidence,coverage,score_anger,score_anticipation,score_disgust,score_fear,score_joy,score_sadness,score_surprise,score_trust
+anger_1,social,anger,I am furious that the company ignored every complaint.,nb,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_2,news,anger,Residents were angry after officials delayed the promised repairs.,nb,anger,0.6719,0.0,0.6719,0.0,0.0164,0.3116,0.0,0.0,0.0,0.0
+anger_3,blog,anger,The rude answer made me irritated and upset for the rest of the day.,nb,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_1,social,anticipation,I am waiting for the results and feeling excited about what comes next.,nb,fear,0.9746,0.0,0.0,0.0254,0.0,0.9746,0.0,0.0,0.0,0.0
+anticipation_2,news,anticipation,Investors expected the announcement and watched the market closely.,nb,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_3,blog,anticipation,Tomorrow's trip makes me curious hopeful and full of anticipation.,nb,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+disgust_1,social,disgust,The spoiled food smelled awful and made everyone disgusted.,nb,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_2,news,disgust,The report described filthy rooms and unacceptable hygiene problems.,nb,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_3,blog,disgust,I felt repulsed by the gross mess left in the kitchen.,nb,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+fear_1,social,fear,I was afraid during the storm because the windows kept shaking.,nb,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_2,news,fear,The emergency warning created fear among families near the river.,nb,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_3,blog,fear,Walking alone at night made me nervous scared and anxious.,nb,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+joy_1,social,joy,I am happy proud and delighted about the scholarship.,nb,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_2,news,joy,The team celebrated a joyful victory after the final whistle.,nb,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_3,blog,joy,Her smile and kind words made the whole morning wonderful.,nb,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+sadness_1,social,sadness,I felt lonely and sad after reading the last message.,nb,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_2,news,sadness,The community mourned the tragic loss of a beloved teacher.,nb,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_3,blog,sadness,It was a gloomy day and I missed my old friends terribly.,nb,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+surprise_1,social,surprise,I was shocked when my friends planned a sudden party.,nb,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_2,news,surprise,Analysts were amazed by the unexpected election result.,nb,anticipation,0.8705,0.0,0.0,0.8705,0.0,0.0,0.0,0.0,0.1295,0.0
+surprise_3,blog,surprise,The plot twist was astonishing and completely unexpected.,nb,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+trust_1,social,trust,I trust the doctor because she explained the plan clearly.,nb,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+trust_2,news,trust,Officials expressed confidence in the safety of the new bridge.,nb,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_3,blog,trust,His honest apology made me feel secure and reassured.,nb,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0

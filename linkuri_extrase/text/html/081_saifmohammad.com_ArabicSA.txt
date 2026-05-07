@@ -1,0 +1,183 @@
+Arabic Sentiment Analysis 
+
+Home 
+
+Research 
+ 
+ Publications 
+ 
+ Lexicons 
+
+ Labeled Data 
+ 
+ Invited Talks 
+ 
+ Contact 
+
+Arabic Sentiment Analysis and Cross-lingual Sentiment Resources 
+
+This page provides access to Arabic sentiment lexicons and sentiment annotated corpora. English sentiment and emotion lexicons are available here . 
+
+Contact: 
+
+Mohammad Salameh (msalameh@ualberta.ca) 
+
+ Saif M. Mohammad (saif.mohammad@nrc-cnrc.gc.ca)
+
+ Svetlana Kiritchenko (svetlana.kiritchenko@nrc-cnrc.gc.ca) 
+
+SemEval-2016 Task 7: Determining Sentiment Intensity of English and Arabic Phrases 
+
+The objective of the task is to test an automatic system’s ability to predict a sentiment intensity (aka evaluativeness and sentiment association) score for a word or a phrase. Phrases include negators, modals, intensifiers, and diminishers ­-- categories known to be challenging for sentiment analysis. Specifically, the participants will be given a list of terms (single words and multi­word phrases) and be asked to provide a score between 0 and 1 that is indicative of the term’s strength of association with positive sentiment. A score of 1 indicates maximum association with positive sentiment (or least association with negative sentiment) and a score of 0 indicates least association with positive sentiment (or maximum association with negative sentiment). If a term is more positive than another, then it should have a higher score than the other. There are three tasks corresponding to data from three domains: general English, English Twitter, and Arabic Twitter. 
+ The Arabic Twitter Sentiment Lexicon used in SemEval-2016 Task 7 includes single words and phrases commonly found in Arabic tweets. The phrases in this set are formed only by combining a negator and a word. More details can be found in the task website and the associated publication: 
+ 
+ Semeval-2016 Task 7: Determining Sentiment Intensity of English and Arabic Phrases. Svetlana Kiritchenko, Saif M. Mohammad, and Mohammad Salameh. In Proceedings of the International Workshop on Semantic Evaluation (SemEval ’16) . June 2016. San Diego, California.
+
+ Paper (pdf)      BibTeX      Presentation      Task Website SemEval-2016      Arabic Twitter Sentiment Lexicon 
+
+Arabic Sentiment (Valence) Lexicons (see this Video ) 
+
+If you use any of the lexicons below, please cite the papers listed at the bottom of this page. Please see the Emotion Lexicons: Ethics and Data Statement before using a lexicon. 
+
+Automatically Created Sentiment Lexicons 
+
+These lexicons were created by measuring the extent to which the words in a tweets corpus co-occurred with a set of seed positive and seed negative terms. This is based on the idea that positive terms co-occur more with positive words and less with negative words; and negative words co-occur more with negative words and less with positive words. 
+
+Lexicon 
+ # positive 
+ # negative 
+ Seeds 
+
+Arabic Emoticon Lexicon 
+
+22,962 
+
+20,342 
+
+A set of twenty three emoticons such as :) and :(. 
+
+Arabic Hashtag Lexicon 
+
+13,118 
+
+8,846 
+
+A set of 230 Arabic words that were manually selected for being highly positive or highly negative. 
+
+Arabic Hashtag Lexicon (dialectal) 
+
+11,941 
+
+8,179 
+
+A set of 483 dialectal Arabic words compiled by Refaee and Rieser (2014) from tweets. 
+
+Lexicons created by translating English Sentiment Lexicons into Arabic: 
+
+Translated Lexicon 
+ # positive 
+ # negative 
+ # neutral 
+ Original English Lexicon 
+
+Arabic translation of Bing Liu’s Lexicon 
+
+2,006 
+
+4,783 
+
+- 
+
+Link to Bing Liu’s Lexicon 
+
+Arabic translation of MPQA Subjectivity Lexicon 
+
+2,718 
+
+4,911 
+
+570 
+
+Link to MPQA Subjectivity Lexicon 
+
+Arabic translation of NRC Emotion Lexicon 
+
+2,317 
+
+3,338 
+
+8,527 
+ Link to NRC Emotion Lexicon 
+
+Arabic translation of NRC Emoticon Lexicon 
+ 38,312 
+ 24,156 
+ - 
+ Link to NRC Emoticon Lexicon 
+
+Arabic translation of NRC Hashtag Sentiment Lexicon 
+ 32,048 
+ 22,081 
+ - 
+ Link to NRC Hashtag Sentiment Lexicon 
+
+Arabic Corpora Annotated for Sentiment (Valence) 
+ 
+If you use any of the corpora below, please cite the papers listed at the bottom of this page. 
+
+a. BBN Blog Posts Sentiment Corpus ( README ) : 
+
+A random subset of 1200 Levantine dialectal sentences 
+
+chosen from the BBN Arabic-Dialect–English Parallel Text . The sentences are extracted social media posts and provided with their translation. Apart from manual translations, the dataset also includes automatic translations into English using the Portage MT system. We manually annotated this subset and its translations (both manual and automatic) for sentiment (positive, negative, or neutral). 
+ 
+This is the first such resource where text in one language and its translations into another language (both manually and automatically produced) are each manually labeled for sentiment. 
+
+b. Syria Tweets Sentiment Corpus ( README ): 
+
+A dataset of 2000 tweets originating from Syria (a country where Levantine dialectal Arabic is commonly spoken). These tweets were collected in May 2014 by polling the Twitter API. The dataset also includes automatic translations into English using the Portage MT system. (This dataset is not provided with manual English translation.) We manually annotated this subset and its translations (both manual and automatic) for sentiment (positive, negative, or neutral). 
+
+Further details about these resources (lexicons and corpora) are available in these publications: 
+
+Sentiment Lexicons for Arabic Social Media. Saif M. Mohammad, Mohammad Salameh, and Svetlana Kiritchenko. In Proceedings of the 10th edition of the Language Resources and Evaluation Conference , May 2016, Portoro (Slovenia).
+
+ Paper (pdf)      BibTeX     Presentation      Video   
+ 
+ How
+ Translation Alters Sentiment . Saif M. Mohammad, Mohammad Salameh, and Svetlana
+ Kiritchenko, Journal of Artificial
+ Intelligence Research , January 2016, Volume
+ 55, pages 95-130.
+
+ Paper (pdf)  Pre-print version (pdf)     BibTeX 
+ 
+ Sentiment After Translation: A Case-Study on Arabic Social Media Posts . Mohammad Salameh, Saif M Mohammad and Svetlana Kiritchenko, In Proceedings of the North American Chapter of the Association 
+ for Computational Linguistics (NAACL-2015), June 2015, Denver, Colorado.
+
+ Paper (pdf)     BibTeX 
+
+This study has been approved by the NRC Research Ethics Board (NRC-REB) under protocol number 2014-26. REB review seeks to ensure that research projects involving humans as participants meet Canadian standards of ethics. 
+ 
+ FAQ: 
+
+Q. When we look at the tokens on a browser, there are some tokens like Ø§Ù…Ø§Ù†ØªÙ† which are not meaningful. How can we resolve this? 
+ 
+A. This is an encoding issue that occurs when using a browser. If you are opening the lexicons using a web browser, for example Chrome, just click
+
+ on "Customize Chrome button" -> More Tools -> Encoding (and choose UTF8). If you download the lexicons and want to open it using any software (like Notepad++), please make sure to set the encoding correctly. Also make sure to set the encoding to "UTF8" if you open the files using any programming language.
+
+ Please let us know if you have any other issues in using the lexicons on that page. 
+
+Terms of use: 
+
+The datasets mentioned in this page are available for direct download and can be used freely for research purposes. 
+ 
+The papers listed at the bottom of this page provide details of the creation and use. If you use a dataset, then please cite the associated papers. 
+ 
+If you use a dataset in a product or application, then please credit the authors and NRC appropriately. Also, if you send us an email, we will be thrilled to know about how you have used the dataset. 
+ 
+Rather than redistributing the data, please direct interested parties to this page. 
+ 
+National Research Council Canada (NRC) disclaims any responsibility for the use of the datasets listed here and does not provide technical support. However, the contact listed above will be happy to respond to queries and clarifications. 
+
+Updated: March, 2016

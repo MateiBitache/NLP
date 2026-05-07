@@ -1,0 +1,7 @@
+@inproceedings{bws-naacl2016,
+  title={Capturing Reliable Fine-Grained Sentiment Associations by Crowdsourcing and Best--Worst Scaling},
+  author={Kiritchenko, Svetlana and Mohammad, Saif M.},
+    booktitle={Proceedings of The 15th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL)},
+    year={2016},
+    address={San Diego, California}
+}

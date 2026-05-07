@@ -1,0 +1,299 @@
+Saif | Invited Talks 
+
+Home 
+
+Research 
+ 
+ Publications 
+ 
+ Lexicons 
+
+ Labeled Data 
+ 
+ Invited Talks 
+ Contact 
+
+Invited Talks 
+
+Computational Affective Science: Using Language and Computation to Shed Light on Fundamental Questions about Affect and Emotion. Quantitative Family Collective. Mar 30, 2026. 
+ 
+Computational Affective Science: Using Language and Computation to Shed Light on Fundamental Questions about Affect and Emotion. Invited talk at the first Valence Asymmetries Conference. An interdisciplinary conference at the intersection of philosophy, linguistics, and cognitive science. Pompeu Fabra University, the Poblenou Campus, Barcelona, Spain. March 19-20, 2026.  
+ 
+Mapping the Emotional and Social Dimensions of Language: The Next Generation of NRC Lexicons. Invited talk at the Preconference Workshop for the Valence Asymmetries Conference. Pompeu Fabra University, the Poblenou Campus, Barcelona, Spain. March 18, 2026.  
+ 
+ NLP for Affective Science: Exploring Fundamental Questions on Emotions through Language and Computation. Krishnapriya Vishnubhotla and Saif M. Mohammad. IJCNLP-AACL 2025, Dec 23, 2025, Mumbai, India. 
+ 
+NLP for Affective Science: Exploring Fundamental Questions on Emotions through Language and Computation. University of Bamberg, July 2025. Bamberg, Germany. 
+ 
+NLP for Affective Science: Exploring Fundamental Questions on Emotions through Language and Computation. Linz NLP Summer School, July 2025. Linz, Vienna. 
+ 
+NLP for Affective Science: A Window into Emotions through Language and Computation? LMU Seminar. November 2024. Munich, Germany. 
+ 
+ NLP for Affective Science. What are the big questions? And how do we get there? Workshop on NLP in the era of generative AI, cognitive sciences, and societal transformation . October 2024. MILA, Montreal, Canada.
+
+ Slides 
+ 
+ We are Who We Cite: Bridges of Influence Between Natural Language Processing and Other Academic Fields. Ludwig Maximilian University of Munich, Nov 18, 2023. 
+ 
+The Search for Emotions, Creativity, and Fairness in Language. Ludwig Maximilian University of Munich, May 8, 2023. 
+ 
+The Search for Emotions, Creativity, and Fairness in Language. University of Gottingen, Dec 14, 2022. 
+ 
+The Search for Emotions, Creativity, and Fairness in Language. Keynote talk at the Emotion Workshop, University of Ghent, Dec 1, 2022. 
+ 
+The Search for Emotions, Creativity, and Fairness in Language. The Statistical Society of Canada (SSC), Webinar, Sep 4, 2022. 
+ 
+Ethics Sheets for Social NLP Tasks. The 10th Social NLP Workshop at ACL 2022 , Seattle, USA. July 14, 2022. 
+ 
+Tweet Emotion Dynamics. (Talk by Krishnapriya Vishnubhotla). The Alan Turing Institute . July 28, 2022. London, UK. 
+ 
+Ethics Sheets for Social AI Tasks. The Alan Turing Institute . July 28, 2022. London, UK. 
+ 
+The Search for Emotions, Creativity, and Fairness in Language. Defence Research and Development Canada, Toronto Research Centre, April 21, 2022, Toronto, Canada.
+
+ Slides 
+ 
+The Search for Emotions in Language. Carolina Affective Science Lab. University of North Carolina. Feb 21, 2022.
+
+ Slides       
+ 
+Emotions in Text: The Power and Versatility of Large Emotion Lexicons. Canadian Digital Services. January 13, 2022.   
+ 
+Judging AI: How to Develop a Healthy Mistrust of AI. The Canadian Appellate Courts Seminar , Halifax, Canada. Nov 25, 2021.
+
+ Slides 
+ 
+Ethics Sheets for AI Tasks and a Case Study for Automatic Emotion Recognition. The University of British Columbia  Language Sciences Talks , Vancouver, Canada. July 15, 2021.
+
+ Slides       Video 
+ 
+Emotion Dynamics of Fictional Characters using Large Emotion Lexicons. The 17th IGEL Conference. June 23, 2021.
+
+ Slides       
+ 
+Ethics Sheets for AI Tasks and a Case Study for Automatic Emotion Recognition. The Alan Turing Institute , London, UK. May, 2021. 
+ 
+ What is a Research Ethics Statement and Why does it Matter? Saif M. Mohammad.
+
+Slides 
+
+I presented some of these ideas at the  EMNLP 2020 Plenary Panel on Publishing in the Era of Responsible AI: How Can we be Proactive? Considerations and Implications. Panelists: Emily M. Bender, Rosie Campbell, Allan Dafoe, Pascale Fung, Meg Mitchell, Saif M. Mohammad. 
+ 
+Gender Gap in Natural Language Processing Research: Disparities in Authorship and Citations. Women+@DCS Seminar Series, University of Sheffield , October 28 2020, Sheffield, UK.
+
+ Slides       Video 
+ 
+The Search for Emotions, Creativity, and Fairness in Language. Data Systems Seminar Series, University of Waterloo , October 28 2019, Waterloo, Canada.
+
+ Slides     Video 
+ 
+Fairness and Emotions in Language. The Globe and Mail. October 29, 2019, Toronto, Canada. 
+ 
+Hosting the Responsible AI Summit , October 24 2019, Montreal, Canada. 
+ 
+Creativity and Emotions in Language. Invited talk and panel on AI and Creativity in Government at the Creative Marketplace Lab on Data, Skills and Technology, Department of  Canadian   Heritage , September 30 2019, Gatineau, Canada. 
+ 
+The Search for Emotions, Creativity, and Fairness in Language. Mila - Quebec AI Institute , August 2019, Montreal, Canada.
+
+ Slides   
+ 
+The Search for Emotions, Creativity, and Fairness in Language. Keynote speech at the 8th KDD Workshop on Issues of Sentiment Discovery and Opinion Mining (WISDOM-2019), August 2019, Anchorage, Alaska.
+
+ Slides     
+ 
+ Examining Fairness in Language Through Emotions . Keynote speech at the 2019 Canada--UK Workshop on Practical AI Ethics , March 12, 2019, London, UK.
+
+ Slides 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language . The Alan Turing Institute . March 11, 2019. London, UK.
+
+ Slides      Video 
+ 
+ Examining Fairness in Language Through Emotions . The 2019 Canada--UK Symposium on Ethics in AI , Feb 21, 2019, Ottawa, Canada.
+
+ Slides    Video 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language . Keynote speech at the 6th evaluation campaign  EVALITA 2018 . December 12, 2018. Turin, Italy. 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language . Department of Computational Linguistics, Heidelberg University. December 13, 2018. Heidelberg, Germany. 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language . Invited Speaker Series. Pickering Centre for Human Development, Carleton University . November 16, 2018. Ottawa, Canada. 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language . Department of Computer Science, University of Michigan, Ann Arbor. October 2, 2018. Ann Arbor, Michigan. 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language. Department of Computer Science, University of Utah. August 6, 2018. Salt Lake City, Utah. 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language. Keynote speech at the ACL Workshop on Natural Language Processing for Social Media. July 20, 2018. Melbourne, Australia. 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language. Department of Computer Science, University of Melbourne, July 20, 2018. Melbourne, Australia. 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language. The University of Waikato, Computing & Mathematical Sciences . July 10, 2018. Hamilton, New Zealand. 
+ 
+ The Search for
+ Emotions in Language. Google
+ 
+ Research. May 25, 2018. Montreal, Canada. 
+ 
+ The
+
+ Search for Emotions in Language. Featured speaker
+ at the Distinguished Computational Linguistics Lecture
+ at Rochester Institute of Technology. March 1, 2018.
+ Rochester, NY, USA. 
+ 
+ Finding Emotions in Language. Information Systems Sprott School of Business, Carleton University. November 13, 2017. Ottawa, Canada. 
+ 
+ Emotion-Aware Machines. Short talk to 9th graders on the occasion of Bring-Your-Ninth-Grader-to-Work Day at the National Research Council Canada. November 1, 2017. Ottawa, Canada. 
+ 
+ Affect
+
+ Associations in Creative Language. Seminar Series
+ for the Doctorate in Cognitive Informatics at Université
+ du Québec à Montréal (UQAM), April 13, 2017, Montreal,
+ Canada.
+
+ Presentation 
+ 
+ Affect
+ Associations in Creative Language. Keynote speech at the
+ COLING 2016 workshop on Computational
+ 
+ Modeling of People's Opinions, Personality, and
+ Emotions in Social Media (PEOPLES 2016) , December
+ 12, 2016, Osaka, Japan.
+
+ Presentation 
+ 
+ Affect
+ 
+ Associations: The Building Blocks of Sentiment
+ Analysis. Keynote
+ speech at the 20th
+ International Conference on Asian Language Processing
+ (IALP 2016) , November 21-23, 2016, National Cheng
+ Kung University, Tainan, Taiwan.
+
+ Presentation 
+ 
+ Affect
+ Associations in Creative Language. Keynote speech at the 2016
+ IR Workshop at the Academia Sinica, November 24, 2016,
+ Taipei, Taiwan.
+
+ Presentation 
+ 
+Metaphor as a Medium for Emotion: An Empirical Study. Invited talk at the TAMALE seminar series , September 15, 2016, University of Ottawa.
+
+ Presentation 
+ 
+Sentiment and Emotions in Tweets. Department of Geography & Geoinformation Science at George Mason University . May 29, 2016, FairFax, Virginia.
+
+Presentation 
+
+The Words are Alive: Associations with Sentiment, Emotions, Colours, and Music. Invited 
+ talk at Language Technology Institute, Carnegie Mellon University, September 
+ 2014, Pittsburgh, PA. 
+
+Words: 
+ Evaluative, Emotional, Colourful, Musical! 
+
+ Keynote speech at the ACL 
+ 2014 Workshop on Computational Approaches to Subjectivity, Sentiment, and 
+ Social Media (WASSA) , June 27, 2014, Baltimore, 
+ MD. 
+
+Crowdsourcing Word-Emotion 
+ Associations. 
+
+October 2013, University of Pennsylvania, Philadelphia 
+
+Sentiment 
+ Analysis with Social Media Text.
+
+June 2013, MediaMiser, Ottawa. 
+ 
+June 2013, Thales. 
+
+Analyzing Electoral Tweets 
+ for Affect, Style, and Purpose , Saif Mohammad, Xiaodan Zhu, Svetlana 
+ Kiritchenko, Joel Martin. 
+
+April 2013, University of Ottawa. 
+
+From 
+ Once Upon a Time to Happily Ever After: Tracking Emotions in Books and Mail. 
+
+February, 2012: Big Data and Social Media Workshop, Communications 
+ Security Establishment Canada, Ottawa, Canada. 
+ 
+July 2011: Amazon, Social Media group and Digital Books group, Seattle, 
+ OR. 
+ 
+June 2011: Social Media - "Big Data" Analysis Workshop, 
+ Defence R&D Canada, Ottawa, Canada. 
+
+Crowdsourcing the 
+ creation of an emotion lexicon. Saif Mohammad and Peter Turney. 
+
+July 2010: Department of Computational Linguistics at the University 
+ of Heidelberg and the NLP group from HITS gGmbH, Heidelberg, Germany. 
+
+July 2010: Department of Computer Science, Technische Universität 
+ Darmstadt, Darmstadt, Germany. 
+ 
+August 2010: Microsoft Research, Bangalore, India. 
+ 
+August 2010: IBM Research, Bangalore, India. 
+
+"Hybrid approaches to semantic closeness and oppositeness", 
+ Saif Mohammad and Graeme Hirst. 
+
+June 2009: The Text Analysis and Machine Learning Group, University 
+ of Ottawa, Ottawa, Canada. 
+ 
+ June 2009: National Research Council - The Institute for Information 
+ Technology (NRC-IIT), Ottawa, Canada. 
+
+"Semantic distance measures with distributional profiles of coarse-grained 
+ concepts", Graeme Hirst and Saif Mohammad. 
+
+May 2009: Department of Systems Engineering and Engineering Management, 
+ Chinese University of Hong Kong, Hong Kong, China. 
+ 
+May 2009: Centre for Research in Intelligent Systems, Faculty of Information 
+ Technology, Monash University, Melbourne, Australia. 
+ 
+November 2008: Center for Cognitive Science, University at Buffalo, 
+ Buffalo, NY. 
+
+"Hybrid approaches to semantic closeness and semantic oppositeness", 
+ Saif Mohammad and Graeme Hirst. Yahoo! Research, Santa Clara, CA. October 
+ 2008. 
+
+October 2008: Text Mining Sciences, Yahoo! Research, Santa Clara, 
+ CA. 
+ 
+October 2008: Human Language Technology Research Institute, University 
+ of Texas at Dallas, Dallas, TX. 
+ 
+October 2008: University of North Texas, Dallas, TX. 
+
+"Lexical chains and semantic distance, within and across languages", 
+ Graeme Hirst and Saif Mohammad. Division of Chinese, Nanyang Technological 
+ University, Singapore. April 2008. 
+
+"Semantic distance measures with distributional profiles of coarse-grained 
+ concepts", Graeme Hirst and Saif Mohammad. Conference on Processing 
+ Text-Technological Resources , University of Bielefeld, Bielefeld, Germany. 
+ March 2008. 
+
+"TTO3 Update: Representational Analysis, Consensus, Utility," 
+ Bonnie Dorr, Saif Mohammad, David 
+ Yarowsky , and Keith 
+ Hall . Human Language Technology Center of Excellence (HLT/COE) Quarterly 
+ Technical Exchange , Johns Hopkins HLT/COE, Baltimore, MD. March 2008. 
+
+"Determining Degree of Antonymy: Step 1 for Detecting Erroneous Coreference 
+ Links by Contradiction," Saif Mohammad and Bonnie Dorr. Human Language 
+ Technology Center of Excellence (HLT/COE) Quarterly Technical Exchange , 
+ Johns Hopkins HLT/COE, Baltimore, MD. March 2008.

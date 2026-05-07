@@ -1,0 +1,500 @@
+--- PAGE 1 ---
+Emotions Evoked by  
+Common Words and Phrases:  
+Using Mechanical Turk to Create an Emotion Lexicon 
+Saif Mohammad and Peter Turney 
+National Research Council Canada 
+
+
+--- PAGE 2 ---
+Painting
+The Destroyer  
+- Frank Frazetta 
+2
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 3 ---
+Sentence
+3
+When your cartoon can get you killed 
+Death threats over South Park episode 
+                    Event
+Trey Parker, Matt Stone 
+Participants
+Extremists 
+Participants
+listener/reader
+(Phil, from the San Francisco Chronicle) 
+speaker/writer
+
+
+--- PAGE 4 ---
+evokes joy
+evokes sadness
+Our focus: words
+4
+When your  cartoon  can get you  killed 
+
+--- PAGE 5 ---
+Motivation for emotion detection
+ Devising automatic dialogue systems that respond 
+appropriately to different emotional states of the user.
+◦ customer relation models
+◦ intelligent tutoring systems
+◦ emotion-aware games
+ Tracking sentiment towards politicians, movies, products.
+ Determining emotional intelligence.
+ Assisting in writing e-mails, documents, and other text to 
+convey desired emotion (and avoiding misinterpretation).
+ Detecting how people use emotion-bearing-words to 
+persuade and coerce others
+ Deception detection 
+5
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 6 ---
+6
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 7 ---
+amygdala 
+base emotions 
+pre-frontal cortex 
+complex emotions 
+Base emotions
+ Ekman: 6 basic emotions
+◦ joy, sadness, fear, anger, surprise, disgust
+ Plutchik: 8 
+◦ Ekmanʼs 6 + anticipation + trust
+◦ 4 pairs of antonymous emotions
+ More proposals by Parrot, Loyban, and others
+7
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 8 ---
+ Similar emotions are  
+adjacent
+ Contrasting emotions are 
+diametrically opposite
+ The radius indicates  
+intensity
+ In the white spaces  
+are the primary dyads – 
+emotions that are  
+combinations of the primary 
+emotions  
+Plutchikʼs wheel of emotions
+8
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 9 ---
+Amazonʼs Mechanical Turk
+ Requester
+◦ breaks task into small independent units – HITs 
+◦ speciﬁes: 
+ compensation for solving each HIT
+ # of independent annotations required for each HIT 
+a.k.a. # of assignments/HIT
+◦ uploads HITs
+ Turkers
+◦ attempt as many HITs as they wish
+ Requester
+◦ inspects each assignment: approves or rejects
+9
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 10 ---
+ Inexpensive
+◦ $1/hour is not uncommon
+ Convenient
+◦ Web-based
+◦ Scripts to upload HITs and review assignments
+ Takes care of certain ethics issues
+◦ Anonymity
+◦ No pressure on workers to solve HITs
+10
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 11 ---
+ Malicious annotations
+◦ Random selection or garbage data entry
+◦ Deliberate incorrect annotation
+  Inadvertent and infrequent errors
+◦ Turker attempts HITs for unfamiliar words too
+11
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 12 ---
+Emotion annotation: Challenges
+ Words used in different senses and in different contexts 
+can evoke different emotions.
+High aspect ratio wings allow low speed flight. 
+The fight or flight response is crucial for survival. 
+ How to convey the target sense  
+to the annotator?
+◦ deﬁnitions are long
+◦ need to discourage annotation for unfamiliar words
+12
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 13 ---
+Our solution
+Directions: Attempt HIT only if you are familiar with the word.
+Words in different senses may have different emotion 
+associations. Question 1 will guide you to the intended sense.   
+Q1. Which word is closest in meaning (most related) to flight?
+buying 
+avoidance 
+doubt 
+boredom 
+ Near-synonym is taken from a thesaurus.
+◦ Categories in a thesaurus act as coarse senses
+ Three distracters are chosen at random
+13
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 14 ---
+Emotion annotation: Challenges
+ Words used in different senses and in different contexts 
+can evoke different emotions.
+High aspect ratio wings allow low speed flight. 
+The fight or flight response is crucial for survival. 
+ How to convey the target sense  
+to the annotator?
+◦ deﬁnitions are long
+◦ need to discourage annotation for unfamiliar words
+14
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 15 ---
+ If the word choice question is answered wrongly, then
+ the whole assignment is discarded  
+(answers to all questions in the HIT by the Turker are
+ discarded) 
+ If an annotator gets more than 1 in 3 questions wrong,
+ then we assume they are not following instructions.
+◦ We reject all their assignments.
+15
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 16 ---
+ Malicious annotations
+◦ Random selection or garbage data entry
+◦ Deliberate incorrect annotation
+  Inadvertent and infrequent errors
+◦ Turker attempts HITs for unfamiliar words too
+Will detect it 75% of the time.
+ss 
+16
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 17 ---
+Target n-grams
+ Conditions:
+◦ Most frequent terms in the Google n-gram corpus
+◦ Must be in the thesaurus in just one or two categories
+ Most frequent monosemous n-grams in each of the
+ following categories:
+◦ noun unigrams (200)
+◦ noun bigrams (200)
+◦ verb unigrams (200)
+◦ verb bigrams (200)
+◦ adjective unigrams (200)
+◦ adjective bigrams  (200)
+◦ adverb unigrams (200)
+◦ adverb bigrams (200)
+17
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 18 ---
+ Most frequent monosemous terms in the General
+ Inquirer (GI) that are:
+◦ marked as positive (200)
+◦ marked as negative (200)
+ Terms in WordNet Affect Lexicon (WAL) that have one
+ or two senses and are:
+◦ marked as anger terms (107)
+◦ marked as disgust terms (25)
+◦ marked as fear terms (58)
+◦ marked as joy terms (109)
+◦ marked as sadness terms (86)
+◦ marked as surprise terms (39) 2176 terms in all.
+18
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 19 ---
+Questions:  
+1. Which word is closest in meaning (most related) to flight? 
+buying 
+avoidance 
+doubt 
+boredom 
+    2. How positive (good, praising) is flight  
+    (for example, nice and excellent are strongly positive): 
+  flight is not positive 
+  flight is weakly positive 
+  flight is moderately positive 
+  flight is strongly positive 
+19
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 20 ---
+ Questions (continued):  
+3. How negative (bad, criticizing) is flight  
+    (for example, poor and pathetic are strongly negative): 
+ flight is not negative 
+ flight is weakly negative 
+ flight is moderately negative 
+ flight is strongly negative 
+    4. How much does flight evoke/produce the emotion joy  
+    (for example, happy and fun may strongly evoke joy): 
+ flight does not evoke joy 
+ flight weakly evokes joy 
+ flight moderately evokes joy 
+ flight strongly evokes joy 
+20
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 21 ---
+ 2176 (HITs) x 5 (assignments per HIT) = 10,880
+ assignments
+ Annotators: 1012 
+ Turkers spent on average about 1 minute per HIT
+ Hourly wage was about $2.40 (about 4 cents per HIT)
+ Total cost: US $470 (cost per term: about 22 cents)
+ More than 95% of the assignments had the correct
+ answer for the word choice question.
+◦ The rest were discarded.
+ 2081 terms had 3 or more valid assignments
+◦ on average 4.75 assignments per HIT
+21
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 22 ---
+Evocative and non-evocative
+ Practical NLP applications may care for only two levels of
+ intensity
+ Example: vampire-fear
+     No fear       weak fearmoderate fearstrong fear
+     0 votes       1 vote 2 votes 2 votes
+non-evocative 
+1 vote 
+evocative 
+4 votes 
+22
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 23 ---
+23
+0
+10
+20
+30
+40
+50
+60
+70
+
+--- PAGE 24 ---
+% of WAL anger terms evocative of
+ different emotions as per the Turkers
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+24
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 25 ---
+What was missed?
+baffled  
+covetousness  
+exacerbate  
+gravel  
+pesky  
+pestering  
+25
+
+--- PAGE 26 ---
+Anger and Joy!
+adjourn  
+credit card  
+find out  
+gloat  
+spontaneously  
+surprised  
+26
+
+--- PAGE 27 ---
+Agreement at two intensity levels: 
+Majority class (m) = 3, 4, 5
+0
+10
+20
+30
+40
+50
+60
+70
+m = three
+ m = four
+ m = ﬁve
+27
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+% of  terms 
+
+--- PAGE 28 ---
+Conclusions
+ Regular folks can produce high quality emotion
+ annotations with proper guidelines and checks:
+◦ Annotations match those in GI and WAL
+◦ High degree of agreement 
+ Anticipation and trust are sources of more
+ disagreement
+ A large number of commonly used terms are evocative:
+◦ About 61% of the terms are evocative  
+(evoke one or the other base emotion)
+28
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 29 ---
+evoked associated with joy
+evoked associated with sadness
+Current work
+29
+When your  cartoon  can get you  killed 
+
+--- PAGE 30 ---
+% of terms where all 5 agree
+30
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+Evokes
+ Associated
+
+
+--- PAGE 31 ---
+Current and future work
+ Determining which terms have strong color associations
+ and if there is a correlation with emotions.
+ Determine how much near synonyms vary in emotional
+ content.
+ Empirically verify if complex emotions are indeed
+ combinations of basic emotions.
+ Create a much larger lexicon (40,000 terms, say).
+◦ Make lexicon publicly available.
+ Use lexicon in applications.
+31
+
+--- PAGE 32 ---
+32
+Questions. 
+
+--- PAGE 33 ---
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+GI positives
+33
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 34 ---
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+GI negatives
+34
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 35 ---
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+35
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 36 ---
+ Annotator time is precious
+◦ Minimum reading, minimum writing
+◦ Maximum information throughput
+ Requestor time is precious
+◦ Automatic review and assimilation of annotations 
+One solution: Multiple choice questions, with 
+examples instead of explanations.
+36
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.
+
+--- PAGE 37 ---
+Example question
+   How much does vampire evoke/produce the emotion fear?  
+(For example, horror and scary may strongly evoke fear.)
+vampire does not evoke fear 
+vampire weakly evokes fear 
+vampire moderately evokes fear 
+vampire strongly evokes fear 
+37
+Emotions evoked by common words and phrases. 
+Saif Mohammad and Peter Turney.

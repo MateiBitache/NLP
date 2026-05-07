@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+
+:root {
+  --accent-strong: #f6c65b; /* warm gold accent */
+}
+
+/* Main title styling */
+.hero h1 {
+  color: var(--accent-strong);
+  font-weight: 800;
+  text-shadow: 0 0 10px rgba(246,198,91,0.35);
+}
+
+/* Lexicon headings */
+.card h3 {
+  border-left: 4px solid var(--accent-strong);
+  padding-left: 10px;
+}
+.card h3 a {
+  color: var(--accent-strong);
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-shadow: 0 0 6px rgba(246,198,91,0.3);
+}
+.card h3 a:hover {
+  color: #fff2c2;
+}
+
+<!-- text-decoration: underline; -->
+
+
+:root {
+  --accent-strong: #f6c65b; /* warm gold */
+}
+.card h3 {
+  border-left: 4px solid var(--accent-strong);
+  padding-left: 10px;
+}
+.card h3 a {
+  color: var(--accent-strong);
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-shadow: 0 0 6px rgba(246,198,91,0.3);
+}
+.card h3 a:hover {
+  color: #fff2c2;
+}
+
+    :root {
+      --bg: #0b0c10;
+      --panel: #11131a;
+      --muted: #98a2b3;
+      --text: #e6e8ee;
+      --brand: #6ea8fe;
+      --brand-2: #9bdbff;
+      --accent: #c6f6d5;
+      --link: #a5b4fc;
+      --border: #232636;
+      --chip: #1b2030;
+      --radius: 14px;
+      --shadow: 0 8px 24px rgba(0,0,0,.35), 0 1px 0 rgba(255,255,255,.02) inset;
+    }
+
+ <title>Manually Curated Sentiment And Emotion Lexicons</title>
+
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1200px 800px at 10% -5%, rgba(110,168,254,.15), transparent 60%),
+                  radial-gradient(1000px 700px at 120% 10%, rgba(155,219,255,.12), transparent 50%),
+                  var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Layout */
+    .container { max-width: 1100px; margin: 0 auto; padding: 28px 20px 64px; }
+
+    header.site {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: saturate(1.1) blur(8px);
+      background: rgba(11,12,16,.6);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav { display: flex; align-items: center; gap: 18px; padding: 14px 20px; }
+    .nav .brand { font-weight: 700; letter-spacing: .2px; }
+    .nav a { color: var(--text); opacity: .9; }
+    .nav a:hover { opacity: 1; }
+    .spacer { flex: 1; }
+
+    .hero {
+      margin-top: 18px;
+      background: linear-gradient(180deg, rgba(28,33,48,.8), rgba(21,24,35,.7));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: var(--shadow);
+    }
+    .hero h1 { margin: 0 0 10px; font-size: clamp(28px, 3vw, 40px); }
+    .hero p.lead { color: var(--muted); margin: 10px 0 0; }
+
+    .grid {
+      display: grid; gap: 16px;
+      grid-template-columns: repeat(12, 1fr);
+    }
+    .card { grid-column: span 12; background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); }
+    .card .content { padding: 22px; }
+    .card h2, .card h3 { margin-top: 0; }
+
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 0; }
+    .chip { background: var(--chip); border: 1px solid var(--border); border-radius: 999px; padding: 6px 10px; font-size: .9rem; color: var(--muted); }
+
+    .meta { display: grid; gap: 8px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); margin-top: 14px; }
+    .meta .item { background: #0f1320; border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; color: #cbd5e1; }
+    .meta .label { display:block; font-size:.8rem; color: var(--muted); }
+
+    details { background: #0e1220; border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+    details + details { margin-top: 8px; }
+    summary { cursor: pointer; font-weight: 600; }
+
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+    th, td { text-align: left; padding: 10px 12px; vertical-align: top; }
+    thead th { position: sticky; top: 56px; background: #0f1320; border-bottom: 1px solid var(--border); z-index: 1; }
+    tbody tr { border-top: 1px dashed rgba(255,255,255,.06); }
+
+    .section-title { font-size: clamp(22px, 2.2vw, 28px); margin: 28px 0 10px; }
+
+    .callout {
+      border-left: 3px solid var(--brand);
+      background: #0d1220;
+      padding: 14px 16px; border-radius: 10px; border:1px solid var(--border);
+    }
+
+    footer { margin-top: 48px; color: var(--muted); font-size: .95rem; }
+
+    @media (min-width: 900px) {
+      .span-6 { grid-column: span 6; }
+      .span-8 { grid-column: span 8; }
+      .span-4 { grid-column: span 4; }
+    }
+  </style>
+<script src='/google_analytics_auto.js'></script></head>
+<body>
+	<script>
+  // Automatically open all details sections on page load (the bullet lists of papers)
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("details").forEach(d => d.setAttribute("open", ""));
+  });
+</script>
+
+  <header class="site">
+    <nav class="nav container">
+      <div class="brand">Sentiment And Emotion Lexicons</div>
+      <a href="http://saifmohammad.com">Home</a>
+      <a href="http://saifmohammad.com/WebPages/ResearchAreas.html">Research</a>
+      <a href="http://saifmohammad.com/WebPages/ResearchInterests.html">Publications</a>
+      <a href="http://saifmohammad.com/WebPages/lexicons.html" aria-current="page">Lexicons</a>
+      <a href="http://saifmohammad.com/WebPages/SentimentEmotionLabeledData.html">Labeled Data</a>
+      <a href="http://saifmohammad.com/WebPages/invitedtalks.html">Invited Talks</a>
+      <a href="http://saifmohammad.com/WebPages/contact.htm">Contact</a>
+      <div class="spacer"></div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="top">
+      <h1>Sentiment And Emotion Lexicons</h1>
+      <p class="lead">This page lists word association lexicons capturing <strong>sentiment</strong>, <strong>emotion</strong>, and <strong>colour</strong> associations. These resources can be used to analyze emotions in text. Please review the <a href="../WebDocs/EmoLex-Ethics-Data-Statement.pdf">Emotion Lexicons: Ethics & Data Statement</a> and see <a href="#terms">Terms of Use</a> below before using a lexicon.</p>
+      <div class="chips" aria-label="Quick facts">
+        <span class="chip">Curated, Automatic Lexicons</span>
+        <span class="chip">Emotions, Valence/Sentiment, Colour</span>
+        <span class="chip">Crowdsourcing, Best–Worst Scaling</span>
+      </div>
+      <div class="callout" style="margin-top:14px">
+        <strong>Code:</strong> <a href="https://github.com/Priya22/EmotionDynamics">Emotion Dynamics (Python)</a> — analyze text using NRC Emotion and NRC VAD lexicons; includes <em>utterance emotion dynamics</em> metrics. Associated <a href="https://arxiv.org/abs/2204.04862">paper</a>.
+      </div>
+      <p style="margin-top:12px"><strong>Contact:</strong> <a href="../index.html">Saif M. Mohammad</a> (saif.mohammad@nrc-cnrc.gc.ca)</p>
+    </section>
+
+    <!-- Manually Created Lexicons -->
+    <h2 class="section-title" id="manual">Manually Curated Sentiment and Emotion Lexicons</h2>
+    <p class="muted">Created via expert or crowdsourced annotation. Real-valued scores use <a href="BestWorst.html">Best–Worst Scaling</a> for reliable, fine-grained values.</p>
+
+    <section class="grid">
+      <article class="card span-12" id="EmoLex">
+        <div class="content">
+          <h3>1a. <a href="NRC-Emotion-Lexicon.htm">NRC Word–Emotion Association Lexicon (EmoLex)</a></h3>
+          <p>Homepage and interactive visualization available on the lexicon page. Also available in 40+ languages; sense-level annotations for eight emotions are provided.</p>
+          <div class="meta">
+            <div class="item"><span class="label">Version</span>0.92 (2010)</div>
+            <div class="item"><span class="label">Coverage</span>14,182 unigrams; ~25,000 senses</div>
+            <div class="item"><span class="label">Categories</span>Positive/Negative; Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, Trust</div>
+            <div class="item"><span class="label">Scores</span>Binary (0/1) for words; 4-level association at sense level</div>
+            <div class="item"><span class="label">Creation</span>Manual (crowdsourcing); Domain: General</div>
+          </div>
+          <details style="margin-top:12px"><summary>Papers</summary>
+            <ul>
+              <li><em>Crowdsourcing a Word–Emotion Association Lexicon</em>, Saif Mohammad and Peter Turney, <em>Computational Intelligence</em> 29(3), 2013. <a href="http://arxiv.org/pdf/1308.6297.pdf">PDF</a> · <a href="Abstracts/crowdemo.bib.txt">BibTeX</a></li>
+              <li><em>Emotions Evoked by Common Words and Phrases</em>, Saif Mohammad and Peter Turney, NAACL-HLT 2010. <a href="../WebDocs/Mohammad-Turney-NAACL10-EmotionWorkshop.pdf">PDF</a> · <a href="../WebDocs/Mohammad-Turney-NAACL10-EmotionWorkshop-slides.pdf">Slides</a></li>
+            </ul>
+          </details>
+        </div>
+      </article>
+
+      <article class="card span-12" id="AffectIntensity">
+        <div class="content">
+          <h3>1b. <a href="AffectIntensity.htm">NRC Emotion Intensity Lexicon (Affect Intensity Lexicon)</a></h3>
+          <p>English words with intensities for eight basic emotions using Best–Worst Scaling. <a href="AffectIntensity.htm">Lexicon homepage</a>.</p>
+          <details><summary>Papers</summary>
+            <ul>
+              <li><a href="https://arxiv.org/abs/1704.08798">Word Affect Intensities</a>, Saif M. Mohammad, LREC 2018. <a href="../WebDocs/lrec2018-paper-word-emotion.pdf">PDF</a> · <a href="Abstracts/AIL.bib.txt">BibTeX</a> · <a href="../WebDocs/LREC2018-word-emo-talk.pdf">Slides</a></li>
+            </ul>
+          </details>
+        </div>
+      </article>
+
+      <article class="card span-12" id="vad">
+        <div class="content">
+          <h3>2. <a href="nrc-vad.html">NRC Valence, Arousal, Dominance (VAD) Lexicon</a></h3>
+          <p>English words with valence (positive–negative), arousal (excited–calm), and dominance/competence (powerful–weak, competent–incompetent) scores.</p>
+          <div class="meta">
+            <div class="item"><span class="label">Version</span>2.1 (2025)</div>
+            <div class="item"><span class="label">Coverage</span>~55,000 terms (25k unigrams; 10k MWEs)</div>
+            <div class="item"><span class="label">Scores</span>−1 to 1 (V/A/D)</div>
+            <div class="item"><span class="label">Creation</span>Manual (crowdsourcing); Domain: General</div>
+          </div>
+          <div class="meta">
+			<div class="item"><span class="label">Version</span>1.0 (2018)</div>
+            <div class="item"><span class="label">Coverage</span>~20,000 words</div>
+            <div class="item"><span class="label">Scores</span>0 to 1 (V/A/D)</div>
+            <div class="item"><span class="label">Creation</span>Manual (crowdsourcing); Domain: General</div>
+          </div>
+          <!-- <div class="meta" style="margin-top:8px">
+            <div class="item"><span class="label">Earlier version</span>1.0 (2018), ~20,000 terms, scale 0–1</div>
+          </div> -->
+          <details style="margin-top:12px"><summary>Paper</summary>
+            <ul>
+              <li><em>Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words</em>, Saif M. Mohammad, ACL 2018. <a href="../WebDocs/acl2018-VAD.pdf">PDF</a> · <a href="../WebPages/Abstracts/vad-acl18.bib.txt">BibTeX</a></li>
+            </ul>
+          </details>
+        </div>
+      </article>
+
+      <article class="card span-12" id="worrywords">
+        <div class="content">
+          <h3>3. <a href="../worrywords.html">NRC WorryWords Lexicon</a></h3>
+          <p>44k+ English words with association scores along the calmness–anxiety dimension. <a href="../worrywords.html">Lexicon homepage</a>.</p>
+          <div class="meta">
+            <div class="item"><span class="label">Version</span>1.0 (2024)</div>
+            <div class="item"><span class="label">Coverage</span>~44,000 terms</div>
+            <div class="item"><span class="label">Scores</span>−3 (calmness) to 3 (anxiety)</div>
+            <div class="item"><span class="label">Creation</span>Manual (crowdsourcing); Domain: General</div>
+          </div>
+          <details style="margin-top:12px"><summary>Paper</summary>
+            <ul>
+              <li><em>WorryWords: Norms of Anxiety Association for over 44k English Words</em>, Saif M. Mohammad, EMNLP 2024 (Main). <a href="../WebDocs/worrywords-emnlp2024.pdf">PDF</a> · <a href="../WebPages/Abstracts/worrywords-emnlp2024.bib.txt">BibTeX</a> · <a href="../WebDocs/WorryWords-poster.pdf">Poster</a></li>
+            </ul>
+          </details>
+        </div>
+      </article>
+
+      <article class="card span-12" id="warmth">
+        <div class="content">
+          <h3>4. <a href="warmth.html">NRC Words of Warmth (WoW) Lexicon</a></h3>
+          <p>~31k English terms (≈26k unigrams; ≈5k MWEs) with real-valued associations for warmth (W), competence (C), sociability (S), and trust (T). <a href="warmth.html">Lexicon homepage</a>.</p>
+          <div class="meta">
+            <div class="item"><span class="label">Version</span>1.0 (2025)</div>
+            <div class="item"><span class="label">Coverage</span>~31,000 terms (26k unigrams; 5k MWEs)</div>
+            <div class="item"><span class="label">Scores</span>−1 to 1</div>
+            <div class="item"><span class="label">Creation</span>Manual (crowdsourcing); Domain: General</div>
+          </div>
+          <details style="margin-top:12px"><summary>Paper</summary>
+            <ul>
+              <li><em>Words of Warmth: Trust and Sociability Norms for over 26k English Words</em>, Saif M. Mohammad, ACL 2025. <a href="https://www.arxiv.org/abs/2506.03993">PDF</a></li>
+            </ul>
+          </details>
+        </div>
+      </article>
+    </section>
+
+    <!-- Sentiment composition lexicons -->
+    <h2 class="section-title" id="sent-comp">Manually Curated Sentiment Composition Lexicons</h2>
+    <p>Scores for two- and three-word expressions and their constituents.</p>
+
+    <article class="card">
+      <div class="content">
+        <h3>1. <a href="http://saifmohammad.com/WebPages/SCL.html#NMA">SCL of Negators, Modals, & Adverbs (SCL‑NMA)</a> — SemEval‑2016 General English Sentiment Modifiers</h3>
+        <div class="meta">
+          <div class="item"><span class="label">Version</span>1.0 (Feb 2016)</div>
+          <div class="item"><span class="label">Coverage</span>~3,200 terms</div>
+          <div class="item"><span class="label">Scores</span>−1 (most negative) to 1 (most positive)</div>
+          <div class="item"><span class="label">Creation</span>Manual (BWS); Domain: General</div>
+        </div>
+        <details style="margin-top:12px"><summary>Papers</summary>
+          <ul>
+            <li><em>The Effect of Negators, Modals, and Degree Adverbs on Sentiment Composition</em>, WASSA 2016. <a href="../WebDocs/SCL-NMA-wassa2016.pdf">PDF</a> · <a href="Abstracts/scl-nma-wassa.bib.txt">BibTeX</a> · <a href="../WebDocs/WASSA-2016-SCL-NMA.pdf">Slides</a></li>
+            <li><em>Capturing Reliable Fine-Grained Sentiment Associations by Crowdsourcing and Best–Worst Scaling</em>, NAACL 2016. <a href="../WebDocs/BWS-naacl2016.pdf">PDF</a> · <a href="Abstracts/BWS-naacl16.bib.txt">BibTeX</a> · <a href="../WebDocs/NAACL-2016-best-worst.pdf">Slides</a></li>
+            <li><em>Semeval-2016 Task 7</em>. <a href="../WebDocs/semeval2016-task7.pdf">PDF</a> · <a href="../WebPages/Abstracts/Sem16-Task7.bib.txt">BibTeX</a> · <a href="../WebDocs/SemEval-2016-Task7.pdf">Slides</a> · <a href="http://alt.qcri.org/semeval2016/task7/">Task site</a></li>
+          </ul>
+        </details>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="content">
+        <h3>2. <a href="SCL.html#ETSL">SemEval‑2015 English Twitter Sentiment Lexicon</a></h3>
+        <div class="meta">
+          <div class="item"><span class="label">Version</span>1.0 (Feb 2015)</div>
+          <div class="item"><span class="label">Coverage</span>~1,500 terms</div>
+          <div class="item"><span class="label">Scores</span>−1 to 1</div>
+          <div class="item"><span class="label">Creation</span>Manual (BWS); Domain: Twitter</div>
+        </div>
+        <details style="margin-top:12px"><summary>Paper</summary>
+          <ul>
+            <li><em>SemEval-2015 Task 10: Sentiment Analysis in Twitter</em>. <a href="../WebDocs/semeval-2015-task10.pdf">PDF</a> · <a href="http://alt.qcri.org/semeval2015/cdrom/bib/SemEval078.bib">BibTeX</a></li>
+            <li><em>Sentiment Analysis of Short Informal Texts</em>, JAIR 2014. <a href="../WebDocs/NRC-Sentiment-JAIR-2014.pdf">PDF</a> · <a href="../WebDocs/JAIR14-bibtex.txt">BibTeX</a></li>
+          </ul>
+        </details>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="content">
+        <h3>3. <a href="SCL.html#OPP">SCL of Opposing Polarity Phrases (SCL‑OPP)</a> — SemEval‑2016 English Twitter Mixed Polarity</h3>
+        <div class="meta">
+          <div class="item"><span class="label">Version</span>1.0 (Feb 2016)</div>
+          <div class="item"><span class="label">Coverage</span>~1,200 terms</div>
+          <div class="item"><span class="label">Scores</span>−1 to 1</div>
+          <div class="item"><span class="label">Creation</span>Manual (BWS); Domain: Twitter</div>
+        </div>
+        <details style="margin-top:12px"><summary>Papers</summary>
+          <ul>
+            <li><em>Sentiment Composition of Words with Opposing Polarities</em>, NAACL 2016. <a href="../WebDocs/OPP-naacl2016.pdf">PDF</a> · <a href="Abstracts/scl-opp-naacl.bib.txt">BibTeX</a> · <a href="../WebDocs/NAACL-2016-opposing-polarity.pdf">Poster</a></li>
+            <li><em>Happy Accident: A Sentiment Composition Lexicon for Opposing Polarities Phrases</em>, LREC 2016. <a href="../WebDocs/OpposingPolarityLexicon-LREC2016.pdf">PDF</a> · <a href="Abstracts/scl-opp-lrec.bib.txt">BibTeX</a> · <a href="../WebDocs/LREC-2016-Opposing-Polarity-Lexicon-poster.pdf">Poster</a></li>
+            <li><em>Semeval-2016 Task 7</em>. <a href="../WebDocs/semeval2016-task7.pdf">PDF</a> · <a href="../WebPages/Abstracts/Sem16-Task7.bib.txt">BibTeX</a> · <a href="../WebDocs/SemEval-2016-Task7.pdf">Slides</a> · <a href="http://alt.qcri.org/semeval2016/task7/">Task site</a></li>
+          </ul>
+        </details>
+      </div>
+    </article>
+
+    <!-- Colour lexicon -->
+    <h2 class="section-title" id="colour">Manually Curated Word–Colour Association Lexicon</h2>
+    <article class="card">
+      <div class="content">
+        <h3>1. <a href="../Lexicons/NRC-Colour-Lexicon-v0.92.zip">NRC Word–Colour Association Lexicon</a></h3>
+        <div class="meta">
+          <div class="item"><span class="label">Version</span>0.92 (2011)</div>
+          <div class="item"><span class="label">Coverage</span>~14,000 words; ~25,000 senses</div>
+          <div class="item"><span class="label">Categories</span>Black, Blue, Brown, Green, Grey, Orange, Purple, Pink, Red, White, Yellow</div>
+          <div class="item"><span class="label">Scores</span>Binary (0/1) for words; 4-level association at sense level</div>
+          <div class="item"><span class="label">Creation</span>Manual (MTurk); Domain: General</div>
+        </div>
+        <details style="margin-top:12px"><summary>Papers</summary>
+          <ul>
+            <li><em>Colourful Language: Measuring Word–Colour Associations</em>, Saif M. Mohammad, ACL CMCL 2011. <a href="https://www.aclweb.org/anthology/W11-0611">PDF</a> · <a href="http://aclweb.org/anthology-new/W/W11/W11-0611.bib">BibTeX</a> · <a href="../WebDocs/CogMod-colours.pdf">Slides</a></li>
+            <li><em>Even the Abstract have Colour</em>, Saif M. Mohammad, ACL 2011. <a href="https://www.aclweb.org/anthology/P11-2064/">PDF</a> · <a href="http://aclweb.org/anthology-new/P/P11/P11-2064.bib">BibTeX</a> · <a href="../WebDocs/ACL2011-word-colour-associations-poster.pdf">Poster</a></li>
+          </ul>
+        </details>
+      </div>
+    </article>
+
+    <!-- Automatically created lexicons -->
+    <h2 class="section-title" id="auto">Automatically Created Lexicons</h2>
+    <p>Extracted from large corpora using co‑occurrence/statistical signals. These have higher coverage (domain‑specific terms) but may be less precise than manual lexicons.</p>
+
+    <article class="card">
+      <div class="content">
+        <h3>1. <a href="../WebDocs/NRC-Hashtag-Emotion-Lexicon-v0.2.zip">NRC Hashtag Emotion Lexicon</a></h3>
+        <p>Built from tweets tagged with emotion‑word hashtags. <a href="../WebDocs/Jan9-2012-tweets-clean.txt.zip">Hashtag Emotion Corpus (TEC)</a> available.</p>
+        <div class="meta">
+          <div class="item"><span class="label">Version</span>0.2 (2013)</div>
+          <div class="item"><span class="label">Coverage</span>16,862 unigrams</div>
+          <div class="item"><span class="label">Emotions</span>Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, Trust</div>
+          <div class="item"><span class="label">Scores</span>0 to ∞ (association strength)</div>
+          <div class="item"><span class="label">Domain</span>Twitter</div>
+        </div>
+        <details style="margin-top:12px"><summary>Papers</summary>
+          <ul>
+            <li><em>Using Hashtags to Capture Fine Emotion Categories from Tweets</em>, <em>Computational Intelligence</em>, 2015. <a href="http://saifmohammad.com/WebDocs/hashtags-MK.pdf">PDF</a></li>
+            <li><em>#Emotional Tweets</em>, *SEM 2012. <a href="http://ixa2.si.ehu.es/starsem/proc/pdf/STARSEM-SEMEVAL033.pdf">PDF</a></li>
+          </ul>
+        </details>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="content">
+        <h3> <a href="../WebDocs/NRC-Hashtag-Sentiment-Lexicon-v0.1.zip">2. NRC Twitter Sentiment Lexicons</a></h3>
+        <table aria-label="NRC Twitter Sentiment Lexicons">
+          <thead>
+            <tr>
+              <th style="width:28%">Lexicon</th>
+              <th>Version</th>
+              <th>Coverage</th>
+              <th>Scores</th>
+              <th>Creation & Domain</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="../WebDocs/NRC-Hashtag-Sentiment-Lexicon-v0.1.zip">NRC Hashtag Sentiment Lexicon</a></td>
+              <td>1.0 (2013)</td>
+              <td>54,129 unigrams; 316,531 bigrams; 308,808 pairs</td>
+              <td>−∞ to ∞</td>
+              <td>Automatic from sentiment‑hashtag tweets · Domain: Twitter</td>
+            </tr>
+            <tr>
+              <td><a href="../WebDocs/NRC-Hashtag-Sentiment-AffLexNegLex-v1.0.zip">NRC Hashtag Affirmative/Negated Context Lexicons</a></td>
+              <td>1.0 (2014)</td>
+              <td>Affirmative: 36,357 unigrams, 159,479 bigrams · Negated: 7,592 unigrams, 23,875 bigrams</td>
+              <td>−∞ to ∞</td>
+              <td>Automatic from tweets; separate entries for context</td>
+            </tr>
+            <tr>
+              <td><a href="../WebDocs/NRC-Emoticon-Lexicon-v1.0.zip">Emoticon Lexicon (Sentiment140)</a></td>
+              <td>1.0 (2014)</td>
+              <td>62,468 unigrams; 677,698 bigrams; 480,010 pairs</td>
+              <td>−∞ to ∞</td>
+              <td>Automatic from emoticon‑bearing tweets · Domain: Twitter</td>
+            </tr>
+            <tr>
+              <td><a href="../WebDocs/NRC-Emoticon-AffLexNegLex-v1.0.zip">Sentiment140 Affirmative/Negated Context</a></td>
+              <td>1.0 (2014)</td>
+              <td>Affirmative: 45,255 unigrams; 240,076 bigrams · Negated: 9,891 unigrams; 34,093 bigrams</td>
+              <td>−∞ to ∞</td>
+              <td>Automatic from tweets; separate entries for context</td>
+            </tr>
+          </tbody>
+        </table>
+        <details style="margin-top:12px"><summary>Papers (for all four Twitter lexicons)</summary>
+          <ul>
+            <li><em>Sentiment Analysis of Short Informal Texts</em>, JAIR 2014. <a href="../WebDocs/NRC-Sentiment-JAIR-2014.pdf">PDF</a> · <a href="../WebDocs/JAIR14-bibtex.txt">BibTeX</a></li>
+            <li><em>NRC-Canada: Building the State‑of‑the‑Art in Sentiment Analysis of Tweets</em>, SemEval‑2013. <a href="../WebDocs/sentimentMKZ.pdf">PDF</a> · <a href="Abstracts/semeval2013.bib.txt">BibTeX</a></li>
+            <li><em>NRC‑Canada‑2014: Recent Improvements in Sentiment Analysis of Tweets</em>, SemEval‑2014. <a href="../WebDocs/SemEval2014-Task9.pdf">PDF</a></li>
+          </ul>
+        </details>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="content">
+        <h3> <a href="../Lexicons/Yelp-restaurant-reviews.zip"> 3. Yelp & Amazon Sentiment Lexicons</a></h3>
+        <p>
+          a) <a href="../Lexicons/Yelp-restaurant-reviews.zip">Yelp Restaurant Sentiment Lexicon</a>
+          (built from the <a href="https://www.yelp.ca/academic_dataset">Yelp Dataset</a> for <a href="../WebDocs/selected-restCats.txt">selected restaurant categories</a>).<br/>
+          b) <a href="../Lexicons/Amazon-laptop-electronics-reviews.zip">Amazon Laptop Sentiment Lexicon</a>
+        </p>
+        <table>
+          <thead>
+            <tr><th>Resource</th><th>Version</th><th>Coverage</th><th>Scores</th><th>Creation & Domain</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Yelp Restaurant</td><td>1.0 (2014)</td>
+              <td>39,274 unigram entries (incl. affirmative/negated); 276,651 bigram entries</td>
+              <td>−∞ to ∞</td>
+              <td>Automatic from Yelp reviews · Domain: Restaurants</td>
+            </tr>
+            <tr>
+              <td>Amazon Laptop</td><td>1.0 (2014)</td>
+              <td>26,577 unigram entries (incl. affirmative/negated); 155,167 bigram entries</td>
+              <td>−∞ to ∞</td>
+              <td>Automatic from Amazon reviews · Domain: Laptops</td>
+            </tr>
+          </tbody>
+        </table>
+        <details style="margin-top:12px"><summary>Paper</summary>
+          <ul>
+            <li><em>NRC‑Canada‑2014: Detecting Aspects and Sentiment in Customer Reviews</em>, SemEval‑2014. <a href="../WebDocs/NRC-SemEval2014-Task4.pdf">PDF</a> · <a href="http://alt.qcri.org/semeval2014/cdrom/bib/SemEval076.bib">BibTeX</a></li>
+          </ul>
+        </details>
+        <p style="margin-top:8px">Related: <a href="../WebDocs/NRC_Yelp_Word_Aspect_Association_Lexicons.zip">Yelp Word–Aspect Association Lexicons</a></p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="content">
+        <h3>4. <a href="../Lexicons/MSOL-June15-09.txt.zip">Macquarie Semantic Orientation Lexicon</a> (MSOL)</h3>
+        <div class="meta">
+          <div class="item"><span class="label">Version</span>0.1 (2009)</div>
+          <div class="item"><span class="label">Coverage</span>76,400 terms</div>
+          <div class="item"><span class="label">Categories</span>Positive/Negative</div>
+          <div class="item"><span class="label">Scores</span>Binary (pos/neg)</div>
+          <div class="item"><span class="label">Creation</span>Automatic using thesaurus structure & affixes · Domain: General</div>
+        </div>
+        <details style="margin-top:12px"><summary>Paper</summary>
+          <ul>
+            <li><em>Generating High‑Coverage Semantic Orientation Lexicons From Overtly Marked Words and a Thesaurus</em>, EMNLP 2009. <a href="../WebDocs/Mohammad-Dunne-Dorr-SO-EMNLP09.pdf">PDF</a></li>
+          </ul>
+        </details>
+      </div>
+    </article>
+
+    <!-- Common resources -->
+    <h2 class="section-title" id="resources">Commonly Accessed Resources</h2>
+    <article class="card">
+      <div class="content">
+        <ul>
+          <li><a href="NRC-Emotion-Lexicon.htm">EmoLex homepage</a></li>
+			<li><a href="nrc-vad.html">NRC Valence, Arousal, Dominance (VAD) Lexicon</a></li>
+			<li><a href="warmth.html">NRC Words of Warmth (WoW) Lexicon</li>
+			<li><a href="../worrywords.html">NRC WorryWords Lexicon</a></li>
+          <li><a href="SCL.html">Sentiment Composition Lexicons homepage</a></li>
+          <li><a href="ArabicSA.html">Arabic Sentiment Lexicons and Corpora</a></li>
+          <li><a href="BestWorst.html">Best–Worst Scaling (software & annotations)</a></li>
+          <li><a href="NRC-Canada-Sentiment.htm">NRC‑Canada sentiment analysis system</a></li>
+          <li><a href="https://github.com/felipebravom/AffectiveTweets">AffectiveTweets (Weka filters package)</a></li>
+          <li><em>Poster:</em> <a href="../WebDocs/CA-poster-final.pdf">Overview of work in Affective Computing from 2010 to 2018</a></li>
+          <!-- <li><em>Students interested in working with Saif:</em> <a href="Students.html">information page</a></li> -->
+        </ul>
+      </div>
+    </article>
+
+    <!-- Terms of use -->
+    <h2 class="section-title" id="terms">Terms of Use</h2>
+    <article class="card">
+      <div class="content">
+        <ul>
+          <li>Lexicons here are free for research purposes. Cite the associated papers in publications using them (see each section and README files).</li>
+          <li>For <strong>commercial use</strong>, email <a href="../index.html">Saif M. Mohammad</a> (saif.mohammad@nrc-cnrc.gc.ca) and Pierre Charron (Pierre.Charron@nrc-cnrc.gc.ca). A nominal one‑time licensing fee may apply.</li>
+          <li>In news articles and online posts using these resources, attribute appropriately (e.g., “This application uses &lt;resource&gt; by &lt;author(s)&gt; at the National Research Council Canada”) and link to <a href="http://saifmohammad.com/WebPages/lexicons.html">this page</a>.</li>
+          <li>If you use a lexicon in a product or application, acknowledge it in the “About” page and docs with authors and NRC, and link to this page when possible.</li>
+          <li>Do <strong>not redistribute</strong> the data; direct others to <a href="http://saifmohammad.com/WebPages/lexicons.html">this page</a>.</li>
+          <li>NRC disclaims responsibility for usage and does not provide technical support, but the contact above is happy to clarify.</li>
+        </ul>
+      </div>
+    </article>
+
+    <footer>
+      <p>© National Research Council Canada — Compiled resources on sentiment, emotion, and colour associations in language.</p>
+    </footer>
+  </main>
+</body>
+</html>

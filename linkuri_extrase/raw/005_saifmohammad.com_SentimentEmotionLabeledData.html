@@ -1,0 +1,520 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;
+      charset=windows-1252">
+    <meta name="GENERATOR" content="Mozilla/4.78 [en] (X11; U; Linux
+      2.4.20-30.7.legacy i686) [Netscape]">
+    <title>Saif | Emotion and Sentiment Data</title>
+    <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+    <script>var __adobewebfontsappname__="dreamweaver"</script>
+    <script src="http://use.edgefonts.net/eb-garamond:n4:default.js" type="text/javascript"></script>
+    <style>
+li{
+  margin: -15px 0;
+}
+
+body{
+	background: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	margin-left: 12%;
+	margin-right: 12%;
+}#menu_wrap{position:relative;margin-top:20px;margin-left:auto;margin-right:auto;padding:0; padding-right:10px;width:100%;height:40px;list-style-type:none;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;-webkit-box-shadow:0 1px 3px rgba(0,0,0,.2);-moz-box-shadow:0 1px 3px rgba(0,0,0,.2);box-shadow:0 1px 3px rgba(0,0,0,.2)}.button a{cursor:pointer;text-align:center;font:14px/100% Arial, Helvetica, sans-serif;font-weight:bold;position:relative;min-width:50px;height:20px;float:left;padding:10px;padding-top:10px;padding-bottom:10px;text-decoration:none;text-shadow:0 1px 1px rgba(0,0,0,.3)}.button:first-child a{-webkit-border-top-left-radius:0px;-webkit-border-bottom-left-radius:0px;-moz-border-topleft-radius:0px;-moz-border-bottomleft-radius:0px;border-top-left-radius:0;border-bottom-left-radius:0px}.Gray,.Gray .button a{color:#e9e9e9;background: #888888;border-right:solid 1px #575757;background: -moz-linear-gradient(top, #888888 0%, #575757 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#888888), color-stop(100%,#575757));background: -webkit-linear-gradient(top, #888888 0%,#575757 100%);background: -o-linear-gradient(top, #888888 0%,#575757 100%);background: -ms-linear-gradient(top, #888888 0%,#575757 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#575757',GradientType=0 );background: linear-gradient(top, #888888 0%,#575757 100%);}.Gray .button a:hover,.Gray .button a:focus{background: #757575;background: -moz-linear-gradient(top, #757575 0%, #4b4b4b 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#757575), color-stop(100%,#4b4b4b));background: -webkit-linear-gradient(top, #757575 0%,#4b4b4b 100%);background: -o-linear-gradient(top, #757575 0%,#4b4b4b 100%);background: -ms-linear-gradient(top, #757575 0%,#4b4b4b 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', endColorstr='#4b4b4b',GradientType=0 );background: linear-gradient(top, #757575 0%,#4b4b4b 100%);}.Gray .button a:active{color:#afafaf;background: #575757;background: -moz-linear-gradient(top, #575757 0%, #888888 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#575757), color-stop(100%,#888888));background: -webkit-linear-gradient(top, #575757 0%,#888888 100%);background: -o-linear-gradient(top, #575757 0%,#888888 100%);background: -ms-linear-gradient(top, #575757 0%,#888888 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#575757', endColorstr='#888888',GradientType=0 );background: linear-gradient(top, #575757 0%,#888888 100%);}.button:last-child a{float:left;border:none; -webkit-border-top-right-radius:0px;-webkit-border-bottom-right-radius:0px;-moz-border-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px}
+
+body{
+	background: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	margin-left: 12%;
+	margin-right: 12%;
+}#menu_wrap2{position:relative;margin-top:20px;margin-left:auto;margin-right:auto;padding:0; padding-right:0px;width:95%;height:30px;list-style-type:none;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;-webkit-box-shadow:0 1px 3px rgba(0,0,0,.2);-moz-box-shadow:0 1px 3px rgba(0,0,0,.2);box-shadow:0 1px 3px rgba(0,0,0,.2)}.button2 a{cursor:pointer;text-align:center;font:13px/100% Arial, Helvetica, sans-serif;font-weight:bold;position:relative;min-width:50px;height:20px;float:left;padding:10px;padding-top:5px;padding-bottom:5px;text-decoration:none;text-shadow:0 1px 1px rgba(0,0,0,.3)}.button2:first-child a{-webkit-border-top-left-radius:0px;-webkit-border-bottom-left-radius:0px;-moz-border-topleft-radius:0px;-moz-border-bottomleft-radius:
+0px;border-top-left-radius:0;border-bottom-left-radius:0px}.White,.White .button2 a{color:#d9eef7;background: #00adee;border-right:solid 1px
+#0078a5;background: -moz-linear-gradient(top, #00adee 0%, #0078a5
+100%);background: -webkit-gradient(linear, left top, left bottom,
+color-stop(0%,#00adee), color-stop(100%,#0078a5));background:
+-webkit-linear-gradient(top, #00adee 0%,#0078a5 100%);background:
+-o-linear-gradient(top, #00adee 0%,#0078a5 100%);background:
+-ms-linear-gradient(top, #00adee 0%,#0078a5 100%);filter:
+progid:DXImageTransform.Microsoft.gradient( startColorstr='#00adee',
+endColorstr='#0078a5',GradientType=0 );background: linear-gradient(top, #00adee
+0%,#0078a5 100%);}.White .button2 a:hover,.White .button2 a:focus{background:
+#0095cc;background: -moz-linear-gradient(top, #0095cc 0%, #00678e
+100%);background: -webkit-gradient(linear, left top, left bottom,
+color-stop(0%,#0095cc), color-stop(100%,#00678e));background:
+-webkit-linear-gradient(top, #0095cc 0%,#00678e 100%);background:
+-o-linear-gradient(top, #0095cc 0%,#00678e 100%);background:
+-ms-linear-gradient(top, #0095cc 0%,#00678e 100%);filter:
+progid:DXImageTransform.Microsoft.gradient( startColorstr='#0095cc',
+endColorstr='#00678e',GradientType=0 );background: linear-gradient(top, #0095cc
+0%,#00678e 100%);}.Blue .button2 a:active{background: #0078a5;background:
+-moz-linear-gradient(top, #0078a5 0%, #00adee 100%);background:
+-webkit-gradient(linear, left top, left bottom, color-stop(0%,#0078a5),
+color-stop(100%,#00adee));background: -webkit-linear-gradient(top, #0078a5
+0%,#00adee 100%);background: -o-linear-gradient(top, #0078a5 0%,#00adee
+100%);background: -ms-linear-gradient(top, #0078a5 0%,#00adee 100%);filter:
+progid:DXImageTransform.Microsoft.gradient( startColorstr='#0078a5',
+endColorstr='#00adee',GradientType=0 );background: linear-gradient(top, #0078a5
+0%,#00adee 100%);}.search{position:relative;float:right;margin-top:10px;}.search
+input[type=text]{width:120px;height:20px;padding-left:18px;margin-left:10px;padding-right:4px;outline:none;border:
+none;-webkit-border-radius: 20px; -moz-border-radius: 20px;border-radius:
+20px;-moz-box-shadow: inset 1px 1px 3px #7a7a7a;box-shadow: inset 1px 1px 3px
+#7a7a7a;}.search a:before {width:6px;height:6px;border:2px solid
+#000;background:transparent;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;}.search
+a:after
+{left:24px;width:2px;height:7px;margin-top:0;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);}li
+a:before, li a:after {content:"";position:absolute;top:50%;left:15px;}li
+a:before, li a:after {margin:-7px 0 0;background: #000;}
+<! End Menu code>
+.Gray1 {color:#e9e9e9;background: #888888;border-right:solid 1px #575757;background: -moz-linear-gradient(top, #888888 0%, #575757 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#888888), color-stop(100%,#575757));background: -webkit-linear-gradient(top, #888888 0%,#575757 100%);background: -o-linear-gradient(top, #888888 0%,#575757 100%);background: -ms-linear-gradient(top, #888888 0%,#575757 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#575757',GradientType=0 );background: linear-gradient(top, #888888 0%,#575757 100%);}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+    <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;border:none;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
+.tg .tg-s6z2{text-align:center}
+.tg .tg-2f08{
+	font-weight: bold;
+	font-size: 16px;
+	font-family: "Times New Roman", Times, serif !important;
+	;
+	background-color: #ffffff;
+	color: #343434;
+	text-align: left;
+}
+.tg .tg-oksl{background-color:#d2e4fc;text-align:center}
+.tg .tg-yw4l{text-align:center}
+.tg .tg-5hgy{background-color:#D2E4FC;text-align:center}
+th.tg-sort-header::-moz-selection { background:transparent; }th.tg-sort-header::selection      { background:transparent; }th.tg-sort-header { cursor:pointer; }table th.tg-sort-header:after {  content:'';  float:right;  margin-top:7px;  border-width:0 4px 4px;  border-style:solid;  border-color:#404040 transparent;  visibility:hidden;  }table th.tg-sort-header:hover:after {  visibility:visible;  }table th.tg-sort-desc:after,table th.tg-sort-asc:after,table th.tg-sort-asc:hover:after {  visibility:visible;  opacity:0.4;  }table th.tg-sort-desc:after {  border-bottom:none;  border-width:4px 4px 0;  }
+</style>
+  <script src='/google_analytics_auto.js'></script></head>
+  <body link="#3333FF" vlink="#551A8B" text="#000000" bgcolor="#FFFFFF"
+    alink="#0000EE">
+    <br>
+    <!-- Menu code-->
+    <ul id="menu_wrap" class="Gray">
+      <li class="button"><a href="http://saifmohammad.com">Home</a></li>
+      <li class="button"></li>
+      <li class="button"><a
+          href="http://saifmohammad.com/WebPages/ResearchAreas.html">Research</a></li>
+      <li class="button"><a
+          href="http://saifmohammad.com/WebPages/ResearchInterests.html">Publications</a></li>
+      <li class="button"><a
+          href="http://saifmohammad.com/WebPages/lexicons.html">Lexicons</a></li>
+      <li class="button"><a
+          href="http://saifmohammad.com/WebPages/SentimentEmotionLabeledData.html">Labeled
+          Data</a></li>
+      <li class="button"><a
+          href="http://saifmohammad.com/WebPages/invitedtalks.html">Invited
+          Talks</a></li>
+      <li class="button"><a
+          href="http://saifmohammad.com/WebPages/contact.htm">Contact</a></li>
+    </ul>
+    <p>
+      <!-- End Menu code-->
+      <!-- Menu code-->
+      <!-- End Menu code--> <span style="font-family:
+        eb-garamond;font-style: normal;font-weight: 400;"></span>
+    </p>
+    <table cellspacing="0" cellpadding="0" width="99%" border="0">
+      <tbody>
+        <tr style="text-align: justify; color: #000;" align="center">
+          <td>
+            <p><font size="5" color="#990000"><strong>Emotion,
+                  Sentiment, and Stance Labeled Data</strong></font></p>
+            <p><em>This page lists various collections of sentences,
+                tweets and documents annotated for categories such as
+                sentiment, emotion, stance, and metaphor. </em><span
+                style="color: #000"><em>Several word-emotion lexicons
+                  (such as the NRC Emotion Lexicon) and word-sentiment
+                  lexicons (such as our sentiment composition lexicons)
+                  are available on this <a href="lexicons.html">other
+                    page</a>. </em></span> <em>If you are a student
+                interested in working with me, <a href="Students.html">go
+                  here</a>. </em></p>
+            <p></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <span style="font-size: small"><br>
+    </span>
+    <blockquote></blockquote>
+    <p> </p>
+    <table cellspacing="0" cellpadding="0" width="99%" border="0">
+      <tbody>
+        <tr style="text-align: justify" align="center">
+          <td> <map name="MapMap4">
+              <area shape="poly"
+coords="138,106,136,92,122,79,118,89,100,71,94,69,90,57,100,49,112,31,122,28,122,14,110,12,79,0,69,8,63,25,65,35,21,53,0,96,0,108,12,124,34,130,59,133,97,130,116,122"
+                href="../index.html" alt="Home">
+            </map>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td>Contact: <a href="../index.html">Saif M. Mohammad</a>
+            (saif.mohammad@nrc-cnrc.gc.ca)</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr style="text-align: justify" align="center">
+          <td bgcolor="#FFFFFF"> <span style="color: #900"><strong>Terms
+                of use:</strong></span>
+            <ul>
+              <li>The resources listed here are available free for
+                research purposes. Cite the papers associated with the
+                resources in your research papers and articles that make
+                use of them. (The papers associated with each resource
+                are listed below, and also in the individual READMEs.) <br>
+                <br>
+                <br>
+              </li>
+              <li>Do not redistribute the data. Direct interested
+                parties to this page: <br>
+                <a href="http://saifmohammad.com/WebPages/lexicons.html">http://saifmohammad.com/WebPages/SentimentEmotionLabeledData.html</a><br>
+                <br>
+                <br>
+              </li>
+              <li>National Research Council Canada (NRC) disclaims any
+                responsibility for the use of the lexicons listed here
+                and does not provide technical support. However, the
+                contact listed above will be happy to respond to queries
+                and clarifications.</li>
+            </ul>
+            <p><br>
+            See full terms of use at the bottom of ths page.</p>
+            <p><span style="color: #900"><strong>Emotion, Sentiment, and
+                  Stance Labeled Data</strong></span></p>
+            <p><em>Art annotated for emotion, likability, and more</em></p>
+            <blockquote>
+              <p><a href="http://saifmohammad.com/WebPages/wikiartemotions.html">The WikiArt Emotions Dataset</a></p>
+              <p>WikiArt Emotions: An Annotated Dataset of Emotions Evoked by Art.&nbsp;Saif M. Mohammad and Svetlana Kiritchenko.&nbsp;In&nbsp;<em>Proceedings of the&nbsp;11th Edition of the Language Resources and Evaluation Conference (LREC-2018)</em>, May 2018, Miyazaki, Japan.<br>
+                <a href="../WebDocs/lrec2018-paper-art-emotion.pdf">Paper (pdf)</a><a href="WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp; <a href="Abstracts/ArtEmo.bib.txt">BibTeX</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../WebDocs/Art-poster-2018-8.pdf">Poster</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+                  href="http://saifmohammad.com/WebPages/wikiartemotions.html">Project
+                  
+                  Page and Data</a></p>
+            </blockquote>
+            <p><em>Tweets annotated for emotion and sentiment intensity</em></p>
+            <blockquote>
+              <p><a
+                  href="https://competitions.codalab.org/competitions/17751">SemEval-2018
+                  Task 1: Affect in Tweets Data</a>: available at the
+                webpage for shared task (includes 31 different datasets corresponding to various taks and languages).<br>
+              </p>
+              <blockquote>
+                <p>Saif M. Mohammad, Felipe Bravo-Marquez, Mohammad
+                  Salameh, and Svetlana Kiritchenko. 2018. Semeval-2018
+                  Task 1: Affect in tweets. In Proceedings of
+                  International Workshop on Semantic Evaluation
+                  (SemEval-2018), New Orleans, LA, USA, June 2018. </p>
+                Understanding Emotions: A Dataset of Tweets to Study
+                Interactions between Affect Categories. Saif M. Mohammad
+                and Svetlana Kiritchenko. In Proceedings of the 11th
+                Edition of the Language Resources and Evaluation
+                Conference (LREC-2018), May 2018, Miyazaki, Japan.<br>
+              </blockquote>
+              <p><br>
+                <a
+                  href="http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html">EmoInt2017
+                  Data</a>: available at the webpage for shared task on
+                detecting emotion intensity at WASSA-2017. (Includes four datasets pertaining to four emotions.)<br>
+              </p>
+              <blockquote>
+                <p><a
+                    href="http://saifmohammad.com/WebDocs/EmoInt-2017.pdf">WASSA-2017
+                    Shared Task on Emotion Intensity.</a> Saif M.
+                  Mohammad and Felipe Bravo-Marquez. In <em>Proceedings
+                    of the EMNLP 2017 Workshop on Computational
+                    Approaches to Subjectivity, Sentiment, and Social
+                    Media (WASSA)</em>, September 2017, Copenhagen,
+                  Denmark.<br>
+                  <a
+                    href="http://saifmohammad.com/WebDocs/EmoInt-2017.pdf">Paper
+                    (pdf)</a>&nbsp;&nbsp; <a
+                    href="http://saifmohammad.com/WebPages/Abstracts/WASSA-EmoInt.bib.txt">BibTex</a><a
+href="http://saifmohammad.com/WebPages/Abstracts/StarSem-EmoIntData.bib.txt">
+                  </a><a
+                    href="http://saifmohammad.com/WebPages/WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp;
+                  <a
+                    href="http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html">Data
+                    and Shared Task</a><a
+                    href="http://saifmohammad.com/WebPages/WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp;
+                  Presentation</p>
+                <p><a
+href="http://saifmohammad.com/WebDocs/TweetEmotionIntensities-starsem2017.pdf">Emotion
+                    Intensities in Tweets.</a> Saif M. Mohammad and
+                  Felipe Bravo-Marquez. In <em>Proceedings of the Sixth
+                    Joint Conference on Lexical and Computational
+                    Semantics (*Sem)</em>, August 2017, Vancouver,
+                  Canada.<br>
+                  <a
+href="http://saifmohammad.com/WebDocs/TweetEmotionIntensities-starsem2017.pdf">Paper
+                    (pdf)</a><a
+                    href="http://saifmohammad.com/WebPages/WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp;
+                  <a
+href="http://saifmohammad.com/WebPages/Abstracts/StarSem-EmoIntData.bib.txt">BibTex
+                  </a><a
+                    href="http://saifmohammad.com/WebPages/WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp;
+                  <a
+                    href="http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html">Data
+                    and Shared Task</a><a
+                    href="http://saifmohammad.com/WebPages/WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp;<a
+href="https://github.com/felipebravom/AffectiveTweets"> AffectiveTweets
+                    package</a><a
+                    href="http://saifmohammad.com/WebPages/WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp;
+                  Presentation</p>
+              </blockquote>
+            </blockquote>
+            <p><em>Tweets with emotion word hashtags</em></p>
+            <blockquote>
+              <p><strong>#Emotional Tweets</strong>, Saif Mohammad, In
+                Proceedings of the First Joint Conference on Lexical and
+                Computational Semantics (*Sem), June 2012, Montreal,
+                Canada. <br>
+                <a
+                  href="http://ixa2.si.ehu.es/starsem/proc/pdf/STARSEM-SEMEVAL033.pdf">Paper
+                  (pdf)</a>&nbsp;&nbsp;&nbsp; <a
+href="The%20Hashtag%20Emotion%20Corpus%20%28aka%20Twitter%20Emotion%20Corpus,%20or%20TEC%29%20has%20tweets%20with%20emotion%20word%20hashtags.%20It%20was%20used%20to%20create%20the%20NRC%20Hashtag%20Emotion%20Lexicon.">BibTeX<br>
+                  <br>
+                </a> The <a
+                  href="../WebDocs/Jan9-2012-tweets-clean.txt.zip">Hashtag
+                  Emotion Corpus (aka Twitter Emotion Corpus, or TEC)</a>
+                has tweets with emotion word hashtags. It was used to
+                create the <a href="AccessResource.htm">NRC Hashtag
+                  Emotion Lexicon</a>.</p>
+            </blockquote>
+            <p><em>Tweets annotated for sentiment and stance towards
+              pre-chosen targets</em><em></em></p>
+            <blockquote>
+              <p><strong>Detecting Stance in Tweets And Analyzing its
+                  Interaction with Sentiment.</strong> Parinaz Sobhani,
+                Saif M. Mohammad, and Svetlana Kiritchenko. In <em>Proceedings
+                  of the Joint Conference on Lexical and Computational
+                  Semantics (*Sem)</em>, August 2016, Berlin, Germany. <br>
+                <a href="../WebDocs/StarSem2016-stance-tweets.pdf">Paper
+                  (pdf)</a>&nbsp;&nbsp;&nbsp;<a
+                  href="Abstracts/stance-sem.bib.txt">BibTeX</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="WebDocs/StarSem-stance-talk.pdf">Presentation</a>
+                &nbsp;&nbsp; <a href="../WebPages/StanceDataset.htm">Data
+                  and Visualization</a> </p>
+            </blockquote>
+            <p><em>Tweets annotated for sentiment, and part of the
+                SemEval-2015 share task #10</em></p>
+            <blockquote>
+              <p align="justify">Data available at the webpage for <a
+href="http://alt.qcri.org/semeval2015/task10/index.php?id=data-and-tools">SemEval-2015
+                  shared task #10: Sentiment Analysis in Twitter.</a></p>
+              <p align="justify"><a
+href="http://link.springer.com/article/10.1007/s10579-015-9328-1?wt_mc=internal.event.1.SEM.ArticleAuthorOnlineFirst">Developing
+                  a Successful SemEval Task in Sentiment Analysis of
+                  Twitter and Other Social Media Texts</a>.<em> </em>Preslav
+                Nakov, Sara Rosenthal, Svetlana Kiritchenko, Saif M.
+                Mohammad, Zornitsa Kozareva, Alan Ritter, Veselin
+                Stoyanov, and Xiaodan Zhu.<em> Language Resources and
+                  Evaluation.</em> March 2016, Volume 50, Issue 1, pages
+                35-65.<br>
+                <a
+href="http://download.springer.com/static/pdf/330/art%3A10.1007/s10579-015-9328-1.pdf?originUrl=http%3A//link.springer.com/article/10.1007/s10579-015-9328-1&amp;token2=exp=1454013612%7Eacl=/static/pdf/330/art%3A10.1007%2Fs10579-015-9328-1.pdf?originUrl=http%3A//link.springer.com/article/10.1007/s10579-015-9328-1*%7Ehmac=9db62cd19d17404a09f770136e71ae2c594361c16ac792a1bcbd6649b1592ee2">Paper
+                  (pdf)&nbsp;&nbsp;&nbsp; </a><a
+                  href="WebDocs/developing-successful-semeval.pdf">Preprint
+                  Version</a>&nbsp;&nbsp;&nbsp; <a
+                  href="Abstracts/LREV2016-Nakov-bib.txt">BibTeX</a></p>
+              <p><strong>SemEval-2015 Task 10: Sentiment Analysis in
+                  Twitter</strong>. Sara Rosenthal, Preslav Nakov,
+                Svetlana Kiritchenko, Saif M Mohammad, Alan Ritter, and
+                Veselin Stoyanov. In Proceedings of the ninth
+                international workshop on Semantic Evaluation Exercises
+                (SemEval-2015), June 2015, Denver, Colorado.<br>
+                <a href="../WebDocs/semeval-2015-task10.pdf">Paper
+                  (pdf)&nbsp;</a>&nbsp;&nbsp;<a
+                  href="http://alt.qcri.org/semeval2015/cdrom/bib/SemEval078.bib">BibTeX</a>
+              </p>
+            </blockquote>
+            <p><em>Electoral/Political tweets annotated for sentiment,
+                emotion, purpose and style</em></p>
+            <blockquote>
+              <p><strong><a
+href="http://www.sciencedirect.com/science/article/pii/S0306457314000880">Sentiment,
+                    Emotion, Purpose, and Style in Electoral Tweets.</a></strong>
+                Saif M. Mohammad, Svetlana Kiritchenko, Xiaodan Zhu, and
+                Joel Martin. <em>Information Processing and Management</em>,
+                Volume 51, Issue 4, July 2015, Pages 480–499.<strong><br>
+                </strong><a href="../WebDocs/tweetSentiment.pdf">Paper
+                  (pdf)</a>&nbsp;&nbsp;&nbsp; <a
+href="http://www.sciencedirect.com/science/article/pii/S0306457314000880">BibTeX</a><strong>
+                  &nbsp;&nbsp;&nbsp; </strong><a
+                  href="../WebDocs/ElectoralTweetsData.zip">AnnotatedData</a><strong>&nbsp;&nbsp;&nbsp;
+                </strong><a
+                  href="http://www.purl.org/net/PoliticalTweets2012">UnannotatedData</a></p>
+              <p><strong>Semantic Role Labeling of Emotions in Tweets.</strong>
+                Saif M. Mohammad, Xiaodan Zhu, and Joel Martin, In
+                Proceedings of the ACL 2014 Workshop on Computational
+                Approaches to Subjectivity, Sentiment, and Social Media
+                (WASSA), June 2014, Baltimore, MD.<br>
+                <a href="WebDocs/whowhatwhom.pdf">Paper (pdf)&nbsp;</a>&nbsp;&nbsp;
+                <a
+href="http://aclanthology.info/papers/semantic-role-labeling-of-emotions-in-tweets.bib">BibTeX</a><strong>
+              &nbsp;&nbsp;&nbsp; </strong><a
+                  href="../WebDocs/ElectoralTweetsData.zip">AnnotatedData</a></p>
+            </blockquote>
+            <p><a href="../WebDocs/SentimentAfterTranslation-Data.zip"><em>Arabic
+                  BBN blog posts and Syrian tweets</em></a><em>
+                translated manaually and automatically into English and
+                annotated for sentiment. The original Arabic text is
+                also annotated for sentiment.</em></p>
+            <blockquote>
+              <p>BBN blog posts: A subset of 1200 Arabic (Levantine
+                dialect) sentences chosen from the <a
+                  href="https://catalog.ldc.upenn.edu/LDC2012T09">BBN
+                  Arabic-Dialect/English Parallel Text</a>. The
+                sentences are extracted social media posts and provided
+                with their translation. We manually annotated this
+                subset and its translations (both manual and automatic)
+                for sentiment (positive, negative, or neutral).</p>
+              <p>Syrian tweets: dataset of 2000 tweets originating from
+                Syria (a country where Levantine dialectal Arabic is
+                commonly spoken). These tweets were collected in May
+                2014 by polling the Twitter API. This dataset is not
+                provided with manual English translation. We manually
+                annotated this subset and its translations (both manual
+                and automatic) for sentiment (positive, negative, or
+                neutral).</p>
+              <p><strong><font face="Poor Richard" size="5"
+                    color="#990000"><strong><font face="Poor Richard"
+                        size="5" color="#990000"><a
+                          name="ArabicSentiment" id="EmotionAnalysis7"></a></font></strong></font>Sentiment
+                  After Translation: A Case-Study on Arabic Social Media
+                  Posts</strong>. Mohammad Salameh, Saif M Mohammad and
+                Svetlana Kiritchenko, In<em><em><em> Proceedings of the
+                    </em>North American Chapter of the Association for
+                    Computational Linguistics (NAACL-2015), </em></em>June
+                2015, Denver, Colorado.<br>
+                <a href="../WebDocs/SentimentAfterTranslation.pdf">Paper
+                  (pdf)</a>&nbsp;&nbsp;&nbsp;<a
+                  href="http://aclweb.org/anthology/N/N15/N15-1078.bib">BibTeX</a>&nbsp;&nbsp;
+                <a href="http://saifmohammad.com/WebPages/ArabicSA.html">Data:
+                  Arabic Sentiment Lexicons</a> </p>
+            </blockquote>
+            <p><em>WordNet sentences annotated for metaphoric vs.
+                literal and emotional vs. not emotional impact of verbs.</em></p>
+            <blockquote>
+              <p><strong>Metaphor as a Medium for Emotion: An Empirical
+                  Study</strong>, Saif M. Mohammad, Ekaterina Shutova,
+                and Peter Turney. In <em>Proceedings of the Joint
+                  Conference on Lexical and Computational Semantics
+                  (*Sem)</em>, August 2016, Berlin, Germany. <br>
+                <a href="../WebDocs/starsem2016-metaphor-emotion.pdf">Paper
+                  (pdf)</a>&nbsp;&nbsp;&nbsp;<a
+                  href="../WebPages/Abstracts/metaphor-sem.bib.txt">BibTeX&nbsp;</a>
+                &nbsp;&nbsp;<a href="../WebDocs/metaphor-emotion.pdf">Presentation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </a><a
+                  href="http://saifmohammad.com/WebPages/metaphor.html">Data
+                  and Interactive Visualization</a></p>
+            </blockquote>
+            <p><em>Documents</em></p>
+            <blockquote>
+              <p><a href="../WebDocs/LoveHateSuicide.tar.gz">Collections</a>
+                of love letters, hate mail, and suicide notes.<br>
+                A <a href="../WebDocs/dir-email-gender.txt">mapping</a>
+                of directory names in the Enron email corpus to email
+                ids and to gender.</p>
+            </blockquote>
+            <p dir="ltr"><strong id="docs-internal-guid-8e0992b5-7fff-d9da-77ad-9038c9dec1d5"><br>
+            Designated Contact Person: <br>
+            </strong></p>
+            <blockquote>
+              <p dir="ltr">Dr. <a href="http://saifmohammad.com/index.html">Saif M. Mohammad <br>
+                </a>Senior Research Officer at NRC (and one of the creators of the resource on this page)<br>
+                saif.mohammad@nrc-cnrc.gc.ca</p>
+            </blockquote>
+            <p dir="ltr"><strong>Terms of Use:</strong></p>
+            <ol>
+              <li dir="ltr" aria-level="1">
+                <p dir="ltr" role="presentation">All rights for the resource(s) listed on this page are held by National Research Council Canada.</p>
+              </li>
+              <li dir="ltr" aria-level="1">
+                <p dir="ltr" role="presentation">The resources listed here are available free for research purposes. If you make use of them, cite the paper(s) associated with the resource in your research papers and articles.</p>
+              </li>
+              <li dir="ltr" aria-level="1">
+                <p dir="ltr" role="presentation">If interested in commercial use of any of these resources, send email to the designated contact person. A nominal one-time licensing fee may apply.</p>
+              </li>
+              <li dir="ltr" aria-level="1">
+                <p dir="ltr" role="presentation">If referenced in news articles and online posts, then cite the resource appropriately. For example: "This application/product/tool makes use of the &lt;resource name&gt;, created by &lt;author(s)&gt; at the National Research Council Canada." If possible, hyperlink the resource name to this page.</p>
+              </li>
+              <li dir="ltr" aria-level="1">
+                <p dir="ltr" role="presentation">If you use the resource in a product or application, then acknowledge this in the 'About' page and other relevant documentation of the application by stating the name of the resource, the authors, and NRC. For example: "This application/product/tool makes use of the &lt;resource name&gt;, created by &lt;author(s)&gt; at the National Research Council Canada." If possible, hyperlink the resource name to this page.</p>
+              </li>
+              <li dir="ltr" aria-level="1">
+                <p dir="ltr" role="presentation">Do not redistribute the resource/data. Direct interested parties to this page. They can also email the designated contact person.</p>
+              </li>
+              <li dir="ltr" aria-level="1">
+                <p dir="ltr" role="presentation">If you create a derivative resource from one of the resources listed on this page:&nbsp;</p>
+              </li>
+              <ol>
+                <li dir="ltr" aria-level="2">
+                  <p dir="ltr" role="presentation">Please ask users to cite the source data paper (in addition to your paper).&nbsp;</p>
+                </li>
+                <li dir="ltr" aria-level="2"> Do not distribute the source data. See #6 above.</li>
+              </ol>
+            </ol>
+            <blockquote>
+              <p dir="ltr">Examples of derivative resources include: translations into other languages, added annotations to the text instances, aggregations of multiple datasets, etc.</p>
+            </blockquote>
+            <ol start="8">
+              <li dir="ltr" aria-level="1">
+                <p dir="ltr" role="presentation">If you are interested in uploading our resource on a third-party website or to include the resource in any collection/aggregate of datasets, then:</p>
+              </li>
+              <ol>
+                <li dir="ltr" aria-level="2">
+                  <p dir="ltr" role="presentation">Email the designated contact person to begin the process to obtain permission.</p>
+                </li>
+                <li dir="ltr" aria-level="2"> After obtaining permission, any curator of datasets that includes a resource listed here must take steps to ensure that users of the aggregate dataset still cite the papers associated with the individual datasets. This includes at minimum: stating this clearly in the README and providing the citing information of the source dataset.</li>
+              </ol>
+            </ol>
+            <blockquote>
+              <p dir="ltr">By default, no one other than the creators of the resource have permission to upload the resource on a third-party website or to include the resource in any collection/aggregate of datasets. </p>
+            </blockquote>
+            <ol start="9">
+              <li dir="ltr" aria-level="1">
+                <p dir="ltr" role="presentation">National Research Council Canada (NRC) disclaims any responsibility for the use of the resource(s) listed on this page and does not provide technical support. However, the contact listed above will be happy to respond to queries and clarifications.</p>
+              </li>
+            </ol>
+            <p dir="ltr"><br>
+            If you send us an email, we will be thrilled to know about how you have used the resource.            </p>
+            <div align="justify">
+              <blockquote>
+                <blockquote>&nbsp;</blockquote>
+              </blockquote>
+            </div>
+          </td>
+        </tr>
+        <tr style="text-align: justify" align="center">
+          <td bgcolor="#FFFFFF">
+            <div align="right">
+              <hr> <font face="Poor Richard">Last Updated: March 2016</font></div>
+          </td>
+        </tr>
+        <tr style="text-align: justify" align="center">
+          <td bgcolor="#FFFFFF">&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+    <p> </p>
+    <center>&nbsp; </center>
+  </body>
+</html>

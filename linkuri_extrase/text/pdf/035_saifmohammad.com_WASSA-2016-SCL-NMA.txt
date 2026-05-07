@@ -1,0 +1,460 @@
+--- PAGE 1 ---
+The Effect of Negators, Modals, and Degree 
+Adverbs on Sentiment Composition 
+Svetlana Kiritchenko and Saif M. Mohammad 
+National Research Council Canada 
+would not be very happy + = 
+
+
+--- PAGE 2 ---
+Sentiment Lexicons 
+ Sentiment lexicon: a list of terms (usually single words) with 
+association to positive (negative) sentiment 
+ 
+   
+   
+   
+ 
+ Applications: 
+◦ sentence-, tweet-, message-level sentiment classification 
+◦ stance detection 
+◦ literary analysis 
+◦ detecting personality traits 
+   
+  
+2 
+happy 0.9 
+awful -0.9 
+award 0.6 
+
+
+--- PAGE 3 ---
+Sentiment Composition 
+Sentiment composition: determining sentiment of a phrase (or a 
+sentence) from its constituents. 
+ 
+Sentiment composition lexicon (SCL): a list of phrases and their 
+constituent words with association to positive (negative) 
+sentiment. 
+   
+  
+ 
+These lexicons are especially useful for studying sentiment 
+composition. 
+ 
+Our goal: through manual annotation, create a fine-grained 
+sentiment composition lexicon for negators, modals, and degree 
+adverbs to study their effect on sentiment. 
+ 
+3 
+would not be happy -0.6 
+happy 0.9 
+
+
+--- PAGE 4 ---
+Manually Created Sentiment Lexicons 
+ Features: 
+◦ more accurate than automatically generated lexicons 
+◦ less coverage than automatic lexicons 
+ 
+ Uses (that cannot be fulfilled by automatic lexicons): 
+◦ to create automatic lexicons 
+◦ to directly evaluate automatic lexicons 
+◦ linguistic analysis  
+ help understand how sentiment is conveyed by words 
+and phrases 
+ how sentiment is perceived by native speakers 
+4 
+
+
+--- PAGE 5 ---
+Manually Created Sentiment Lexicons 
+ Features 
+◦ more accurate than automatically generated lexicons 
+◦ less coverage than automatic lexicons 
+ Uses (that cannot be fulfilled by automatic lexicons): 
+◦ to create automatic lexicons 
+◦ to directly evaluate automatic lexicons 
+◦ linguistic analysis  
+ help understand how modifiers (negators, modal verbs, 
+degree adverbs) affect sentiment in phrases 
+ how sentiment is perceived by native speakers 
+5 
+
+
+--- PAGE 6 ---
+Existing Manually Created Lexicons 
+ most include only single words (lemmas) 
+ most have only coarse levels of sentiment (positive vs. 
+negative) 
+ 
+Obtaining real-valued sentiment annotations is challenging: 
+ higher cognitive load than simply marking positive, negative, 
+neutral 
+ hard to be consistent across multiple annotations 
+ difficult to maintain consistency across annotators 
+◦ 0.8 for one annotator may be 0.7 for another 
+6 
+
+
+--- PAGE 7 ---
+Method: Comparative Annotations 
+Paired Comparisons (Thurstone, 1927; David, 1963): 
+If X is the property of interest (positive, useful, etc.),  
+give two terms and ask which is more X  
+ less cognitive load 
+ helps with consistency issues 
+ requires a large number of annotations  
+◦ order N2, where N is number of terms to be annotated 
+ 
+7 
+
+
+--- PAGE 8 ---
+Method: Comparative Annotations 
+Paired Comparisons (Thurstone, 1927; David, 1963): 
+If X is the property of interest (positive, useful, etc.),  
+give two terms and ask which is more X  
+ 
+Best‒Worst Scaling (Louviere & Woodworth, 1990):  
+(a.k.a. Maximum Difference Scaling or MaxDiff) 
+Give k terms and ask which is most X, and which is least X 
+(k is usually 4 or 5) 
+ preserves the comparative nature 
+ keeps the number of annotations down to about 2N 
+ leads to more reliable annotations 
+◦ less biased and more discriminating (Cohen, 2003) 
+8 
+
+
+--- PAGE 9 ---
+Our Contributions 
+ Create Sentiment Composition Lexicon for Negators, Modals, 
+and Degree Adverbs (SCL-NMA): a new fine-grained 
+sentiment lexicon manually annotated through crowdsourcing 
+and Best‒Worst Scaling 
+◦ for phrases and their constituent content words 
+ phrases involving negators, modals, and degree adverbs 
+ Show that the annotations are reliable 
+ Analyze the lexicon to gain new understandings of human 
+perception of sentiment 
+ Use the lexicon to study how sentiment is composed in 
+phrases 
+9 
+
+
+--- PAGE 10 ---
+10 
+Creating SCL-NMA 
+ 
+(Sentiment Composition Lexicon for Negators, Modals, and Degree 
+Adverbs) 
+ 
+By Manual Annotation and Best‒Worst Scaling 
+
+
+--- PAGE 11 ---
+Term Selection  
+ 1,621 single words (Osgood’s positive and negative lists) 
+ 1,586 multi-word phrases in the form ‘modifier w’, where w is 
+an Osgood word and modifier is one of the following: 
+ a negator (e.g., no, don’t, never) 
+ a modal verb (e.g., can, might, should) 
+ a degree adverb (e.g., very, fairly) 
+ a combination of the above (e.g., would be very) 
+ 
+ In total: 3,207 terms 
+ 
+11 
+
+
+--- PAGE 12 ---
+Example Terms 
+12 
+Term Sentiment Score  
+favor 
+would be very easy 
+certainly agree 
+did not harm 
+should be better 
+unfavorable 
+will not be interested 
+was so difficult 
+much trouble 
+severe 
+
+
+--- PAGE 13 ---
+Annotation 
+Crowdsourcing: 
+ Manual annotation through crowdsourcing 
+ Each question was answered by ten respondents 
+ Quality control through a small set of gold answers 
+ 
+Annotation scheme: Best–Worst Scaling  
+ The annotator is presented with four terms (a 4-tuple) and 
+asked:  
+◦ which term is the most positive 
+◦ which term is the most negative  
+ 
+13 
+
+
+--- PAGE 14 ---
+Example Annotation Instance 
+14 
+
+
+--- PAGE 15 ---
+Best‒Worst Scaling 
+ The annotator is presented with four terms (a 4-tuple) 
+and asked:  
+◦ which term is the most positive 
+◦ which term is the most negative  
+ 
+ By answering just these two questions, five out of the 
+six inequalities are known 
+◦ For example, given the terms A, B, C, and D:  
+ if A is most positive and D is most negative,  
+ then we know: 
+             A > B, A > C, A > D, B > D, C > D 
+15 
+
+
+--- PAGE 16 ---
+Best‒Worst 4-tuples 
+We generate 4-tuples such that: 
+ no two 4-tuples have the same four terms; 
+ no two terms within a 4-tuple are identical; 
+ each term in the term list appears in about the same 
+number of 4-tuples; 
+ each pair of terms appears in about the same number 
+of 4-tuples. 
+ 
+This is to maximize the chance that each term is seen in a 
+sufficient number, and a diverse set of 4-tuples. 
+16 
+
+
+--- PAGE 17 ---
+Best‒Worst Scaling:  
+Converting Responses to Real-Valued Scores 
+ Responses converted into real-valued scores for all the terms: 
+ 
+ a simple counting procedure (Orme, 2009): 
+ 
+ 
+ 
+The scores range from:  
+  -1 (least association with positive sentiment)  
+         to   1 (most association with positive sentiment) 
+ 
+ terms can then be ranked by sentiment 
+17 
+𝑠𝑐𝑜𝑟𝑒 𝑡 =  #𝑚𝑜𝑠𝑡 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒 𝑡 − #𝑚𝑜𝑠𝑡 𝑛𝑒𝑔𝑎𝑡𝑖𝑣𝑒(𝑡)
+#𝑎𝑛𝑛𝑜𝑡𝑎𝑡𝑖𝑜𝑛𝑠(𝑡)  
+
+
+--- PAGE 18 ---
+Example Lexicon Entries 
+18 
+Term Sentiment Score  
+favor 0.653 
+would be very easy 0.431 
+certainly agree 0.347 
+did not harm 0.194 
+should be better 0.069 
+unfavorable -0.222 
+will not be interested -0.319 
+was so difficult -0.514 
+much trouble -0.667 
+severe -0.833 
+
+
+--- PAGE 19 ---
+Quality of Annotations 
+ Annotations are reliable 
+◦ re-doing the annotations with different sets of annotators 
+produces a very similar order of terms (an average 
+Spearman rank correlation of 0.98)  
+ Such reliable rankings can be obtained with just two or 
+three annotations per BWS question. 
+ 
+ 
+Svetlana Kiritchenko and Saif M. Mohammad. Capturing Reliable Fine-
+Grained Sentiment Associations by Crowdsourcing. NAACL-2016. 
+ 
+19 
+
+
+--- PAGE 20 ---
+Interactive Visualization 
+20 
+http://www.saifmohammad.com/WebPages/SCL.html#NMA 
+
+
+--- PAGE 21 ---
+21 
+Analyzing Sentiment Composition 
+ 
+Impact of Sentiment Modifiers 
+ 
+
+
+--- PAGE 22 ---
+Least Perceptible Difference 
+ Least perceptible difference aka just-noticeable difference 
+◦ a concept from psychophysics  
+◦ the amount by which something that can be measured 
+(e.g., weight or sound intensity) needs to be changed in 
+order for the difference to be noticeable by a human 
+(Fechner, 1966)  
+ 
+ With our fine-grained sentiment scores, we can measure the 
+least perceptible difference in sentiment 
+◦ useful in studying sentiment composition (e.g., to 
+determine whether a modifier significantly impacts the 
+sentiment of the word it modifies) 
+ 
+22 
+
+
+--- PAGE 23 ---
+Measuring the Least Perceptible 
+Difference  
+ Least perceptible difference in sentiment scores is a point d at 
+which we can say with high confidence that the two terms do 
+not have the same sentiment associations 
+23 
+(d) 
+least perceptible difference 
+Least Perceptible  
+Difference: 
+ 
+SCL-NMA: 0.07 
+(on the scale [-1,1]) 
+
+
+--- PAGE 24 ---
+Overall Impact of Sentiment Modifiers 
+24 
+On positive words On negative words 
+Modifier group Avg. diff # of pairs Avg. diff. # of pairs 
+negators -0.93 265 0.79 71 
+modals -0.32 258 0.24 72 
+degree adverbs 0.20 435 0.17 163 
+
+
+--- PAGE 25 ---
+Impact of Negation on Sentiment 
+25 
+The black line shows an average effect of the negators group.  
+The red line shows the reversing hypothesis: score(mod w) = –score(w). 
+
+
+--- PAGE 26 ---
+Impact of Negation on Sentiment 
+ Most negators 
+◦ decrease sentiment of positive words by 0.8-1.0 points 
+◦ increase sentiment of negative words by 0.7-0.9 points 
+ The greatest shift is caused by will not be and will not 
+ The weakest effect is by may not, nothing, and never 
+ Verb tense seems not to affect the behavior of negators 
+significantly 
+ Modals in combination with negators slightly influence the 
+behavior of the modifier: 
+◦ stronger negators: will not, will not be, and cannot 
+◦ weaker negators: could not, would not, and may not 
+   
+ 
+26 
+
+
+--- PAGE 27 ---
+Impact of Modal Verbs on Sentiment 
+27 
+The black line shows an average effect of the modals group.  
+The red line shows the function: score(mod w) = score(w). 
+
+
+--- PAGE 28 ---
+Impact of Modal Verbs on Sentiment 
+ Most modal verbs 
+◦ decrease sentiment of positive words by 0.2-0.4 points 
+◦ increase sentiment of negative words by 0.2-0.3 points 
+ The greatest shift (about 0.4 points) is observed for words 
+with high absolute sentiment values 
+ The most influential modal modifier is would have been 
+ Consistent and relatively strong modifiers are formed by 
+modals could and might 
+ Smallest effect on sentiment is caused by can, can be, would, 
+and would be 
+28 
+
+
+--- PAGE 29 ---
+Impact of Degree Adverbs on Sentiment 
+ Many degree adverbs have a small and rather inconsistent 
+effect on sentiment 
+ The only degree adverb that affects sentiment to a large 
+extent (0.835 points) is less 
+◦ acts as negator 
+ Modifiers that consistently reduce the intensity of positive 
+words are was too, too, probably, fairly, and relatively 
+ One modifier, highly, consistently and significantly increases 
+the sentiment of positive words 
+ The sentiment of negative words is noticeably lowered by 
+modifiers extremely and very very 
+29 
+
+
+--- PAGE 30 ---
+Conclusions 
+ Created a sentiment composition lexicon for English phrases 
+involving common sentiment modifiers 
+◦ manual annotation with Best-Worst Scaling 
+◦ real-valued sentiment associations 
+ Showed that the annotations are reliable 
+ 
+ Analyzed the impact of negators, modals, and degree 
+adverbs on sentiment: 
+◦ these modifiers affect sentiment in complex ways so that 
+their effect cannot be easily modeled with simple heuristics;  
+◦ the effect of a modifier is often determined not only by the 
+type of the modifier but also by the modifier word and the 
+content word themselves. 
+30 
+
+
+--- PAGE 31 ---
+Our Related Projects 
+ Sentiment Composition Lexicon for Opposing Polarity 
+Phrases (SCL-OPP) 
+ 
+Svetlana Kiritchenko and Saif M. Mohammad. Sentiment Composition of 
+Words with Opposing Polarities. NAACL-2016. 
+ 
+ Semeval-2016 Task #7 ‘Determining Sentiment Intensity of 
+English and Arabic Phrases’ 
+◦ General English Sentiment Modifiers Set (SCL-NMA) 
+◦ English Twitter Mixed Polarity Set (SCL-OPP) 
+◦ Arabic Twitter Set 
+ 
+31 
+
+
+--- PAGE 32 ---
+Lexicons Availability 
+All lexicons and their interactive visualizations are available at: 
+http://www.saifmohammad.com/WebPages/SCL.html 
+ 
+Code for Best‒Worst Scaling will be available at: 
+http://www.saifmohammad.com/WebPages/BestWorst.html  
+ 
+ 
+ 
+SemEval-2016 Task 7: http://alt.qcri.org/semeval2016/task7/ 
+ 
+ 
+ 
+32

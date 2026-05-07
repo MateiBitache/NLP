@@ -1,0 +1,41 @@
+\section{Reproducibility Commands}
+
+The following commands reproduce the main outputs from the implementation folder:
+
+\begin{quote}
+\texttt{cd rezolvari}
+\end{quote}
+
+\begin{quote}
+\texttt{\$env:PYTHONPATH='src'; py -m unittest discover -s tests}
+\end{quote}
+
+\begin{quote}
+\texttt{py emotion\_cli.py run-experiments}
+\end{quote}
+
+\begin{quote}
+\texttt{py emotion\_cli.py predict --text "I trust the team" --method hybrid}
+\end{quote}
+
+\section{Generated Artifacts}
+
+The command \texttt{run-experiments} creates the following files:
+
+\begin{itemize}
+    \item \texttt{metrics.json}: full metrics and confusion matrices;
+    \item \texttt{method\_comparison.csv}: main comparison table;
+    \item \texttt{predictions\_lexicon.csv}, \texttt{predictions\_nb.csv}, \texttt{predictions\_hybrid.csv}: method-specific predictions;
+    \item \texttt{confusion\_lexicon.csv}, \texttt{confusion\_nb.csv}, \texttt{confusion\_hybrid.csv}: confusion matrices;
+    \item \texttt{predicted\_distribution\_*.svg}: emotion distribution figures.
+\end{itemize}
+
+\section{PowerPoint Presentation}
+
+The slideshow deliverable is stored outside the implementation folder as:
+
+\begin{quote}
+\texttt{Emotion\_Analysis\_Presentation\_Developed\_v2.pptx}
+\end{quote}
+
+It summarizes the problem, methods, implementation, results, limitations, and future work.

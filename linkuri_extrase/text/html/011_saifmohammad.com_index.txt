@@ -1,0 +1,1980 @@
+Saif | Homepage 
+
+Home 
+
+Research 
+ 
+ Publications 
+ 
+ Lexicons 
+ 
+ Labeled
+
+ Data 
+ 
+ Invited
+
+ Talks 
+ 
+ Contact 
+
+Saif M. Mohammad (he/him) 
+ 
+ Principal Research Scientist
+
+ National Research
+ Council Canada 
+
+Follow @SaifMMohammad 
+ 
+ Email: saif.mohammad@nrc-cnrc.gc.ca, uvgotsaif@gmail.com 
+
+Picture: Palau
+ De La Música Catalana (Palace of Catalan Music). Architect: Antoni Gaudi .
+
+A postcard from my first academic conference, ACL-2004 . 
+
+Research Focus: Emotions and Language, Computational Affective Science, Computational Social Science, Sentiment Analysis, Lexical Semantics, Digital Humanities, Natural Language Processing.
+
+BIO 
+ Dr. Saif M. Mohammad is an ACL Fellow and a Principal Research
+ Scientist at the National
+
+ Research Council Canada (NRC) . He received his Ph.D.
+ in Computer Science from the University of
+ Toronto . Before joining NRC, Saif was a Research Associate at the Institute of Advanced Computer Studies at the University of Maryland, College Park. His research interests are in Computational
+
+ Linguistics and Natural
+
+ Language Processing (NLP), especially Lexical
+
+ Semantics, Emotions in Language, Computational Affective Science , Sentiment Analysis, Computational Social Science, Fairness in NLP, NLP for Psychology, and Information Visualization. He has published over 150 scientific articles (journal articles, book chapters, and conference papers). He has served in various capacities at prominent journals and conferences, including: action editor for Computational Linguistics and TACL, Associate Editor for Journal of Artificial Intelligence Research, senior action editor for ACL Rolling review, chair of the Canada--UK symposium on Ethics in AI, co-chair of SemEval 2017-19 (the largest platform for semantic evaluations), workshops co-chair for ACL 2020, co-organizer of WASSA 2017 and 2018 (a sentiment analysis workshop), and area chair for ACL, NAACL, and EMNLP (in the areas of sentiment analysis, lexical semantics, and fairness in NLP). His team 
+ developed a sentiment
+
+ analysis system which ranked first in shared
+ task competitions. His word--emotion resources, such as the  NRC
+ Emotion Lexicon , are used for analyzing affect in text. His work has garnered media attention, including
+ articles in Time , SlashDot,
+
+ LiveScience , io9 , The
+
+ Physics arXiv Blog , PC
+
+ World , and Popular
+
+ Science . 
+ 
+You can watch a video of the talk at the Alan Turing Institute (London, March 2019) summarizing some past work. 
+
+Detailed CV           How my name is pronounced:        Photo 
+
+RECENT NEWS AND PUBLICATIONS 
+ 
+ Recognition 
+
+I was named one of the 2025 ACL Fellows . 
+
+For significant contributions to computational affective science , emotion detection and sentiment analysis, and responsible NLP. 
+ 
+Every year since 2011 the ACL Fellows program recognizes CL and NLP researchers who have made substantial contributions to the field. I am grateful to be included. 
+
+2025-26 Winter Trips 
+
+May 11 to 17: Palma de Mallorca, Spain 
+ 
+Mar 17 to 22: Barcelona, Spain 
+ 
+Dec 8 to 25: Bangalore, Mumbai, India 
+
+Professional Activities 
+
+Conference 
+ 
+Programme Chair for *Sem 2026 . Collocated with ACL 2026. July 2026, San Diego, CA.
+
+ Together with Nedjma Ousidhoum. 
+ 
+ Workshop 
+ 
+ Inaugural Workshop on Computational Affective Science. Christopher Bagdon, Krishnapriya Vishnubhotla, Kristen A. Lindquist, Lyle Ungar, Roman Klinger, and Saif M. Mohammad. LREC 2026, May 2026, Palma De Mallorca, Spain. 
+ 
+ Tutorial 
+ 
+ NLP for Affective Science: Exploring Fundamental Questions on Emotions through Language and Computation. Krishnapriya Vishnubhotla and Saif M. Mohammad. IJCNLP-AACL 2025, Dec 23, 2025, Mumbai, India. 
+
+ Slides 
+ 
+ Best Paper Award Committees 
+
+IJCNLP-AACL 2025, Dec 2025, Mumbai, India. 
+
+ EMNLP 2025, Nov 2025, Suzhou, China. 
+
+ NAACL 2025, Apr-May 2025, Albuquerque, New Mexico. 
+
+Talk s 
+
+Invited talk at the first Valence Asymmetries Conference. An interdisciplinary conference at the intersection of philosophy, linguistics, and cognitive science. Pompeu Fabra University, the Poblenou Campus, Barcelona, Spain. March 19-20, 2026. 
+ 
+Mapping the Emotional and Social Dimensions of Language: The Next Generation of NRC Lexicons. Invited talk at the Preconference Workshop for the Valence Asymmetries Conference. Pompeu Fabra University, the Poblenou Campus, Barcelona, Spain. March 18, 2026.  
+ 
+Computational Affective Science: Using Language and Computation to Shed Light on Fundamental Questions about Affect and Emotion. Quantitative Family Collective. Jan 22, 2026. 
+
+Papers 
+
+Annotating Dimensions of Social Perception in Text: The First Sentence-Level Dataset of Warmth and Competence. Mutaz Ayesh, Saif M. Mohammad, and Nedjma Ousidhoum. In Proceedings of the 64th Annual Meeting of the Association of Computational Linguistics (ACL-2026), July 2026, San Diego, California.
+
+ Paper (pdf)    BibTeX    Slides    Project Page 
+ 
+DimABSA: Building Multilingual and Multidomain Datasets for Dimensional Aspect-Based Sentiment Analysis. Lung-Hao Lee, Liang-Chih Yu, Natalia V Loukachevitch, Ilseyar Alimova, Alexander Panchenko, Tzu-Mi Lin, Zhe-Yu Xu, Jian-Yu Zhou, Guangmin Zheng, Jin Wang, Sharanya Awasthi, Jonas Becker, Jan Philip Wahle, Terry Ruas, Shamsuddeen Hassan Muhammad, and Saif M. Mohammad. In Proceedings of the 64th Annual Meeting of the Association of Computational Linguistics (ACL-2026), July 2026, San Diego, California.
+
+ Paper (pdf)    BibTeX    Slides    Project Page 
+ 
+ Affect, body, cognition, demographics, and emotion: The abcde of text features for computational affective science. Jan Philip Wahle, Gipp Bela Vishnubhotla, Krishnapriya, and Saif M. Mohammad. 2026. In Proceedings of the 1st Workshop on Computational Affective Science (CAS 2026), Palma de Mallorca, Spain. European Language Resources Association (ELRA).
+
+ Paper (pdf)    BibTeX    Slides    Project Page 
+ 
+Age and affect in language: How emotion expression on social media varies across adulthood. Daniela Teodorescu, Jan Philip Wahle, and Saif M. Mohammad. 2026. In Proceedings of the 1st Workshop on Computational Affective Science (CAS 2026), Palma de Mallorca, Spain. European Language Resources Association (ELRA).
+
+ Paper (pdf)    BibTeX    Slides    Project Page 
+ 
+ Linguistic Distancing on Social Media: Indicators of Emotion Regulation Across Age Groups. Daniela Teodorescu, Saif M. Mohammad, and Alona Fysche. 2026. In Proceedings of the 1st Workshop on Computational Affective Science (CAS 2026), Palma de Mallorca, Spain. European Language Resources Association (ELRA).
+
+ Paper (pdf)    BibTeX    Slides    Project Page 
+ 
+From Trial by Fire To Sleep Like a Baby: A Lexicon of Anxiety Associations for 20k English Multiword Expressions. Saif M. Mohammad. In Proceedings of the 15th Language Resources and Evaluation Conference (LREC-2026), May 2026, Palma de Mallorca, Spain. European Language Resources Association (ELRA).
+
+ Paper (pdf)    BibTeX    Slides    Project Page 
+ 
+I Came, I Saw, I Explained: Benchmarking Multimodal LLMs on Figurative Meaning in Memes. Shijia Zhou, Saif M. Mohammad, Barbara Plank, and Diego Frassinelli. In Proceedings of the 15th Language Resources and Evaluation Conference (LREC-2026), May 2026, Palma de Mallorca, Spain. European Language Resources Association (ELRA).
+
+ Paper (pdf)    BibTeX    Slides    Project Page 
+
+Journal Articles 
+
+The Shifting Landscape of Vaccine Discourse: Insights From a Decade of Pre- to Post-Covid Vaccine Posts on Social Media. Nikesh Gyawali, Doina Caragea, Cornelia Caragea, and Saif M. Mohammad. PLoS ONE , In the press. 
+
+ Paper (pdf)    BibTeX    Slides    Project Page 
+ 
+Transforming Scholarly Landscapes: The Influence of Large Language Models on Academic Fields beyond Computer Science Aniket Pramanick, Yufang Hou, Saif M. Mohammad, and Iryna Gurevych. PLoS ONE, In the press.
+
+ Paper (pdf)    BibTeX    Slides    Project Page 
+
+Paper s 
+
+Breaking Bad: Norms for Valence, Arousal, and Dominance for over 10k English Multiword Expressions. Saif M. Mohammad. In  Proceedings  of the  International Joint Conference on Natural Language Processing & Asia-Pacific Chapter of the Association for Computational Linguistics, 2025 (IJCNLP-AACL 2025) , Dec 23, 2025, Mumbai, India.
+
+ Paper (pdf)    BibTeX    Slides    Project Page 
+ 
+ What Media Frames Reveal About Stance: A Dataset and Study about Memes in Climate Change Discourse. 
+
+ Shijia Zhou, Siyao Peng, Simon M. Luebke, Jörg Haßler, Mario Haim, Saif M. Mohammad, Barbara Plank. In Proceedings of EMNLP 2025 Findings, Dec 2025, Shujou, China.
+
+ Paper (pdf)    BibTeX    Slides    Project Page 
+
+The Language of Interoception: Examining Embodiment and Emotion Through a Corpus of Body Part Mentions. 
+
+ Sophie Wu, Jan Philip Wahle, Saif M. Mohammad. In Proceedings of EMNLP 2025 Finding, Dec 2025, Shujou, China.
+
+ Paper (pdf)    BibTeX    Slides    Project Page 
+
+2025 Summer Trips 
+
+July 24 to August 2: Bamberg, Germany; Linz, Austria; Vienna, Austria 
+ 
+June 28 to July 8: Vancouver and Victoria, BC 
+
+Talk s 
+
+A Tutorial on NLP for Affective Science: Exploring Fundamental Questions on Emotions through Language and Computation. Linz NLP Summer School, July 2025. Linz, Vienna.
+
+ Slides 
+ 
+NLP for Affective Science: Exploring Fundamental Questions on Emotions through Language and Computation. University of Bamberg, July 2025. Bamberg, Germany.
+
+ Slides     Video 
+
+Paper s 
+
+BRIGHTER: BRIdging the Gap in Human-Annotated Textual Emotion Recognition Datasets for 28 Languages. Shamsuddeen Hassan Muhammad, Nedjma Ousidhoum, Idris Abdulmumin, Jan Philip Wahle, Terry Ruas, Meriem Beloucif, et al. and Saif M. Mohammad. In Proceedings of the 63rd Annual Meeting of the Association of Computational Linguistics (ACL-2025), July 2025, Vienna, Austria. 
+
+ Paper (pdf)     BibTeX     Slides    Project Webpage 
+ 
+ ACL 2025 Best Paper Award (best resource paper category) 
+ 
+ Words of Warmth: Trust and Sociability Norms for over 26k English Words. Saif M. Mohammad. In Proceedings of the 63rd Annual Meeting of the Association of Computational Linguistics (ACL-2025), July 2025, Vienna, Austria. 
+
+ Paper (pdf)     BibTeX    Slides     Project Page 
+ 
+ Building Better: Avoiding Pitfalls in Developing Language Resources when Data is Scarce. Nedjma Ousidhoum, Meriem Beloucif, and Saif M. Mohammad. In Proceedings of the 63rd Annual Meeting of the Association of Computational Linguistics (ACL-2025), July 2025, Vienna, Austria. 
+
+ Paper (pdf)     BibTeX     Slides 
+ 
+ Affect, Body, Cognition, Demographics, and Emotion: The ABCDE of Text Features for Computational Affective Science. Jan Philip Wahle, Krishnapriya Vishnubhotla, Bela Gipp, Saif M. Mohammad, Arxiv.
+
+ Paper (pdf)    BibTeX    Slides 
+ 
+ The Nature of NLP: Analyzing Contributions in NLP Papers. Aniket Pramanick, Yufang Hou, Saif M. Mohammad, and Iryna Gurevych. In Proceedings of the 63rd Annual Meeting of the Association of Computational Linguistics (ACL-2025), July 2025, Vienna, Austria. 
+
+ Paper (pdf)     BibTeX     Project Page (code and data) 
+ 
+ SemEval-2025 Task 11: Bridging the Gap in Text-Based Emotion Detection. Shamsuddeen Hassan Muhammad, Nedjma Ousidhoum, Idris Abdulmumin, Seid Muhie Yimam, Jan Philip Wahle, Terry Ruas, Meriem Beloucif, Christine De Kock, Tadesse Destaw Belay, Ibrahim Said Ahmad, Nirmal Surange, Daniela Teodorescu, David Ifeoluwa Adelani, Alham Fikri Aji, Felermino Ali, Vladimir Araujo, Abinew Ali Ayele, Oana Ignat, Alexander Panchenko, Yi Zhou, Saif M. Mohammad.
+
+ Paper (pdf)     BibTeX     Slides    Project Webpage 
+ 
+SemEval 2025 Best Shared Task Award. 
+ 
+Cited by CodaBench's annual newsletter for being the most popular task on the CodaBench platform in 2024 . 
+ 
+ Citation Amnesia: On The Recency Bias of NLP and Other Academic Fields. Jan Philip Wahle, Terry Ruas, Mohamed Abdalla, Bela Gipp, Saif M. Mohammad. In  Proceedings of The 31st International Conference on Computational Linguistics ( COLING  2025) , January 2025, Abu Dhabi, UAE.  
+
+ Paper (pdf)      BibTeX        Code        Poster        Demo 
+
+Journal Paper 
+
+Using Natural Language Processing to Analyse Text Data in Behavioural Science . Stefan Feuerriegel, Abdurahman Maarouf, Dominik Bär, Dominique Geissler, Jonas Schweisthal, Nicolas Pröllochs, Claire E. Robertson, Steve Rathje4, Jochen Hartmann, Saif M. Mohammad, Oded Netzer, Alexandra A. Siegel, Barbara Plank, and Jay J. Van Bavel. Nature Reviews Psychology. 2025. 
+ 
+ Beyond the Imitation Game: Quantifying 
+
+ and extrapolating the capabilities of language models . Transactions on Machine Learning Research (TMLR), 2024.
+
+ Paper (pdf)    BibTeX   
+ 
+ One of five finalists for 2024's Outstanding Certification at TMLR. 
+
+2024 Fall Trips 
+
+Nov 24 to Dec 1: Munich Germany 
+ 
+Nov 11 to Nov 17: Miami, FL (EMNLP 2024) 
+ 
+Sep 30 to Oct 3: Montreal, Canada 
+
+Talk s 
+
+NLP for Affective Science: A Window into Emotions through Language and Computation? LMU Seminar. November 2024. Munich, Germany. 
+ 
+ NLP for Affective Science. What are the big questions? And how do we get there? Workshop on NLP in the era of generative AI, cognitive sciences, and societal transformation . October 2024. MILA, Montreal, Canada.
+
+ Slides 
+
+Paper s 
+
+WorryWords: Norms of Anxiety Association for 44,450 English Words. Saif M. Mohammad. In  Proceedings of the Empirical Methods on Natural Language Processing ( EMNLP 2024 , Main) , November 2024, Miami, FL.  
+
+ Paper (pdf)      BibTeX      Video      Poster      ProjectPage & Data 
+ 
+ Emotion Granularity from Text: An Aggregate-Level Indicator of Mental Health. Krishnapriya Vishnubhotla, Daniela Teodorescu, Mallory J. Feldman, Kristen A. Lindquist, and Saif M. Mohammad. In  Proceedings of the Empirical Methods on Natural Language Processing ( EMNLP 2024 , Main) , November 2024, Miami, FL.
+
+ Paper (pdf)      BibTeX      Video      Poster      ProjectPage & Data 
+
+Journal Paper 
+
+EmoAtlas: An emotional network analyser of texts merging psychological lexicons, artificial intelligence and network science. Alfonso Semeraro, Salvatore Vilella, Riccardo Improta, Edoardo Sebastiano De Duro, Saif M. Mohammad, Giancarlo Ruffo, and Massimo Stella. To appear in Behavior Research Methods, 2024. 
+
+2024 Summer Trips 
+
+June 15 to 22: Mexico City, Mexico (NAACL 2024) 
+ 
+July 10 to 22: San Fransisco, CA 
+ 
+August 4 to 10: Bengaluru, India 
+ 
+August 11 to 20: Bangkok, Thailand (ACL 2024)
+
+Students and Researchers feel free to reach out if you are in any of these places at these dates. Always happy to connect. 
+
+Paper s 
+
+The Emotion Dynamics of Literary Novels. Krishnapriya Vishnubhotla, Adam Hammond, Graeme Hirst, Saif M. Mohammad. In Proceedings of the 62nd Annual Meeting of the Association of Computational Linguistics (ACL-2024), Bangkok, Thailand. 
+
+ Paper (pdf)    BibTeX    Slides 
+ 
+SemRel2024: A Collection of Semantic Textual Relatedness Datasets for 13 Languages. Nedjma Ousidhoum, Shamsuddeen Hassan Muhammad, Mohamed Abdalla, Idris Abdulmumin, Ibrahim Said Ahmad, Sanchit Ahuja, Alham Fikri Aji, Vladimir Araujo, Abinew Ali Ayele, Pavan Baswani, Meriem Beloucif, Chris Biemann, Sofia Bourhim, Christine De Kock, Genet Shanko Dekebo, Oumaima Hourrane, Gopichand Kanumolu, Lokesh Madasu, Samuel Rutunda, Manish Shrivastava, Thamar Solorio, Nirmal Surange, Hailegnaw Getaneh Tilaye, Krishnapriya Vishnubhotla, Genta Winata, Seid Muhie Yimam, Saif M. Mohammad. In Proceedings of the 62nd Annual Meeting of the Association of Computational Linguistics (ACL-2024), Bangkok, Thailand. 
+
+Paper (pdf)    BibTeX    Slides 
+ 
+ SemEval Task 1: Semantic Textual Relatedness for African and Asian Languages. Nedjma Ousidhoum, Shamsuddeen Hassan Muhammad, Mohamed Abdalla, Idris Abdulmumin, Ibrahim Said Ahmad, Sanchit Ahuja, Alham Fikri Aji, Vladimir Araujo, Meriem Beloucif, Christine De Kock, Oumaima Hourrane, Manish Shrivastava, Thamar Solorio, Nirmal Surange, Krishnapriya Vishnubhotla, Seid Muhie Yimam, Saif M. Mohammad. In Proceedings of SemEval-2024. Mexico City, Mexico. Best Task Description Paper - Honorable Mention. 
+
+ Paper (pdf)    BibTeX    Slides    Project Page 
+
+Talk 
+
+We are Who We Cite: Bridges of Influence Between Natural Language Processing and Other Academic Fields. Ludwig Maximilian University of Munich, Nov 18, 2023. 
+
+2023 Last Quarter Trips 
+
+Nov 14 - 22, 2023: Munich, Germany 
+ 
+Dec 5 - 14, 2023: Singapore
+
+ Dec 15, 2023: New York, USA 
+ 
+Dec 30, 2023 - Jan 2, 2024: Dubai, UAE
+
+ Jan 3 - 19, 2024: Bangalore, India
+
+ Jan 20 - 22, 2024: Dubai, UAE 
+
+Paper s 
+
+We are Who We Cite: Bridges of Influence Between Natural Language Processing and Other Academic Fields. Jan Philip Wahle, Terry Ruas, Mohamed Abdalla, Bela Gipp, and Saif M. Mohammad. In Proceedings of the Empirical Methods on Natural Language Processing ( EMNLP 2023 , Main) , December 2023, Singapore.  
+ 
+ A Diachronic Analysis of Paradigm Shifts in NLP Research: When, How, and Why? Aniket Pramanick, Yufang Hou, Saif M. Mohammad, Iryna Gurevych. In  Proceedings of the Empirical Methods on Natural Language Processing ( EMNLP 2023 , Main) , December 2023, Singapore.  
+ 
+ AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages. Shamsuddeen Hassan Muhammad, Idris Abdulmumin, Abinew Ali Ayele, Nedjma Ousidhoum, David Ifeoluwa Adelani, Seid Muhie Yimam, Ibrahim Sa'id Ahmad, Meriem Beloucif, Saif M. Mohammad, Sebastian Ruder, Oumaima Hourrane, Pavel Brazdil, Felermino Dário Mário António Ali, Davis Davis, Salomey Osei, Bello Shehu Bello, Falalu Ibrahim, Tajuddeen Gwadabe, Samuel Rutunda, Tadesse Belay, Wendimu Baye Messelle, Hailu Beshada Balcha, Sisay Adugna Chala, Hagos Tesfahun Gebremichael, Bernard Opoku, Steven Arthur. In  Proceedings of the Empirical Methods on Natural Language Processing ( EMNLP 2023 , Main) , December 2023, Singapore.  
+ 
+ Language and Mental Health: Measures of Emotion Dynamics from Text as Linguistic Biosocial Markers. Daniela Teodorescu, Tiffany Cheng, Alona Fyshe, and Saif M. Mohammad. In  Proceedings of the Empirical Methods on Natural Language Processing ( EMNLP 2023 , Main) , December 2023, Singapore.  
+ 
+ Evaluating Emotion Arcs Across Languages: Bridging the Global Divide in Sentiment Analysis . Daniela Teodorescu and Saif M. Mohammad. In  Proceedings of the Empirical Methods on Natural Language Processing ( EMNLP 2023 , Findings) , December 2023, Singapore. (Talk at Pan-DL) 
+ 
+ Forgotten Knowledge: Examining the Citational Amnesia in NLP. Janvijay Singh, Mukund Rungta, Diyi Yang, and Saif M. Mohammad. In  Proceedings of the 61st Annual Meeting of the Association of Computational Linguistics (ACL-2023) , Toronto, Canada. Best Paper - Honorable Mention. 
+
+ Paper (pdf)     BibTeX    Slides     Blog Post 
+ 
+ The Elephant in the Room: Analyzing the Presence of Big Tech in Natural Language Processing Research. Mohamed Abdalla, Jan Philip Wahle, Terry Ruas, Aurélie Névéol, Fanny Ducel, Saif M. Mohammad, and Karen Fort. In  Proceedings of the 61st Annual Meeting of the Association of Computational Linguistics (ACL-2023) , Toronto, Canada.
+
+ Paper (pdf)     BibTeX    Slides 
+ 
+SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval). Shamsuddeen Hassan Muhammad, Idris Abdulmumin, Seid Muhie Yimam, David Ifeoluwa Adelani, Ibrahim Sa'id Ahmad, Nedjma Ousidhoum, Abinew Ayele, Saif M. Mohammad, Meriem Beloucif, Sebastian Ruder. SemEval 2023, Toronto, Canada. 
+ 
+ AfriSenti SemEval-2023 Shared Task 
+ 
+ AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages. Shamsuddeen Hassan Muhammad, Idris Abdulmumin, Abinew Ali Ayele, Nedjma Ousidhoum, David Ifeoluwa Adelani, Seid Muhie Yimam, Ibrahim Sa'id Ahmad, Meriem Beloucif, Saif Mohammad, Sebastian Ruder, Oumaima Hourrane, Pavel Brazdil, Felermino Dário Mário António Ali, Davis Davis, Salomey Osei, Bello Shehu Bello, Falalu Ibrahim, Tajuddeen Gwadabe, Samuel Rutunda, Tadesse Belay, Wendimu Baye Messelle, Hailu Beshada Balcha, Sisay Adugna Chala, Hagos Tesfahun Gebremichael, Bernard Opoku, Steven Arthur. Africa-NLP, ICLR 2023, Kigali, Rwanda. Best Paper Award. 
+ 
+ AI Usage Cards: Responsibly Reporting AI-generated Content. Jan Philip Wahle , Terry Ruas, Saif M. Mohammad, Norman Meuschke, and Bela Gipp. arXiv:2303.03886 , 2023.
+
+ Paper (pdf)     BibTeX    Slides 
+ 
+ What Makes Sentences Semantically Related? A Textual Relatedness Dataset and Empirical Study. Mohamed Abdalla, Krishnapriya Vishnubhotla, and Saif M. Mohammad. EACL, 2023, Dubrovnik, Croatia.
+
+ Paper (pdf)    BibTeX    Slides 
+ 
+Best Practices in the Creation and Use of Emotion Lexicons. Saif M. Mohammad. EACL, 2023, Dubrovnik, Croatia.
+
+ Paper (pdf)     BibTeX    Slides 
+
+Trip s 
+
+Toronto, Canada. October 28-30, 2022. 
+ 
+Ghent, Belgiun. November 30 - December 2, 2022. 
+ 
+Abu Dhabi, UAE. December 3-12, 2022. 
+ 
+Göttingen, Germany. December 13-15, 2022. 
+
+Paper s 
+
+Geographic Citation Gaps in NLP Research. Mukund Rungta, Janvijay Singh, Saif M. Mohammad, Diyi Yang. EMNLP, 2022, Abu Dhabi, UAE.
+
+ Paper (pdf)    BibTeX    Slides 
+ 
+ Frustratingly Easy Sentiment Analysis of Text Streams: Generating High-Quality Emotion Arcs Using Emotion Lexicons. Daniela Teodorescu and Saif Mohammad. arXiv: 2210.07381 .  Oct 2021.
+
+ Paper (pdf)    BibTeX    Slides 
+
+Invited Talk s 
+
+The Search for Emotions, Creativity, and Fairness in Language. Ludwig Maximilian University of Munich, May 8, 2023. 
+ 
+The Search for Emotions, Creativity, and Fairness in Language. University of Gottingen, Dec 14, 2022. 
+ 
+The Search for Emotions, Creativity, and Fairness in Language. Keynote talk at the Emotion Workshop, University of Ghent, Dec 1, 2022. 
+ 
+The Search for Emotions, Creativity, and Fairness in Language. The Statistical Society of Canada (SSC), Webinar, Sep 4, 2022. 
+
+Paper s 
+
+Voices Speaking To and About One Another: Introducing the Project Dialogism Novel Corpus. Adam Hammond, Krishnapriya Vishnubhotla, Graeme Hirst, and Saif M. Mohammad. In Proceedings of the Digital Humanities 2022 Conference , July 2022, virtual.
+
+ Paper (pdf)    BibTeX 
+
+Tweet Emotion Dynamics: Emotion Word Usage in Tweets from US and Canada. Krishnapriya Vishnubhotla and Saif M. Mohammad. In Proceedings of the 13th Language Resources and Evaluation Conference (LREC-2022), May 2022, Marseille, France.
+
+ Paper (pdf)     BibTeX        Project Home Page (Code and Data)     Poster     Slides 
+ 
+D3: A Massive Dataset of Scholarly Metadata for Analyzing the State of Computer Science Research. Jan Philip Wahle , Terry Ruas, Saif Mohammad and Bela Gipp. In Proceedings of the 13th Language Resources and Evaluation Conference (LREC-2022), May 2022, Marseille, France.
+
+ Paper (pdf)     BibTeX      Project Home Page (Code and Data)   Slides 
+
+Invited Talks 
+
+Ethics Sheets for Social NLP Tasks. The 10th Social NLP Workshop at ACL 2022 , Seattle, USA. July 14, 2022. 
+ 
+Tweet Emotion Dynamics. (Talk by Krishnapriya Vishnubhotla). The Alan Turing Institute . July 28, 2022. London, UK. 
+ 
+Ethics Sheets for Social AI Tasks. The Alan Turing Institute . July 28, 2022. London, UK. 
+ 
+The Search for Emotions, Creativity, and Fairness in Language. Defence Research and Development Canada, Toronto Research Centre, April 21, 2022, Toronto, Canada.
+
+ Slides 
+ 
+The Search for Emotions in Language. Carolina Affective Science Lab. University of North Carolina. Feb 21, 2022.
+
+ Slides       
+ 
+Emotions in Text: The Power and Versatility of Large Emotion Lexicons. Canadian Digital Services. January 13, 2022.   
+ 
+Judging AI: How to Develop a Healthy Mistrust of AI. The Canadian Appellate Courts Seminar , Halifax, Canada. Nov 25, 2021.
+
+ Slides 
+
+Journal Paper 
+
+Ethics Sheet for Automatic Emotion Recognition and Sentiment Analysis.  Saif M. Mohammad. Computational Linguistics, 48(2):239-278 .  June 2022.
+
+Paper (pdf)     BibTeX     Slides     Poster 
+
+Papers 
+
+Ethics Sheets for AI Tasks . Saif M. Mohammad. In Proceedings of the 60th Annual Meeting of the Association of Computational Linguistics (ACL-2022) , May 2022, Dublin, Ireland. 
+
+ Paper (pdf)     BibTeX     Slides     Poster 
+ 
+ What Makes Sentences Semantically Related: A Textual Relatedness Dataset and Empirical Study . Mohamed Abdalla, Krishnapriya Vishnubhotla, Saif Mohammad. arXiv: 2110.04845 .  Oct 2021. 
+
+ Paper (pdf)     BibTeX     Data and Code 
+
+Blog Posts 
+
+Ethics Sheets for AI Tasks. July 5, 2021.     
+
+ Video 
+ 
+ Ethics Sheet for Automatic Emotion Recognition and Sentiment Analysis. July 5, 2021. 
+
+Invited Talks 
+
+Ethics Sheets for AI Tasks and a Case Study for Automatic Emotion Recognition. The University of British Columbia  Language Sciences Talks , Vancouver, Canada. July 15, 2021.
+
+ Slides       Video 
+ 
+Emotion Dynamics of Fictional Characters using Large Emotion Lexicons. The 17th IGEL Conference. June 23, 2021.
+
+ Slides       
+ 
+Ethics Sheets for AI Tasks and a Case Study for Automatic Emotion Recognition. The Alan Turing Institute , London, UK. May, 2021. 
+
+Paper 
+
+Ruddit: Norms of Offensiveness for English Reddit Comments. Rishav Hada, Sohi Sudhir, Pushkar Mishra, Helen Yannakoudakis, Saif M. Mohammad, and Ekaterina Shutova. In Proceedings of the 59th Annual Meeting of the Association of Computational Linguistics (ACL-2021), August 2021. 
+
+ Paper (pdf)     BibTeX     Code and Data 
+
+Journal Paper s 
+
+Emotion Dynamics in Movie Dialogues. Will E. Hipson and Saif M. Mohammad. PLoS ONE 16(9): e0256153 , September, 2021.
+
+ Paper (pdf)     BibTeX     Code 
+ 
+ Examining the Language of Solitude vs. Loneliness in Tweets .  Will E. Hipson, Svetlana Kiritchenko, Robert J. Coplan, Saif M. Mohammad. Journal of Social and Personal Relationships. March 2021. 
+
+ Paper (pdf)    BibTeX 
+
+Book Chapter 
+
+Sentiment Analysis: Automatically Detecting Valence, Emotions, and Other Affectual States from Text. Saif M. Mohammad, Emotion Measurement (Second Edition), Elsevier , 2021.
+
+ PDF (arxiv preprint arXiv:2005.11882 )      BibTeX 
+
+Talk 
+
+What is a Research Ethics Statement and Why does it Matter? Saif M. Mohammad.
+
+ Slides
+
+I presented some of these ideas at the  EMNLP 2020 Plenary Panel on Publishing in the Era of Responsible AI: How Can we be Proactive? Considerations and Implications. Panelists: Emily M. Bender, Rosie Campbell, Allan Dafoe, Pascale Fung, Meg Mitchell, Saif M. Mohammad. 
+
+Paper 
+
+Practical and Ethical Considerations in the Effective use of Emotion and Sentiment Lexicons.  Saif M. Mohammad. arXiv preprint arXiv:2011.03492. December 2020. 
+
+ Paper (pdf)     BibTeX 
+
+Recognition 
+
+Nominated for the outstanding acheivement in research excellence award by National Research Council Canada. November 2020. (1 of 6 nominees) 
+
+Invited Talk 
+
+Gender Gap in Natural Language Processing Research: Disparities in Authorship and Citations. Women+@DCS Seminar Series, University of Sheffield , October 28 2020, Sheffield, UK.
+
+ Slides       Video 
+
+Papers 
+
+Lexichrome: Text Construction and Lexical Discovery with Word-Color Associations Using Interactive Visualization . Chris K. Kim, Uta Hinrichs, and Saif M. Mohammad, and Chris Collins. In Proceedings of DIS 2020: Conference on Designing Interactive Systems , July 2020, Eindhoven, Netherlands.
+
+ Paper (pdf)     BibTeX     Video     Interactive Visualization 
+ 
+ Examining Citations of Natural Language Processing Literature.  Saif M. Mohammad. In Proceedings of the 58th Annual Meeting of the Association of Computational Linguistics (ACL-2020) , July 2020, Seattle, USA. 
+
+Examines nine questions pertaining to broad trends in citations of NLP papers (across time, across venue types, across paper types, across areas, etc.). 
+
+Paper (pdf)     BibTeX       Presentation        Project Home Page     Interactive Visualizations       Medium Blog Posts 
+ 
+ Gender Gap in Natural Language Processing Research: Disparities in Authorship and Citations. Saif M. Mohammad. In Proceedings of the 58th Annual Meeting of the Association of Computational Linguistics (ACL-2020). July 2020. Seattle, USA.  
+
+Summary: Examines eight questions pertaining to disparities across male and female NLP researchers (in authorship and citations). 
+
+Paper (pdf)     BibTeX       Video       Presentation        Project Home Page       Medium Blog Posts 
+ 
+ PoKi: A Large Dataset of Poems by Children. Will E. Hipson, and Saif M. Mohammad. In Proceedings of the 12th Language Resources and Evaluation Conference (LREC-2020), May 2020, Marseille, France.
+
+ Paper (pdf)     BibTeX       Project Home Page and Data 
+ 
+ NLP Scholar: An Interactive Visual Explorer for Natural Language Processing Literature.  Saif M. Mohammad. In Proceedings of the 58th Annual Meeting of the Association of Computational Linguistics (ACL-2020) , July 2020, Seattle, USA. 
+
+Presents an interactive visualization tool to help users find (related) work published in the ACL Anthology. 
+
+Paper (pdf)     BibTeX       Presentation       Project Home Page     Interactive Visualizations       Medium Blog Posts 
+ 
+ SOLO: A Corpus of Tweets for Examining the State of Being Alone. Svetlana Kiritchenko, Will Hipson, Robert Coplan, and Saif M. Mohammad. In Proceedings of the 12th Language Resources and Evaluation Conference (LREC-2020), May 2020, Marseille, France.
+
+ Paper (pdf)     BibTeX        Data 
+ 
+ WordWars: A Dataset to Examine the Natural Selection of Words. Saif M. Mohammad. In Proceedings of the 12th Language Resources and Evaluation Conference (LREC-2020), May 2020, Marseille, France.
+
+ Paper (pdf)     BibTeX        Data       Project Home Page and Visualizations 
+ 
+ NLP Scholar: A Dataset for Examining the State of NLP Research. Saif M. Mohammad. In  Proceedings of the 12th Language Resources and Evaluation Conference (LREC-2020) , May 2020, Marseille, France. 
+
+Presents the NLP Scholar Dataset -- a single unified source of information from both the ACL Anthology (AA) and Google Scholar for tens of thousands of NLP papers.Presents initial work on analyzing the volume of  research in NLP over the years, identifies some the most cited papers in AA, as well as outlines a list of potential applications of the dataset. 
+
+Paper (pdf)     BibTeX       Project Home Page and Data     Interactive Visualizations       Medium Blog Posts 
+ 
+ The State of NLP Literature: A Diachronic Analysis of the ACL Anthology.  Saif M. Mohammad. arXiv preprint arXiv:1911.03562. November 2019.  
+
+A manuscript that brings together the analyses of NLP papers first presented in the four State of NLP blog posts. 
+
+Paper (pdf)     BibTeX       Project Home Page and Data       Interactive Visualizations       Medium Blog Posts 
+
+Applied AI Ethics. Report on Canada-United Kingdom Symposia on Ethics in AI in Ottawa, Canada and London, UK. de Bruijn, B., Désillets, A., Fraser, K., Kiritchenko, S., Mohammad, S., Vinson, N., Bloomfield, P., Brace, H., Brzoska, K., Elhalal, A., Ho, K., Kinsey, L., McWhirter, R., Nazare, M., and Ofuri-Kuragu, E. Digital Catapult, London, UK / NRC, Ottawa, Canada, 2019. 
+
+ Paper (pdf)     Symposium Website 
+
+Recognition 
+
+Awarded a "Top Writer for Science on Medium" status. November 2019. (One of 50 writers who had this tag at the time. There were about 63K stories in the Science category on Medium at the time.) 
+
+Invited Talk s 
+
+The Search for Emotions, Creativity, and Fairness in Language. Data Systems Seminar Series, University of Waterloo , October 28 2019, Waterloo, Canada.
+
+ Slides     Video 
+ 
+Fairness and Emotions in Language. The Globe and Mail. October 29, 2019, Toronto, Canada. 
+ 
+Hosting the Responsible AI Summit , October 24 2019, Montreal, Canada. 
+ 
+Creativity and Emotions in Language. Invited talk and panel on AI and Creativity in Government at the Creative Marketplace Lab on Data, Skills and Technology, Department of  Canadian   Heritage , September 30 2019, Gatineau, Canada. 
+ 
+The Search for Emotions, Creativity, and Fairness in Language. Mila - Quebec AI Institute , August 2019, Montreal, Canada.
+
+ Slides   
+ 
+The Search for Emotions, Creativity, and Fairness in Language. Keynote speech at the 8th KDD Workshop on Issues of Sentiment Discovery and Opinion Mining (WISDOM-2019), August 2019, Anchorage, Alaska.
+
+ Slides    
+
+Web/Press Mentions 
+
+Gender and Racial Bias in Cloud NLP Sentiment APIs , Aug 21, 2019. Article looking into race and gender biases in the Google and AWS cloud sentiment analysis APIs using  the Equity Evaluation Corpus and the techniques we published in 2018 . 
+
+Journal Paper 
+
+AffectiveTweets: a Weka Package for Analyzing Affect in Tweets. Felipe Bravo-Marquez, Eibe Frank, Bernhard Pfahringer, Saif M. Mohammad. Journal of Machine Learning Research, 20(92):1−6, 2019.
+
+ Paper (pdf)     BibTeX        Code 
+
+Papers 
+
+Big Bird: A Large, Fine-Grained, Bigram Relatedness Dataset for Examining Semantic Composition . Shima Asaadi, Saif M. Mohammad, and Svetlana Kiritchenko. In Proceedings of the North American Chapter of the Association for Computational Linguistics (NAACL-2019),  June 2019, Minnesota, USA.
+
+ Paper (pdf)     BibTeX        Poster        Data        Project Home Page and Visualizations         Code 
+ 
+ How do we feel when a robot dies? Emotions expressed on Twitter before and after hitchBOT’s destruction. Kathleen C. Fraser, Frauke Zeller, David Harris Smith, Saif M. Mohammad, and Frank Rudicz. In Proceedings of the NAACL workshop on computational approaches to subjectivity, sentiment, and social media analysis (WASSA-19), June 2019, Minneapolis, USA.
+
+ Paper (pdf)     BibTeX        Slides        Visualizations 
+
+Invited Talk s 
+
+Examining Fairness in Language Through Emotions . Keynote speech at the 2019 Canada--UK Workshop on Practical AI Ethics , March 12, 2019, London, UK.
+
+ Slides 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language . The Alan Turing Institute . March 11, 2019. London, UK.
+
+ Slides     Video 
+ 
+ Examining Fairness in Language Through Emotions . The 2019 Canada--UK Symposium on Ethics in AI , Feb 21, 2019, Ottawa, Canada.
+
+ Slides     Video 
+
+Journal Paper 
+
+The Natural Selection of Words: Finding the Features of Fitness. Peter D. Turney and Saif M. Mohammad. PLoS One, 14 (1):e0211512. January 2019.
+
+ Paper
+ (pdf)      BibTeX      Code 
+
+Professional Community Involvement 
+
+Chair of the 2019 Canada--UK Symposium on Ethics in AI , Feb 21--22, Ottawa, Canada. 
+ 
+Area chair for Sentiment Analysis and Argumentation Mining, EMNLP-IJCNLP-2019 , Hong Kong. 
+ 
+Area Chair for ACL 2019 in the area of Sentiment Analysis and Argument Mining. 
+ 
+Area chair for Semantics in NLP Applications, *Sem-2019 , Minneapolis, Minnesota, USA. 
+ 
+Area Chair for Ethics, Bias and Fairness at NAACL-2019 , Minneapolis, USA. 
+ 
+ NAACL-2019 has a special theme encouraging papers on ethics, bias, and airness. 
+ 
+Co-chair of SemEval 2019 , Minneapolis, Minnesota, USA. 
+ 
+Mentor, Student Research Workshop, ACL-2019 , Florence, Italy 
+ 
+Mentor, Student Research Workshop, NAACL-2019 , Minneapolis, Minnesota, USA. 
+
+Invited Talks 
+
+The Search for Emotions, Creativity, and Fairness in Language . Venue: Keynote speech at the 6th evaluation campaign  EVALITA 2018 . December 12, 2018. Turin, Italy. 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language. Venue: Department of Computational Linguistics, Heidelberg University. December 13, 2018. Heidelberg, Germany. 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language. Venue: Invited Speaker Series. Pickering Centre for Human Development, Carleton University . November 16, 2018. Ottawa, Canada. 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language. Short talk to 9th graders on the occasion of Bring-Your-Ninth-Grader-to-Work Day at the National Research Council Canada. November 14, 2018. Ottawa, Canada 
+
+The Search for Emotions, Creativity, and Fairness in Language . At the Natural Language Processing Seminar and AI Seminar, University of Michigan , Ann Arbor. October 2, 2018. Ann Arbor, Michigan. 
+
+Journal Paper 
+
+Data and systems for medication-related text classification and concept normalization from Twitter: Insights from the Social Media Mining for Health (SMM4H)-2017 shared task. Abeed Sarker, Maksim Belusov, Jasper Friedrichs, Kai Hakala, Sifei Han, Svetlana Kiritchenko, Farrokh Mehryary, Anthony Rios, Tung Tran, Berry de Bruijn, Filip Ginter, Ramakanth Kavuluru, Debanjan Mahata, Saif M. Mohammad, Goran Nenadic, Graciela Gonzalez-Hernandez. Journal of the American Medical Informatics Association (JAMIA), 25(10):1274--1283, October 2018 .
+
+Official Rankings : Our team (NRC-Canada) ranked first in the AMIA
+ 
+ Shared Task on detecting adverse drug reactions in
+ tweets. 
+
+Invited Talks 
+
+The Search for Emotions, Creativity, and Fairness in Language. Department of Computer Science, University of Utah. August 6, 2018. Salt Lake City, Utah. 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language. Keynote speech at the ACL Workshop on Natural Language Processing for Social Media. July 20, 2018. Melbourne, Australia. 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language. Department of Computer Science, University of Melbourne, July 20, 2018. Melbourne, Australia. 
+ 
+ The Search for Emotions, Creativity, and Fairness in Language. The University of Waikato, Computing & Mathematical Sciences . July 10, 2018. Hamilton, New Zealand. 
+ 
+ Examining Gender and Race Bias in Two Hundred Sentiment Analysis Systems. Invited talk at the Second ACL Workshop on Ethics in Natural Language Processing , New Orleans, LA, USA, June 2018. 
+ 
+ The Search for
+ Emotions in Language. Google
+ 
+ Research. May 25, 2018. Montreal, Canada. 
+
+Professional Community Involvement 
+
+Co-organizer of the 9th Workshop
+ 
+ on Computational Approaches to Subjectivity,
+ Sentiment and Social Media Analysis, to be held in
+ conjunction with EMNLP-2018, Oct 31–Nov 1, Brussels,
+ Belgium. 
+
+Papers 
+ Obtaining Reliable Human Ratings of Valence,
+ Arousal, and Dominance for 20,000 English Words. Saif M.
+ Mohammad. In Proceedings of the 56th Annual
+ Meeting of the Association for Computational Linguistics,
+ Melbourne, Australia, July 2018.
+
+ Paper (pdf)     BibTeX     Project Page and Data      Presentation      Video      Poster 
+ 
+Examining Gender and Race Bias in Two Hundred Sentiment
+ Analysis Systems. Svetlana Kiritchenko and Saif M.
+ Mohammad. In Proceedings of *Sem , New Orleans,
+ LA, USA, June 2018.
+
+ Paper
+ 
+ (pdf)    
+ 
+ BibTeX    Project
+ 
+ Page and Data      Presentation 
+ 
+Agree or Disagree: Predicting Judgments on Nuanced
+ Assertions. Michael Wojatzki, Torsten
+ Zesch, Saif M. Mohammad, and  Svetlana
+ Kiritchenko. In Proceedings of *Sem , New
+ Orleans, LA, USA, June 2018.
+
+ Paper (pdf)    
+ 
+ BibTeX        Project
+ 
+ Page and Data        Presentation 
+ 
+ Semeval-2018 Task 1: Affect in tweets. Saif M.
+ Mohammad, Felipe Bravo-Marquez, Mohammad Salameh, and
+ Svetlana Kiritchenko. In Proceedings of
+ International Workshop on Semantic Evaluation
+ (SemEval-2018) , New Orleans, LA, USA, June 2018.
+
+ Paper (pdf)     BibTeX       
+ 
+ Data and Visualization      Presentation 
+
+SemEval-2018 Task 1: Affect in Tweets Webpage 
+
+ 75 teams and about 200 participants. 
+ 
+DeepMiner at SemEval-2018 Task 1: Emotion Intensity
+ Recognition Using Deep Representation Learning. Habibeh
+ Naderi, Svetlana Kiritchenko, Saif M. Mohammad, and Stan
+ Matwin. In Proceedings of International Workshop on
+ Semantic Evaluation (SemEval-2018) , New Orleans,
+ LA, USA, June 2018.
+
+ Paper (pdf)    
+ 
+ BibTeX   
+ 
+WikiArt Emotions: An Annotated Dataset of Emotions
+ Evoked by Art. Saif M. Mohammad and Svetlana
+ Kiritchenko. In  Proceedings of
+ the 11th Edition of the Language Resources and
+ Evaluation Conference (LREC-2018) , May 2018,
+ Miyazaki, Japan.
+
+ Paper
+ (pdf)     BibTeX        Poster        Project
+ 
+ Page and Data 
+ 
+Word Affect Intensities. Saif M. Mohammad.
+ In  Proceedings of the 11th Edition of the
+ Language Resources and Evaluation Conference
+ (LREC-2018) , May 2018, Miyazaki, Japan.
+
+ Paper
+ (pdf)     BibTeX        Presentation        Project Page and
+ Data 
+
+Understanding Emotions: A Dataset of Tweets to Study
+ Interactions between Affect Categories. Saif M.
+ Mohammad and Svetlana Kiritchenko. In  Proceedings
+ 
+ of the 11th Edition of the Language Resources and
+ Evaluation Conference (LREC-2018) , May 2018,
+ Miyazaki, Japan. 
+
+ Paper
+ (pdf)     BibTeX        Presentation        Shared
+ 
+ Task Page and Data 
+ 
+Quantifying Qualitative Data for Understanding
+ Controversial Issues. Michael Wojatzki, Saif M.
+ Mohammad, Torsten Zesch, and Svetlana Kiritchenko.
+ In  Proceedings of the 11th Edition of the
+ Language Resources and Evaluation Conference
+ (LREC-2018) , May 2018, Miyazaki, Japan.
+
+ Paper
+ 
+ (pdf)     BibTeX         Presentation       Project
+ 
+ Page and Data 
+
+Invited Talks 
+
+The
+ 
+ Search for Emotions in Language. Featured speaker
+ at the Distinguished Computational Linguistics Lecture
+ at Rochester Institute of Technology. March 1, 2018.
+ Rochester, NY, USA. 
+ 
+ The
+ 
+ Search for Emotions in Language. University of
+ Toronto. Feb 27, 2018. Toronto, Canada. 
+ 
+ Finding
+ Emotions in Language. Information Systems Sprott
+ School of Business, Carleton University. November 13,
+ 2017. Ottawa, Canada. 
+ 
+ Emotion-Aware
+ 
+ Machines. Short talk to 9th graders on the
+ occasion of Bring-Your-Ninth-Grader-to-Work Day at the
+ National Research Council Canada. November 1, 2017.
+ Ottawa, Canada. 
+
+Professional Community Involvement 
+
+Co-chair for SemEval-2018 . 
+ 
+Organizer of SemEval-2018
+ 
+ Task 1: Affect in Tweets . 
+
+ 75 teams and about 200 participants. 
+
+Papers 
+
+NRC-Canada at SMM4H Shared Task: Classifying Tweets
+ Mentioning Adverse Drug Reactions and Medication Intake.
+ Svetlana Kiritchenko, Saif M. Mohammad, Jason Morin, and
+ Berry de Bruijn (2017). In Proceedings of the
+ Social Media Mining for Health Applications Workshop
+ at AMIA-2017 , Washington, DC, USA, 2017.
+
+ Paper (pdf)     BibTeX        Our System Homepage 
+
+Official Rankings : Our team (NRC-Canada) ranked first in the AMIA
+ 
+ Shared Task on detecting adverse drug reactions in
+ tweets.   
+
+WASSA-2017 Shared
+ Task on Emotion Intensity. Saif M. Mohammad and
+ Felipe Bravo-Marquez. In Proceedings of the EMNLP
+ 2017 Workshop on Computational Approaches to
+ Subjectivity, Sentiment, and Social Media (WASSA) ,
+ September 2017, Copenhagen, Denmark.
+
+ Paper (pdf)     BibTex      Data
+ 
+ and Shared Task     
+ 
+ Presentation 
+ 
+ Emotion
+ 
+ Intensities in Tweets. Saif M. Mohammad and Felipe
+ Bravo-Marquez. In Proceedings of the Sixth Joint
+ Conference on Lexical and Computational Semantics
+ (*Sem) , August 2017, Vancouver, Canada.
+
+ Paper
+ 
+ (pdf)     BibTex      Data
+ 
+ and Shared Task      AffcetiveTweets package      Presentation 
+ 
+ Best-Worst
+ Scaling More Reliable than Rating Scales: A Case Study
+ on Sentiment Intensity Annotation. Svetlana Kiritchenko and Saif M.
+ Mohammad. In Proceedings of the Annual
+ Meeting of the Association for Computational
+ Linguistics (ACL-2017) , Vancouver, Canada, 2017.
+
+ Paper (pdf)    
+ 
+ BibTeX      
+ Data       Poster       
+
+Invited Talks 
+
+Affect
+ 
+ Associations in Creative Language. Seminar Series
+ for the Doctorate in Cognitive Informatics at Université
+ du Québec à Montréal (UQAM), April 13, 2017, Montreal,
+ Canada.
+
+ Presentation 
+ 
+ Affect
+ Associations in Creative Language. Keynote speech at the
+ COLING 2016 workshop on Computational
+ 
+ Modeling of People's Opinions, Personality, and
+ Emotions in Social Media (PEOPLES 2016) , December
+ 12, 2016, Osaka, Japan.
+
+ Presentation 
+ 
+ Affect
+ 
+ Associations: The Building Blocks of Sentiment
+ Analysis. Keynote
+ speech at the 20th
+ International Conference on Asian Language Processing
+ (IALP 2016) , November 21-23, 2016, National Cheng
+ Kung University, Tainan, Taiwan.
+
+ Presentation 
+ 
+ Affect
+ Associations in Creative Language. Keynote speech at the 2016
+ IR Workshop at the Academia Sinica, November 24, 2016,
+ Taipei, Taiwan.
+
+ Presentation 
+ 
+Emotion-Aware Machines. Short talk to
+ 9th graders on the occasion of
+ Bring-Your-Ninth-Grader-to-Work Day at the National
+ Research Council Canada. November 1, 2016. Ottawa,
+ Canada. 
+ 
+Capturing Reliable Fine-Grained
+ Sentiment Associations by Crowdsourcing and Best–Worst
+ Scaling. Invited talk at the TAMALE seminar
+ series , September 15, 2016, University of Ottawa.
+ (Joint work with, and talk given by, Svetlana
+ Kiritchenko.)
+
+ Presentation 
+ 
+Metaphor as a Medium for Emotion: An
+ Empirical Study. Invited talk at the TAMALE seminar
+ series , September 15, 2016, University of Ottawa.
+ (Joint work with Ekaterina Shutova and Peter Turney.)
+
+ Presentation 
+
+Professional Community Involvement 
+
+Co-chair for SemEval-2017 . 
+ 
+Co-organizer of the 8th Workshop on
+ Computational Approaches to Subjectivity, Sentiment
+ & Social Media Analysis (WASSA-2017) , to be
+ held in conjunction with EMNLP-2017, Copenhagen,
+ Denmark. 
+ 
+Organizer of shared
+ 
+ task on detecting emotion intensity at WASSA-2017. 
+ 
+Area chair for Sentiment Analysis and Opinion Mining at ACL-2017 , Vancouver,
+ Canada. 
+ 
+Area chair for Sentiment Analysis and Opinion Mining at EMNLP-2017 ,
+ Copenhagen, Denmark. 
+
+Event 
+
+A symphony orchestra performed music composed using the
+ NRC Emotion Lexicon under the glass of the Louvre museum
+ in Paris on Sept. 20, 2016. Click here for a video
+ 
+ of the performance .
+
+ Articles published in the Washington
+ 
+ Post , CBS
+ 
+ News , Columbia Tribune , and others. 
+
+Journal Paper 
+
+Stance and Sentiment in Tweets. Saif
+ M. Mohammad, Parinaz Sobhani, and Svetlana Kiritchenko. Special Section of the ACM Transactions on Internet
+ Technology on Argumentation in Social Media,  2017,
+ 
+ 17(3) . 
+
+ Paper (pdf)     BibTeX        Data and
+ Visualization 
+
+Papers 
+
+Metaphor as a Medium for Emotion: An Empirical
+ Study . Saif M. Mohammad, Ekaterina Shutova,
+ and Peter Turney. In Proceedings of the Joint
+ Conference on Lexical and Computational Semantics
+ (*Sem) , August 2016, Berlin, Germany. 
+
+ Paper
+ (pdf)     BibTeX     Presentation       Data
+ 
+ and Interactive Visualization 
+ 
+ Detecting Stance in Tweets And Analyzing its
+ Interaction with Sentiment. Parinaz Sobhani,
+ Saif M. Mohammad, and Svetlana Kiritchenko. In Proceedings
+ 
+ of the Joint Conference on Lexical and Computational
+ Semantics (*Sem) , August 2016, Berlin, Germany. 
+
+ Paper
+ (pdf)     BibTeX     Presentation       Data and
+ Visualization 
+ 
+ Determining Word-Emotion Associations from
+ Tweets by Multi-Label Classification. Felipe
+ Bravo-Marquez, Eibe Frank, Saif Mohammad, and Bernhard
+ Pfahringer. In Proceedings of the 2016 IEEE/WIC/ACM
+ International Conference on Web Intelligence (WI'16),
+ October 2016, Omaha, Nebraska, USA. 
+
+ Paper
+ 
+ (pdf)     BibTeX    Data (scroll to section on this paper) 
+
+Invited Talk 
+
+Sentiment and Emotions in Tweets. Department of
+ Geography & Geoinformation Science at George Mason
+ University . May 29, 2016, FairFax, Virginia.
+
+ Presentation 
+
+Professional Community Involvement 
+
+Publicity Chair for the 2016 meeting of
+ the 2016 Conference on Empirical Methods on Natural
+ Language Processing. ( EMNLP-2016 ). 
+ 
+Area Chair for Sentiment and Opinion
+ Mining at EMNLP 2016. 
+
+Book Chapter 
+
+Challenges in Sentiment Analysis. Saif
+ M. Mohammad, A Practical Guide to Sentiment
+ Analysis , Springer, 2016.
+
+ Pre-print
+ version (pdf)      BibTeX 
+
+Papers 
+
+Capturing Reliable Fine-Grained
+ Sentiment Associations by Crowdsourcing and Best-Worst
+ Scaling. Svetlana Kiritchenko and Saif M.
+ Mohammad. In Proceedings of the 15th
+ Annual Conference of the North American Chapter of the
+ Association for Computational Linguistics: Human
+ Language Technologies, June 2016, San Diego, California.
+
+ Paper (pdf)     BibTeX     Presentation     Data     
+ 
+ Sentiment Composition of Words
+ with Opposing Polarities. Svetlana
+ Kiritchenko and Saif M. Mohammad. In Proceedings of
+ the 15th Annual Conference of the North
+ American Chapter of the Association for Computational
+ Linguistics: Human Language Technologies, June
+ 2016, San Diego, California.
+
+ Paper (pdf)     BibTeX     Poster     Data: Opposing
+ 
+ Polarity Sentiment Lexicon     Interactive
+ 
+ Visualization 
+ 
+ The Effect of Negators, Modals, and Degree
+ Adverbs on Sentiment Composition. Svetlana
+ Kiritchenko and Saif M. Mohammad, In Proceedings of
+ the NAACL 2016 Workshop on Computational Approaches to
+ Subjectivity, Sentiment, and Social Media (WASSA), June 2016, San Diego, California. 
+
+ Paper (pdf)     BibTeX     Presentation     Data
+ 
+ ( Sentiment
+ 
+ Composition Lexicon of Negators, Modals, and Adverbs
+ (SCL-NMA) ) and Visualization 
+ 
+ Semeval-2016 Task 6: Detecting
+ Stance in Tweets. Saif M. Mohammad, Svetlana
+ Kiritchenko, Parinaz Sobhani, Xiaodan Zhu, and Colin
+ Cherry. In Proceedings of the International
+ Workshop on Semantic Evaluation (SemEval ’16) .
+ June 2016. San Diego, California.
+
+ Paper
+ (pdf)     BibTeX      Presentation     Task
+ Website 
+ 
+ Semeval-2016 Task 7:
+ Determining Sentiment Intensity of English and Arabic
+ Phrases. Svetlana Kiritchenko, Saif M.
+ Mohammad, and Mohammad Salameh. In Proceedings of
+ the International Workshop on Semantic Evaluation
+ (SemEval ’16) . June 2016. San Diego, California.
+
+ Paper
+ (pdf)     BibTeX      Presentation      Task
+ Website 
+ 
+ A Practical Guide to Sentiment Annotation:
+ Challenges and Solutions. Saif M. Mohammad,
+ In Proceedings of the NAACL 2016 Workshop on
+ Computational Approaches to Subjectivity, Sentiment,
+ and Social Media (WASSA) , June 2016, San Diego,
+ California.
+
+ Paper
+ 
+ (pdf)     BibTeX     Presentation     
+ 
+ Sentiment Lexicons for Arabic
+ Social Media. Saif M. Mohammad, Mohammad
+ Salameh, and Svetlana Kiritchenko. In Proceedings
+ of the 10th edition of the Language Resources and
+ Evaluation Conference , May 2016, Portoro
+ (Slovenia).
+
+ Paper (pdf)     BibTeX     Presentation      Video        
+ 
+ Data: Arabic Sentiment Lexicons 
+ 
+ A Dataset for Detecting Stance
+ in Tweets. Saif M. Mohammad, Svetlana
+ Kiritchenko, Parinaz Sobhani, Xiaodan Zhu, and Colin
+ Cherry. In Proceedings of the 10th edition of the
+ Language Resources and Evaluation Conference , May
+ 2016, Portoro (Slovenia).
+
+ Paper (pdf)     BibTeX     Presentation     Data: Stance Dataset     Interactive
+ Visualization 
+ 
+ Happy Accident: A
+ Sentiment Composition Lexicon for Opposing Polarities Phrases. Svetlana Kiritchenko and Saif M. Mohammad. In Proceedings
+ 
+ of the 10th edition of the Language Resources and
+ Evaluation Conference , May 2016, Portoro
+ (Slovenia).
+
+ Paper
+ 
+ (pdf)     BibTeX     Poster    
+ 
+ Data : Opposing
+ Polarity Sentiment Lexicon     Interactive
+ 
+ Visualization 
+
+Book Chapter 
+
+Sentiment Analysis: Detecting Valence,
+ Emotions, and Other Affectual States from Text. Saif M. Mohammad, Emotion Measurement , 2016.
+
+ Pre-print version
+ (pdf)     BibTeX 
+
+ This is a survey on automatic methods for affect
+ analysis. 
+
+Interactive Visualization and Paper 
+
+Imagisaurus: An Interactive Visualizer of
+ Valence and Emotion in the Roget’s Thesaurus. Saif M. Mohammad. In Proceedings of the EMNLP 2015
+ Workshop on Computational Approaches to Subjectivity,
+ Sentiment, and Social Media (WASSA) , September
+ 2015, Lisbon, Portugal.
+
+ Paper
+ 
+ (pdf)     BibTeX     Interactive
+ Visualization 
+
+Data 
+
+The NRC Emotion Lexicon is now available in over 20 languages . 
+
+Journal Paper 
+
+How
+ Translation Alters Sentiment . Saif M. Mohammad, Mohammad Salameh, and Svetlana
+ Kiritchenko, Journal of Artificial
+ Intelligence Research , January 2016, 55:95-130.
+
+ Paper
+ 
+ (pdf)     BibTeX     Data:
+ 
+ Arabic Sentiment Lexicons 
+
+Professional Community Involvement 
+
+Organizing these shared task
+ competitions under the aegis of SemEval-2016 (see webpage for schedule): 
+
+Detecting
+ 
+ Stance in Tweets (new task) . Saif M.
+ Mohammad, Svetlana Kiritchenko, Parinaz Sobhani,
+ Xiaodan Zhu, and Colin Cherry. 
+ 
+ Determining
+ 
+ sentiment intensity of English and Arabic phrases .
+ Svetlana Kiritchenko, Saif M Mohammad, and Mohammad
+ Salameh. This is an expansion of the SemEval-2015 Task
+ 10 subtask E - Determining
+ 
+ strength of association of Twitter terms with
+ positive sentiment (or, degree of prior polarity) . 
+
+Journal Paper 
+
+Developing
+ 
+ a Successful SemEval Task in Sentiment Analysis of
+ Twitter and Other Social Media Texts .Preslav
+ Nakov, Sara Rosenthal, Svetlana Kiritchenko, Saif M.
+ Mohammad, Zornitsa Kozareva, Alan Ritter, Veselin
+ Stoyanov, and Xiaodan Zhu. Language Resources and
+ Evaluation. January 2016, 50(1):35-65.
+
+ Paper
+ 
+ (pdf)    Preprint
+ 
+ Version (pdf)     BibTeX 
+
+Tutorial 
+
+Computational
+ 
+ Analysis of Affect and Emotion in Language. Saif
+ M. Mohammad and Cecilia Ovesdotter Alm. Tutorial at the
+ 2015 Conference on Empirical Methods on Natural Language
+ Processing, September 2015, Lisboa, Portugal.
+
+ Presentation          Annotated
+ 
+ Bibliography      
+ 
+    Extended
+ 
+ Bibliography        Proposal 
+
+Paper s 
+
+SemEval-2015 Task 10: Sentiment
+ Analysis in Twitter . Sara Rosenthal, Preslav
+ Nakov, Svetlana Kiritchenko, Saif M Mohammad, Alan
+ Ritter, and Veselin Stoyanov. In Proceedings of the
+ ninth international workshop on Semantic Evaluation
+ Exercises (SemEval-2015), June 2015, Denver, Colorado.
+
+ Paper
+ (pdf)     BibTeX 
+ 
+ Sentiment After Translation: A
+ Case-Study on Arabic Social Media Posts .
+ Mohammad Salameh, Saif M. Mohammad, and Svetlana
+ Kiritchenko, In Proceedings of the North
+ 
+ American Chapter of the Association for
+ Computational Linguistics (NAACL-2015), June
+ 
+ 2015, Denver, Colorado.
+
+ Paper
+ 
+ (pdf)     BibTeX   Data:
+ 
+ rabic Sentiment Lexicons 
+
+Visualization 
+ Explore the interactive
+ visualization for the NRC Word-Emotion Association
+ Lexicon. 
+ 
+ Symposium 
+
+My N is Ten Million: Using
+ Social Media to Track Emotion, Mental Health, and
+ Measure Personality Across Entire Populations .
+ Gregory J Park, Saif M Mohammad, and Johannes C
+ Eichstaedt. A symposium at the International Convention
+ of Psychological Science (ICPS), March 2015, Amsterdam,
+ The Netherlands. 
+
+Tutorial 
+
+Sentiment Analysis of Social
+ Media Texts. Saif M. Mohammad and Xiaodan
+ Zhu. Tutorial at the 2014 Conference
+ on Empirical Methods on Natural Language Processing,
+ October 2014, Doha, Qatar.
+
+ Presentation    Video    Proposal 
+
+Professional Community Involvement 
+
+I am serving as Publicity Chair for the
+ 2015 meeting of the North American Association for
+ Computational Linguistics ( NAACL-2015 ).
+ 
+ I am also the Area Chair for Sentiment and Opinion
+ Mining. 
+
+Invited Talk 
+
+The
+ 
+ Words are Alive: Associations with Sentiment,
+ Emotions, Colours, and Music . Invited
+ talk at Language Technology Institute, Carnegie Mellon
+ University, September 2014, Pittsburgh, PA.
+
+ Presentation    Video 
+
+Journal Paper 
+
+Sentiment,
+ 
+ Emotion, Purpose, and Style in Electoral Tweets. Saif M. Mohammad, Svetlana Kiritchenko, Xiaodan Zhu, and
+ Joel Martin. Information Processing and Management ,
+ Volume 51, Issue 4, July 2015, Pages 480–499. 
+
+ Paper
+ (pdf)     BibTeX     AnnotatedData 
+
+Invited Talk 
+
+Words: Evaluative, Emotional,
+ Colourful, Musical! Keynote
+ speech at the ACL
+ 2014 Workshop on Computational Approaches to
+ Subjectivity, Sentiment, and Social Media (WASSA) ,
+ June 27, 2014, Baltimore, MD.
+
+ Presentation 
+
+Journal Paper s 
+
+Experiments
+ 
+ with Three Approaches to Recognizing Lexical
+ Entailment. Peter D. Turney, Saif M.
+ Mohammad, Natural Language Engineering, 21(3):437-476, May 2015.
+
+ Paper
+ (pdf)     BibTeX 
+ 
+ Using
+ 
+ Hashtags to Capture Fine Emotion Categories from
+ Tweets. Saif M. Mohammad, Svetlana
+ Kiritchenko, Computational Intelligence, 31( 2):301-326, May 2015.
+
+ Paper (pdf)     BibTeX 
+
+Professional Community Involvement 
+
+One of the organizers of SemEval-2015
+ Task 10 - Sentiment
+ 
+ Analysis in Twitter . Of special interest to me is
+ subtask E - Determining strength of association of
+ Twitter terms with positive sentiment (or, degree of
+ prior polarity). Task description, trial data, test
+ data, and other details available here . 
+
+Journal Paper 
+
+Sentiment
+ 
+ Analysis of Short Informal Texts. Svetlana Kiritchenko, Xiaodan Zhu and Saif Mohammad. Journal
+ 
+ of Artificial Intelligence Research, volume 50,
+ pages 723-762, August 2014.
+
+ Paper
+ 
+ (pdf)     BibTeX 
+
+Paper s 
+
+NRC-Canada-2014: Detecting
+ Aspects and Sentiment in Customer Reviews ,
+ Svetlana Kiritchenko, Xiaodan Zhu, Colin Cherry, and
+ Saif M. Mohammad. In Proceedings of the eighth
+ international workshop on Semantic Evaluation Exercises
+ (SemEval-2014), August 2014, Dublin, Ireland.
+
+ Paper (pdf)     BibTeX     Poster 
+ 
+ Official
+ 
+ Rankings : Our team (NRC-Canada) ranked first in
+ three of the six subtasks. About 30 teams participated. 
+ 
+ NRC-Canada-2014: Recent
+ Improvements in the Sentiment Analysis of Tweets ,
+ Xiaodan Zhu, Svetlana Kiritchenko, and Saif M. Mohammad.
+ In Proceedings of the eighth international workshop on
+ Semantic Evaluation Exercises (SemEval-2014), August
+ 2014, Dublin, Ireland.
+
+ Paper (pdf)     BibTeX     Poster 
+ 
+ Official
+ 
+ Rankings: Our team (NRC-Canada) ranked first in
+ five of the ten subtask-domain combinations. About 40
+ teams participated. 
+ 
+ An Empirical Study on the
+ Effect of Negation Words on Sentiment. Xiaodan
+ 
+ Zhu, Hongyu Guo, Saif Mohammad and Svetlana Kiritchenko.
+ In Proceedings of the 52nd Annual Meeting of the
+ Association for Computational Linguistics , June
+ 2014, Baltimore, MD.
+
+ Paper
+ 
+ (pdf)     BibTeX 
+ 
+ Semantic Role Labeling of
+ Emotions in Tweets. Saif M. Mohammad, Xiaodan
+ Zhu, and Joel Martin, In Proceedings of the ACL 2014
+ Workshop on Computational Approaches to Subjectivity,
+ Sentiment, and Social Media (WASSA), June 2014,
+ Baltimore, MD.
+
+ Paper (pdf)     BibTeX     AnnotatedData 
+ 
+ Generating Music from
+ Literature. Hannah Davis and Saif M.
+ Mohammad, In Proceedings of the EACL Workshop on
+ Computational Linguistics for Literature , April
+ 2014, Gothenburg, Sweden. 
+
+ Paper
+ (pdf)     BibTeX     TransProse
+ Website 
+
+Notable Press Mentions: The
+ 
+ Physics arXiv Blog , March 20, 2014, TIME ,
+ May 7, 2014, PC
+ 
+ World , May 15, 2014, Popular
+ 
+ Science , May 14, 2014, io9 ,
+ May 12, 2014, LiveScience ,
+ May 11, 2014. 
+
+MENTORSHIP, COLLABORATIONS, COMMITTEES, TALKS 
+
+I enjoy working with others, especially early researchers (grad students, post-docs, etc.) with expertise in NLP, Psychology, Digital Humanities, Social Sciences, etc. See the amazing work these current early-researcher collaborators are doing:
+
+Sophie Wu 
+ 
+ Daniela Teoderescu 
+ 
+ Jan P Wahle 
+
+Krishnapriya Vishnubhotla 
+
+Nedjma Ousidhoum 
+ 
+ Shamsuddeen H Muhammad 
+ 
+ Terry Ruas 
+ 
+ Aniket Pramanick 
+
+I am happy to serve on thesis committees in the areas of emotions and language, sentiment analysis, CSS, ethics in AI, lexical semantics, computational literary analysis, etc. 
+
+If you are a graduate student or early researcher and think I can provide any guidance or mentorship, feel free to reach out. I am always happy to listen, chat, and act as a sounding board. I usually reserve time once in two weeks and hold zoom chats for this. 
+
+QUICK LINKS 
+ 
+ Presence in Research Networks: 
+
+ACL Anthology 
+ 
+ DBLP 
+ 
+ Google Scholar page of Saif 
+
+Google Scholar pages of NLP Researchers at NRC 
+
+LinkedIn 
+ 
+ NRC 
+ 
+ Research Gate 
+ 
+ Semantic Scholar 
+ 
+ Twitter 
+
+See this webpage on Computational Affective Science . 
+ 
+ Emotion Lexicons (in over 100 languages): 
+
+the NRC Emotion Lexicon 
+
+the NRC Affect / Emotion Intensity Lexicon 
+
+the NRC Valence, Arousal, and Dominance Lexicon (version 2.1 released March 2025) 
+
+the NRC WorryWords Lexicon (a word--anxiety association lexicon) 
+
+the NRC Word-Colour
+ Association Lexicon 
+
+all lexicons 
+
+Software 
+
+Emotion Dynamics: Python Scripts to analyze emotions in text using emotion lexicons. The script generates a csv file with a number of emotion features of the text, including metrics of utterance emotion dynamics . Associated Paper . 
+
+Other Resources: 
+
+Best-Worst Scaling Research, Scripts, and Data 
+
+2021 Survey on Emotion Detection from Text and Sentiment Analysis 
+
+The NRC-Canada Sentiment Anaysis system 
+
+Pinned Blog Posts 
+
+March 2020, Ten Years of the NRC Word-Emotion Association Lexicon 
+
+Ten years back, with some anticipation and lots of excitement, Peter Turney and I introduced the NRC Word-Emotion Association Lexicon . So grateful that, over the years, so many people have put their hopes and trust in it. Such joy to see them boldly shine a light on the human condition — the positives and the negatives; not shying away even from sadness, fear, and anger. This blog bost puts a spotlight on ten favorites (includes fun video and audio clips as well as links to papers and popular press articles): 
+
+October 2019, The State of NLP Literature 
+
+This series of posts presents a diachronic analysis of the ACL Anthology — Or, as I like to think of it, making sense of NLP Literature through pictures. 
+
+PROFESSIONAL ACTIVITIES 
+ 
+2026 
+
+Programme Chair for *Sem 2026
+
+Action Editor , Computational Linguistics (journal)
+
+Action Editor, Transactions of ACL (TACL) (journal) 
+
+Senior Area Chair for EMNLP 2026, Sentiment Analysis, Stylistic Analysis, and Argument Mining
+
+Senior Area Chair for ACL 2026, Human-AI Interaction/Cooperation and Human-Centric NLP
+
+Senior Area Chair for EACL 2026, Sentiment Analysis, Stylistic Analysis, and Argument Mining
+
+Senior Action Editor for ACL Rolling Review.
+
+Organizer of the Innaugural Computational Affective Science (CAS) Workshop
+
+2025 
+
+Action Editor , Computational Linguistics (journal)
+
+Action Editor, Transactions of ACL (TACL) (journal) 
+
+Senior Area Chair for AACL 2025, Sentiment Analysis, Stylistic Analysis, and Argument Mining
+
+Senior Area Chair for EMNLP 2025, Sentiment Analysis, Stylistic Analysis, and Argument Mining
+
+Senior Area Chair for ACL 2025, Sentiment Analysis, Stylistic Analysis, and Argument Mining
+
+Senior Action Editor for ACL Rolling Review
+
+Best Paper Committee AACL 2025
+
+Best Paper Committee EMNLP 2025
+
+2024 
+
+Action Editor , Computational Linguistics (journal)
+
+Action Editor, Transactions of ACL (TACL) (journal) 
+
+Associate Editor , Journal of Artificial Intelligence Research 
+
+Senior Area Chair for ACL 2024, Resources and Evaluation track
+
+Senior Area Chair for EMNLP 2024, Sentiment Analysis, Stylistic Analysis, and Argument Mining
+
+Senior Action Editor for ACL Rolling Review
+
+Senior Area Chair for Ethics and NLP, EACL 2024 
+
+2023 
+
+Action Editor , Computational Linguistics (journal)
+
+Action Editor, Transactions of ACL (TACL) (journal) 
+
+Associate Editor , Journal of Artificial Intelligence Research 
+
+Senior Action Editor for ACL Rolling Review in the area of Ethics and NLP
+
+Senior Area Chair for Sentiment Analyisis and Argument Mining, EMNLP 2023
+
+Area Chair for Ethics and Sustainable NLP, EACL 2023 
+
+2022 
+
+Action Editor , Computational Linguistics (journal)
+
+Action Editor, Transactions of ACL (TACL) (journal) 
+
+Inaugural Senior Action Editor for ACL Rolling Review in the area of Ethics and NLP
+
+Area Chair for Ethics and NLP, ACL 2022
+
+Area Chair for the EMNLP 2022 theme track “Open questions, major obstacles, and unresolved issues in NLP” 
+
+2021 
+
+Action Editor , Computational Linguistics 
+
+Action Editor , ACL Rolling Review 
+
+Senior Area Chair for Sentiment Analysis, Stylistic Analysis, and Argument Mining, ACL-IJCNLP-2021 
+
+2020 
+
+Action Editor , Computational Linguistics 
+
+Senior Area Chair for Sentiment Analysis, Stylistic Analysis, and Argument Mining, EMNLP-2020, Punta Cana, Dominican Republic
+
+Area Chair for Sentiment Analysis, Stylistic Analysis, and Argument Mining, StarSem-2020, Barcelona, Spain
+
+Reviewer for Nature 
+
+Workshops Co-chair ACL-2020, Seattle, USA 
+
+Area chair for Lexical Semantics, ACL-2020, Seattle, USA
+
+Member of the COLING 2020 Ethics Advisory Group 
+
+2019 
+
+Area chair for Sentiment Analysis and Argumentation Mining, EMNLP-IJCNLP-2019, Hong Kong, China
+
+Area chair for Sentiment Analysis and Argumentation Mining, ACL-2019, Florence, Italy
+
+Area chair for Ethics, Bias and Fairness, NAACL-2019, Minneapolis, Minnesota, USA
+
+Area chair for Semantics in NLP Applications, *Sem-2019, Minneapolis, Minnesota, USA
+
+General Chair of the 2019 Canada–UK Symposium on Ethics in AI, Ottawa, Canada
+
+Co-chair of SemEval 2019, Minneapolis, Minnesota, USA
+
+Mentor, Student Research Workshop, ACL-2019, Florence, Italy
+
+Mentor, Student Research Workshop, NAACL-2019, Minneapolis, Minnesota, USA 
+
+2018 
+
+Co-chair of SemEval-2018, New Orleans, Louisiana, USA
+
+Co-organizer of WASSA-2018, Brussels, Belgium
+
+Mentor, Student Research Workshop, NAACL-2018, New Orleans, Louisiana, USA
+
+Mentor, Student Research Workshop, ACL-2018, Melbourne, Australia. 
+
+2017 
+
+Co-chair of SemEval-2017, Vancouver, Canada
+
+Co-organizer of WASSA-2017, Copenhagen, Denmark
+
+Area chair for Sentiment and Opinion Mining, ACL-2017, Vancouver, Canada
+
+Area chair for Sentiment and Opinion Mining, EMNLP-2017, Copenhagen, Denmark
+
+Mentor, Student Research Workshop, ACL-2017, Vancouver, Canada. 
+
+2016 
+
+Area chair for Sentiment and Opinion Mining, EMNLP-2016, Austin, Texas, USA
+
+Publicity chair, EMNLP-2016, Austin, Texas, USA
+
+2015 
+
+Area chair for Sentiment and Opinion Mining, NAACL-2015, Denver, Colorado
+
+Publicity chair, NAACL-2015, Denver, Colorado
+
+Mentor, Student Research Workshop, NAACL-2015, Denver, Colorado
+
+2014, 2012, 2011 
+
+Mentor, Student Research Workshops, ACL-2014, NAACL-2012, ACL-2011 
+
+Most years 2008–present 
+
+Program committee member for top NLP journals and conferences, including TACL, ACL, NAACL, EMNLP, CL, CI, NLE, JAIR, TSLP, IJCNLP, ICWSM, and IJCAI. 
+
+NOTABLE WEB/PRESS MENTIONS 
+
+The Economist, Apr 24, 2025. America’s poster-in-chief is very, very online . 
+
+Towards Data Science, Feb 13, 2024. Lexicon-Based Sentiment Analysis Using R. 
+
+Atlanta Regional, April 10, 2023. Understanding Atlanta: Insights from Sentiment Analysis on Twitter. 
+
+CBC Radio, Feb 12, 2021. Automatic emotion detection: benefits and potential harms.
+
+The Economist, Jan 12, 2021. How Donald Trump evolved into a prolific, angry Twitter user. Use of the NRC Emotion lexicon to Analyze emotions in tweets by Donald Trump.
+
+AdNews, April 20, 2020. Coronavirus: Analysing stories from the Twitter frontline . Use of the NRC Emotion lexicon to Analyze emotions in tweets during the Covid-19 pandemic. 
+
+Tech Xplore, February 26, 2020. A language generation system that can compose creative poetry . The NRC Emotion Lexicon is used along with a deep learning system for automatic poetry generation. Original paper: Introducing Aspects of Creativity in Automatic Poetry Generation . 
+
+USA Today, Dec 24, 2019. Analysis: Trump more negative, prolific on Twitter amid Democratic impeachment inquiry. Use of the NRC Emotion lexicon to Analyze emotions in tweets by Donald Trump. 
+
+Universo Online , Dec 5, 2019. Gender bias in sentiment analysis systems and gender disparities in language. 
+
+Politico.mx, August 28, 2019. Enojo o sorpresa: emociones en Informes de López Portillo a Calderó . The NRC Emotion Lexicon is used to analyze the speeches of the Mexican President and other politicians.
+
+Gender and Racial Bias in Cloud NLP Sentiment APIs , Aug 21, 2019. Article looking into race and gender biases in the Google and AWS cloud sentiment analysis APIs using  the Equity Evaluation Corpus and the techniques we published in 2018 .
+
+The New York Times, February 26, 2019. Extreme Weather Can Feel ‘Normal’ After Just a Few Years, Study Finds. Brief interview on my opinion on work on perceptions of climate change. 
+
+Psychology Today, December 27, 2018. Emotional Contagions Can Spread Like Wildfire Via YouTube. The NRC Emotion Lexicon is used to analyze the emotions in user comments on vlogs.  Original Paper: Multilevel emotion transfer on YouTube: Disentangling the effects of emotional contagion and homophily on video audiences. 
+
+InformationWeek, November 15, 2018. Decoding Programmers: How Emotions Can Change Code . Analyzing developer comments to show that their emotions impact their code. 
+
+Medium, DAIR, Artificial Intelligence Research, Perspectives, and Technologies, Aug 2, 2018. Examining Gender and Race Bias in Sentiment Analysis Systems. 
+
+SeekingAlpha, Apr. 30, 2018. A Sentiment Analysis Approach To Predicting Stock Returns. The NRC Emotion Lexicon is used to analyze 10-K reports of S&P 500 companies to predict future stock returns. 
+
+Technical.ly, February 1, 2018. Who’s the angriest character on ‘Seinfeld’? The NRC Emotion Lexicon is used to analyze the language of the characters in Seinfeld. 
+
+January 24, 2018. An examination of the Twitter habits of Kentucky lawmakers . The NRC Emotion Lexicon is used to analyze the tweets of Democrats and Republicans. 
+
+April 13, 2017.  Faster but less furious: why the Fast and Furious franchise is a box office goldmine . The NRC Emotion Lexicon is used to analyze the emotions in the Fast and Furious series movie scripts. 
+
+The Crosstab, March 2, 2017. Trump's
+ 
+ SOTU vs. the Past — Sentiment Analysis and Topic
+ Modeling .
+
+Esquire, February 23, 2017. All
+ 
+ Radiohead Songs Are Sad, but This Graph Shows Which
+ Are the Saddest. The NRC Emotion Lexicon is used
+ to compute the degree of sadness for Radiohead songs. Interactive
+ 
+ Chart. 
+
+ Also picked up in:
+
+A Journal of Musical Things, February 24, 2017. Science
+ 
+ Discovers Which Radiohead Song is the Saddest 
+ 
+Thomas Park, February 28. Where
+ 
+ I End and You Begin: Finding the Most Depressing
+ Radiohead Songs using Crowd Data from
+ SongMeanings. 
+
+Religion in Public, February 13, 2017. Evangelical
+ 
+ leaders are as negative on immigration and Islam as
+ Donald Trump. 
+
+February 11, 2017. Text
+ 
+ Analysis of NHL Hockey Coach Interviews. 
+
+Washington Post, October 22, 2016. Donald Trump and Hillary
+ Clinton took to the debate stage and made sweet, sweet
+ music. The article mentions NRC in relation to the
+ lexicons we created, which were used to generate music
+ from the Trump-Hillary debate text. 
+
+Washington
+ 
+ Post , CBS
+ 
+ News , Columbia Tribune , and others, September 23, 2016. This
+ 
+ symphony had both human and computer composers. Articles about a symphony orchestra performed music
+ composed using the NRC Emotion Lexicon under the glass
+ of the Louvre museum in Paris on Sept. 20, 2016. Click
+ here for a video
+ 
+ of the performance .
+
+Washington Post, August 12, 2016. Two people write Trump’s tweets. He writes the angrier
+ ones. 
+
+BGR, August 11, 2016. Donald
+ 
+ Trump’s angriest tweets are sent from his Android
+ while the nice ones are sent from an iPhone .
+
+NYC Data Science Academy, August 7, 2016. Twitter
+ 
+ Analysis of Presidential Candidates 2016. 
+
+Variance Explained, August 6, 2016. Text
+ 
+ analysis of Trump's tweets confirms he writes only the
+ (angrier) Android half .
+
+News also picked up by NPR , Los
+ 
+ Angeles Times , Scientific
+ 
+ American , The
+ 
+ Verge , and others.
+
+The
+ 
+ Telegraph , June 15, 2016: EU referendum:
+ Remain uses Project Fear more in tweets than Leave,
+ analysis shows. [Use of the NRC Emotion Lexicon,
+ aka EmoLex, to track sentiment in EU referendum tweets
+ (Brexit).]
+
+An art project, the Wishing
+ Wall , that uses the NRC Emotion lexicon was
+ displayed in:
+
+Tekniska Museet, Stockholm, Sweden (Oct 2014 – Aug
+ 2015) 
+ 
+Onassis Cultural Centre, Athens (19th Oct 2015 –
+ 10th Jan 2016) 
+ 
+Zorlu Centre in Istanbul (16th Feb – 12th Jun
+ 2016) 
+
+Fast
+ 
+ Company , March 25, 2016: An Emotional Map Of
+ The City, As Captured Through Its Sounds. [Use of
+ the NRC Emotion Lexicon, aka EmoLex to create Chatty Maps .]
+
+Press
+ 
+ release stating the use of EmoLex to create Chatty
+ Maps.
+
+PC
+ 
+ World , May 15, 2014: AI System Reads Novels,
+ Writes Music for Them. 
+
+Billboard, May 19, 2014. Computers, Classics and Cadenzas: Making Math Music From Literature . On our work on automatically generating music that captures the emotions in a novel. 
+
+Popular
+ 
+ Science , May 14, 2014: Robot Reads Novels,
+ Writes Songs about Them. 
+
+io9 ,
+ May 12, 2014: Researchers Train Computers to
+ Manipulate Human Emotions with Art. 
+
+LiveScience ,
+ May 11, 2014: 'TransProse' Software Creates Musical
+ Soundtracks from Books. 
+
+TIME ,
+ May 7, 2014: This Is What Classic Novels Sound Like
+ When a Computer Turns Them Into Piano Music. 
+
+SlashDot ,
+ March23, 2014: Algorithm Composes Music By Text
+ Analyzing the World's Best Novels .
+
+The
+ 
+ Physics arXiv Blog , March 20, 2014: The Music
+ Composed By An Algorithm Analysing The World’s Best
+ Novels. 
+
+Glass
+ 
+ Hammer , December 3, 2013: Are Your Emails
+ Communicating a Lack of Confidence? 
+
+Singularity
+ 
+ Hub , November 10, 2013: Algorithm Tracks
+ Literary Emotion in Shakespeare, the Brothers Grimm. 
+
+The
+ 
+ Physics ArXiv , October 4, 2013: Data
+ 
+ Mining Reveals the Emotional Differences in Emails
+ Written by Men and Women. 
+
+SlashDot , October 4, 2013: Data Mining Reveals the Emotional
+ Differences In Emails From Men and Women. 
+
+The
+ 
+ Physics ArXiv , October 1, 2013: Text
+ 
+ Analyser Reveals Emotional Temperature of Novels and
+ Fairy Tales. 
+
+Also in EduBits
+
+SlashDot ,
+ October 1, 2013: Text Analyzer Reveals Emotional
+ 'Temperature' of Novels and Fairy Tales 
+
+The
+ 
+ New Scientist , September 27: What your email
+ style says about your personality 
+
+Also in Times of India, MSN, Pharmacon, Galileo,
+ Amic, and others 
+
+Article in MIT Technology Review , September 5,
+ 2013: How Mechanical Turkers Crowdsourced a Huge
+ Lexicon of Links Between Words and Emotion. 
+
+Also in its Spanish
+ 
+ website and in crowdsourcing.org . 
+
+TIME ,
+ August 14, 2013: Main Tweet: Researchers Dig Into
+ The Intersection of Politics and Twitter . 
+
+Organization of International Shared Task Competitions 
+
+Co-chair of SemEval 2019, Minneapolis, Minnesota, USA
+
+Co-chair of SemEval-2018, New Orleans, Louisiana, USA
+
+ (12 tasks, 196 papers, ~1000 participants)
+
+Organizer of SemEval-2018 Task 1: Affect in Tweets (75 teams and about 200 participants)
+
+Co-chair of SemEval-2017, Vancouver, Canada
+
+ (12 tasks, 181 papers, ~900 participants) 
+
+Organizer of shared task on detecting emotion intensity at WASSA-2017
+
+Co-organizer of Semeval-2016 Task 6: Detecting Stance in Tweets
+
+Co-organizer of Semeval-2016 Task 7: Determining Sentiment Intensity of English and Arabic Phrases
+
+Co-organizer of SemEval-2015 Task 10: Sentiment Analysis in Twitter
+
+Co-organizer of SemEval-2012 Task 2: Measuring Degrees of Relational Similarity
+
+.. Tweets: SaifMMohammad

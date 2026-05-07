@@ -1,0 +1,13 @@
+\section{Limitations}
+
+This implementation has several limitations.
+
+First, the main lexicon is English and social-media oriented. It is therefore less suitable for Romanian data or for texts with specialized vocabulary unless additional resources or translation strategies are added.
+
+Second, the evaluation dataset is small. It demonstrates the pipeline and allows reproducible comparison, but it is not a large benchmark. The reported numbers should be interpreted as project-level experimental results, not as state-of-the-art claims.
+
+Third, the Naive Bayes model is weakly supervised from lexicon entries. This means that it learns from word-level associations rather than sentence-level human annotations. As a result, it cannot fully model context, irony, negation scope, or compositional meaning.
+
+Fourth, the lexicon method uses simple heuristics for negation and intensification. These heuristics are useful for an implementation baseline, but they do not replace syntactic or semantic analysis.
+
+Finally, the project does not include a Transformer model. Such a model would likely be stronger on large labeled datasets, but it would require additional dependencies and potentially GPU resources. This is left as future work.

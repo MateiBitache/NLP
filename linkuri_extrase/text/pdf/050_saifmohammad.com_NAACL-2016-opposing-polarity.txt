@@ -1,0 +1,209 @@
+--- PAGE 1 ---
+2 (expanded).  Sentiment Composition Lexicon for 
+Opposing Polarity Phrases 
+We investigate whether accurate models of sentiment 
+composition for OPPs can be learned. We conduct experiments 
+with several unsupervised and supervised techniques using 
+features, such as unigrams, parts of speech (POS), sentiment 
+scores, and word embeddings. 
+Sentiment Composition of Words with Opposing Polarities 
+Information and Communications Technologies 
+Svetlana Kiritchenko and Saif M. Mohammad 
+National Research Council Canada 
+svetlana.kiritchenko@nrc-cnrc.gc.ca, saif.mohammad@nrc-cnrc.gc.ca 
+Example Sentiment Composition Pattern Occ. rate # phrases Example terms 
+0.76 17 guilty pleasures 
+0.59 68 bad luck 
+0.53 73 perfect storm 
+0.89 18 plain sad 
+0.52 25 heart attack 
+0.65 17 lost a child 
+0.82 17 losing hope 
+adj. + adj. phrase 
+adj. + noun phrase 
+adj. + noun phrase 
+adv. + adj. phrase 
+noun + noun phrase 
+verb + noun phrase det. + 
+Features Binary 
+(Acc.) 
+2-gr         3gr 
+Regression 
+(Pearson r) 
+2-gr               3gr 
+Baselines 
+a. majority label 56.6 60.8 - - 
+b. last unigram 57.2 59.3 0.394 0.376 
+c. most polar unigram 66.9 69.8 0.416 0.551 
+d. POS rule 65.6 63.8 0.531 0.515 
+Supervised classifiers 
+e. POS + sent. label 65.7 64.2 - - 
+f. POS + sent. score 74.9 74.8 0.662 0.578 
+g. row f + uni 82.0 81.3 0.764 0.711 
+h. row f + emb(avg) + emb(max) 78.2 79.5 0.763 0.710 
+i. row f + emb(conc) 80.2 76.5 0.790 0.719 
+j. row f + emb(conc) + uni 82.6 80.9 0.802 0.753 
+k. POS + emb(conc) + uni 76.3 80.2 0.735 0.744 
+In Proceedings of the 15th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, June, 2016, San Diego, California. 
+• includes 1,178 terms: 311 bigrams, 265 trigrams, and 602 
+single-word constituents;  
+• was annotated with real-valued score of sentiment association 
+using Best‒Worst Scaling technique and crowdsourcing; 
+• includes phrases corresponding to many different Sentiment 
+Composition Patterns, and, therefore, useful for: 
+• studying sentiment composition; 
+• evaluating sentiment composition algorithms. 
+1. Our Contribution 
+Sentiment composition is the determining of sentiment of a multi-
+word linguistic unit (phrase or sentence) based on its 
+constituents. We study sentiment composition in phrases that 
+include at least one positive word and at least one negative 
+word—opposing polarity phrases (OPP). 
+We created a sentiment composition lexicon for opposing polarity 
+phrases (SCL-OPP) that provides sentiment associations for 
+OPPs and their constituent words [1].  
+ 
+In this work, we use SCL-OPP to: 
+• analyze the linguistic patterns in OPPs; 
+• apply unsupervised and supervised techniques of sentiment 
+composition to determine their efficacy on OPPs. 
+happy + accident happy accident = 
+2. Sentiment Composition Lexicon for Opposing Polarity 
+Phrases (SCL-OPP) 
+Sentiment Composition tasks: 
+• Binary classification: predict whether the phrase is positive 
+or negative 
+• Regression: predict the real-valued sentiment score of the 
+phrase 
+4. Conclusions 
+Baseline classifiers 
+a. Majority label: most frequent polarity label in the dataset 
+b. Last unigram: sentiment score (label) of the last unigram 
+c. Most polar unigram: sentiment score (label) of the word with 
+the highest absolute sentiment score 
+d. POS rule: 
+Feature Examples 
+unigrams happy, accident 
+POS tags of unigrams  adj., noun 
+sentiment  labels  of unigrams pos, neg 
+sentiment  scores of unigrams 0.781, -0.563 
+word embeddings for unigrams (0.3, -0.2, …, -0.1), (0.2, -0.1, …., -0.1) 
+Supervised classifiers 
+Support Vector Machines (SVM) with RBF kernel; 10-fold cross-
+validation. 
+ 
+Observations 
+• Sent. of the last unigram is not predictive of the phrase’s sent.; 
+• Adj. and verbs do not always dominate the sent. in a phrase; 
+• Real-valued sentiment scores of unigrams are substantially 
+more beneficial than binary labels; 
+• Sentiment of a phrase depends on its constituents and not only 
+on their sentiment; 
+• Best results are achieved with all the features. 
+Results 
+• The sentiment of an opposing polarity phrase cannot be reliably 
+predicted only from POS and sentiment of the constituents. 
+• Constituent unigrams, their POS, their sentiment scores, and 
+their embedding vectors are all beneficial in supervised 
+sentiment prediction in OPPs.  
+Sentiment Composition Pattern (SCP) is a rule: 
+POS(w1), sentiment(w1) + POS(w2), sentiment(w2) sentiment(w1+w2)  
+SCPs with LHS appearing at least 10 times in SCL-OPP: 
+𝑂𝑐𝑐𝑢𝑟𝑟𝑒𝑛𝑐𝑒 𝑟𝑎𝑡𝑒 𝑆𝐶𝑃 =  𝑓𝑟𝑒𝑞(𝐿𝐻𝑆 → 𝑅𝐻𝑆)
+𝑓𝑟𝑒𝑞 𝐿𝐻𝑆 → 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒 + 𝑓𝑟𝑒𝑞(𝐿𝐻𝑆 → 𝑛𝑒𝑔𝑎𝑡𝑖𝑣𝑒) 
+left-hand side (LHS) right-hand side (RHS) 
+Term selection: opposing polarity bigrams and trigrams from 
+tweets; the polarities of the words were determined by look-up in 
+existing sentiment lexicons. 
+Annotation: 
+Sentiment Composition Patterns 
+Annotation 
+• done with Best‒Worst  Scaling (Louviere and Woodworth, 1990): a 
+comparative annotation scheme commonly used in marketing 
+research; has been shown to produce reliable annotations of 
+terms for sentiment [2]; 
+Obtaining real-valued scores (Orme, 2009): 
+Annotation questions: Given a 4-tuple (4 terms), 
+• identify the term that is associated with the most amount 
+of negative sentiment; 
+• identify the term that is associated with the most amount 
+of positive sentiment. 
+• done manually by crowdsourcing; 
+• each question was annotated by eight respondents. 
+most  
+negative 
+4-tuple most  
+positive 
+shameless self promotion 
+happy tears 
+hug 
+major pain 
+𝑠𝑐𝑜𝑟𝑒 𝑡 =  #𝑚𝑜𝑠𝑡 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒 𝑡 − #𝑚𝑜𝑠𝑡 𝑛𝑒𝑔𝑎𝑡𝑖𝑣𝑒(𝑡)
+#𝑎𝑛𝑛𝑜𝑡𝑎𝑡𝑖𝑜𝑛𝑠(𝑡)  
+CrowdFlower 
+[1] Kiritchenko and Mohammad. Happy Accident: A Sentiment Composition 
+Lexicon for Opposing Polarity Phrases. LREC-2016. 
+[2] Kiritchenko and Mohammad. Capturing Reliable Fine-Grained Sentiment 
+Associations by Crowdsourcing and Best‒Worst Scaling. NAACL-2016. 
+5. References 
+SCL-OPP is available at: 
+http://www.saifmohammad.com/WebPages/SCL.html#OPP 
+56.6 57.2 
+66.9 65.6 65.7 
+74.9 
+82 82.6 
+50
+60
+70
+80
+90 Binary, 2-grams 
+accuracy 
+60.8 59.3 
+69.8 
+63.8 64.2 
+74.8 
+81.3 80.9 
+50
+60
+70
+80
+90 Binary, 3-grams 
+accuracy 
+0.394 0.416 
+0.531 
+0.662 
+0.764 0.802 
+0.3
+0.5
+0.7
+0.9 Regression, 2-grams 
+Pearson ρ 
+Regression, 3-grams 
+Pearson ρ 
+0.376 
+0.551 0.515 
+0.578 
+0.711 0.753 
+0.3
+0.5
+0.7
+0.9
+POS + sent. score + unigrams POS + sent. score + unigrams + embeddings 
+majority label last unigram most polar unigram POS rule Baselines: 
+POS + sent. label POS + sent. score Supervised classifiers: 
+Features: • sentiment labels 
+• sentiment scores 
+yes sentiment of the last adjective 
+no 
+yes 
+no 
+sentiment of the last verb 
+sentiment of the most polar word 
+adj.? 
+verb? 
+3. Automatic Sentiment Composition in OPPs 
+verb + noun phrase 
+3 (expanded).  Automatic Sentiment Composition in 
+Opposing Polarity Phrases 
+• embeddings • unigrams 
+• POS tags

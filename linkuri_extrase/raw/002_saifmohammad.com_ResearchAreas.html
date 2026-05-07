@@ -1,0 +1,475 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.78 [en] (X11; U; Linux 2.4.20-30.7.legacy i686) [Netscape]">
+<title>Saif | Research</title>
+<meta name="keywords" content="Arabic Sentiment Analysis
+Tweets
+Dialectal Arabic
+Sentiment Lexicon
+Translation
+Arabic Hashtag Lexicon
+Arabic NRC Emotion Lexicon">
+
+ <! Menu code>
+<style>
+body{
+	background: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	margin-left: 12%;
+	margin-right: 12%;
+	color: #000000;
+}#menu_wrap{position:relative;margin-top:20px;margin-left:auto;margin-right:auto;padding:0; padding-right:10px;width:100%;height:40px;list-style-type:none;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;-webkit-box-shadow:0 1px 3px rgba(0,0,0,.2);-moz-box-shadow:0 1px 3px rgba(0,0,0,.2);box-shadow:0 1px 3px rgba(0,0,0,.2)}.button a{cursor:pointer;text-align:center;font:14px/100% Arial, Helvetica, sans-serif;font-weight:bold;position:relative;min-width:50px;height:20px;float:left;padding:10px;padding-top:10px;padding-bottom:10px;text-decoration:none;text-shadow:0 1px 1px rgba(0,0,0,.3)}.button:first-child a{-webkit-border-top-left-radius:0px;-webkit-border-bottom-left-radius:0px;-moz-border-topleft-radius:0px;-moz-border-bottomleft-radius:0px;border-top-left-radius:0;border-bottom-left-radius:0px}.Gray,.Gray .button a{color:#e9e9e9;background: #888888;border-right:solid 1px #575757;background: -moz-linear-gradient(top, #888888 0%, #575757 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#888888), color-stop(100%,#575757));background: -webkit-linear-gradient(top, #888888 0%,#575757 100%);background: -o-linear-gradient(top, #888888 0%,#575757 100%);background: -ms-linear-gradient(top, #888888 0%,#575757 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#575757',GradientType=0 );background: linear-gradient(top, #888888 0%,#575757 100%);}.Gray .button a:hover,.Gray .button a:focus{background: #757575;background: -moz-linear-gradient(top, #757575 0%, #4b4b4b 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#757575), color-stop(100%,#4b4b4b));background: -webkit-linear-gradient(top, #757575 0%,#4b4b4b 100%);background: -o-linear-gradient(top, #757575 0%,#4b4b4b 100%);background: -ms-linear-gradient(top, #757575 0%,#4b4b4b 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', endColorstr='#4b4b4b',GradientType=0 );background: linear-gradient(top, #757575 0%,#4b4b4b 100%);}.Gray .button a:active{color:#afafaf;background: #575757;background: -moz-linear-gradient(top, #575757 0%, #888888 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#575757), color-stop(100%,#888888));background: -webkit-linear-gradient(top, #575757 0%,#888888 100%);background: -o-linear-gradient(top, #575757 0%,#888888 100%);background: -ms-linear-gradient(top, #575757 0%,#888888 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#575757', endColorstr='#888888',GradientType=0 );background: linear-gradient(top, #575757 0%,#888888 100%);}.button:last-child a{float:left;border:none; -webkit-border-top-right-radius:0px;-webkit-border-bottom-right-radius:0px;-moz-border-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px}
+a:link {
+	text-decoration: none;
+	color: #993300;
+}
+a:visited {
+	text-decoration: none;
+	color: #CC6600;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+	text-align: left;
+}
+</style>
+<! End Menu code>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;border:none;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
+.tg .tg-s6z2{text-align:center}
+.tg .tg-2f08{
+	font-weight: normal;
+	font-size: 16px;
+	font-family: "Times New Roman", Times, serif !important;
+	;
+	background-color: #ffffff;
+	color: #343434;
+	text-align: left
+}
+.tg .tg-oksl{background-color:#d2e4fc;text-align:center}
+.tg .tg-yw4l{text-align:center}
+.tg .tg-5hgy{background-color:#D2E4FC;text-align:center}
+th.tg-sort-header::-moz-selection { background:transparent; }th.tg-sort-header::selection      { background:transparent; }th.tg-sort-header { cursor:pointer; }table th.tg-sort-header:after {  content:'';  float:right;  margin-top:7px;  border-width:0 4px 4px;  border-style:solid;  border-color:#404040 transparent;  visibility:hidden;  }table th.tg-sort-header:hover:after {  visibility:visible;  }table th.tg-sort-desc:after,table th.tg-sort-asc:after,table th.tg-sort-asc:hover:after {  visibility:visible;  opacity:0.4;  }table th.tg-sort-desc:after {  border-bottom:none;  border-width:4px 4px 0;  }
+</style>
+
+<script src='/google_analytics_auto.js'></script></head>
+<body>
+
+<! Menu code>
+<ul id="menu_wrap" class="Gray">
+  <li class="button"><a href="http://saifmohammad.com">Home</a></li>
+  <li class="button"></li>
+  <li class="button"><a href="http://saifmohammad.com/WebPages/ResearchAreas.html">Research</a></li>
+  <li class="button"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html">Publications</a></li>
+  <li class="button"><a href="http://saifmohammad.com/WebPages/lexicons.html">Lexicons</a></li>
+<li class="button"><a href="http://saifmohammad.com/WebPages/SentimentEmotionLabeledData.html">Labeled Data</a></li>
+  <li class="button"><a href="http://saifmohammad.com/WebPages/invitedtalks.html">Invited Talks</a></li>
+  <li class="button"><a href="http://saifmohammad.com/WebPages/contact.htm">Contact</a></li> 
+</ul>
+<! End Menu code>
+
+
+
+<p><font color="#990000" size="6" face="Times New Roman, Times, serif">Research</font></p>
+<strong>Areas of Interest</strong><br>
+<br>
+<em>See this webpage introducing <a href="cas.html">Computational Affective Science (CAS)</a>.</em> <br>
+<span style="color: #000"><br>
+</span>
+
+
+<table style="border-collapse: collapse; border-color: #aabcfe; border-spacing: 0; table-layout: fixed; width: 852px;" class="tg">
+  <tr>
+    <td style="background-color:#fbefe1;border-color:#ffffff;border-style:solid;border-width:1px;color:#986536;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#EmotionAnalysis">Emotions and Language, CAS</a></td>
+    <td style="background-color:#fbf6f2;border-color:#ffffff;border-style:solid;border-width:1px;color:#986536;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#dh">Digital Humanities</a></td>
+    <td style="background-color:#fbefe1;border-color:#ffffff;border-style:solid;border-width:1px;color:#986536;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#ethics">AI/NLP Ethics</a></td>
+  </tr>
+  <colgroup><col style="width: 230px"><col style="width: 273px"><col style="width: 231px"></colgroup><tbody><tr><td style="background-color:#fbf6f2;border-color:#ffffff;border-style:solid;border-width:1px;color:#986536;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#SentimentAnalysis">Sentiment Analysis</a></td><td style="background-color:#fbefe1;border-color:#ffffff;border-style:solid;border-width:1px;color:#986536;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#css">Computational Social Science</a></td><td style="background-color:#fbf6f2;border-color:#ffffff;border-style:solid;border-width:1px;color:#986536;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#sciento">AI/NLP Scientometrics</a></td></tr>
+    <tr><td style="background-color:#fbefe1;border-color:#ffffff;border-style:solid;border-width:1px;color:#986536;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#lexsem">Lexical Semantics</a></td><td style="background-color:#fbf6f2;border-color:#ffffff;border-style:solid;border-width:1px;color:#986536;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#nlpp">NLP for Psychology, Well-Being</a></td><td style="background-color:#fbefe1;border-color:#ffffff;border-style:solid;border-width:1px;color:#986536;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#nlpaa">AI/NLP for Africa, Asia</a></td></tr></tbody></table>
+<!--
+<br>
+
+<table width="734" class="tg" style="border-collapse:collapse;border-color:#aabcfe;border-spacing:0;table-layout: fixed; width: 852px"><colgroup><col style="width: 230px"><col style="width: 273px"><col style="width: 231px"></colgroup><tbody><tr>
+  <td style="background-color:#fbefe1;border-color:#ffffff;border-style:solid;border-width:1px;color:#003399;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#EmotionAnalysis">Emotions and Language</a></td><td style="background-color:#ecf4ff;border-color:#ffffff;border-style:solid;border-width:1px;color:#003399;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#dighum">Digital Humanities</a></td><td style="background-color:#dae8fc;border-color:#ffffff;border-style:solid;border-width:1px;color:#003399;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#ethics">AI/NLP Ethics</a></td></tr><tr><td style="background-color:#ecf4ff;border-color:#ffffff;border-style:solid;border-width:1px;color:#003399;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#SentimentAnalysis">Sentiment Analysis</a></td><td style="background-color:#dae8fc;border-color:#ffffff;border-style:solid;border-width:1px;color:#003399;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#css">Computational Social Science</a></td><td style="background-color:#ecf4ff;border-color:#ffffff;border-style:solid;border-width:1px;color:#003399;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#sciento">AI/NLP Scientometrics</a></td></tr><tr><td style="background-color:#dae8fc;border-color:#ffffff;border-style:solid;border-width:1px;color:#003399;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#lexsem">Lexical Semantics</a></td><td style="background-color:#ecf4ff;border-color:#ffffff;border-style:solid;border-width:1px;color:#003399;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#nlpp">NLP for Psychology, Well-Being</a></td><td style="background-color:#dae8fc;border-color:#ffffff;border-style:solid;border-width:1px;color:#003399;font-family:"Times New Roman", Times, serif !important;font-size:16px;overflow:hidden;padding:7px 15px;text-align:left;vertical-align:top;word-break:normal"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#nlpaa">AI/NLP for Africa, Asia</a></td></tr></tbody></table>
+
+<br>
+-->
+
+
+<table width="853" class="tg" id="tg-Ag4tI">
+  <tr style="color: #FFFFFF">
+    <td colspan="8" class="tg-2f08">      <p><strong>in Emotions and Language</strong>, <strong>Sentiment Analysis</strong></p></td>
+  </tr>
+  <tr class="tg">
+    <td width="97" class="tg-oksl"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#EmotionAnalysis">emotion<br>
+      analysis</a></td>
+    <td width="113" class="tg-yw4l"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#cas">CAS</a></td>
+    <td width="104" class="tg-5hgy"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#SentimentAnalysis">sentiment<br>
+    analysis</a></td>
+    <td width="107" class="tg-yw4l"><a href="http://saifmohammad.com/WebPages/ArabicSA.html">Sentiment (Africa, Asia)</a></td>
+    <td width="103" class="tg-5hgy"><a href="http://saifmohammad.com/WebPages/StanceDataset.htm">Stance<br>
+detection*</a><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#SentimentAnalysis"></a></td>
+    <td width="86" class="tg-s6z2"><a href="http://saifmohammad.com/WebPages/ArabicSA.html"></a><a href="http://saifmohammad.com/WebPages/BestWorst.html">Best-Worst<br>
+Annotations*</a></td>
+    <td width="90" class="tg-5hgy"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#Personality">Personality<br>
+Traits</a><br></td>
+    <td width="101" class="tg-s6z2"><a href="http://saifmohammad.com/WebPages/StanceDataset.htm"></a><a href="http://www.musicfromtext.com">Music <br>
+from Text*</a></td>
+  </tr>
+  <tr>
+    <th class="tg-2f08" colspan="8"><strong>in Lexical Semantics
+      </blockquote>
+    </strong></th>
+  </tr>
+  <tr>
+    <td class="tg-oksl"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#lexicalcontrast">antonymy,<br>
+      contrast</a></td>
+    <td class="tg-yw4l"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#evolution">evolution of words</a><br>
+    <br>      <a href="http://saifmohammad.com/WebPages/metaphor.html">metaphor</a><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#RelationalSimilarity"></a></td>
+    <td class="tg-5hgy"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#RelationalSimilarity">relational<br>
+      similarity</a></td>
+    <td class="tg-s6z2"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#SemanticDistance">semantic<br>
+      distance</a></td>
+    <td class="tg-5hgy"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#Summarization">text<br>
+      summarization</a></td>
+    <td class="tg-s6z2"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#RTE">textual<br>
+      inference</a></td>
+    <td class="tg-5hgy"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#Colour">word-colour<br>
+      associations</a></td>
+    <td class="tg-s6z2"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#WSD">word sense<br>
+      disambiguation</a></td>
+  </tr>
+</table>
+<p style="font-size: small; color: #333333;">Publications for areas marked with a * <em> are  interspersed within sentiment analysis and emotion analysis; clicking on them leads to separate dedicated pages that present only the relevant information.</em></p>
+<p><span style="color: #000"><em>If you are a student interested in working with me, <a href="Students.html">go here</a>.</em></span> </p>
+<p style="color: #063"><font size="5" style="color: #39F">Data for download</font> <span style="color: #000">(The <a href="http://saifmohammad.com/WebPages/ResearchInterests.html">publication page</a> also provides data associated with individual publications. See terms of use at the bottom of the page.)</span></p>
+<p><em>Word-association lexicons for sentiment and emotion<br>
+</em>(Note: A table summarizing various word-association lexicons can be found <a href="http://saifmohammad.com/WebPages/lexicons.html">here</a>.)</p>
+<ul>
+  <li><a href="http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm">NRC Emotion Lexicon</a> (aka <a href="http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm">EmoLex</a>): manually annotated for  emotions (joy, sadness, fear, etc.) and sentiment (positive and negative).<br>
+    <br>
+  </li>
+  <li><a href="http://saifmohammad.com/WebPages/lexicons.html#NRCTwitter">NRC Twitter Sentiment Lexicons (NRC Hashtag sentiment and Sentiment140 lexicons)</a>: Twitter-specific sentimet lexicons that contributed to the success of our sentiment analysis system (NRC-Canada) in SemEval shared task competitions. <br>
+    <br>
+  </li>
+  <li><a href="http://saifmohammad.com/WebPages/SCL.html">Sentiment Composition Lexicons (SCLs)</a>: lexicons that include sentiment associations for phrases as well as their constituent words can be very useful in studying sentiment composition.
+    <ul>
+      <li><a href="http://saifmohammad.com/WebPages/SCL.html#OPP">Sentiment Composition Lexicon of Opposing Polarity Phrases (SCL-OPP)</a></li>
+      <li><a href="http://saifmohammad.com/WebPages/SCL.html#NMA">Sentiment Composition Lexicon of Negators, Modals, and Adverbs (SCL-NMA)</a></li>
+      <li><a href="http://saifmohammad.com/WebPages/SCL.html#ETSL">SemEval-2015 English Twitter Sentiment Lexicon</a></li>
+      <li><a href="http://saifmohammad.com/WebPages/SCL.html#ATSL">SemEval-2016 Arabic Twitter Sentiment Lexicon</a><br>
+        <br>
+      </li>
+    </ul>
+  </li>
+  <li><a href="http://saifmohammad.com/WebPages/ArabicSA.html">Arabic sentiment lexicons</a><br>
+    <br>
+  </li>
+  <li><a href="http://saifmohammad.com/WebPages/lexicons.html#NRCTwitter#sentiment">Other word-sentiment lexicons</a></li>
+</ul>
+<p><em>Other lexicons</em>
+</p>
+<ul>
+  <li><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#lexicalcontrast">Lexical contrast (antonymy) lexicons</a><br>
+    <br>
+  </li>
+  <li><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#Colour">NRC word-colour association lexicon</a>: human annotations of colours associated with more than 24,200 word senses (about 14,200 word types).<br>
+  </li>
+</ul>
+<p><em>Annotated Corpora</em></p>
+<ul>
+  <li><a href="https://aclanthology.org/2021.acl-long.210/">Ruddit: Norms of Offensiveness for English Reddit Comments.</a> Reddit comments annotated for degree of offensiveness and supportiveness. <a href="https://arxiv.org/pdf/2106.05664.pdf">Paper (pdf)</a><a href="https://www.aclweb.org/anthology/2020.acl-main.464.pdf"></a> &nbsp; &nbsp;<a href="https://aclanthology.org/2021.acl-long.210/">BibTeX</a> &nbsp; &nbsp; <a href="https://github.com/hadarishav/Ruddit">Code and Data</a><br>
+    <br>
+  </li>
+  <li><a href="https://competitions.codalab.org/competitions/17751">Semeval-2018 Task 1: Affect in Tweets</a>: Data for an array of sentiment and emotion tasks where systems have to automatically determine the intensity of emotions (E) and intensity of sentiment (aka valence V) of the tweeters from their tweets. For each task, we provide separate training and test datasets for English, Arabic, and Spanish tweets.<br>
+    <br>
+  </li>
+  <li><a href="http://saifmohammad.com/WebPages/metaphor.html">Metaphor as a Medium for Emotion: An Empirical Study</a><br>
+    <br>
+  </li>
+  <li><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#PoliticalTweets">Electoral tweets (political tweets)</a> annotated for who felt what emotion towards whom, purpose, style<br>
+    <br>
+  </li>
+  <li><a href="lexicons.html#HashEmo">Hashtag Emotion Corpus (aka Twitter Emotion Corpus, or TEC)</a> used to create the <a href="lexicons.html#HashEmo">NRC Hashtag Emotion Lexicon</a><br>
+    <br>
+  </li>
+  <li><a href="http://saifmohammad.com/WebPages/ArabicSA.html">A corpus of Arabic blog post sentences and their English translations </a>both separately annoted for sentiment</li>
+</ul>
+<em>Other Data</em>
+<ul>
+  <li><a href="https://arxiv.org/abs/2110.04845" rel="nofollow">What Makes Sentences Semantically Related: A Textual Relatedness Dataset and Empirical Study</a>: 5500 English sentence pairs with manually annotated, fine-grained, semantic relatedness scores.<br>
+  <a href="https://arxiv.org/pdf/2110.04845.pdf">Paper</a>&nbsp; &nbsp; <a href="https://github.com/Priya22/semantic-textual-relatedness">Data</a><a href="https://github.com/whipson/edyn"></a><br>
+  <br>
+  </li>
+  <li><a href="http://saifmohammad.com/WebPages/nlpscholar.html">Data for the NLP Scholar Project: </a>A single unified source of information from both the ACL Anthology (AA) and Google Scholar for tens of thousands of NLP papers.<br>
+    <br>
+  </li>
+  <li><a href="https://github.com/whipson/PoKi-Poems-by-Kids">PoKi: A Large Dataset of Poems by Children</a> (Paper: <a href="https://www.aclweb.org/anthology/2020.lrec-1.195.pdf">pdf</a>)<br>
+    <br>
+  </li>
+  <li><a href="https://www.svkir.com/resources/SOLO-Corpus.zip">SOLO: A Corpus of Tweets for Examining the State of Being Alone</a><br>
+    <br>
+  </li>
+  <li><a href="http://saifmohammad.com/WebPages/wordwars.html">WordWars: A Dataset to Examine the Natural Selection of Words</a><br>
+    <br>
+  </li>
+  <li><a href="http://saifmohammad.com/WebPages/BiRD.html">Big Bird: A Large, Fine-Grained, Bigram Relatedness Dataset for Examining Semantic Composition</a><br>
+    <br>
+  </li>
+  <li><a href="http://saifmohammad.com/WebPages/Biases-SA.html">Examining Gender and Race Bias in Two Hundred Sentiment Analysis Systems</a><br>
+    <br>
+  </li>
+  <li><a href="http://saifmohammad.com/WebPages/wikiartemotions.html">WikiArt Emotions: An Annotated Dataset of Emotions Evoked by Art</a><br>
+    <br>
+  </li>
+  <li><a href="https://sites.google.com/view/you-on-issues/about">A dataset that allows to examine how complex positions on controversial issues are formed by relevant assertions. </a>The data was created by combining qualitative and quantitative surveys.<br>
+    <br>
+  </li>
+  <li><a href="http://saifmohammad.com/WebPages/ResearchInterests.html#lexicalcontrast">Lexical contrast (antonymy) data</a>: includes closest-opposite questions, TURN dataset, LZQZ dataset, different kinds of opposites, lists of automatically generated contrast pairs, etc.<br>
+    <br>
+  </li>
+  <li><a href="http://saifmohammad.com/WebPages/metaphor.html">WordNet verb usages annotated for metaphoricness and literalness, as well as for emotionality</a>.</li>
+</ul>
+<p>&nbsp;</p>
+<p><font size="5" style="color: #39F">I</font><font size="5" style="color: #39F">nformation visualization and Data sonification demos</font></p>
+<ul>
+  <li><a href="http://www.musicfromtext.com">TransProse: Converting Text to Music</a>. Hannah Davis and Saif M. Mohammad. <br>
+    A system that takes as input classic English novels and generates music that captures the flow of emotions in it.</li>
+</ul>
+<ul>
+  <li><a href="http://www.saifmohammad.com/WebPages/imagisaurus.html">ImagiSaurus: An Interactive Visualization of the Roget&rsquo;s Thesaurus<br>
+    </a>Imagisaurus helps users quickly grasp the nature and size of the thesaurus taxonomy. Addition- ally, Imagisaurus allows exploration of affectual categories in the thesaurus.<br>
+  </li>
+</ul>
+<ul>
+  <li><a href="http://www.lexichrome.com/#palette">Lexichrome: An Interactive Word&ndash;Color Catalogue for Scholars, Designers, and Writers.</a> Chris Kim, Saif M. Mohammad, and Christopher Colins.<br/>
+    Lexichrome is an application that maps the NRC Word&ndash;Colour Association Lexicon to a web- based catalogue that users can browse and analyze. It allows visitors to view the chromatic makeup (color associations) of a user-provided text.</li>
+</ul>
+<ul>
+  <li><a href="http://www.saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm">An Interactive Visualizer for the NRC Emotion Lexicon<br>
+    </a>The NRC Emotion Lexicon is a list of English words and their associations with eight basic emotions (anger, fear, anticipation, trust, surprise, sadness, joy, and disgust) and two sentiments (negative and positive). The annotations were manually done by crowdsourcing.</li>
+</ul>
+<ul>
+  <li><a href="http://www.saifmohammad.com/WebPages/SCL.html"> Interactive Visualizers for Sentiment Composition Lexicons<br>
+    </a>Sentiment composition is the determining of sentiment of a multi-word linguistic unit, such as a phrase or a sentence, based on its constituents. We present two visualizations: (1) exploring sentiment composition in phrases formed by at least one positive and at least one negative word- phrases like happy accident and best winter break, and (2) exploring sentiment composition in phrases formed with negators, modals, and degree adverbs.</li>
+</ul>
+<ul>
+  <li><a href="http://www.saifmohammad.com/WebPages/StanceDataset.htm">An Interactive Visualizer for the Stance Dataset<br>
+  </a>We visualize a dataset of tweets manually annotated for stance towards given target, target of opinion (opinion towards), and sentiment (polarity).</li>
+</ul>
+<ul>
+  <li><a href="http://saifmohammad.com/WebPages/metaphor.html">WordNet verb usages annotated for metaphoricness and literalness, as well as for emotionality</a></li>
+</ul>
+<p>&nbsp;</p>
+<p><font size="5" style="color: #39F">Systems and Code</font></p>
+<ul>
+  <li>The <a href="NRC-Canada-Sentiment.htm">NRC-Canada</a> sentiment anaysis system.<br>
+    <br>
+  </li>
+  <li><a href="https://github.com/felipebravom/AffectiveTweets">The AffectiveTweets Package</a>: Felipe Bravo-Marquez implemented  AffectiveTweets for the Weka machine learning workbench  that provides a collection of filters for extracting state-of-the-art features from tweets for sentiment classification/regression and other related tasks. The package is especially useful to generate feature vectors from a large number of affect lexicons. The vector can then be concatenated to other features vectors (say dense-distributed representations of the text) to improve perfomance. (You can use the feature vector with any classifier -- not just one with support from Weka.)<br>
+    <br>
+  </li>
+  <li><a href="BestWorst.html">Code to assist with best-worst-scaling annotations</a>. It includes a script to produce 4-tuples with desired term distributions, a script to produce real-valued scores from best-worst annotations, as well as a script to calculate <a href="bwsVrs.html#SHR">split-half reliability of the annotations</a>. <br>
+    <br>
+  </li>
+  <li><a href="https://github.com/pdturney/natural-selection-of-words">The Natural Selection of Words: Finding the Features of Fitness</a></li>
+</ul>
+<p>&nbsp;</p>
+<p><font size="5" style="color: #39F">Submissions to International Shared Task Competitions</font></p>
+<ul>
+  <li>AMIA Shared Task on detecting adverse drug reactions in tweets,Washington, DC, USA, 2017<br>
+    Task: Classification of tweets mentioning adverse drug reactions<br/>
+    Result: <span style="color: #990000">1st place</span> (9 teams participated) <br>
+  </li>
+</ul>
+<blockquote>
+  <blockquote>
+    <p><a href="../WebDocs/SMM4H-NRC-Canada.pdf">NRC-Canada at SMM4H Shared Task: Classifying Tweets Mentioning Adverse Drug Reactions and Medication Intake.</a> Svetlana Kiritchenko, Saif M. Mohammad, Jason Morin, and Berry de Bruijn (2017). In <em>Proceedings of the Social Media Mining for Health Applications Workshop at AMIA-2017</em>, Washington, DC, USA, 2017.<br>
+    <a href="../WebDocs/SMM4H-NRC-Canada.pdf">Paper (pdf)</a><a href="WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp;<a href="Abstracts/nrc-smm4h.bibtex.txt">BibTeX</a>&nbsp;<a href="WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp;<a href="../WebPages/tweets4health.htm">Our System Homepage</a></p>
+  </blockquote>
+</blockquote>
+<ul>
+  <li>SemEval-2014 Task 4: Aspect Based Sentiment Analysis, August 2014, Dublin, Ireland<br>
+    Task: Determine sentiment towards aspect terms and aspect categories<br/>
+    Result: <span style="color: #990000">1st place</span> in two of the three sentiment tasks (30+ teams participated) </li>
+</ul>
+<blockquote>
+  <blockquote>
+    <p><a href="../WebDocs/NRC-SemEval2014-Task4.pdf">NRC-Canada-2014: Detecting Aspects and Sentiment in Customer 
+          Reviews.</a> Svetlana Kiritchenko, Xiaodan Zhu, Colin Cherry, and 
+          Saif M. Mohammad. In <em>Proceedings of the eighth international workshop on 
+          Semantic Evaluation Exercises (SemEval-2014)</em>, August 2014, Dublin, Ireland.<br>
+    <a href="../WebDocs/NRC-SemEval2014-Task4.pdf">Paper (pdf)</a> &nbsp;  &nbsp;<a href="http://alt.qcri.org/semeval2014/cdrom/bib/SemEval076.bib">BibTeX</a> &nbsp;&nbsp;&nbsp; <a href="../WebDocs/1067_SemEval2014-Task4_Svetlana.pdf">Poster</a> &nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/lexicons.html#YA">Various Yelp and Amazon Datasets and Lexicons</a></p>
+  </blockquote>
+</blockquote>
+<ul>
+  <li>SemEval-2014 Task 9: Sentiment Analysis in Twitter, August 2014, Dublin, Ireland<br>
+    Task: Determine sentiment of tweets, SMS messages, and blog posts<br/>
+    Result: <span style="color: #990000">1st place</span> in five of ten sub-tasks (40+ teams participated) </li>
+</ul>
+<blockquote>
+  <blockquote>
+    <p><a href="../WebDocs/SemEval2014-Task9.pdf">NRC-Canada-2014: Recent Improvements in Sentiment Analysis of 
+          Tweets.</a> Xiaodan Zhu, Svetlana Kiritchenko, and Saif M. Mohammad. 
+          In <em>Proceedings of the eighth international workshop on Semantic Evaluation 
+          Exercises (SemEval-2014)</em>, August 2014, Dublin, Ireland.<br>
+          <a href="../WebDocs/SemEval2014-Task9.pdf">Paper (pdf)</a>&nbsp;&nbsp;&nbsp; 
+    BibTeX</p>
+  </blockquote>
+</blockquote>
+<ul>
+  <li>SemEval-2013 Task 2: Sentiment Analysis in Twitter, June 2013, Atlanta, USA<br>
+    Task: Determine sentiment of tweets and SMS messages<br/>
+    Result: <span style="color: #990000">1st place</span> in three of four sub-tasks (40+ teams participated) </li>
+</ul>
+<blockquote>
+  <blockquote>
+    <p><a href="../WebDocs/sentimentMKZ.pdf">NRC-Canada: Building the State-of-the-Art in Sentiment Analysis 
+          of Tweets.</a> Saif M. Mohammad, Svetlana Kiritchenko, and Xiaodan 
+          Zhu. In <em>Proceedings of the seventh international workshop on Semantic 
+          Evaluation Exercises (SemEval-2013)</em>, June 2013, Atlanta, USA.<br>
+          <a href="../WebDocs/sentimentMKZ.pdf">Paper (pdf)</a>&nbsp;&nbsp;&nbsp; <a href="Abstracts/semeval2013.bib.txt">BibTeX</a> &nbsp;&nbsp; <a href="NRC-Canada-Sentiment.htm">System 
+    Description and Downloads</a> &nbsp;&nbsp;&nbsp; <a href="../../WebDocs/SemEval2013-sentiment-poster-June3.pdf">Poster</a> &nbsp;&nbsp;&nbsp; <a href="../../WebDocs/web-Atlanta-Talk-SemEval2013-Sentiment.pdf">Slides</a></p>
+</blockquote></blockquote>
+<blockquote>
+  <blockquote><br>
+  </blockquote>
+</blockquote>
+<p><font size="5" style="color: #39F">Tutorials</font></p>
+<ul>
+  <li><a href="http://www.cs.cmu.edu/~ark/EMNLP-2015/tutorials.html#t8">Computational Analysis of Affect and Emotion in Language.</a> Saif M. Mohammad and Cecilia Ovesdotter Alm. Tutorial at the 2015 
+            Conference on Empirical Methods on Natural Language Processing, September 2015, Lisboa, Portugal.<br>
+  <span style="text-align: left"><a href="http://www.cs.cmu.edu/~ark/EMNLP-2015/tutorials/6/6_OptionalAttachment.pdf">Presentation</a><a href="http://www.emnlp2015.org/tutorials/6/6_OptionalAttachment.pdf"></a><a href="WebDocs/semeval-2015-task10.pdf">&nbsp;<a href="WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="../WebDocs/2015EMNLP_Tutorial_AnnotatedBibliography_MohammadAlm.pdf">Annotated Bibliography</a><a href="WebDocs/semeval-2015-task10.pdf">&nbsp;&nbsp;</a>&nbsp;&nbsp; &nbsp;&nbsp;<a href="../WebDocs/2015EMNLP_Tutorial_References_MohammadAlm.pdf">Extended Bibliography</a><a href="WebDocs/semeval-2015-task10.pdf"><a href="WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp; </span><a href="../WebDocs/emotion-tutorial-EMNLP2015.pdf">Proposal</a></li>
+</ul>
+<ul>
+  <li><strong>Sentiment Analysis of Social 
+    Media Texts.</strong> Saif M. Mohammad and Xiaodan Zhu. Tutorial at the 
+    2014 Conference on Empirical Methods on Natural Language Processing, October 
+    2014, Doha, Qatar.<br>
+  <a href="../WebDocs/EMNLP2014-SentimentTutorial.pdf">Presentation</a> <a href="WebDocs/tweetSentiment.pdf"></a>&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=zv16Xyph7Ss">Video</a> &nbsp;&nbsp; <a href="../WebDocs/SA-prop.pdf">Proposal</a></li>
+</ul>
+<ul>
+  <li><strong>A Practical Guide to Sentiment Annotation: Challenges and Solutions.</strong> Saif M. Mohammad, In <em>Proceedings of the NAACL 2016 Workshop on Computational Approaches to Subjectivity, Sentiment, and Social Media (WASSA)</em>, June 2014, San Diego, California.<br>
+  <a href="../WebDocs/SentimentAnnotation-wassa2016.pdf">Paper (pdf)</a><a href="WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp;<a href="../WebPages/Abstracts/sentimentChallenges.bib.txt">BibTeX</a>&nbsp;&nbsp;&nbsp; <span style="text-align: left">Presentation</span> &nbsp;&nbsp;&nbsp;</li>
+</ul>
+<p>&nbsp;</p>
+<p><font size="5" style="color: #39F">Book Chapters</font></p>
+<ul>
+  <li><a href="https://www.sciencedirect.com/science/article/pii/B9780128211243000119">Sentiment Analysis: Automatically Detecting Valence, Emotions, and Other Affectual States from Text.</a> Saif M. Mohammad, <em>Emotion Measurement (Second Edition), Elsevier</em>, 2021.<br>
+    <a href="https://arxiv.org/pdf/2005.11882.pdf">PDF</a> (arxiv preprint <em>arXiv:2005.11882</em>)<a href="https://aclweb.org/anthology/W/W15/W15-2912.pdf">&nbsp;</a>&nbsp;&nbsp; <a href="../WebPages/Abstracts/sentiment-survey2020-bib.txt">BibTeX</a><br>
+  <br>
+  </li>
+  <li><strong>Challenges in Sentiment Analysis.</strong> Saif M. Mohammad, <em>A Practical Guide to Sentiment Analysis</em>, Springer, 2016.<br>
+    <a href="../WebDocs/sentiment-challenges.pdf">Pre-print version (pdf)</a><a href="https://aclweb.org/anthology/W/W15/W15-2912.pdf">&nbsp;</a>&nbsp;&nbsp; <a href="../WebPages/Abstracts/SentimentChallenges-chapter.bib.txt">BibTeX</a></li>
+</ul>
+<ul>
+  <li><strong>Sentiment Analysis: Detecting Valence, Emotions, and Other Affectual States from Text.</strong> Saif M. Mohammad, <em>Emotion Measurement</em>, 2016. <br>
+    <a href="../WebDocs/emotion-survey.pdf">Pre-print version</a> <a href="https://aclweb.org/anthology/W/W15/W15-2912.pdf">&nbsp;</a>&nbsp;&nbsp; <a href="../WebPages/Abstracts/SentimentEmotions-Survey-bib.txt">BibTeX</a><br>
+  <em>(This is a survey on automatic methods for affect analysis.)</em></li>
+</ul>
+<p>&nbsp;</p>
+<p><font size="5" style="color: #39F">Videos</font></p>
+<ul>
+  <li><a href="WebDocs/2018-ItalyGermany-SearchEmo-talk-compressed.pdf">The Search for Emotions, Creativity, and Fairness in Language</a>. <a href="https://www.turing.ac.uk">The Alan Turing Institute</a>. March 11, 2019. London, UK.<br>
+  <a href="WebDocs/2018-ItalyGermany-SearchEmo-talk-compressed.pdf">Slides</a><a href="WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp; <a href="https://www.youtube.com/watch?v=q_ehexD_drA">Video</a> (This video gives a summary of my work in recent years.)</li>
+</ul>
+<ul>
+  <li><a href="WebDocs/Saif-2019-EIAI-talk-web.pdf">Examining Fairness in Language Through Emotions</a>.<span style="color: #930"> Keynote speech</span> at the <a href="https://www.digicatapult.org.uk/activities/event/canada-united-kingdom-workshop-on-practical-ai-ethics/">2019 Canada--UK Workshop on Practical AI Ethics</a>, March 12, 2019, London, UK.<br>
+    <a href="WebDocs/Saif-2019-EIAI-talk-web.pdf">Slides</a>&nbsp;&nbsp; <a href="https://youtu.be/GjTMqsXkHM0">Video</a><br>
+    <br>
+  </li>
+  <li><a href="https://vimeo.com/285800613">Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words.</a> Saif M. Mohammad.
+            In <em>Proceedings of</em> the 56th Annual Meeting of the Association for Computational Linguistics,    Melbourne, Australia, July 2018.<br>
+  <a href="../WebDocs/acl2018-VAD.pdf">Paper (pdf)</a><a href="WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp; <a href="../WebPages/Abstracts/vad-acl18.bib.txt">BibTeX&nbsp;</a> <a
+                  href="WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp; <a href="#Viz">Interactive Visualization</a><a href="../WebPages/Abstracts/vad-acl18.bib.txt">&nbsp;</a> <a
+                  href="WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp; <a href="#KeyIdeas"> </a><a href="#KeyIdeas">Key Ideas </a><a href="../WebPages/Abstracts/vad-acl18.bib.txt">&nbsp;</a> <a
+                  href="WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp; <a href="../WebDocs/VAD-talk.pdf">Presentation</a><a href="WebPages/Abstracts/vad-acl18.bib.txt">&nbsp;</a>&nbsp;&nbsp; <a href="https://vimeo.com/285800613">Video</a><a href="WebPages/Abstracts/vad-acl18.bib.txt">&nbsp;</a>&nbsp;&nbsp; <a href="../WebDocs/VAD-poster.pdf">Poster</a></li>
+</ul>
+<ul>
+  <li><a href="http://videolectures.net/lrec2016_mohammad_social_media/">Sentiment Lexicons for Arabic Social Media.</a> Saif M. Mohammad, Mohammad Salameh,  and Svetlana Kiritchenko. In <em>Proceedings of the 10th edition of the Language Resources and Evaluation Conference</em>, May 2016, Portorož (Slovenia).<br>
+  <a href="../WebDocs/arabic-lex.pdf">Paper (pdf)</a><a href="WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp; <a href="../WebPages/Abstracts/ArabicLex-lrec.bib.txt">BibTeX</a>&nbsp;&nbsp;&nbsp; <span style="text-align: left"><a href="http://videolectures.net/lrec2016_mohammad_social_media/">Presentation&nbsp;&nbsp;&nbsp;&nbsp;Video&nbsp;</a>&nbsp;<a href="http://saifmohammad.com/WebPages/ArabicSA.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Data: Arabic Sentiment Lexicons</a></li>
+</ul>
+<ul>
+  <li><strong>Sentiment Analysis of Social 
+    Media Texts.</strong> Saif M. Mohammad and Xiaodan Zhu. Tutorial at the 
+    2014 Conference on Empirical Methods on Natural Language Processing, October 
+    2014, Doha, Qatar.<br>
+  <a href="../WebDocs/EMNLP2014-SentimentTutorial.pdf">Slides</a> <a href="WebDocs/tweetSentiment.pdf"></a>&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=zv16Xyph7Ss">Video</a></li>
+</ul>
+<p>&nbsp;</p>
+<p><font size="5" style="color: #39F">An Overview of Emotions and Language Work from 2010-2018.</font></p>
+<div align="justify"><a href="../WebDocs/CA-poster-2018.pdf"><img src="../WebDocs/CA-poster-2018.jpg" width="1303" height="844"  alt=""/></a></div></blockquote>
+<p dir="ltr"><strong id="docs-internal-guid-8e0992b5-7fff-d9da-77ad-9038c9dec1d5">Designated Contact Person: </strong></p>
+<blockquote>
+  <p dir="ltr">Dr. <a href="http://saifmohammad.com/index.html">Saif M. Mohammad <br>
+    </a>Senior Research Officer at NRC (and one of the creators of the resource on this page)<br>
+    saif.mohammad@nrc-cnrc.gc.ca</p>
+</blockquote>
+<p dir="ltr"><strong>Terms of Use:</strong></p>
+<ol>
+  <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">All rights for the resource(s) listed on this page are held by National Research Council Canada.</p>
+  </li>
+  <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">The resources listed here are available free for research purposes. If you make use of them, cite the paper(s) associated with the resource in your research papers and articles.</p>
+  </li>
+  <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">If interested in commercial use of any of these resources, send email to the designated contact person. A nominal one-time licensing fee may apply.</p>
+  </li>
+  <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">If referenced in news articles and online posts, then cite the resource appropriately. For example: "This application/product/tool makes use of the &lt;resource name&gt;, created by &lt;author(s)&gt; at the National Research Council Canada." If possible, hyperlink the resource name to this page.</p>
+  </li>
+  <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">If you use the resource in a product or application, then acknowledge this in the 'About' page and other relevant documentation of the application by stating the name of the resource, the authors, and NRC. For example: "This application/product/tool makes use of the &lt;resource name&gt;, created by &lt;author(s)&gt; at the National Research Council Canada." If possible, hyperlink the resource name to this page.</p>
+  </li>
+  <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">Do not redistribute the resource/data. Direct interested parties to this page. They can also email the designated contact person.</p>
+  </li>
+  <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">If you create a derivative resource from one of the resources listed on this page:&nbsp;</p>
+  </li>
+  <ol>
+    <li dir="ltr" aria-level="2">
+      <p dir="ltr" role="presentation">Please ask users to cite the source data paper (in addition to your paper).&nbsp;</p>
+    </li>
+    <li dir="ltr" aria-level="2"> Do not distribute the source data. See #6 above.</li>
+  </ol>
+</ol>
+<blockquote>
+  <p dir="ltr">Examples of derivative resources include: translations into other languages, added annotations to the text instances, aggregations of multiple datasets, etc.</p>
+</blockquote>
+<ol start="8">
+  <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">If you are interested in uploading our resource on a third-party website or to include the resource in any collection/aggregate of datasets, then:</p>
+  </li>
+  <ol>
+    <li dir="ltr" aria-level="2">
+      <p dir="ltr" role="presentation">Email the designated contact person to begin the process to obtain permission.</p>
+    </li>
+    <li dir="ltr" aria-level="2"> After obtaining permission, any curator of datasets that includes a resource listed here must take steps to ensure that users of the aggregate dataset still cite the papers associated with the individual datasets. This includes at minimum: stating this clearly in the README and providing the citing information of the source dataset.</li>
+  </ol>
+</ol>
+<blockquote>
+  <p dir="ltr">By default, no one other than the creators of the resource have permission to upload the resource on a third-party website or to include the resource in any collection/aggregate of datasets. </p>
+</blockquote>
+<ol start="9">
+  <li dir="ltr" aria-level="1">
+    <p dir="ltr" role="presentation">National Research Council Canada (NRC) disclaims any responsibility for the use of the resource(s) listed on this page and does not provide technical support. However, the contact listed above will be happy to respond to queries and clarifications.</p>
+  </li>
+</ol>
+<p dir="ltr">If you send us an email, we will be thrilled to know about how you have used the resource.</p>
+<p>&nbsp;</p>
+<blockquote><p>&nbsp;
+            </p>
+</blockquote>
+</blockquote>
+</body>
+</html>

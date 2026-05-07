@@ -1,0 +1,57 @@
+\section{Results}
+
+\subsection{Overall Comparison}
+
+Table~\ref{tab:main-results} shows the main results. The lexicon baseline obtains the best performance on the demo evaluation set, with 0.9167 accuracy and 0.9187 macro-F1. The hybrid model improves over Naive Bayes, but does not surpass the lexicon method. This suggests that the demo texts contain explicit emotion-bearing words that are well covered by the NRC Hashtag Emotion Lexicon.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Method} & \textbf{Accuracy} & \textbf{Macro-F1} & \textbf{Examples} \\
+\midrule
+Lexicon & 0.9167 & 0.9187 & 24 \\
+Naive Bayes & 0.7917 & 0.7780 & 24 \\
+Hybrid & 0.8750 & 0.8708 & 24 \\
+\bottomrule
+\end{tabular}
+\caption{Overall method comparison on the labeled evaluation set.}
+\label{tab:main-results}
+\end{table}
+
+\subsection{Domain-Level Results}
+
+Table~\ref{tab:domain-results} shows accuracy by text domain. The lexicon method reaches perfect accuracy on the blog subset and 0.875 on news and social texts. Naive Bayes is weaker on news and social examples. The hybrid model is more stable across domains, obtaining 0.875 accuracy for blog, news, and social examples.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llrr}
+\toprule
+\textbf{Method} & \textbf{Domain} & \textbf{Accuracy} & \textbf{Macro-F1} \\
+\midrule
+Lexicon & blog & 1.0000 & 1.0000 \\
+Lexicon & news & 0.8750 & 0.8333 \\
+Lexicon & social & 0.8750 & 0.8333 \\
+Naive Bayes & blog & 0.8750 & 0.8333 \\
+Naive Bayes & news & 0.7500 & 0.6667 \\
+Naive Bayes & social & 0.7500 & 0.6667 \\
+Hybrid & blog & 0.8750 & 0.8333 \\
+Hybrid & news & 0.8750 & 0.8333 \\
+Hybrid & social & 0.8750 & 0.8333 \\
+\bottomrule
+\end{tabular}
+\caption{Results by domain. Each domain contains 8 examples.}
+\label{tab:domain-results}
+\end{table}
+
+\subsection{Example Prediction}
+
+For the input:
+
+\begin{quote}
+\textit{I finally received the scholarship and I feel proud happy and hopeful.}
+\end{quote}
+
+the hybrid method predicts \texttt{joy} with confidence 0.5847. The same CSV output includes one column for each emotion score, making the predictions easy to inspect and reuse in reports.

@@ -1,0 +1,8 @@
+@article{NRCJAIR14,
+  author = {Svetlana Kiritchenko, Xiaodan Zhu, and Saif M. Mohammad},
+  urnal = {Journal of Artificial Intelligence Research (JAIR)},
+  title = {Sentiment Analysis of Short Informal Texts},
+  volume = {50},
+  pages = {723-762},
+  date = {2014}
+}

@@ -1,0 +1,77 @@
+\section{Implementation}
+
+The project code is contained in the folder \texttt{rezolvari}. The implementation uses only Python standard library modules at runtime. The only additional Python package installed during the project was \texttt{python-pptx}, used to create the PowerPoint presentation; it is not required by the emotion analysis application.
+
+\subsection{Code Structure}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{ll}
+\toprule
+\textbf{File} & \textbf{Role} \\
+\midrule
+\texttt{emotion\_cli.py} & terminal entrypoint \\
+\texttt{constants.py} & emotion labels shared across modules \\
+\texttt{text.py} & preprocessing and tokenization \\
+\texttt{resources.py} & lexicon path resolution and loading \\
+\texttt{lexicon\_model.py} & weighted lexicon baseline \\
+\texttt{nb\_model.py} & weakly supervised Naive Bayes \\
+\texttt{pipeline.py} & unified analyzer for all methods \\
+\texttt{io.py} & CSV reading and prediction writing \\
+\texttt{metrics.py} & accuracy, macro-F1, confusion matrix \\
+\texttt{experiments.py} & final experiment runner \\
+\texttt{visualization.py} & SVG distribution charts \\
+\texttt{tests/test\_core.py} & unit tests \\
+\bottomrule
+\end{tabular}
+\caption{Main implementation files.}
+\label{tab:files}
+\end{table}
+
+\subsection{Command-Line Interface}
+
+The system can be used from the command line. For a single text:
+
+\begin{quote}
+\texttt{py emotion\_cli.py predict --text "I am happy but also afraid." --method hybrid}
+\end{quote}
+
+For a CSV file:
+
+\begin{quote}
+\small
+\texttt{py emotion\_cli.py predict-file}\\
+\texttt{--input data/sample\_texts.csv}\\
+\texttt{--output outputs/predictions.csv}\\
+\texttt{--method hybrid}
+\end{quote}
+
+For the final experiment:
+
+\begin{quote}
+\texttt{py emotion\_cli.py run-experiments}
+\end{quote}
+
+The experiment command generates CSV and JSON outputs in \texttt{outputs/final\_experiment/}, including method comparison, predictions, confusion matrices, per-domain metrics, and SVG charts.
+
+\subsection{Testing}
+
+The project includes unit tests for:
+
+\begin{itemize}
+    \item the lexicon scoring behavior;
+    \item the Naive Bayes model on toy examples;
+    \item the hybrid pipeline using injected models;
+    \item the metric calculation functions;
+    \item validation of invalid hybrid weights;
+    \item creation of experiment outputs.
+\end{itemize}
+
+The tests are run with:
+
+\begin{quote}
+\texttt{\$env:PYTHONPATH='src'; py -m unittest discover -s tests}
+\end{quote}
+
+At the time of writing, all 6 tests pass.

@@ -1,0 +1,25 @@
+--- PAGE 1 ---
+WorryWords: Norms of Anxiety Association for over 44K English WordsSaif M. Mohammad, National Research Council Canada. Contact: saif.mohammad@nrc-cnrc.gc.ca
+ØManually derived fine-grained scores for association of 44K English words with anxietyØmaximum calmness (-3) to maximum anxiety (3)Øcoarse categorical labels also available (e.g, moderate calmness, low anxiety, high anxiety)ØThe annotations are reliable (high split-half reliability scores)ØHas applications in NLP, psychology, public health, digital humanities, social science, etc.
+AnxietyThe anticipatory unease about a potential (future) negative outcome•common and beneficial human emotion •can sometimes manifest into mental disorders–mismatch: current environment vs. what anxiety has evolved for
+I have some affection for my anxiety. When it does not have me in a swirl, I think of it as a little pet, a black catwho has gotten stuck in my house and who I keep feeding milk, even though I am not sure that I wanted a pet. The cat’s language is gentle, pawing, and brings me back to the things that matter: Hospitality, compassion, service, kindness. The cat is my teacher .  -Laura TurnerSketch: Charles Darwin, The Expression of Emotion in Man and Animals (London: John Murray, 1872), p. 125. Why create language resources for anxiety?•Understanding anxiety and the underlying mechanisms (Psychology, Health)–how it relates to other emotions and affect; to our body–how anxiety changes with age, socio-economic status, weather, green spaces, etc.–identifying coping mechanisms, clinical interventions to manage anxiety•Study how anxiety manifests in language(Linguistics)–how language shapes anxiety; how culture shapes the language of anxiety•Tracking the degree of anxiety towards targets of interest such as climate change, government policies, biological vectors, etc. (Health, Policy)•Developing automatic systems for detecting anxiety (NLP)•Studying how anxiety impacts behaviour(Social Science)•Studying anxiety in stories, character development, etc. (Digital Humanities) 
+WorryWords
+Crowdsourced Annotations•Terms: NRC VAD Lexicon v1 (Mohammad, 2018)Age of Acquisition Dataset (Brysbaertet al., 2019)•Questionnaire:•Quality Control: interspersed gold (control) questions•Annotation Aggregation: average of annotator scores•Measured average split-half reliability (SHR):•Platform: MTurkThis study was approved by the NRC Research Ethics Board (NRC-REB). 
+The NRC Valence, Arousal, and Dominance Lexicon •v1: ratings of V, A, and D for ~20,000 wordsv2: ratings of V, A, and D for ~44,000 words•http://saifmohammad.com/WebPages/nrc-vad.html The NRC Emotion Lexicon•associations for ~14,000 words with eight emotionsThe NRC Emotion Intensity Lexicon •intensity scores for ~6000 emotional words•http://saifmohammad.com/WebPages/AffectIntensity.htmAre anxiety terms essentially just low-valence, high-arousal, low-dominance terms? Or fear terms?  [Ans: No, see Exp1]
+Existing Emotion Lexicons
+Ethical Considerations•Not to be used as a stand-alone tool for diagnosing disorders•Consider coverage, domain, ambiguity, socio-cultural effects, etc.•Ethics Sheet for Emotion Recognition(Mohammad, 2022) [CL Journal]•Best Practices in the Use of Emotion Lexicons(Mohammad, 2020)
+2. At whatratedochildrenacquireanxietywords as they age?Graph created using WorryWordsand the Age of Acquisitionlexicons
+3. Can we Track Anxiety in Text Streams using WorryWordsalone?
+TermScoresuffocative3.00manic2.41riskily1.72brusquely1.25ceramic0.12aloof-1.67conformed-1.71lullaby-2.79
+1. How does anxiety relate to other emotions?Correlation of Anxiety associations with other Emotion associations: WorryWords–NRC Emotion Intensity Lexicon
+Experiments
+Correlation of Anxiety with Affect: WorryWords–NRC VAD LexiconAnxiety not captured by other constructs:•mostly no or mild correlations•slight corr. with fear (then anger, sadness)•moderate inverse corr. with valence. Examples: high calm., low V: pity, aloofhigh anx., high V: adrenalin, revolutionary
+Up to age 5:more calming words than anxiety wordsAfterage 5:increasingproportionofanxietywords
+fear         
+-0.852
+Created text streams and gold arcs by sampling posts from the Rastogi et al. (2022) dataset (5,488 Reddit posts annotated for anxiety) with repla-cement such that the gold anxiety arcs had random amplitudes and slopes (spikiness). Predicted arcs created usinglexicons(wordcounting).
+Of the ~44k words:∼60% associated with neither anxiety nor calmness~27% associated with anxiety; ~13% with calmness
+0.903
+0.712
+0.595
+Lexicons used: WorryWords, NRC VAD Lexicon, NRC Emotion Intensity Lexicon•WorryWordshighly accurate at tracking anxiety in text streams•Valence and arousal lexicons better indicators than fear (fear lexicon much smaller)•Inverseofanticipation better correlated than fear: 0.659

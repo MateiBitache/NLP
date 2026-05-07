@@ -1,0 +1,7 @@
+\section{Conclusion}
+
+This project implements an end-to-end application for emotion analysis in text. It predicts scores for eight emotions and supports both individual and batch prediction. The implementation compares a classic lexicon-based method, a weakly supervised Naive Bayes model, and a hybrid score-combination method.
+
+The results show that the lexicon baseline is the strongest method on the small evaluation dataset, achieving 0.9167 accuracy and 0.9187 macro-F1. The hybrid method improves over Naive Bayes but does not surpass the lexicon baseline. This is a useful result because it shows that simple and interpretable methods can be strong when emotion words are explicit and well covered by the lexicon.
+
+The project satisfies the implementation-focused requirement by providing a runnable application, multiple approaches, reproducible experiments, generated outputs, tests, documentation, and a presentation. Future work can extend the system with larger datasets, Romanian or multilingual resources, and GPU-based Transformer models.

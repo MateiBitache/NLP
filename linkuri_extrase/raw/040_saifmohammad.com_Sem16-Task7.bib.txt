@@ -1,0 +1,10 @@
+@InProceedings{SemEval2016Task7,
+  author    = {Kiritchenko, Svetlana and Mohammad, Saif M. and Salameh, Mohammad},
+  title     = {Semeval-2016 Task 7: Determining Sentiment Intensity of English and Arabic Phrases},
+  booktitle = {Proceedings of the International Workshop on Semantic Evaluation},
+  series    = {SemEval '16},
+  month     = {June},
+  year      = {2016},
+  address   = {San Diego, California}
+}
+

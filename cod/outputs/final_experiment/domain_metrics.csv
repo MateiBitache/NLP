@@ -1,0 +1,10 @@
+method,domain,accuracy,macro_f1,total
+lexicon,blog,1.0,1.0,8
+lexicon,news,0.875,0.8333,8
+lexicon,social,0.875,0.8333,8
+nb,blog,0.875,0.8333,8
+nb,news,0.75,0.6667,8
+nb,social,0.75,0.6667,8
+hybrid,blog,0.875,0.8333,8
+hybrid,news,0.875,0.8333,8
+hybrid,social,0.875,0.8333,8

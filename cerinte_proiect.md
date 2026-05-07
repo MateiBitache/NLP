@@ -1,0 +1,3 @@
+Emotion analysis – detect the emotions in a text
+Ideas: automatically extract emotion scores for individual emotions (see Plutchik’s wheel of emotions) for news / blogs / social media texts; optional: use Romanian data; optional: analyze emotions with respect to a given label for a separate task, or use as feature for separate task: e.g. emotions in hate speech datasets, emotions in optimism/pessimism data, emotions in therapy sessions; tracking emotions on social media over time; annotate a dataset with emotion scores and learn to predict them (preferably for a low-resource language/new domain)
+Resources: pagina.html

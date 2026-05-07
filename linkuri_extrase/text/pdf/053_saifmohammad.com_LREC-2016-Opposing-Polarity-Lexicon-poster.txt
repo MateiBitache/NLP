@@ -1,0 +1,103 @@
+--- PAGE 1 ---
+Happy Accident: A Sentiment Composition Lexicon  
+for Opposing Polarity Phrases 
+Svetlana Kiritchenko and Saif M. Mohammad 
+National Research Council Canada 
+Svetlana.Kiritchenko@nrc-cnrc.gc.ca 
+Information and Communications Technologies 
+Example term Sentiment Pattern 
+heart attack -0.906 
+long time friends 0.734 
+guilty pleasures 0.484 
+bad luck -0.750 
+bad -0.406 
+luck 0.578 
+Term selection: opposing polarity bigrams and trigrams 
+from tweets; the polarities of the words were determined by 
+look-up in existing sentiment lexicons. 
+Annotation: 
+3. Creating SCL-OPP 
+4. Applications 
+ 
+Interactive Visualization 
+• studying sentiment composition [3]; 
+• evaluating automatic methods: SemEval-2016 shared 
+task on determining sentiment intensity of English and 
+Arabic phrases (http://alt.qcri.org/semeval2016/task7/); 
+• studying how human brain processes sentiment; 
+• automatically creating a large coverage sentiment 
+lexicon of multi-word phrases. 
+• done with Best‒Worst  Scaling (Louviere and Woodworth, 1990): 
+a comparative annotation scheme commonly used in 
+marketing research; has been shown to produce reliable 
+annotations of terms for sentiment [2]; 
+Sentiment Composition Lexicon for Opposing Polarity 
+Phrases (SCL-OPP) includes 1,178 terms: 311 bigrams, 
+265 trigrams, and 602 single-word constituents. 
+Obtaining real-valued scores (Orme, 2009): 
+Annotation questions: Given a 4-tuple (4 terms), 
+• identify the term that is associated with the most 
+amount of negative sentiment; 
+• identify the term that is associated with the most 
+amount of positive sentiment. 
+• done manually by crowdsourcing; 
+• each question was annotated by eight  
+respondents. 
+most  
+negative 
+4-tuple most  
+positive 
+shameless self promotion 
+happy tears 
+hug 
+major pain 
+𝑠𝑐𝑜𝑟𝑒 𝑡 =  #𝑚𝑜𝑠𝑡 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒 𝑡 − #𝑚𝑜𝑠𝑡 𝑛𝑒𝑔𝑎𝑡𝑖𝑣𝑒(𝑡)
+#𝑎𝑛𝑛𝑜𝑡𝑎𝑡𝑖𝑜𝑛𝑠(𝑡)  
+SCL-OPP is available at: 
+http://www.saifmohammad.com/WebPages/SCL.html#OPP 
+ 
+Code for Best‒Worst Scaling is available at: 
+http://www.saifmohammad.com/WebPages/BestWorst.html  
+ 
+Quality of annotation: the ranking of words by 
+sentiment is remarkably consistent even when the 
+annotation process is repeated with a different set of 
+annotators (Spearman's ρ = 0.98). 
+1. Our Contribution 
+We created a sentiment lexicon of phrases and their 
+constituent words: a sentiment composition lexicon (SCL). 
+Each phrase includes at least one positive word and at 
+least one negative word—we call such phrases opposing 
+polarity phrases (OPP). 
+Annotations: 
+• done manually with real-valued score of sentiment 
+association using Best‒Worst Scaling technique; 
+• are shown to be reliable.  
+ 
+ 
+SCLs, such as SCL-OPP and SCL-NMA [1], are useful in 
+understanding how meaning (and sentiment) is composed. 
+ 
+happy + accident happy accident = 
+2. SCL-OPP 
+http://www.saifmohammad.com/WebPages/SCL.html#OPP 
+adj. + noun 
+adj. + noun 
+noun + noun 
+adj. + noun + noun 
+[1] Kiritchenko and Mohammad. The Effect of Negators, Modals, and 
+Degree Adverbs on Sentiment Composition. WASSA-2016. 
+[2] Kiritchenko and Mohammad. Capturing Reliable Fine-Grained 
+Sentiment Associations by Crowdsourcing. NAACL-2016. 
+[3] Kiritchenko and Mohammad. Sentiment Composition of Words with 
+Opposing Polarities. NAACL-2016. 
+CrowdFlower 
+5. References 
+In Proceedings of the 10th edition of the Language Resources and Evaluation Conference, May 2016, Portorož (Slovenia) 
+The size of a triangle is proportional to the absolute value of the 
+phrase’s sentiment score. The size of a tile is proportional to the 
+number of instances corresponding to that pattern. 
+guilty pleasures 
+guilty conscience 
+perfect storm 
+worth fighting

@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"[]>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Determining Sentiment Intensity of English and Arabic Phrases &lt; SemEval-2016 Task 7</title>
+<meta name="robots" content="index, follow" />
+<link rel="stylesheet" href="http://alt.qcri.org/semeval2016/task7/theme/bhmadbuilding/style.css" type="text/css" media="screen" />
+</head>
+<body  id="index">
+<div id="bhm-main">
+	<div class="cleared reset-box"></div>
+	<div class="bhm-box bhm-sheet">
+		<div class="bhm-box-body bhm-sheet-body">
+		<div class="bhm-bar bhm-nav">
+		<div class="bhm-nav-outer">
+		<ul class="bhm-hmenu">
+		<li class="current  index"><a href="http://alt.qcri.org/semeval2016/task7/" title="Determining Sentiment Intensity of English and Arabic Phrases">Home</a></li>
+<li class="important-dates"><a href="http://alt.qcri.org/semeval2016/task7/index.php?id=important-dates" title="Important Dates">Important Dates</a></li>
+<li class="data-and-tools"><a href="http://alt.qcri.org/semeval2016/task7/index.php?id=data-and-tools" title="Data and Tools">Data and Tools</a></li>
+		</ul></div></div>
+		<div class="cleared reset-box"></div>
+		<div class="bhm-header">
+		<div class="bhm-logo">
+		<h1 class="bhm-logo-name"><a href="#">SemEval-2016 Task 7</a></h1>
+		<h2 class="bhm-logo-text"></h2>
+		</div>                
+		</div>		
+		<div class="cleared reset-box"></div>
+		<div class="bhm-layout-wrapper">
+			<div class="bhm-content-layout">
+			<div class="bhm-content-layout-row">
+			<div class="bhm-layout-cell bhm-content">
+			<div class="bhm-box bhm-post">
+			<div class="bhm-box-body bhm-post-body">
+			<div class="bhm-post-inner bhm-article">
+			<h2 class="bhm-postheader">Determining Sentiment Intensity of English and Arabic Phrases</h2>
+			<div class="bhm-postheadericons bhm-metadata-icons">
+
+			</div>
+			<div class="bhm-postcontent">
+			<p style="text-align: justify;">
+	&nbsp;</p>
+<p style="text-align: justify;">
+	The objective of the task is to test an automatic system&rsquo;s ability to predict a sentiment intensity (aka evaluativeness and sentiment association) score for a word or a phrase. Phrases include negators, modals, intensifiers, and diminishers &shy;-- categories known to be challenging for sentiment analysis. Specifically, the participants will be given a list of terms (single words and multi&shy;word phrases) and be asked to provide a score between 0 and 1 that is indicative of the term&rsquo;s strength of association with positive sentiment. A score of 1 indicates maximum association with positive sentiment (or least association with negative sentiment) and a score of 0 indicates least association with positive sentiment (or maximum association with negative sentiment). If a term is more positive than another, then it should have a higher score than the other.&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p style="text-align: justify;">
+	We introduced this task as part of the SemEval&shy;-2015 Task 10 Sentiment Analysis in Twitter, Subtask E (Rosenthal et al., 2015), where the target terms were taken from Twitter. In SemEval&shy;-2016, we broaden the scope of the task and include three different domains: general English, English Twitter, and Arabic Twitter. The Twitter domain differs significantly from the general English domain; it includes hashtags, that are often a composition of several words (e.g., #f&#8203;eelingood)&#8203;, misspellings, shortings, slang, etc.&nbsp;</p>
+<p style="text-align: justify;">
+	&nbsp;</p>
+<p style="text-align: justify;">
+	<strong>Subtasks</strong></p>
+<p style="text-align: justify;">
+	We will have three subtasks, one for each of the three domains:</p>
+<ul>
+	<li style="text-align: justify;">
+		<strong>General English Sentiment Modifiers Set:</strong> This test set has phrases formed by combining a word and a modifier, where a modifier is a negator, an auxilary verb, a degree adverb, or a combination of those.&nbsp; For example, &#39;would be very easy&#39;, &#39;did not harm&#39;, and &#39;would have been nice&#39;. (See <a href="http://alt.qcri.org/semeval2016/task7/index.php?id=data-and-tools">development data</a>&nbsp;for more examples.) The test set also includes single word terms (as separate entries). These terms are chosen from the set of words that are part of the multi-word phrases.&nbsp; For example, &#39;easy&#39;, &#39;harm&#39;, and &#39;nice&#39;. The terms in the test set will have the same form as the terms in the development set, but can involve different words and modifiers.<br />
+		&nbsp;</li>
+	<li style="text-align: justify;">
+		<strong>English Twitter Mixed Polarity Set:</strong> This test set focuses on phrases made up of opposite polarity terms. For example, phrases such as &#39;lazy sundays&#39;, &#39;best winter break&#39;, &#39;happy accident&#39;, and &#39;couldn&#39;t stop smiling&#39;. Observe that &#39;lazy&#39; is associated with negative sentiment whereas &#39;sundays&#39; is associated with positive sentiment. Automatic systems have to determine the degree of association of the whole phrase with positive sentiment. The test set also includes single word terms (as separate entries). These terms are chosen from the set of words that are part of the multi-word phrases. For example, terms such as &#39;lazy&#39;, &#39;sundays&#39;, &#39;best&#39;, &#39;winter&#39;, and so on. This allows the evaluation to determine how good the automatic systems are at determining sentiment association of individual words as well as how good they are at determining sentiment of phrases formed by their combinations. The multi-word phrases and single-word terms are drawn from a corpus of tweets, and may include a small number of hashtag words and creatively spelled words. However, a majority of the terms are those that one would use in everyday English.<br />
+		&nbsp;</li>
+	<li style="text-align: justify;">
+		<strong>Arabic Twitter Set:</strong> This test set includes single words and phrases commonly found in Arabic tweets. The phrases in this set are formed only by combining a negator and a word. See&nbsp;<a href="http://alt.qcri.org/semeval2016/task7/index.php?id=data-and-tools">development data</a>&nbsp;for examples.</li>
+</ul>
+<p style="text-align: justify;">
+	In each subtask the target terms are chosen from the corresponding domain. We will provide a development set &nbsp;and a test set for each domain. <strong>No separate training data will be provided. </strong>The development sets will be large enough to be used for tuning or even for training. The test sets and the development sets will have no terms in common. The participants are free to use any additional manually or automatically generated resources; however, we will require that all resources be clearly identified in the submission files and in the system description paper.</p>
+<p style="text-align: justify;">
+	&nbsp;</p>
+<p style="text-align: justify;">
+	All of these terms will be manually annotated to obtain their strength of association scores. We will use CrowdFlower to crowdsource the annotations. We use the MaxDiff method of annotation. Kiritchenko et al. (2014) showed that even though annotators might disagree about answers to individual questions, the aggregated scores produced with MaxDiff and the corresponding term ranking are consistent. We verified this by randomly selecting ten groups of five answers to each question and comparing the scores and rankings obtained from these groups of annotations. On average, the scores of the terms from the data we have previously annotated (SemEval&shy;-2015 Subtask E Twitter data and SemEval&shy;-2016 general English terms) differed only by 0.02-&shy;0.04 per term, and the Spearman rank correlation coefficient between two sets of rankings was 0.97-0.98.</p>
+<p style="text-align: justify;">
+	&nbsp;</p>
+<p style="text-align: justify;">
+	<strong>Evaluation</strong><br />
+	&nbsp;</p>
+<p style="text-align: justify;">
+	The participants can submit results for any one, two, or all three subtasks. We will provide separate test files for each subtask. The test file will contain a list of terms from the corresponding domain. The participating systems are expected to assign a sentiment intensity score to each term. The order of the terms in the submissions can be arbitrary.</p>
+<p style="text-align: justify;">
+	&nbsp;</p>
+<p style="text-align: justify;">
+	System ratings for terms in each subtask will be evaluated by first ranking the terms according to sentiment score and then comparing this ranked list to a ranked list obtained from human annotations. Kendall&#39;s Tau (Kendall, 1938) will be used as the metric to compare the ranked lists. We will provide scores for Spearman&#39;s Rank Correlation as well, but participating teams will be ranked by Kendall&#39;s Tau.</p>
+<p style="text-align: justify;">
+	We have released an evaluation script so that participants can:</p>
+<ul>
+	<li style="text-align: justify;">
+		make sure their output is in the right format;</li>
+	<li style="text-align: justify;">
+		track the progress of their system&#39;s performance on the development data.</li>
+</ul>
+<p style="text-align: justify;">
+	Each team can make no more than one submission per subtask. Within a week or two of the end of evaluation period, we will release the gold data. This will allow participants to test outputs from alternative versions of your system. In the system description paper that you will eventually write, we encouraged participants to make comparisons with alternative runs. (If describing multiple runs, participants must clearly mark in the paper which run was submitted to the competition.)</p>
+<p style="text-align: justify;">
+	Note that your team&#39;s submissions to Task 7 do not limit the number of submissions your team can make to other &nbsp;SemEval tasks.</p>
+<p>
+	&nbsp;</p>
+<p style="text-align: justify;">
+	<br />
+	<strong>EVALUATION PERIOD</strong></p>
+<p>
+	&nbsp;</p>
+<p style="text-align: justify;">
+	Task 7 (all three subtasks) will have the following evaluation period: Jan 11th (Mon) to Jan 18 (Mon). That is, test data all be released by 12:00AM Pacific Standard Time (GMT-8) Jan 11, and only submissions made by 11:59PM Pacific Standard Time (GMT-8) Jan 18th will be accepted for evaluation.</p>
+<p style="text-align: justify;">
+	&nbsp;</p>
+<p style="text-align: justify;">
+	<strong>Background and Motivation</strong></p>
+<p>
+	&nbsp;</p>
+<p style="text-align: justify;">
+	Many of the top performing sentiment analysis systems in recent SemEval competitions (2013 Task 2, 2014 Task 4, and 2014 Task 9) rely on automatically generated sentiment lexicons. Sentiment lexicons are lists of words (and phrases) with prior associations to positive and negative sentiments. Some lexicons can additionally provide a sentiment score for a term to indicate its strength of evaluative intensity. Higher scores indicate greater intensity. Existing manually created sentiment lexicons tend to only have discrete labels for terms (positive, negative, neutral) but no real-&shy;valued scores indicating the intensity of sentiment. Here for the first time we manually create a dataset of words with real-&shy;valued scores of intensity. The goal of this task is to evaluate automatic methods for determining sentiment scores of words and phrases. Many of the phrases in the test set will include negators (such as <em>n&#8203;o</em> &#8203;and <em>d&#8203;oesn&rsquo;t</em>)&#8203;, modals (such as <em>c&#8203;ould</em> and <em>m&#8203;ay be</em>)&#8203;, and intensifiers and diminishers (such as <em>v&#8203;ery</em> and <em>s&#8203;lightly</em>)&#8203;. This task will enable researchers to examine methods for estimating how each of these word categories impact intensity of sentiment.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Other Related Shared Tasks</strong></p>
+<ul>
+	<li>
+		<a href="http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html">WASSA-2017 Shared Task on Emotion Intensity (EmoInt)</a></li>
+	<li>
+		<a href="http://alt.qcri.org/semeval2018/index.php?id=tasks">SemEval-2018 Task 1:&nbsp;Detecting Affect Intensities in Tweets</a></li>
+</ul>
+<p style="text-align: justify;">
+	&nbsp;</p>
+<p style="text-align: justify;">
+	<strong>References</strong></p>
+<ul>
+	<li style="text-align: justify;">
+		Almquist, E., and Lee, J. 2009. What do customers really want? Harvard Business Review.</li>
+	<li style="text-align: justify;">
+		Esuli, A., and Sebastiani, F. 2006. SENTIWORDNET: A publicly available lexical resource for opinion mining. In Proceedings of the 5th Conference on Language Resources and Evaluation (LREC&shy;2006), pp. 417&shy;-422.</li>
+	<li style="text-align: justify;">
+		Hatzivassiloglou, V., and McKeown, K. R. 1997. Predicting the semantic orientation of adjectives. In Proceedings of the 8th Conference of European Chapter of the Association for Computational Linguistics (EACL&shy;1997), pp. 174-&shy;181, Madrid, Spain.</li>
+	<li style="text-align: justify;">
+		Hu, M., and Liu, B. 2004. Mining and summarizing customer reviews. In Proceedings of the 10th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD&shy;2004), pp. 168&shy;-177, New York, NY, USA. ACM.</li>
+	<li style="text-align: justify;">
+		Jurgens, D., Mohammad, S. M., Turney, P., and Holyoak, K. 2012. Semeval&shy;-2012 Task 2: Measuring degrees of relational similarity. In Proceedings of the 6th International&#65532;&#65532; &#65532;Workshop on Semantic Evaluation (SemEval&shy;-2012), pp. 356-&shy;364, Montreal, Canada.</li>
+	<li style="text-align: justify;">
+		Kendall, M. 1938. A New Measure of Rank Correlation. Biometrika 30 (1&ndash;2): 81&ndash;89.</li>
+	<li style="text-align: justify;">
+		Kiritchenko, S., Zhu, X., and Mohammad, S. 2014. Sentiment Analysis of Short Informal Texts. Journal of Artificial Intelligence Research, vol. 50, pages 723-&shy;762.</li>
+	<li style="text-align: justify;">
+		Louviere, J. 1991. Best&shy;worst scaling: A model for the largest difference judgments. Working Paper.</li>
+	<li style="text-align: justify;">
+		Mohammad, S. M., Dunne, C., &amp; Dorr, B. 2009. Generating high&shy;coverage semantic orientation lexicons from overtly marked words and a thesaurus. In Proceedings of the Conference on Empirical Methods in Natural Language Processing: Volume 2 (EMNLP&shy;-2009), pp. 599-&shy;608.</li>
+	<li style="text-align: justify;">
+		Mohammad, S., Kiritchenko, S., and Zhu, X. 2013. NRC&shy;-Canada: Building the State&shy;-of-&shy;the-&shy;Art in Sentiment Analysis of Tweets. In Proceedings of the 7th International Workshop on Semantic Evaluation Exercises (SemEval-&shy;2013).</li>
+	<li style="text-align: justify;">
+		Mohammad, S., and Turney, P. 2010. Emotions evoked by common words and phrases: Using Mechanical Turk to create an emotion lexicon. In Proceedings of the NAACL-&shy;HLT Workshop on Computational Approaches to Analysis and Generation of Emotion in Text, LA, California.</li>
+	<li style="text-align: justify;">
+		Nakov, P., Kozareva, Z., Ritter, A., Rosenthal, S., Stoyanov, V., and Wilson, T. 2013. Semeval&shy;-2013 Task 2: Sentiment Analysis in Twitter. In Proceedings of the 7th International Workshop on Semantic Evaluation (SemEval&shy;-2013).</li>
+	<li style="text-align: justify;">
+		Orme, B. 2009. MaxDiff analysis: Simple counting, individual&shy;level logit, and HB. Sawtooth Software, Inc.</li>
+	<li style="text-align: justify;">
+		Rosenthal, S., Nakov, P., Kiritchenko, S., Mohammad, S., Ritter, A., and Stoyanov, V. 2015. SemEval&shy;-2015 Task 10: Sentiment Analysis in Twitter. In Proceedings of the 9th International Workshop on Semantic Evaluation (SemEval-&shy;2015).</li>
+	<li style="text-align: justify;">
+		Rosenthal, S., Nakov, P, Ritter, A, and Stoyanov, V. 2014. SemEval-&shy;2014 Task 9: Sentiment Analysis in Twitter. In Proceedings of the 8th International Workshop on Semantic Evaluation (SemEval&shy;-2014), Dublin, Ireland.</li>
+	<li style="text-align: justify;">
+		Stone, P., Dunphy, D. C., Smith, M. S., Ogilvie, D. M., &amp; associates. 1966. The General Inquirer: A Computer Approach to Content Analysis. The MIT Press.</li>
+	<li style="text-align: justify;">
+		Tang, D., Wei, F., Qin, B., Zhou, M., and Liu, T. 2014. Building Large&shy;-Scale Twitter-&shy;Specific Sentiment Lexicon: A Representation Learning Approach. In Proceedings of the 25th International Conference on Computational Linguistics (COLING&shy;-2014), pages 172&ndash;182.</li>
+	<li style="text-align: justify;">
+		Turney, P., and Littman, M. L. 2003. Measuring praise and criticism: Inference of semantic orientation from association. ACM Transactions on Information Systems, 21 (4).</li>
+	<li style="text-align: justify;">
+		Wilson, T., Wiebe, J., and Hoffmann, P. 2005. Recognizing contextual polarity in phrase-&shy;level sentiment analysis. In Proceedings of the Conference on Human Language Technology and Empirical Methods in Natural Language Processing (HLT-&shy;2005), pp. 347-&shy;354, Stroudsburg, PA, USA.</li>
+</ul>
+			</div>
+			<div class="cleared"></div>
+			<div class="bhm-postfootericons bhm-metadata-icons">
+			<span class="bhm-postcategoryicon"></span></div>
+			</div><div class="cleared"></div>
+			</div></div><div class="cleared"></div></div>
+			<div class="bhm-layout-cell bhm-sidebar1">						
+			<!------>
+				<div class="bhm-box bhm-block">
+				<div class="bhm-box-body bhm-block-body">
+				<div class="bhm-bar bhm-blockheader">
+				<h3 class="t">Contact Info</h3>
+				</div>
+					<div class="bhm-box bhm-blockcontent">
+					<div class="bhm-box-body bhm-blockcontent-body">
+					<div>
+					<h4>
+	Organizers</h4>
+<ul><br>
+<li>Svetlana Kiritchenko<br>National Research Council Canada</li>
+<li>Saif M Mohammad<br>National Research Council Canada</li>
+<li>Mohammad Salameh<br>University of Alberta</li>
+</ul>
+<br> 
+	<b>email: </b><i><a href="https://groups.google.com/forum/#!forum/semeval-sentimentintensity">SemEval-SentimentIntensity<br>@googlegroups.com</a></i></p>
+       </i></p>					</div>
+					<div class="cleared"></div></div></div>
+					<div class="cleared"></div></div></div>
+				<div class="bhm-box bhm-block">
+				<div class="bhm-box-body bhm-block-body">
+				<div class="bhm-bar bhm-blockheader">
+				<h3 class="t">Other Info</h3></div>
+				<div class="bhm-box bhm-blockcontent">
+				<div class="bhm-box-body bhm-blockcontent-body"><div>
+				<h4>Announcements</h4>
+<ul>
+<li> Results have been announced.</li>
+<li>Test data has been released.</li>
+<li> Task 7 (all three subtasks) will have the following evaluation period: Jan 11th (Mon) to Jan 18 (Mon).</li>
+  <li> Trial data have been released for all three domains.</li>
+</ul>
+
+				</div><div class="cleared"></div></div></div>
+				<div class="cleared"></div></div></div>                
+				<div class="cleared"></div>
+			<!----->
+		<div class="cleared"></div>
+		</div></div></div></div>
+		<div class="cleared"></div>
+		<div class="bhm-footer">
+		<div class="bhm-footer-body">
+		<div class="bhm-footer-text">
+		Copyright 2026 - <strong>SemEval-2016 Task 7. All Right Reserved
+		</div>
+		<div class="cleared"></div>
+		</div></div><div class="cleared"></div></div></div>
+	<div class="cleared"></div>
+	<!-- Please don't remove this link -->
+	<p class="bhm-page-footer">Designed by <a href="http://www.balinesehandmade.com">BhMad Studio</a> &nbsp;|&nbsp; <a href="http://get-simple.info/" >Powered by  GetSimple</a></p>
+	<!-- end -->
+	<div class="cleared"></div>
+</div></body></html>

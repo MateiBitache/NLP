@@ -1,0 +1,17 @@
+\section{Introduction}
+
+Emotion analysis is the task of identifying affective information expressed in text. Unlike binary or ternary sentiment analysis, which usually asks whether a text is positive, negative, or neutral, emotion analysis attempts to capture more specific categories such as fear, joy, sadness, anger, trust, or surprise. This finer-grained representation is useful in applications such as monitoring social-media reactions, analyzing news and blogs, tracking public response to events, or using emotion scores as features for downstream tasks such as hate speech detection, optimism/pessimism analysis, and mental-health-related text analysis.
+
+The selected project topic is \textit{Emotion analysis -- detect the emotions in a text}. The implementation focuses on extracting emotion scores for individual emotions, following the eight basic emotion categories used by the NRC emotion lexicon family and related to Plutchik-style emotion categories: anger, anticipation, disgust, fear, joy, sadness, surprise, and trust. The input may be a single text or a CSV file containing many texts. The output contains a normalized score for each emotion, the dominant emotion, a confidence score, and, for the lexicon-based method, interpretable evidence terms.
+
+The project requirement asks for an implementation-oriented project in which the paper describes the problem, the chosen methodology, and technical and experimental details, while the code provides an end-to-end application using both classic and more novel approaches. In response, the implemented system contains:
+
+\begin{itemize}
+    \item a classic lexicon-based emotion scorer using the NRC Hashtag Emotion Lexicon;
+    \item a learned Multinomial Naive Bayes model trained weakly from lexicon entries;
+    \item a hybrid model that combines lexical and learned score distributions;
+    \item a command-line interface for prediction, batch processing, and experiments;
+    \item reproducible evaluation scripts, result tables, confusion matrices, and simple visualizations.
+\end{itemize}
+
+The main contribution is not a claim of state-of-the-art performance, but a complete, reproducible, and interpretable implementation that can be run locally without GPU resources. This is appropriate for the current project scope. A Transformer/GPU extension is discussed as future work, but the submitted system is intentionally lightweight and transparent.

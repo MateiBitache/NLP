@@ -1,0 +1,137 @@
+Sentiment Composition Lexicons 
+
+Home 
+
+Research 
+ 
+ Publications 
+ 
+ Lexicons 
+
+ Labeled Data 
+ 
+ Invited Talks 
+ Contact 
+
+Sentiment Composition Lexicons 
+
+Lexicons on this page: 
+
+Sentiment Composition Lexicon of Opposing Polarity Phrases (SCL-OPP) 
+ 
+ Sentiment Composition Lexicon of Negators, Modals, and Adverbs (SCL-NMA) 
+ 
+ SemEval-2015 English Twitter Sentiment Lexicon 
+ 
+ SemEval-2016 Arabic Twitter Sentiment Lexicon 
+
+Please see the Emotion Lexicons: Ethics and Data Statement before using a lexicon.
+
+Contact: 
+
+Saif M. Mohammad (saif.mohammad@nrc-cnrc.gc.ca) 
+ 
+Svetlana Kiritchenko (svetlana.kiritchenko@nrc-cnrc.gc.ca) 
+
+Words have associations with sentiment. For example, honest and competent are associated with positive sentiment, whereas dishonest and dull are associated with negative sentiment. Further, the degree of positivity (or negativity), also referred to as sentiment intensity, can vary. For example, most people will agree that succeed is more positive (or less negative) than improve, and failure is more negative (or less positive) than decline. Sentiment associations are commonly captured in sentiment lexicons —lists of associated word–sentiment pairs (optionally with a score indicating the degree of association). They are mostly used in sentiment analysis, but are also valuable in stance detection (Mohammad et al., 2016a; Mohammad et al., 2016b), literary analysis (Hartner, 2013; Kleres, 2011), and other applications. 
+ 
+The sentiment of a phrase can differ significantly from the sentiment of its constituent words. Sentiment composition is the determining of sentiment of a multi-word linguistic unit, such as a phrase or a sentence, based on its constituents. Lexicons that include sentiment associations for phrases as well as their constituent words can be very useful in studying sentiment composition. We will refer to them as sentiment composition lexicons (SCLs) . Below we make available several SCLs created through an annotation scheme known as Best-Worst Scaling (aka Maximum Difference Scaling, aka MaxDiff) . 
+
+1. Sentiment Composition Lexicon of Opposing Polarity Phrases (SCL-OPP) 
+
+ aka SemEval-2016 English Twitter Mixed Polarity Lexicon 
+
+This SCL, referred to as the Sentiment Composition Lexicon of Opposing Polarity Phrases (SCL-OPP) , includes phrases that have at least one positive and at least one negative word—for example, phrases such as happy accident, best winter break, couldn’t stop smiling, and lazy sundays. We refer to such phrases as opposing polarity phrases. SCL-OPP has 265 trigrams, 311 bigrams, and 602 unigrams annotated with real-valued sentiment association scores through Best-Worst scaling ( aka MaxDiff) . . 
+
+ Download SCL-OPP by clicking here ( June 23, 2016 update: now also includes the frequencies of the terms in a corpus of 11 million tweets ). 
+
+Instructions to annotators for the best--worst scaling questions on the sentiment of English terms (words and phrases) are available here . 
+
+Portions of SCL-OPP were used as development and test sets in SemEval-2016 shared task (Task #7) Determining Sentiment Intensity of English and Arabic Phrases . The objective of this task was to automatically predict sentiment intensity scores for multi-word phrases. 
+
+ Details about SCL-OPP can be found in these papers: 
+
+Sentiment Composition of Words with Opposing Polarities. Svetlana Kiritchenko and Saif M. Mohammad. In Proceedings of the 15th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. June 2016. San Diego, CA.
+
+ Paper (pdf)      BibTeX     Poster     
+ 
+ Happy Accident: A Sentiment Composition Lexicon for Opposing Polarities Phrases. Svetlana Kiritchenko and Saif M. Mohammad. In Proceedings of the 10th edition of the Language Resources and Evaluation Conference , May 2016, Portoro (Slovenia).
+
+ Paper (pdf)      BibTeX     Poster   
+ 
+Semeval-2016 Task 7: Determining Sentiment Intensity of English and Arabic Phrases. Svetlana Kiritchenko, Saif M. Mohammad, and Mohammad Salameh. In Proceedings of the International Workshop on Semantic Evaluation (SemEval ’16) . June 2016. San Diego, California.
+
+ Paper (pdf)      BibTeX      Presentation      Task Website 
+
+2. Sentiment Composition Lexicon of Negators, Modals, and Adverbs (SCL-NMA) 
+
+ aka SemEval-2016 General English Sentiment Modifiers Lexicon 
+
+Negators, modals, and degree adverbs can significantly affect the sentiment of the words they modify. We manually annotate a set of phrases that include negators (such as no and cannot ), modals (such as would have been and could ), degree adverbs (such as quite and less ), and their combinations. Both the phrases and their constituent content words are annotated with real-valued scores of sentiment intensity using the technique Best–Worst Scaling (aka MaxDiff) , which provides reliable annotations. We refer to the resulting lexicon as Sentiment Composition Lexicon of Negators, Modals, and Adverbs (SCL-NMA) . The lexicon was used as an official test set in the SemEval-2016 shared Task #7: Detecting Sentiment Intensity of English and Arabic Phrases . The objective of that task was to automatically predict sentiment intensity scores for multi-word phrases.
+
+Download SCL-NMA by clicking here . 
+
+Each mark in the visualizations below corresponds to one phrase ‘modifier w ’. The x-axis corresponds to score ( w ) (the sentiment score of word w ); the y-axis is score(phrase ) (the sentiment score of a word w preceded by a modifier). The same words can form phrases with very different sentiment scores (appearing as columns of marks in the visualizations). 
+
+Phrases in SCL-NMA are combinations of negators, modals, and adverbs, each of which are taken from the following lists: 
+
+list of negators 
+ 
+ list of modals 
+ 
+ list of adverbs 
+
+Instructions to annotators for the best--worst scaling questions on the sentiment of English terms (words and phrases) are available here . 
+ 
+ Details about SCL-NMA can be found in these papers: 
+
+The Effect of Negators, Modals, and Degree Adverbs on Sentiment Composition. Svetlana Kiritchenko and Saif M. Mohammad, In Proceedings of the NAACL 2016 Workshop on Computational Approaches to Subjectivity, Sentiment, and Social Media (WASSA), June 2014, San Diego, California. 
+
+ Paper (pdf)      BibTeX     Presentation   
+ 
+Capturing Reliable Fine-Grained Sentiment Associations by Crowdsourcing and Best-Worst Scaling. Svetlana Kiritchenko and Saif M. Mohammad. In Proceedings of the 15th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. June 2016. San Diego, CA.
+
+ Paper (pdf)      BibTeX     Presentation 
+ 
+Semeval-2016 Task 7: Determining Sentiment Intensity of English and Arabic Phrases. Svetlana Kiritchenko, Saif M. Mohammad, and Mohammad Salameh. In Proceedings of the International Workshop on Semantic Evaluation (SemEval ’16) . June 2016. San Diego, California.
+
+ Paper (pdf)      BibTeX      Presentation      Task Website 
+
+3. SemEval-2015 English Twitter Sentiment Lexicon 
+ 
+The lexicon was used as an official test set in the SemEval-2015 shared Task #10: Subtask E . The phrases in this lexicon include at least one of these negators . Annotations were done using Best–Worst Scaling (aka MaxDiff) . Download the lexicon by clicking here . 
+ 
+ Details about the lexicon can be found in these papers: 
+
+SemEval-2015 Task 10: Sentiment Analysis in Twitter. 
+ Sara Rosenthal,
+ Preslav Nakov, 
+ Svetlana Kiritchenko,
+ Saif M Mohammad,
+ Alan Ritter, and
+ Veselin Stoyanov. In Proceedings of the ninth international workshop on 
+ Semantic Evaluation Exercises (SemEval-2015), June 2015, Denver, Colorado.
+
+ Paper (pdf)     BibTeX 
+ 
+Sentiment Analysis of Short Informal Texts. Svetlana 
+ Kiritchenko, Xiaodan Zhu and Saif Mohammad. Journal of Artificial 
+ Intelligence Research, volume 50, pages 723-762, August 2014.
+
+ Paper (pdf)     BibTeX 
+
+4. SemEval-2016 Arabic Twitter Sentiment Lexicon 
+ 
+ The lexicon was used as an official test set in the SemEval-2016 shared Task #7: Detecting Sentiment Intensity of English and Arabic Phrases . The data is available on the task website. The phrases in this lexicon include at least one of these negators . Instructions to annotators for the best-worst scaling questions on the sentiment of Arabic terms (words and phrases) are available here . Download the lexicon by clicking here . 
+ 
+ Details about the lexicon can be found in these papers: 
+
+Semeval-2016 Task 7: Determining Sentiment Intensity of English and Arabic Phrases. Svetlana Kiritchenko, Saif M. Mohammad, and Mohammad Salameh. In Proceedings of the International Workshop on Semantic Evaluation (SemEval ’16) . June 2016. San Diego, California.
+
+ Paper (pdf)      BibTeX      Presentation      Task Website 
+ 
+ How Translation Alters Sentiment. Saif M. Mohammad, Mohammad Salameh, and Svetlana Kiritchenko, Journal of Artificial Intelligence Research , 2016, Volume 55, pages 95-130.
+
+ Paper (pdf)    BibTeX       Data: Arabic Sentiment Lexicons 
+
+Last updated: May 2016.

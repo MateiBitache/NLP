@@ -1,0 +1,331 @@
+Sentiment And Emotion Lexicons 
+ Home 
+ Research 
+ Publications 
+ Lexicons 
+ Labeled Data 
+ Invited Talks 
+ Contact 
+
+Sentiment And Emotion Lexicons 
+ 
+This page lists word association lexicons capturing sentiment , emotion , and colour associations. These resources can be used to analyze emotions in text. Please review the Emotion Lexicons: Ethics & Data Statement and see Terms of Use below before using a lexicon. 
+
+Curated, Automatic Lexicons 
+ Emotions, Valence/Sentiment, Colour 
+ Crowdsourcing, Best–Worst Scaling 
+
+Code: Emotion Dynamics (Python) — analyze text using NRC Emotion and NRC VAD lexicons; includes utterance emotion dynamics metrics. Associated paper .
+
+Contact: Saif M. Mohammad (saif.mohammad@nrc-cnrc.gc.ca) 
+
+Manually Curated Sentiment and Emotion Lexicons 
+ 
+Created via expert or crowdsourced annotation. Real-valued scores use Best–Worst Scaling for reliable, fine-grained values. 
+
+1a. NRC Word–Emotion Association Lexicon (EmoLex) 
+ 
+Homepage and interactive visualization available on the lexicon page. Also available in 40+ languages; sense-level annotations for eight emotions are provided. 
+
+Version 0.92 (2010) 
+ 
+ Coverage 14,182 unigrams; ~25,000 senses 
+ 
+ Categories Positive/Negative; Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, Trust 
+ 
+ Scores Binary (0/1) for words; 4-level association at sense level 
+ 
+ Creation Manual (crowdsourcing); Domain: General 
+
+Papers 
+
+Crowdsourcing a Word–Emotion Association Lexicon , Saif Mohammad and Peter Turney, Computational Intelligence 29(3), 2013. PDF · BibTeX 
+ 
+ Emotions Evoked by Common Words and Phrases , Saif Mohammad and Peter Turney, NAACL-HLT 2010. PDF · Slides 
+
+1b. NRC Emotion Intensity Lexicon (Affect Intensity Lexicon) 
+ 
+English words with intensities for eight basic emotions using Best–Worst Scaling. Lexicon homepage . 
+
+Papers 
+
+Word Affect Intensities , Saif M. Mohammad, LREC 2018. PDF · BibTeX · Slides 
+
+2. NRC Valence, Arousal, Dominance (VAD) Lexicon 
+ 
+English words with valence (positive–negative), arousal (excited–calm), and dominance/competence (powerful–weak, competent–incompetent) scores. 
+
+Version 2.1 (2025) 
+ 
+ Coverage ~55,000 terms (25k unigrams; 10k MWEs) 
+ 
+ Scores −1 to 1 (V/A/D) 
+ 
+ Creation Manual (crowdsourcing); Domain: General 
+
+Version 1.0 (2018) 
+ 
+ Coverage ~20,000 words 
+ 
+ Scores 0 to 1 (V/A/D) 
+ 
+ Creation Manual (crowdsourcing); Domain: General 
+ 
+ Earlier version 1.0 (2018), ~20,000 terms, scale 0–1 
+ -->
+
+Paper 
+
+Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words , Saif M. Mohammad, ACL 2018. PDF · BibTeX 
+
+3. NRC WorryWords Lexicon 
+ 
+44k+ English words with association scores along the calmness–anxiety dimension. Lexicon homepage . 
+
+Version 1.0 (2024) 
+ 
+ Coverage ~44,000 terms 
+ 
+ Scores −3 (calmness) to 3 (anxiety) 
+ 
+ Creation Manual (crowdsourcing); Domain: General 
+
+Paper 
+
+WorryWords: Norms of Anxiety Association for over 44k English Words , Saif M. Mohammad, EMNLP 2024 (Main). PDF · BibTeX · Poster 
+
+4. NRC Words of Warmth (WoW) Lexicon 
+ 
+~31k English terms (≈26k unigrams; ≈5k MWEs) with real-valued associations for warmth (W), competence (C), sociability (S), and trust (T). Lexicon homepage . 
+
+Version 1.0 (2025) 
+ 
+ Coverage ~31,000 terms (26k unigrams; 5k MWEs) 
+ 
+ Scores −1 to 1 
+ 
+ Creation Manual (crowdsourcing); Domain: General 
+
+Paper 
+
+Words of Warmth: Trust and Sociability Norms for over 26k English Words , Saif M. Mohammad, ACL 2025. PDF 
+
+Manually Curated Sentiment Composition Lexicons 
+ 
+Scores for two- and three-word expressions and their constituents. 
+
+1. SCL of Negators, Modals, & Adverbs (SCL‑NMA) — SemEval‑2016 General English Sentiment Modifiers 
+
+Version 1.0 (Feb 2016) 
+ 
+ Coverage ~3,200 terms 
+ 
+ Scores −1 (most negative) to 1 (most positive) 
+ 
+ Creation Manual (BWS); Domain: General 
+
+Papers 
+
+The Effect of Negators, Modals, and Degree Adverbs on Sentiment Composition , WASSA 2016. PDF · BibTeX · Slides 
+ 
+ Capturing Reliable Fine-Grained Sentiment Associations by Crowdsourcing and Best–Worst Scaling , NAACL 2016. PDF · BibTeX · Slides 
+ 
+ Semeval-2016 Task 7 . PDF · BibTeX · Slides · Task site 
+
+2. SemEval‑2015 English Twitter Sentiment Lexicon 
+
+Version 1.0 (Feb 2015) 
+ 
+ Coverage ~1,500 terms 
+ 
+ Scores −1 to 1 
+ 
+ Creation Manual (BWS); Domain: Twitter 
+
+Paper 
+
+SemEval-2015 Task 10: Sentiment Analysis in Twitter . PDF · BibTeX 
+ 
+ Sentiment Analysis of Short Informal Texts , JAIR 2014. PDF · BibTeX 
+
+3. SCL of Opposing Polarity Phrases (SCL‑OPP) — SemEval‑2016 English Twitter Mixed Polarity 
+
+Version 1.0 (Feb 2016) 
+ 
+ Coverage ~1,200 terms 
+ 
+ Scores −1 to 1 
+ 
+ Creation Manual (BWS); Domain: Twitter 
+
+Papers 
+
+Sentiment Composition of Words with Opposing Polarities , NAACL 2016. PDF · BibTeX · Poster 
+ 
+ Happy Accident: A Sentiment Composition Lexicon for Opposing Polarities Phrases , LREC 2016. PDF · BibTeX · Poster 
+ 
+ Semeval-2016 Task 7 . PDF · BibTeX · Slides · Task site 
+
+Manually Curated Word–Colour Association Lexicon 
+
+1. NRC Word–Colour Association Lexicon 
+
+Version 0.92 (2011) 
+ 
+ Coverage ~14,000 words; ~25,000 senses 
+ 
+ Categories Black, Blue, Brown, Green, Grey, Orange, Purple, Pink, Red, White, Yellow 
+ 
+ Scores Binary (0/1) for words; 4-level association at sense level 
+ 
+ Creation Manual (MTurk); Domain: General 
+
+Papers 
+
+Colourful Language: Measuring Word–Colour Associations , Saif M. Mohammad, ACL CMCL 2011. PDF · BibTeX · Slides 
+ 
+ Even the Abstract have Colour , Saif M. Mohammad, ACL 2011. PDF · BibTeX · Poster 
+
+Automatically Created Lexicons 
+ 
+Extracted from large corpora using co‑occurrence/statistical signals. These have higher coverage (domain‑specific terms) but may be less precise than manual lexicons. 
+
+1. NRC Hashtag Emotion Lexicon 
+ 
+Built from tweets tagged with emotion‑word hashtags. Hashtag Emotion Corpus (TEC) available. 
+
+Version 0.2 (2013) 
+ 
+ Coverage 16,862 unigrams 
+ 
+ Emotions Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, Trust 
+ 
+ Scores 0 to ∞ (association strength) 
+ 
+ Domain Twitter 
+
+Papers 
+
+Using Hashtags to Capture Fine Emotion Categories from Tweets , Computational Intelligence , 2015. PDF 
+ 
+ #Emotional Tweets , *SEM 2012. PDF 
+
+2. NRC Twitter Sentiment Lexicons 
+
+Lexicon 
+ Version 
+ Coverage 
+ Scores 
+ Creation & Domain 
+
+NRC Hashtag Sentiment Lexicon 
+ 1.0 (2013) 
+ 54,129 unigrams; 316,531 bigrams; 308,808 pairs 
+ −∞ to ∞ 
+ Automatic from sentiment‑hashtag tweets · Domain: Twitter 
+
+NRC Hashtag Affirmative/Negated Context Lexicons 
+ 1.0 (2014) 
+ Affirmative: 36,357 unigrams, 159,479 bigrams · Negated: 7,592 unigrams, 23,875 bigrams 
+ −∞ to ∞ 
+ Automatic from tweets; separate entries for context 
+
+Emoticon Lexicon (Sentiment140) 
+ 1.0 (2014) 
+ 62,468 unigrams; 677,698 bigrams; 480,010 pairs 
+ −∞ to ∞ 
+ Automatic from emoticon‑bearing tweets · Domain: Twitter 
+
+Sentiment140 Affirmative/Negated Context 
+ 1.0 (2014) 
+ Affirmative: 45,255 unigrams; 240,076 bigrams · Negated: 9,891 unigrams; 34,093 bigrams 
+ −∞ to ∞ 
+ Automatic from tweets; separate entries for context 
+
+Papers (for all four Twitter lexicons) 
+
+Sentiment Analysis of Short Informal Texts , JAIR 2014. PDF · BibTeX 
+ 
+ NRC-Canada: Building the State‑of‑the‑Art in Sentiment Analysis of Tweets , SemEval‑2013. PDF · BibTeX 
+ 
+ NRC‑Canada‑2014: Recent Improvements in Sentiment Analysis of Tweets , SemEval‑2014. PDF 
+
+3. Yelp & Amazon Sentiment Lexicons 
+
+a) Yelp Restaurant Sentiment Lexicon 
+ (built from the Yelp Dataset for selected restaurant categories ).
+
+ b) Amazon Laptop Sentiment Lexicon 
+
+Resource Version Coverage Scores Creation & Domain 
+
+Yelp Restaurant 1.0 (2014) 
+ 39,274 unigram entries (incl. affirmative/negated); 276,651 bigram entries 
+ −∞ to ∞ 
+ Automatic from Yelp reviews · Domain: Restaurants 
+
+Amazon Laptop 1.0 (2014) 
+ 26,577 unigram entries (incl. affirmative/negated); 155,167 bigram entries 
+ −∞ to ∞ 
+ Automatic from Amazon reviews · Domain: Laptops 
+
+Paper 
+
+NRC‑Canada‑2014: Detecting Aspects and Sentiment in Customer Reviews , SemEval‑2014. PDF · BibTeX 
+
+Related: Yelp Word–Aspect Association Lexicons 
+
+4. Macquarie Semantic Orientation Lexicon (MSOL) 
+
+Version 0.1 (2009) 
+ 
+ Coverage 76,400 terms 
+ 
+ Categories Positive/Negative 
+ 
+ Scores Binary (pos/neg) 
+ 
+ Creation Automatic using thesaurus structure & affixes · Domain: General 
+
+Paper 
+
+Generating High‑Coverage Semantic Orientation Lexicons From Overtly Marked Words and a Thesaurus , EMNLP 2009. PDF 
+
+Commonly Accessed Resources 
+
+EmoLex homepage 
+ 
+ NRC Valence, Arousal, Dominance (VAD) Lexicon 
+ 
+ NRC Words of Warmth (WoW) Lexicon 
+ 
+ NRC WorryWords Lexicon 
+ 
+ Sentiment Composition Lexicons homepage 
+ 
+ Arabic Sentiment Lexicons and Corpora 
+ 
+ Best–Worst Scaling (software & annotations) 
+ 
+ NRC‑Canada sentiment analysis system 
+ 
+ AffectiveTweets (Weka filters package) 
+ 
+ Poster: Overview of work in Affective Computing from 2010 to 2018 
+ Students interested in working with Saif: information page -->
+
+Terms of Use 
+
+Lexicons here are free for research purposes. Cite the associated papers in publications using them (see each section and README files). 
+ 
+For commercial use , email Saif M. Mohammad (saif.mohammad@nrc-cnrc.gc.ca) and Pierre Charron (Pierre.Charron@nrc-cnrc.gc.ca). A nominal one‑time licensing fee may apply. 
+ 
+In news articles and online posts using these resources, attribute appropriately (e.g., “This application uses <resource> by <author(s)> at the National Research Council Canada”) and link to this page . 
+ 
+If you use a lexicon in a product or application, acknowledge it in the “About” page and docs with authors and NRC, and link to this page when possible. 
+ 
+Do not redistribute the data; direct others to this page . 
+ 
+NRC disclaims responsibility for usage and does not provide technical support, but the contact above is happy to clarify. 
+
+© National Research Council Canada — Compiled resources on sentiment, emotion, and colour associations in language.

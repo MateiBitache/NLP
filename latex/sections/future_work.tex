@@ -1,0 +1,9 @@
+\section{Future Work}
+
+The most natural extension is to add a neural Transformer baseline. For example, a model such as BERT, RoBERTa, or a Twitter-specific emotion model could be fine-tuned on a larger labeled emotion dataset. This would make GPU platforms such as RunPod or Kaggle useful, but they are not necessary for the current implementation.
+
+Another extension is Romanian emotion analysis. This could be approached through a Romanian emotion dataset, translation of lexical resources, multilingual embeddings, or multilingual Transformer models. This would address the low-resource language direction suggested in the project topic.
+
+The evaluation could also be expanded with larger datasets, more domains, and temporal analysis. For example, social-media posts could be grouped by time to track emotion trends, or emotion scores could be used as features in another classification task such as hate speech detection.
+
+Finally, the hybrid model could be tuned more systematically. Instead of using a fixed lexicon weight, one could optimize the interpolation weight on a validation set.

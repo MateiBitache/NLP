@@ -1,0 +1,67 @@
+\section{Methodology}
+
+The implementation compares three methods: a weighted lexicon baseline, a weakly supervised Naive Bayes classifier, and a hybrid model.
+
+\subsection{Text Preprocessing}
+
+All methods share a lightweight preprocessing pipeline:
+
+\begin{enumerate}
+    \item URLs are removed so that arbitrary links do not become emotional features.
+    \item Text is lowercased.
+    \item Tokens are extracted with a regular expression that preserves hashtags.
+    \item Repeated characters are normalized, e.g., \texttt{happppy} is shortened.
+    \item Lookup variants are generated, such as both \texttt{\#happy} and \texttt{happy}.
+\end{enumerate}
+
+The lexicon method also checks for short-window negation and intensification. If a token is preceded by a negation such as \texttt{not}, \texttt{never}, or \texttt{no}, its contribution is reduced. If it is preceded by an intensifier such as \texttt{very}, \texttt{really}, or \texttt{extremely}, its contribution is increased. These are simple heuristics rather than full syntactic analysis.
+
+\subsection{Weighted Lexicon Model}
+
+The lexicon method searches each token and its variants in the NRC Hashtag Emotion Lexicon. If token $t$ is associated with emotion $e$ by weight $w(t,e)$, the raw score for $e$ is increased:
+
+\[
+r_e(x) = \sum_{t \in x} m(t) \cdot w(t,e),
+\]
+
+where $m(t)$ is a multiplier determined by simple negation or intensifier rules. After all matches are processed, scores are normalized:
+
+\[
+s_e(x) = \frac{\max(r_e(x), 0)}{\sum_{e' \in E} \max(r_{e'}(x), 0)}.
+\]
+
+The model also stores evidence terms. This is useful because it allows a user to see which tokens contributed most strongly to the final prediction.
+
+\subsection{Weakly Supervised Naive Bayes}
+
+The Naive Bayes model is trained from the lexicon itself. Each lexicon entry becomes a weakly supervised example:
+
+\[
+(\text{term}, \text{emotion}, \text{score}).
+\]
+
+The term is treated as a short training text, the emotion is treated as the label, and the lexicon score is converted into a training weight. The model uses word features and character n-gram features of length 3, 4, and 5. Character n-grams help the model generalize to related forms, hashtags, and noisy short-text vocabulary.
+
+The model estimates:
+
+\[
+P(e \mid x) \propto P(e) \prod_{f \in F(x)} P(f \mid e)^{c(f,x)},
+\]
+
+where $F(x)$ is the set of extracted features and $c(f,x)$ is the count of feature $f$ in text $x$. Additive smoothing is used to avoid zero probabilities for unseen features. The final log-scores are converted into a probability distribution using softmax.
+
+\subsection{Hybrid Model}
+
+The hybrid method combines the normalized score distributions from the lexicon model and the Naive Bayes model:
+
+\[
+\mathbf{s}_{hybrid}(x) = \lambda \cdot \mathbf{s}_{lexicon}(x) + (1 - \lambda) \cdot \mathbf{s}_{NB}(x).
+\]
+
+The default implementation uses $\lambda = 0.85$, meaning that the hybrid method preserves strong lexical evidence while adding a smaller learned signal. The weight is configurable through:
+
+\begin{quote}
+\texttt{--hybrid-weight}
+\end{quote}
+
+This makes it possible to tune the balance between interpretability and learned generalization.

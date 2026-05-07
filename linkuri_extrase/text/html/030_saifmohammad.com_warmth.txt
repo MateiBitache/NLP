@@ -1,0 +1,152 @@
+Saif | Anxiety Lexicon 
+
+Home 
+
+Research 
+ 
+ Publications 
+ 
+ Lexicons 
+
+ Labeled Data 
+ 
+ Invited Talks 
+ Contact 
+
+The NRC Words or Warmth (WoW) Lexicon 
+
+Aka Warmth and Competence Lexicon, aka WCST Lexicon 
+ 
+The NRC Words of Warmth (WoW) Lexicon is a list of about 31,000 English terms (~26k unigrams and ~5k multiword expressions (MWEs)) and real-valued scores indicating their associations with warmth (W), sociability (S), and trust (T). The scores were obtained from manual annotations through crowdsourcing. Since warmth analyses are often done along with competence (C) (aka dominance) analyses, we also include in the lexicon the competence scores for the terms (taken from the NRC VAD Lexicon v2 (Mohammad, 2025)). Thus we also refer to this suite of lexicons as the Warmth–Competence Lexicons, or the WCST Lexicons. 
+ 
+ Download the WoW Lexicon (Non-Commercial Use Only -- Research or Educational) 
+
+ Copyright (C) 2025 National Research Council Canada (NRC) 
+
+Version : 1
+
+ Released : June 2025 
+ 
+ Version : 2 (~26k unigrams and ~16k multiword expressions)
+
+ To be Released : 2026
+
+Created By : Dr. Saif M. Mohammad
+
+ Home Page : http://saifmohammad.com/WebPages/warmth.html 
+ 
+ Readme Last Updated : June 2025
+
+Contact: Dr. Saif M. Mohammad (Senior Research Scientist, National Research Council Canada)
+
+ saif.mohammad@nrc-cnrc.gc.ca, uvgotsaif@gmail.com 
+
+See terms of use at the bottom of the page.
+
+ See the Emotion Lexicons: Ethics and Data Statement before using the lexicon.
+
+You may also be interested in these companion lexicons: NRC Emotion Lexicon and NRC Valence, Arousal, and Dominance Lexcion .  The full list of word-emotion, word-sentiment, and word-colour lexicons is available in the Lexicons page ). 
+
+Paper 
+
+Words of Warmth: Trust and Sociability Norms for over 26k English Words. Saif M. Mohammad. In Proceedings of the 63rd Annual Meeting of the Association of Computational Linguistics (ACL-2025), July 2025, Vienna, Austria. 
+
+ Paper (pdf)      BibTeX       Video      Poster 
+
+Practical and Ethical Considerations 
+
+Please see the papers below for ethical considerations involved in automatic emotion detection and the use of emotion lexicons. (These also acts as the Ethics and Data Statements for the lexicon.) 
+
+Ethics Sheet for Automatic Emotion Recognition and Sentiment Analysis . Computational Linguistics .  June 2022. 
+
+ Paper (pdf)    BibTeX     Slides 
+
+Practical and Ethical Considerations in the Effective use of Emotion and Sentiment Lexicons 
+
+ Saif M. Mohammad. arXiv preprint arXiv:2011.03492. December 2020. 
+
+ Paper (pdf)     BibTex 
+ 
+ Python Code to Analyze Emotions in Text 
+
+There are many third party software packages that can be used in conjunction with the WoW and the NRC Emotion Lexicon to analyze emotion word use in text. We recommend Emotion Dynamics . 
+ 
+It is the primary package that we use to analyze text using the NRC Emotion Lexicon and the NRC VAD Lexicon. It can be used to generate a csv file with a number of emotion features pertaining to the text of interest, including metrics of utterance emotion dynamics. 
+
+About
+
+Who goes there: friend or foe? This is a question human beings have asked from the earliest of times to the present day. A large body of social psychology research has shown that warmth (W) (friendliness, trustworthiness, and sociability) and competence (C)
+
+ (ability, power, dominance, and assertiveness) are core dimensions of social cognition and stereotypes (Fiske et al., 2002; Bodenhausen et al., 2012; Fiske, 2018; Abele et al., 2016; Koch et al., 2024). That is, human beings quickly and subconsciously judge (assess) other people, groups of people, and even their own selves along the dimensions of warmth and competence---likely because of evolutionary pressures (MacDonald, 1992; Eisenbruch and Krasnow, 2022). Assessing W and C was central to early human survival (e.g., to anticipate whether someone will help them build useful things or whether they might steal their resources). 
+ 
+More recent work has started to explore how these dimensions develop, why they have developed, and what they constitute. Of particular note, is the finding that warmth has two distinct components: Trust (T) and Sociability (S). 
+ 
+ Trust: honesty, fairness, dependability, reliability, morality, sincerity, honorableness, etc. 
+ 
+ Sociability: sociableness, generosity, helpfulness, tolerance, understanding, thoughtfulness, etc. 
+ 
+We compiled sociability and trust association norms for over 31k English terms. The lexicons were created by crowdsourcing and employing a slate of quality control measures. We show that the resulting association scores have high reliability (repeating
+
+ the annotations leads to very similar scores and rankings). We created a third combined lexicon for warmth by taking the union of the entries for the trust and sociability lexicons. 
+ 
+Applications 
+ 
+The lexicons enable a wide variety of research and applications. Notably: 
+ 
+ In Psychology and Social Cognition 
+
+-- What kind of trust assessments do children develop first? And what kinds are developed later? (Trust can be of different kinds: care-based, character-based, consistency-based, etc.) Similarly for sociability. 
+ 
+-- What are the mechanisms underpinning the development of WCST assessment capabilities in children? How does exposure to different conditions impact these capabilities? 
+ 
+-- How different are the WCST capabilities of people in different cultures? 
+ 
+-- What role do differences in language play in the development of WCST capabilities? 
+
+In Computational Social Science, NLP 
+
+-- The lexicons can be used to study public discourse on topics of interest. For example, how are the levels of warmth, competence, trust, and sociability in online discussions about climate change or vaccines changing with time; how do these levels vary for different stakeholders?; what sub-aspects of climate change (or vaccines or any topic of interest) evoke the lowest amounts of warmth, competence, trust, and sociability? etc. 
+ 
+-- How has the perceived WCST of a chosen target of interest (say government, banks, immigrants, etc.) changed over the last 100 years? 
+
+In HCI and NLP 
+
+-- Understanding perceptions of WCST of people towards artificial agents. 
+
+In Digital Humanities and NLP 
+
+-- What role do warmth, trust, sociability, and competence play in developing compelling characters and story arcs? How does this vary by genre and culture? 
+
+In Commerce 
+
+-- Tracking warmth, trust, sociability, and competence towards one’s product on social media. This can help understand product branding, tracking user satisfaction, and taking the appropriate remedial actions for product improvement and public-facing communications. 
+ 
+-- Understanding how perceptions of warmth and competence of one’s product impact 
+
+ customer behavior. 
+
+See ethical considerations discussed further below and in the paper. 
+ 
+ Terms of Use 
+
+Research Use: The lexicon mentioned in this page can be used freely for non-commercial research and educational purposes.
+
+Citation: Cite the papers associated with the lexicon in your research papers and articles that make use of them. 
+
+Media Mentions: In news articles and online posts on work using the lexicon, cite the lexicon. For example: "We make use of the <resource name>, created by <author(s)> at the National Research Council Canada." We would appreciate a hyperlink to the lexicon home page and an email to the contact author (saif.mohammad@nrc-cnrc.gc.ca). (Authors and homepage information provided at the top of the README.)
+
+Credit: If you use the lexicon in a product or application, then acknowledge this in the 'About' page and other relevant documentation of the application by stating the name of the resource, the authors, and NRC. For example: "This application/product/tool makes use of the <resource name>, created by <author(s)> at the National Research Council Canada." We would appreciate a hyperlink to the lexicon home page and an email to the contact author (saif.mohammad@nrc-cnrc.gc.ca).
+
+No Redistribution: Do not redistribute the data. Direct interested parties to the lexicon home page. You may not rent or license the use of the lexicon nor otherwise permit third parties to use it. 
+
+Proprietary Notice: You will ensure that any copyright notices, trademarks or other proprietary right notices placed by NRC on the lexicon remains in evidence.
+
+Title: All intellectual property rights in and to the lexicon shall remain the property of NRC. All proprietary interests, rights, unencumbered titles, copyrights, or other Intellectual Property Rights in the lexicon and all copies thereof remain at all times with NRC.
+
+Commercial License: If interested in commercial use of the lexicon, contact the author: saif.mohammad@nrc-cnrc.gc.ca
+
+Disclaimer: National Research Council Canada (NRC) disclaims any responsibility for the use of the lexicon and does not provide technical support. NRC makes no representation and gives no warranty of any kind with respect to the accuracy, usefulness, novelty, validity, scope, or completeness of the lexicon and expressly disclaims any implied warranty of merchantability or fitness for a particular purpose of the lexicon. That said, the contact listed above welcomes queries and clarifications.
+
+Limitation of Liability: You will not make claims of any kind whatsoever upon or against NRC or the creators of the lexicon, either on your own account or on behalf of any third party, arising directly or indirectly out of your use of the lexicon. In no event will NRC or the creators be liable on any theory of liability, whether in an action of contract or strict liability (including negligence or otherwise), for any losses or damages incurred by you, whether direct, indirect, incidental, special, exemplary or
+
+ consequential, including lost or anticipated profits, savings, interruption to business, loss of business opportunities, loss of business information, the cost of recovering such lost information, the cost of substitute intellectual property or any other pecuniary loss arising from the use of, or the inability to use, the lexicon regardless of whether you have advised NRC or NRC has advised you of the possibility of such damages.

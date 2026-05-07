@@ -1,0 +1,463 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>NRC Emotion Lexicon</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<! Menu code>
+<style>
+body{
+	background: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	margin-left: 12%;
+	margin-right: 12%;
+}#menu_wrap{position:relative;margin-top:20px;margin-left:auto;margin-right:auto;padding:0; padding-right:10px;width:100%;height:40px;list-style-type:none;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;-webkit-box-shadow:0 1px 3px rgba(0,0,0,.2);-moz-box-shadow:0 1px 3px rgba(0,0,0,.2);box-shadow:0 1px 3px rgba(0,0,0,.2)}.button a{cursor:pointer;text-align:center;font:14px/100% Arial, Helvetica, sans-serif;font-weight:bold;position:relative;min-width:50px;height:20px;float:left;padding:10px;padding-top:10px;padding-bottom:10px;text-decoration:none;text-shadow:0 1px 1px rgba(0,0,0,.3)}.button:first-child a{-webkit-border-top-left-radius:0px;-webkit-border-bottom-left-radius:0px;-moz-border-topleft-radius:0px;-moz-border-bottomleft-radius:0px;border-top-left-radius:0;border-bottom-left-radius:0px}.Gray,.Gray .button a{color:#e9e9e9;background: #888888;border-right:solid 1px #575757;background: -moz-linear-gradient(top, #888888 0%, #575757 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#888888), color-stop(100%,#575757));background: -webkit-linear-gradient(top, #888888 0%,#575757 100%);background: -o-linear-gradient(top, #888888 0%,#575757 100%);background: -ms-linear-gradient(top, #888888 0%,#575757 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#575757',GradientType=0 );background: linear-gradient(top, #888888 0%,#575757 100%);}.Gray .button a:hover,.Gray .button a:focus{background: #757575;background: -moz-linear-gradient(top, #757575 0%, #4b4b4b 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#757575), color-stop(100%,#4b4b4b));background: -webkit-linear-gradient(top, #757575 0%,#4b4b4b 100%);background: -o-linear-gradient(top, #757575 0%,#4b4b4b 100%);background: -ms-linear-gradient(top, #757575 0%,#4b4b4b 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', endColorstr='#4b4b4b',GradientType=0 );background: linear-gradient(top, #757575 0%,#4b4b4b 100%);}.Gray .button a:active{color:#afafaf;background: #575757;background: -moz-linear-gradient(top, #575757 0%, #888888 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#575757), color-stop(100%,#888888));background: -webkit-linear-gradient(top, #575757 0%,#888888 100%);background: -o-linear-gradient(top, #575757 0%,#888888 100%);background: -ms-linear-gradient(top, #575757 0%,#888888 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#575757', endColorstr='#888888',GradientType=0 );background: linear-gradient(top, #575757 0%,#888888 100%);}.button:last-child a{float:left;border:none; -webkit-border-top-right-radius:0px;-webkit-border-bottom-right-radius:0px;-moz-border-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+	text-align: left;
+}
+</style>
+<! End Menu code>
+<script src='/google_analytics_auto.js'></script></head>
+
+<body>
+
+<! Menu code>
+<ul id="menu_wrap" class="Gray">
+  <li class="button"><a href="http://saifmohammad.com">Home</a></li><li class="button"></li>
+   <li class="button"><a href="http://saifmohammad.com/WebPages/ResearchAreas.html">Research</a></li>
+  <li class="button"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html">Publications</a></li>
+  <li class="button"><a href="http://saifmohammad.com/WebPages/lexicons.html">Lexicons</a></li>
+<li class="button"><a href="http://saifmohammad.com/WebPages/SentimentEmotionLabeledData.html">Labeled Data</a></li>
+  <li class="button"><a href="http://saifmohammad.com/WebPages/invitedtalks.html">Invited Talks</a></li><li class="button"><a href="http://saifmohammad.com/WebPages/contact.htm">Contact</a></li></ul>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="70%">
+      <p><font color="#990000" size="5"><strong>NRC Word-Emotion Association Lexicon</strong></font><strong> (aka EmoLex)</strong></p></td>
+    <td width="30%"><div align="center"></div></td>
+  </tr>
+  <tr>
+    <td><br>
+    The NRC Emotion Lexicon is a list of English words and their associations with eight basic emotions (anger, fear, anticipation, trust, surprise, sadness, joy, and disgust) and two sentiments (negative and positive). The annotations were manually done by crowdsourcing.</td>
+    <td><div align="center"><b>Email:</b> <font size="4">saif.mohammad@nrc-cnrc.gc.ca<br>
+      </font><a href="https://twitter.com/SaifMMohammad" class="twitter-follow-button" data-show-count="false" data-size="large">@SaifMMohammad</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </div></td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><a href="../WebDocs/Lexicons/NRC-Emotion-Lexicon.zip"><strong><br>
+        Download the NRC Word-Emotion Association Lexicon (Non-Commercial Use Only &mdash; Research or Educational)</strong></a><a href="../WebDocs/Lexicons/NRC-VAD-Lexicon.zip"><strong></strong></a><br>
+        Copyright (C) 2011 National Research Council Canada (NRC)</p>
+      <blockquote>
+        <p><em>Version</em>: 0.92<br>
+          <em>Publicly Released</em>: 10 July 2011<br>
+        <em>Created By</em>: Dr. Saif M. Mohammad, Dr. Peter Turney<br>
+        <em>Home Page</em>: http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm        </p>
+        <p><em>Readme Last Updated</em>: August 2022<br>
+        <em>Automatic translations from English to 108 languages was last updated</em>: <strong>August 2022</strong></p>
+        <p><em>Contact:</em> Dr. Saif M. Mohammad (Senior Research Scientist, National Research Council Canada)<br>
+        saif.mohammad@nrc-cnrc.gc.ca, uvgotsaif@gmail.com</p>
+
+        <!--  <li><a href="../WebDocs/Lexicons/NRC-Suite-of-Sentiment-Emotion-Lexicons.zip"><strong>Non-Commercial Research Use </strong>(<span style="color: #900"><strong>full suite</strong></span> of NRC Sentiment and Emotion Lexicons including the </a><a href="../WebDocs/Lexicons/NRC-Emotion-Lexicon.zip">NRC Word-Emotion Association Lexicon</a>, <a href="../WebDocs/Lexicons/NRC-Suite-of-Sentiment-Emotion-Lexicons.zip">Valence, Arousal, and Dominance Lexicon, Affect Intensity Lexicon, etc.)</a><br>
+          <br>
+        </li>
+        <li><strong><a href="https://shop-magasin.nrc-cnrc.gc.ca/nrcb2c/app/displayApp/(cpgnum=1&layout=7.01-7_1_71_63_73_6_9_3&uiarea=3&carea=0000000104&cpgsize=0)/.do?rf=y">Commercial Use</a></strong></li>
+      </ul>-->      </blockquote>
+      <p>See terms of use at the bottom of the page.<br>
+See the <a href="../WebDocs/EmoLex-Ethics-Data-Statement.pdf">Emotion Lexicons: Ethics and Data Statement</a> before using the lexicon.</p>
+      <p>You may also be interested in these companion lexicons: <a href="http://saifmohammad.com/WebPages/nrc-vad.html"><strong>NRC Valence, Arousal, and Dominance Lexicon</strong></a> and <a href="AffectIntensity.htm"><strong>NRC Emotion Intensity Lexicon</strong>.</a> (The full list of word-emotion, word-sentiment, and word-colour lexicons is available in the<a href="lexicons.html"> Lexicons page</a>.) </p>
+      <p><span style="color: #930"><strong>Papers</strong></span></p>
+      <blockquote>
+        <p><strong>Crowdsourcing a Word-Emotion Association Lexicon</strong>, Saif 
+          Mohammad and Peter Turney, <em>Computational Intelligence,</em> 29 (3), 
+          436-465, 2013.<br>
+          <a href="http://arxiv.org/pdf/1308.6297.pdf">Paper 
+          (pdf)</a>&nbsp;&nbsp;&nbsp; <a href="../WebDocs/Measuring-Semantic-Distance.pdf"></a> <a href="Abstracts/crowdemo.bib.txt">BibTeX</a><br>
+          <strong><br>
+          Emotions Evoked by Common Words 
+          and Phrases: Using Mechanical Turk to Create an Emotion Lexicon</strong>, 
+          Saif Mohammad and <a href="http://apperceptual.com/">Peter Turney</a>, In <em><em><em>Proceedings of the NAACL-HLT 2010 Workshop on Computational 
+            Approaches to Analysis and Generation of Emotion in Text,</em></em></em> June 2010, LA, California.<br>
+        <a href="Abstracts/EmotionsWithMTurk.htm">Abstract</a>&nbsp;&nbsp;&nbsp; <a href="../WebDocs/Mohammad-Turney-NAACL10-EmotionWorkshop.pdf">Paper (pdf)</a>&nbsp;&nbsp;&nbsp; <a href="../WebDocs/Measuring-Semantic-Distance.pdf"></a> <a href="Abstracts/emolex.bib.txt">BibTeX</a>&nbsp;&nbsp;&nbsp; <a href="../WebDocs/Mohammad-Turney-NAACL10-EmotionWorkshop-slides.pdf">Presentation</a></p>
+        <p>This study has been approved by the NRC Research Ethics Board (NRC-REB) under protocol number 2009-94.&nbsp;REB review seeks to ensure that research projects involving humans as participants meet Canadian standards of ethics.</p>
+      </blockquote>
+      <p><strong style="color: #930">Practical and Ethical Considerations</strong></p>
+      <blockquote>
+        <p>Please see the papers below for ethical considerations involved in automatic emotion detection and the use of emotion lexicons. (These also acts as the Ethics and Data Statements for the lexicon.)</p>
+        <ol dir="auto">
+          <li>
+            <p dir="auto"><a href="https://arxiv.org/abs/2109.08256" rel="nofollow">Ethics Sheet for Automatic Emotion Recognition and Sentiment Analysis</a>. Computational Linguistics<em>.</em>&nbsp;June 2022. <br>
+            <a href="https://arxiv.org/pdf/2109.08256.pdf">Paper (pdf)</a><a href="https://www.aclweb.org/anthology/2020.acl-main.464.pdf"></a> &nbsp; &nbsp;BibTeX &nbsp; &nbsp;<a href="WebDocs/CL2022-EthicsSheet-AER-web-compressed.pdf">Slides</a></p>
+          </li>
+          <li>
+            <p dir="auto"><a href="https://aclanthology.org/2023.findings-eacl.136/">Best Practices in the Creation and Use of Emotion Lexicons.</a><br>
+Saif M. Mohammad. Findings of the Association for Computational Linguistics: EACL 2023.&nbsp;Dubrovnik, Croatia. 2023.<br>
+<a href="https://aclanthology.org/2023.findings-eacl.136.pdf">Paper (pdf)</a><a href="https://www.aclweb.org/anthology/2020.acl-main.464.pdf"></a> &nbsp; &nbsp;<a href="https://aclanthology.org/2023.findings-eacl.136/">BibTex</a></p>
+          </li></ol></blockquote>
+      <p><strong style="color: #930">Python Code to Analyze Emotions in Text</strong></p>
+      <blockquote>
+        <p>There are many third party software packages that can be used in conjunction with the NRC Emotion Lexicon to analyze emotion word use in text. We recommend <a href="https://github.com/Priya22/EmotionDynamics"><strong>Emotion Dynamics</strong></a>.</p>
+        <p>It is the primary package that we use to analyze text using the NRC Emotion Lexicon and the NRC VAD Lexicon.  It can be used to generate a csv file with a number of emotion features pertaining to the text of interest, including metrics of utterance emotion dynamics.      </p>
+    </blockquote></td>
+  </tr>
+  <tr>
+    <td colspan="2" bgcolor="#FCF3E9"><blockquote>
+      <p><em><strong><br>
+        </strong></em><strong>May 2020, </strong>Ten years back, with some anticipation and lots of excitement, <a href="https://www.apperceptual.com/" target="_blank" rel="noopener nofollow">Peter Turney</a> and I introduced the <a href="http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm" target="_blank" rel="noopener nofollow">NRC Word-Emotion Association Lexicon</a>.  So grateful that, over the years, so many people have put their hopes  and trust in it. Such joy to see them boldly shine a light on the human  condition &mdash; the positives and the negatives; not shying away even from  sadness, fear, and anger. This blog bost puts a spotlight on ten favorites (includes fun video and audio clips as well as links to papers and popular press articles): </p>
+      <ul>
+        <li><a href="https://medium.com/@nlpscholar/ten-years-of-the-nrc-word-emotion-association-lexicon-eaa47a8dd03e">Ten Years of the NRC Word-Emotion Association Lexicon</a></li>
+      </ul>
+    </blockquote>      </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><strong><font color="#990000" size="5"><br>
+      Summary Details of the NRC Emotion Lexicon</font><br>
+      <br>
+    </strong></p>      <div align="center"></div></td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><br>
+    </p></td>
+  </tr>
+</table>
+<div align="left">
+  <table width="100%" height="334" border="1" cellpadding="10">
+    <tr>
+      <td width="28%" height="58" bgcolor="#DDDDDD"><strong>Association Lexicon</strong></td>
+      <td width="11%" bgcolor="#DDDDDD"><p><strong>Version<br>
+      </strong></p></td>
+      <td width="12%" bgcolor="#DDDDDD"><strong># of Terms</strong></td>
+      <td width="22%" bgcolor="#DDDDDD"><strong>Categories</strong></td>
+      <td width="14%" bgcolor="#DDDDDD"><strong>Association Scores</strong></td>
+      <td width="18%" bgcolor="#DDDDDD"><strong>Method of Creation</strong></td>
+    </tr>
+    <tr>
+      <td height="40" colspan="6" bgcolor="#EEEEEE"><em>Word-Emotion and Word-Sentiment Association Lexicon</em></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><blockquote> <a href="../WebDocs/Lexicons/NRC-Emotion-Lexicon.zip">NRC Word-Emotion Association Lexicon</a> <br>
+          (also called EmoLex)
+          <p>&nbsp;</p>
+      </blockquote></td>
+      <td rowspan="2"><p>0.92</p>
+        <p>(2010)</p></td>
+      <td height="94">14,182 unigrams (words)<br>
+        <br></td>
+      <td rowspan="2"><strong>sentiments:</strong> negative, positive<br>
+        <strong>emotions:</strong> anger, anticipation, disgust, fear, joy, sadness, surprise, trust</td>
+      <td>0 (not associated) or 1 (associated)</td>
+      <td rowspan="2"><p><strong>Manual:</strong> By crowdsourcing on Mechanical Turk.</p>
+        <p><strong>Domain:</strong> General</p></td>
+    </tr>
+    <tr>
+      <td height="130"><p>~25,000 senses<br>
+        <br>
+      </p></td>
+      <td>not associated, weakly, moderately, or strongly associated</td>
+    </tr>
+  </table>
+  <p>Survey paper on automatic emotion and sentiment analysis:</p>
+  <blockquote>
+    <p><a href="https://arxiv.org/abs/2005.11882">Sentiment Analysis: Automatically Detecting Valence, Emotions, and Other Affectual States from Text.</a> Saif M. Mohammad, <em>arXiv:2005.11882, Jan 2021.<br>
+      To Appear as a Book chapter in The 2nd Edition of Emotion Measurement, Elsevier</em>, 2021.<br>
+    <a href="https://arxiv.org/pdf/2005.11882.pdf">PDF</a> <a href="https://aclweb.org/anthology/W/W15/W15-2912.pdf">&nbsp;</a>&nbsp;&nbsp; <a href="Abstracts/sentiment-survey2020-bib.txt">BibTeX</a></p>
+  </blockquote>
+  <p><font color="#990000" size="5"><strong><br>
+    NRC Emotion Lexicon in Various Languages</strong></font></p>
+  <p>The NRC Emotion Lexicon has affect annotations for English words. Despite some cultural differences, it has been shown that a majority of affective norms are stable acrosslanguages. Thus, we provide versions of the lexicon in over 100 languages by translating the English terms using Google Translate (August 2022).</p>
+  <p>The lexicon is thus available for English and these languages:</p>
+  <p style="text-align: justify">Afrikaans, Albanian, Amharic, Arabic, Armenian, Azerbaijani, Basque, Belarusian, Bengali, Bosnian, Bulgarian, Burmese, Catalan, Cebuano, Chichewa, Corsican, Croatian, Czech, Danish, Dutch, Esperanto, Estonian, Filipino, Finnish, French, Frisian, Gaelic, Galician, Georgian, German, Greek, Gujarati, HaitianCreole, Hausa, Hawaiian, Hebrew, Hindi, Hmong, Hungarian, Icelandic, Igbo, Indonesian, Irish, Italian, Japanese, Javanese, Kannada, Kazakh, Khmer, Kinyarwanda, Korean, Kurmanji, Kyrgyz, Lao, Latin, Latvian, Lithuanian, Luxembourgish, Macedonian, Malagasy, Malay, Malayalam, Maltese, Maori, Marathi, Mongolian, Nepali, Norwegian, Odia, Pashto, Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Samoan, Sanskrit, Serbian, Sesotho, Shona, Simplified, Sindhi, Sinhala, Slovak, Slovenian, Somali, Spanish, Sundanese, Swahili, Swedish, Tajik, Tamil, Tatar, Telugu, Thai, Traditional, Turkish, Turkmen, Ukranian, Urdu, Uyghur, Uzbek, Vietnamese, Welsh, Xhosa, Yiddish, Yoruba, Zulu</p>
+  <p>Note that an earlier version included translations obtained in 2017. The current 2022 translations are markedly better. That said, some of the translations may still be incorrect or they may simply be transliterations of the original English terms.  </p>
+  <p><font color="#990000" size="5"><strong><br>
+  An Interactive Visualizer</strong></font></p>
+  
+  <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1204px; height: 869px;'><noscript><a href='http:&#47;&#47;www.saifmohammad.com&#47;WebPages&#47;NRC-Emotion-Lexicon.htm'><img alt='Explore the NRC Word-Emotion Association Lexicon through this Interactive Visualization (version 0.2)(Click on a word or treemap tile to select. Click again to deselect. Undo, Redo, and Reset buttons are at the bottom left. Note: &#39;anticip&#39; is short for a ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NR&#47;NRC-Emotion-Lexicon-viz1&#47;NRCEmotionLexicon-viz1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='1204' height='869' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='NRC-Emotion-Lexicon-viz1&#47;NRCEmotionLexicon-viz1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NR&#47;NRC-Emotion-Lexicon-viz1&#47;NRCEmotionLexicon-viz1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /></object></div>
+  
+  
+  <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><p><font color="#990000" size="5"><strong><a href="../WebDocs/MaxDiff-Twitter-Lexicon.zip"><strong><font color="#990000" size="5" face="Poor Richard"><br>
+        <a name="impact" id="impact"></a></font></strong></a>Impact</strong></font></p>
+
+Some notable ways in which the NRC Emotion Lexicon has made impact include:
+<ul>
+          <li dir="ltr">            <strong>First of its kind:</strong> It was the first word-emotion association lexicon, with entries for eight basic emotions as well as positive and negative sentiment. It still remains the largest such lexicon. Prior work largely focused  on positive and negative sentiment.          While earlier work focused on words that *denotate* emotion, this work included the larger set of words that are associated with or connotate an emotion.<br>
+            <br>
+<ul>
+              <li>            <strong>Quality Control:</strong> Careful attention was paid to ensure appropriate annotations including the use of a separate word choice question to make sure annotators knew the word and to guide them to the desired sense of the word for which annotations were solicited. <br>
+                <br>
+              </li>
+            </ul>
+          </li>
+        
+          <li dir="ltr"><strong id="docs-internal-guid-adbeac55-7fff-68b5-48b9-b2161c5408da">Impact on NLP: </strong>The lexicon impacted work in sentiment and emotion analysis in NLP. Notably, facilitating work beyond just the positive-negative affect dimension. The lexicon has been used for word-, sentence-, tweet-, and document-level sentiment and emotion analysis, abusive language detection, personality trait identification, stance detection, etc. The lexicon is especially useful in unsupervised settings and when training data is limited or not available. However, even with the onset of deep learning methods, many top systems in shared tasks (such as <a href="https://competitions.codalab.org/competitions/17751">SemEval-2018 Task 1 Affect in Tweets</a>) continue to benefit from the lexicon by using it to initialize their embeddings and adding additional lexicon-derived features. <br>
+            <br>
+          </li>
+          <li><strong>Impact on fields beyond NLP:<br>
+            </strong><br>
+<ul>
+              <li><strong id="docs-internal-guid-34a21c53-7fff-69b1-18a3-eb09dc57379f">Work on Well-Being and Health Disorders: </strong>Used in work on understanding pandemic response, feelings towards influenza vaccinations, depression detection, hate speech detection, identifying cyber-bullying, etc. Proceedings of workshops such as CL-psych and i2b2 describe systems that use the NRC Emotion Lexicon.<br>
+                <br>
+              </li>
+              <li><strong id="docs-internal-guid-e4d0ad99-7fff-0105-5718-7afa2b1b306a">Psychology, Behavioural Science, Psycolinguistics, Fairness, and Social Science: </strong>Used in work on understanding how people express emotions, relationships between word characteristics (such as length and concreteness) with its associated emotion,&nbsp; gender attitudes, as well as the role of emotions in the spread of information, especially news, fake news, and viral videos. The highly cited paper &quot;The spread of true and false news online&quot;  uses the lexicon to determine associations of emotions with fake news and its virality. <br>
+                <br>
+              </li>
+              <li><strong>Digital Humanities</strong> <strong>and Computational Literature</strong> (detecting narrative arcs in novels and fairy tales). Notable works include:<br>
+                <br>
+<ul>
+                  <li><a href="https://www.aclweb.org/anthology/W11-1514.pdf">From Once Upon a Time to Happily Ever After: Tracking Emotions in Novels and Fairy Tales</a>. (picked up by <a href="http://science.slashdot.org/story/13/10/01/2252209/text-analyzer-reveals-emotional-temperature-of-novels-and-fairy-tales">SlashDot</a>, <a href="http://singularityhub.com/2013/10/11/algorithm-tracks-literary-emotion-in-shakespeare-the-brothers-grimm/">Singularity Hub</a>, etc., October, 2013).&nbsp;                  <br>
+                    <br>
+                  </li>
+                  <li><a href="https://cran.r-project.org/web/packages/syuzhet/vignettes/syuzhet-vignette.html">Syuzhet Package</a> by Matthew Jockers.<br>
+                <br>
+              </li>
+</ul>
+              </li>
+              <li><strong>Art:</strong>              
+                <ul>
+                  <li>on creations such as the <a href="http://www.varvarag.info/wishing-wall/">Wishing Wall</a>, that that were displayed in:&nbsp;                      
+                    <ul>
+                      <li>Barbican Centre, London, UK&nbsp;                        </li>
+                      <li>Tekniska Museet, Stockholm, Sweden (Oct 14 Aug 15)&nbsp;                        </li>
+                      <li>Onassis Cultural Centre, Athens (19th Oct15 10th Jan16)&nbsp;                        </li>
+                      <li>Zorlu Centre in Istanbul (16th Feb 12th June16)<br>
+                        <br>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>on work like generating music that captures the flow of emotions in novels; with some music eventually being played at the Louvre:&nbsp;                      
+                    <ul>
+                      <li><a href="http://time.com/90259/classic-novels-music/">TIME</a>, May 7, 2014: This Is What Classic Novels Sound Like When a Computer Turns Them Into Piano Music.                        </li>
+                    </ul>
+                  </li>
+                  <ul>
+                    <li><a href="https://www.washingtonpost.com/news/innovations/wp/2016/09/23/this-symphony-had-both-human-and-computer-composers/">Washington Post</a>, <a href="http://www.cbsnews.com/news/orchestra-music-symphonologie-by-artificial-intelligence-human-composers/">CBS News</a>,<a href="http://www.columbiatribune.com/arts_life/ovation/humans-computers-collaborate-on-symphony/article_c63dfcd7-78c1-5180-b9ff-bd1333f01581.html"> Columbia Tribune</a>, and others, September 23, 2016. <a href="https://www.washingtonpost.com/news/innovations/wp/2016/09/23/this-symphony-had-both-human-and-computer-composers/">This symphony had both human and computer composers.</a> </li>
+                    <li>Articles about a symphony orchestra performed music composed using the NRC Emotion Lexicon under the glass of the Louvre museum in Paris on Sept. 20, 2016. Click here for a <a href="https://www.youtube.com/watch?v=zYfCMqSaMR8">video of the performance</a>.                    </li>
+                    <li><a href="http://entertainment.slashdot.org/story/14/03/23/1328254/algorithm-composes-music-by-text-analyzing-the-worlds-best-novels">SlashDot</a>, March23, 2014: Algorithm Composes Music By Text Analyzing the World's Best Novels.<br>
+                      <br>
+                    </li>
+                  </ul>
+                </ul>
+              </li>
+              <li><strong>Human-Computer Interaction</strong> (virtual assistants, physiotherapy robots, etc.) <br>
+                <br>
+              </li>
+              <li><strong>Ethics and Fairness</strong> (work on comparing attitudes towards men and women at work)<br>
+                <br>
+              </li>
+              <li><strong>Data Science</strong>: see example data science projects highlighted in popular press (bottom of this page). Also see: <a href="https://www.citylab.com/life/2016/03/these-colorful-maps-reveal-what-cities-sound-like-chatty-maps-good-city-life/475224/">Chatty maps. </a><a href="http://www.fastcodesign.com/3058240/an-emotional-map-of-the-city-as-captured-through-its-sounds">Fast Company</a>, March 25, 2016: An Emotional Map Of The City, As Captured Through Its Sounds. <br>
+                <br>
+              </li>
+            </ul>
+          </li>
+          <li><strong>Citations:</strong> <br>
+            <br>
+<ul>
+              <li><a href="https://scholar.google.ca/scholar?hl=en&as_sdt=0,5&q=Crowdsourcing+a+Word–Emotion+Association+Lexicon&btnG=">Papers that cite Crowdsourcing a Word&ndash;Emotion Association Lexicon</a><br>
+                <br>
+              </li>
+              <li><a href="https://scholar.google.ca/scholar?hl=en&as_sdt=0,5&q=Emotions+Evoked+by+Common+Words+and+Phrases%3A+Using+Mechanical+Turk+to+Create+an+Emotion+Lexicon&btnG=">Papers that cite Emotions Evoked by Common Words and Phrases: Using Mechanical Turk to Create an Emotion Lexicon</a><br>
+                <br>
+              </li>
+            </ul>
+          </li>
+          
+          <li dir="ltr">            <strong>Democratization of Emotion Analysis: </strong>The large lexicon allowed for the use of simple methods to track trends in emotions. This democratized emotion analysis and it was used not just by computer scientists, but also by journalists, psychologists, social scientists, and amateur data enthusiasts to detect trends in emotions in everything from the Brexit discourse, election tweets, Radiohead songs, abusive language, reddit posts, and more. <br>
+            <br>
+          </li>
+          <ul>
+            <li dir="ltr">              Esquire, February 23, 2017. <a href="http://www.esquire.com/entertainment/music/news/a53378/saddest-radiohead-song-graph/">All Radiohead Songs Are Sad, but This Graph Shows Which Are the Saddest.</a> The NRC Emotion Lexicon is used to compute the degree of sadness for Radiohead songs. <a href="http://rcharlie.com/htmlwidgets/fitterhappier/album_chart.html">Interactive Chart.<br>
+              <br>
+            </a>Also picked up in:&nbsp; A Journal of Musical Things, February 24, 2017. <a href="http://ajournalofmusicalthings.com/science-discovers-radiohead-song-saddest/">Science Discovers Which Radiohead Song is the Saddest</a>; and A variation on the approach, February 28. <a href="http://thomaspark.co/2017/02/where-i-end-and-you-begin-finding-the-most-depressing-radiohead-songs-using-crowd-data-from-songmeanings/">Where I End and You Begin: Finding the Most Depressing Radiohead Songs using Crowd Data from SongMeanings.</a> <br>
+            <br>
+            </li>
+            <li dir="ltr">              <a href="http://www.telegraph.co.uk/news/2016/06/15/eu-referendum-remain-uses-project-fear-more-in-tweets-than-leave/">The Telegraph</a>, June 15, 2016: EU referendum: Remain uses Project Fear more in tweets than Leave, analysis shows. [Use of the NRC Emotion Lexicon, aka EmoLex, to track sentiment in EU referendum tweets (Brexit).]            <br>
+              <br>
+            </li>
+            <li dir="ltr">              The Crosstab, March 2, 2017. <a href="http://www.thecrosstab.com/2017/03/02/trump-sotu-2017/">Trump's SOTU vs. the Past &mdash; Sentiment Analysis and Topic Modeling</a>.            <br>
+              <br>
+            </li>
+            <li dir="ltr">              Variance Explained, August 6, 2016. <a href="http://varianceexplained.org/r/trump-tweets/">Text analysis of Trump's tweets confirms he writes only the (angrier) Android half</a>. News also picked up by <a href="http://www.npr.org/2016/08/18/490523985/data-scientists-find-consistencies-in-donald-trumps-erratic-twitter-strategy">NPR</a>, <a href="http://www.latimes.com/nation/politics/trailguide/la-na-trailguide-updates-trump-tweets-iphone-android-1470868218-htmlstory.html">Los Angeles Times</a>, <a href="http://www.scientificamerican.com/article/only-some-of-realdonaldtrump-s-tweets-are-actually-donald-trump/">Scientific American</a>, <a href="http://www.theverge.com/2016/8/10/12421014/trump-tweets-analysis">The Verge</a>, and others.            </li>
+          </ul>
+</ul>
+        <ul>
+          <li dir="ltr">
+            <strong>Other Notable Press Coverage </strong>(of the lexicon and systems built using the lexicon over the years):<br>
+            <br>
+<ul>
+              <li><a href="http://www.technologyreview.com/view/519036/how-mechanical-turkers-crowdsourced-a-huge-lexicon-of-links-between-words-and-emotion/">Article in MIT Technology Review</a>, September 5, 2013: How Mechanical Turkers Crowdsourced a Huge Lexicon of Links Between Words and Emotion. Also in its <a href="http://www.technologyreview.es/blog/post.aspx?bid=359&bpid=29672">Spanish website</a> and in <a href="http://www.crowdsourcing.org/article/how-mechanical-turkers-crowdsourced-a-huge-lexicon-of-links-between-words-and-emotion/28114">crowdsourcing.org.</a><br>
+                <br>
+              </li>
+              <li><a href="http://swampland.time.com/2013/08/14/main-tweet-researchers-dig-into-the-intersection-of-politics-and-twitter/">TIME</a>, August 14, 2013: Main Tweet: Researchers Dig Into The Intersection of Politics and Twitter.<br>
+                <br>
+              </li>
+              <li>The New Scientist, September 27: What your email style says about your personality. Also in Times of India, MSN, Pharmacon, Galileo, Amic, and others.<br>
+                <br>
+              </li>
+              <li><a href="http://science.slashdot.org/story/13/10/01/2252209/text-analyzer-reveals-emotional-temperature-of-novels-and-fairy-tales">SlashDot</a>, October 1, 2013: Text Analyzer Reveals Emotional 'Temperature' of Novels and Fairy Tales.<br>
+                <br>
+              </li>
+              <li><a href="https://medium.com/the-physics-arxiv-blog/92f0800cb724">The Physics ArXiv</a>, October 1, 2013: Text Analyser Reveals Emotional Temperature of Novels and Fairy Tales. Also in EduBits.<br>
+                <br>
+              </li>
+              <li><a href="http://tech.slashdot.org/story/13/10/04/1457225/data-mining-reveals-the-emotional-differences-in-emails-from-men-and-women">SlashDot</a>, October 4, 2013: Data Mining Reveals the Emotional Differences In Emails From Men and Women.<br>
+                <br>
+              </li>
+              <li><a href="http://singularityhub.com/2013/10/11/algorithm-tracks-literary-emotion-in-shakespeare-the-brothers-grimm/">Singularity Hub</a>, November 10, 2013:Algorithm Tracks Literary Emotion in Shakespeare, the Brothers Grimm.<br>
+                <br>
+              </li>
+              <li><a href="http://www.theglasshammer.com/news/2013/12/03/are-your-emails-communicating-a-lack-of-confidence/">Glass Hammer</a>, December 3, 2013: Are Your Emails Communicating a Lack of Confidence?</li>
+            </ul>
+<br>
+<ul>
+  <li>Billboard, May 19, 2014. <a href="https://www.billboard.com/articles//6091974/computers-classics-and-cadenzas-making-math-music-from">Computers, Classics and Cadenzas: Making Math Music From Literature</a>. On our work on automatically generating music that captures the emotions in a novel.<br>
+    <br>
+  </li>
+  <li>Washington Post, October 22, 2016. <a href="http://wapo.st/2eDHyZE">Donald Trump and Hillary Clinton took to the debate stage and made sweet, sweet music.</a>The article mentions NRC in relation to the lexicons we created, which were used to generate music from the Trump-Hillary debate text.&nbsp;<br>
+    <br>
+  </li>
+  <li>Washington Post, August 12, 2016.<a href="https://www.washingtonpost.com/posteverything/wp/2016/08/12/two-people-write-trumps-tweets-he-writes-the-angrier-ones/?utm_term=.35dda6015ec3"> Two people write Trump&rsquo;s tweets. He writes the angrier ones.</a><a href="https://www.washingtonpost.com/posteverything/wp/2016/08/12/two-people-write-trumps-tweets-he-writes-the-angrier-ones/?utm_term=.35dda6015ec3"></a><br>
+    <br>
+  </li>
+  <li>BGR, August 11, 2016. <a href="http://bgr.com/2016/08/11/donald-trump-twitter-android-iphone/">Donald Trump&rsquo;s angriest tweets are sent from his Android while the nice ones are sent from an iPhone</a>.<br>
+    <br>
+  </li>
+  <li>NYC Data Science Academy, August 7, 2016. <a href="http://blog.nycdatascience.com/student-works/r-shiny/twitter-analysis-presidential-candidates-2016/">Twitter Analysis of Presidential Candidates 2016.</a></li>
+</ul>
+  <br>
+  <ul>
+    <li>April 13, 2017.&nbsp; <a href="https://www.telegraph.co.uk/films/2017/04/13/faster-less-furious-fast-furious-franchise-box-office-goldmine/">Faster but less furious: why the Fast and Furious franchise is a box office goldmine</a>. The NRC Emotion Lexicon is used to analyze the emotions in the Fast and Furious series movie scripts.<br>
+      <br>
+    </li>
+    <li>January 24, 2018. <a href="https://www.leoweekly.com/2018/01/kentucky-legislature-twitter-analysis/">An examination of the Twitter habits of Kentucky lawmakers</a>. The NRC Emotion Lexicon is used to analyze the tweets of Democrats and Republicans.<br>
+      <br>
+    </li>
+    <li>Technical.ly, February 1, 2018. <a href="https://technical.ly/philly/2018/02/01/angriest-seinfeld-character-algorithm-sentiment-analysis/">Who&rsquo;s the angriest character on &lsquo;Seinfeld&rsquo;?</a> The NRC Emotion Lexicon is used to analyze the language of the characters in Seinfeld.    <br>
+      <br>
+    </li>
+    <li>SeekingAlpha, Apr. 30, 2018. <a href="https://seekingalpha.com/article/4167585-sentiment-analysis-approach-to-predicting-stock-returns">A Sentiment Analysis Approach To Predicting Stock Returns.</a> The NRC Emotion Lexicon is used to analyze 10-K reports of S&amp;P 500 companies to predict future stock returns. <br>
+      <br>
+    </li>
+    <li>InformationWeek, November 15, 2018. <a href="https://www.informationweek.com/devops/decoding-programmers-how-emotions-can-change-code/a/d-id/1333265">Decoding Programmers: How Emotions Can Change Code</a>. Analyzing developer comments to show that their emotions impact their code. <br>
+      <br>
+    </li>
+    <li>Psychology Today, December 27, 2018. <a href="https://www.psychologytoday.com/us/blog/the-athletes-way/201812/emotional-contagions-can-spread-wildfire-youtube">Emotional Contagions Can Spread Like Wildfire Via YouTube.</a> The NRC Emotion Lexicon is used to analyze the emotions in user comments on vlogs.&nbsp; Original Paper: <a href="https://research.tilburguniversity.edu/en/publications/multilevel-emotion-transfer-on-youtube-disentangling-the-effects-">Multilevel emotion transfer on YouTube: Disentangling the effects of emotional contagion and homophily on video audiences.</a> <br>
+      <br>
+    </li>
+    <li>Politico.mx, August 28, 2019. <a href="https://politico.mx/minuta-politica/minuta-politica-gobierno-federal/enojo-o-sorpresa-emociones-en-informes-de-l%C3%B3pez-portillo-calder%C3%B3n/">Enojo o sorpresa: emociones en Informes de L&oacute;pez Portillo a Calder&oacute;n</a>. The NRC Emotion Lexicon is used to analyze the speeches of the Mexican President and other politicians.<br>
+      <br>
+    </li>
+    <li>Tech Xplore, February 26, 2020. <a href="https://techxplore.com/news/2020-02-language-creative-poetry.html">A language generation system that can compose creative poetry</a>. The NRC Emotion Lexicon is used along with a deep learning system for automatic poetry generation. Original paper: <a href="https://arxiv.org/abs/2002.02511">Introducing Aspects of Creativity in Automatic Poetry Generation</a>.<br>
+      <br>
+    </li>
+    <li>AdNews, April 20, 2020. <a href="https://www.adnews.com.au/news/coronavirus-analysing-stories-from-the-twitter-frontline">Coronavirus: Analysing stories from the Twitter frontline</a>. Use of the NRC Emotion lexicon to Analyze emotions in tweets during the Covid-19 pandemic.<br>
+      <br>
+    </li>
+    </ul>
+          </li>
+          <li><strong id="docs-internal-guid-3c535b11-7fff-1827-67c1-77fba6203211">Availability:</strong> The lexicon is made <strong>freely available for research</strong>, and has been commercially licensed to companies for a small fee. <br>
+            <br>
+          </li>
+        </ul></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><strong><font color="#990000" size="5"><strong><a href="../WebDocs/MaxDiff-Twitter-Lexicon.zip"><strong><font color="#990000" size="5" face="Poor Richard"><a name="terms" id="impact2"></a></font></strong></a>Terms of Use</strong></font></strong></td>
+    </tr>
+    <tr>
+      <td><p>&nbsp;</p>
+        <ol>
+          <li><strong>Research Use:</strong> The lexicon mentioned in this page can be used freely for non-commercial research and educational purposes.<br>
+            <br>
+          </li>
+          <li><strong>Citation:</strong> Cite the papers associated with the lexicon in your research papers and articles that make use of them. <br>
+            <br>
+          </li>
+          <li><strong>Media Mentions:</strong> In news articles and online posts on work using the lexicon, cite the lexicon. For example: &quot;We make use of the &lt;resource name&gt;, created by &lt;author(s)&gt; at the National Research Council Canada.&quot; We would appreciate a hyperlink to the lexicon home page and an email to the contact author (saif.mohammad@nrc-cnrc.gc.ca).  (Authors and homepage information provided at the top of the README.)<br>
+            <br>
+          </li>
+          <li><strong>Credit:</strong> If you use the lexicon in a product or application, then acknowledge this in the 'About' page and other relevant documentation of the application by stating the name of the resource, the authors, and NRC. For example: &quot;This application/product/tool makes use of the &lt;resource name&gt;, created by &lt;author(s)&gt; at the National Research Council Canada.&quot; We would appreciate a hyperlink to the lexicon home page and an email to the contact author (saif.mohammad@nrc-cnrc.gc.ca).<br>
+            <br>
+          </li>
+          <li><strong>No Redistribution:</strong> Do not redistribute the data. Direct interested parties to the lexicon home page.  You may not rent or license the use of the lexicon nor otherwise permit third parties to use it. <br>
+            <br>
+          </li>
+          <li><strong>Proprietary Notice:</strong> You will ensure that any copyright notices, trademarks or other proprietary right notices placed by NRC on the lexicon remains in evidence.<br>
+            <br>
+          </li>
+          <li><strong>Title:</strong> All intellectual property rights in and to the lexicon shall remain the property of NRC. All proprietary interests, rights, unencumbered titles, copyrights, or other Intellectual Property Rights in the lexicon and all copies thereof remain at all times with NRC.<br>
+            <br>
+          </li>
+          <li><strong>Commercial License:</strong> If interested in commercial use of the lexicon, contact the author: saif.mohammad@nrc-cnrc.gc.ca<br>
+            <br>
+          </li>
+          <li><strong>Disclaimer:</strong> National Research Council Canada (NRC) disclaims any responsibility for the use of the lexicon and does not provide technical support. NRC makes no representation and gives no warranty of any kind with respect to the accuracy, usefulness, novelty, validity, scope, or completeness of the lexicon and expressly disclaims any implied warranty of merchantability or fitness for a particular purpose of the lexicon.  That said, the contact listed above welcomes queries and clarifications.<br>
+            <br>
+          </li>
+          <li><strong>Limitation of Liability:</strong> You will not make claims of any kind whatsoever upon or against NRC or the creators of the lexicon, either on your own account or on behalf of any third party, arising directly or indirectly out of your use of the lexicon. In no event will NRC or the creators be liable on any theory of liability, whether in an action of contract or strict liability (including negligence or otherwise), for any losses or damages incurred by you, whether direct, indirect, incidental, special, exemplary or<br>
+            consequential, including lost or anticipated profits, savings, interruption to business, loss of business opportunities, loss of business information, the cost of recovering such lost information, the cost of substitute intellectual property or any other pecuniary loss arising from the use of, or the inability to use, the lexicon regardless of whether you have advised NRC or NRC has advised you of the possibility of such damages. <br>
+          </li>
+        </ol></td>
+    </tr>
+    <tr>
+      <td><p><strong><font color="#990000" size="5"><strong>Code</strong></font></strong></p>
+      <p>There are many third party software packages that can be used in conjunction with the NRC Emotion Lexicon to analyze emotion word use in text. We recommend <a href="https://github.com/Priya22/EmotionDynamics"><strong>Emotion Dynamics</strong></a>. It is the primary package that we use to analyze text using the NRC Emotion Lexicon andthe NRC VAD Lexicon.  It can be used to generate a csv file with a number of emotion features pertaining to the text of interest, including metrics of utterance emotion dynamics. Associated <a href="https://arxiv.org/abs/2204.04862">Paper</a>.</p>
+      <p>For earlier R code, see: </p>
+      <blockquote>
+        <p><a href="https://github.com/whipson/edyn" target="_blank" rel="noopener nofollow">Emotion Dynamics package.</a><br>
+          <a href="https://arxiv.org/pdf/2103.01345.pdf">Paper (pdf)</a><a href="https://www.aclweb.org/anthology/2020.acl-main.464.pdf"></a> &nbsp; &nbsp;<a href="WebPages/Abstracts/emo-dynamics-bib.txt">BibTeX</a><a href="https://www.aclweb.org/anthology/2020.acl-main.464.pdf"></a> &nbsp; &nbsp; <a href="https://github.com/whipson/edyn">Code</a>        </p>
+        </blockquote>
+      <p>For generating Weka features, see:</p>
+      <blockquote>
+        <p><a href="https://github.com/felipebravom/AffectiveTweets">The AffectiveTweets Package</a>: Felipe Bravo-Marquez implemented AffectiveTweets for the Weka machine learning workbench  that provides a collection of filters for extracting features from tweets for sentiment classification/regression and other related tasks. The package is especially useful to generate feature vectors from a large number of affect lexicons. The vector can then be concatenated to other features vectors (say dense-distributed representations of the text) to improve perfomance. (You can use the feature vector with any classifier -- not just one with support from Weka.)</p>
+      </blockquote>
+      <p>These third party packages also faculitate the use of the NRC Emotion Lexicon:</p>
+      <ul>
+        <ul>
+          <li dir="ltr">
+            <p dir="ltr" role="presentation"><a href="https://www.tidytextmining.com/sentiment.html">TidyText</a>:&nbsp;See <a href="https://uc-r.github.io/sentiment_analysis">this guide</a>and <a href="https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html">this introduction to TidyText</a>.</p>
+            </li>
+          <li dir="ltr">
+            <p dir="ltr" role="presentation"><a href="https://cran.r-project.org/web/packages/lexicon/index.html">R package Lexicon</a>: See <a href="https://cran.rstudio.com/web/packages/lexicon/lexicon.pdf">docimentation here. </a></p>
+            </li>
+          <li dir="ltr"> <a href="https://cran.r-project.org/web/packages/syuzhet/vignettes/syuzhet-vignette.html">Syuzhet</a>: For literary analysis. <br>
+            <br>
+          </li>
+        </ul>
+      </ul></td>
+    </tr>
+    <tr>
+      <td><strong><font color="#990000" size="5"><strong><a href="../WebDocs/MaxDiff-Twitter-Lexicon.zip"><strong><font color="#990000" size="5" face="Poor Richard"><a name="feedback" id="impact3"></a></font></strong></a>Feedback</strong></font></strong></td>
+    </tr>
+    <tr>
+      <td><p><strong><br>
+        </strong>We will be happy to hear from you. For example:</p>
+        <ul>
+          <li>telling us what you are using the lexicon for;</li>
+          <li>providing feedback regarding the lexicon;</li>
+          <li>if you are interested in having us analyze your data for sentiment, emotion, and other affectual information;</li>
+          <li>if you are interested in a collaborative research project. </li>
+        </ul>
+        <p>We regularly collaborate with graduate students, post-docs, faculty, and research professional from Computer Science, Psychology, Digital Humanities, Linguistics, Social Science, etc.</p>
+        <p><strong>Email:</strong> Dr. Saif M. Mohammad (saif.mohammad@nrc-cnrc.gc.ca, uvgotsaif@gmail.com)<br>
+          <br>
+          <a href="https://twitter.com/SaifMMohammad" class="twitter-follow-button" data-show-count="false" data-size="large">@SaifMMohammad</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </p></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,239 @@
+--- PAGE 1 ---
+Saif M. MohammadNational Research Council Canada
+Word Affect Intensities
+
+
+--- PAGE 2 ---
+Affect or EmotionRefers to concepts such as joy, sadness, fear, guilt, etc.Commonplace and familiar, yet complex and nuanced 
+(For this talk, I will treat the terms affectand emotionas being synonymous.)
+2
+
+
+--- PAGE 3 ---
+Word-Emotion AssociationsWords have associations with emotions:violenceandshoutare associated with angershudderandpublic speakingare associated with fearyummyandvacationare associated with joylossandcryingare associated with sadnessGoal: Capture word-emotion associations (out of context binary values)NRC Emotion Lexicon◦Word—emotion associations for 14,200 English words◦Available at: www.saifmohammad.com
+3
+
+
+--- PAGE 4 ---
+Word-Emotion Intensities
+4
+Words can be associated with different intensities (or degrees) of an emotion. ◦outrageis associated with a greater degree of anger(more anger) than irritate◦sobbingis associated with more sadnessthansighGoal of this work: Capture word-emotion intensities (out of context scores)
+
+
+--- PAGE 5 ---
+MotivationHuman annotations of words for emotion intensities 
+For use by automatic systems:predicting emotion intensities of words◦predicting sentiment and emotions of sentences, tweets, etc.◦detecting stance, personality traits, well◦ -being, cyber-bullying, etc.
+To draw inferences about people:to understand how we convey emotions through ◦ language
+5
+
+
+--- PAGE 6 ---
+Research Questionshow reliably can we order words as per emotion intensity?how do the intensities of different emotions relate to each other?how do the intensities of the basic emotions relate to valence,arousal, and dominance?◦do the words for anger fall predominantly in a particular region of thevalence--arousal--dominance space?
+6
+
+
+--- PAGE 7 ---
+Which Emotions?
+7
+
+
+--- PAGE 8 ---
+8
+
+
+--- PAGE 9 ---
+Psychological Theories of Basic EmotionsPaul Ekman, 1971: SixBasic EmotionsPlutchik, 1980: EightBasic EmotionsAnd many othersIn this work, we focus on four emotions common to most theories: anger, fear, joy, and sadness.
+9
+Plutchik’s Emotion WheelImage credit: Julia Belyanevych
+
+
+--- PAGE 10 ---
+How to capture fine-grained emotion intensity reliably? A harder task!Humans are not good at giving real-valued scores:•difficult to maintain consistency across annotators•difficult for an annotator to be self consistent•scale region bias
+
+
+--- PAGE 11 ---
+Comparative AnnotationsPaired Comparisons (Thurstone, 1927; David, 1963):If X is the property of interest (positive, useful, etc.), give two terms and ask which is more X less cognitive loadhelps with consistency issuesrequires a large number of annotations ◦order N2, where N is number of terms to be annotated
+11
+
+
+--- PAGE 12 ---
+Best‒Worst Scaling (BWS)The annotator is presented with four words (say, A, B, C, and D) and asked: ◦which word is associated with the mostanger◦which word is associated with the leastangerBy answering just these two questions, five out of the sixinequalities are known◦For e.g.: If A: most anger and D: least anger, then we know:A > B, A > C, A > D, B > D, C > D
+12
+
+
+--- PAGE 13 ---
+Best‒Worst Scaling preserves the comparative naturekeeps the number of annotations down to about 2Nleads to more reliable, less biased, more discriminating annotations(Kiritchenko and Mohammad, 2017, Cohen, 2003)
+13
+
+
+--- PAGE 14 ---
+Building the NRC Affect Intensity Lexicon 
+14
+
+--- PAGE 15 ---
+Term SelectionSince most words do not convey a particular emotion to a marked degree, annotating all words for all emotions is sub-optimal. Selected:words in the NRC Emotion Lexicon that are marked as associated with anger, fear, joy, and sadness◦the NRC Emotion Lexicon includes terms that occur frequently in the Google n-gram corpuswords that co-occurred more often than chance with #anger, #fear, #joy, and #sadness in a tweets corpus (Hashtag Emotion Corpus) (Mohammad, 2012) ◦these words are likely to be associated with the corresponding emotions
+15
+
+
+--- PAGE 16 ---
+Ran BWS Annotations on CrowdFlower
+16
+The annotation tasks were approved by the National Research Council Canada’s Institutional Review Board.
+
+
+--- PAGE 17 ---
+Ran BWS Annotations on CrowdFlower
+17
+The annotation tasks were approved by the National Research Council Canada’s Institutional Review Board.
+
+
+--- PAGE 18 ---
+Ran BWS Annotations on CrowdFlower
+18
+The annotation tasks were approved by the National Research Council Canada’s Institutional Review Board.
+
+
+--- PAGE 19 ---
+Ran BWS Annotations on CrowdFlower
+19
+The annotation tasks were approved by the National Research Council Canada’s Institutional Review Board.
+
+
+--- PAGE 20 ---
+Ran BWS Annotations on CrowdFlower
+20
+The annotation tasks were approved by the National Research Council Canada’s Institutional Review Board.
+
+
+--- PAGE 21 ---
+Quality ControlAbout 5% of the data was annotated internally beforehand (by the author) These gold questionsare interspersed with other questionsIf one gets a gold question wrong, they are immediately notified of itfeedback to improve task understanding◦If one’s accuracy on the gold questions falls below 70%, they are refused further annotation◦all of their annotations are discarded◦Mechanism to avoid malicious or random annotations
+21
+
+
+--- PAGE 22 ---
+Affect Intensity Lexicon: Example entriesHighest anger intensity:outraged 0.964 brutality 0.959 hatred 0.953Lowest anger intensity: sisterhood 0.015 musical 0.011 tree 0.000
+22
+Highest fear intensity:torture 0.984 terrorist 0.972 horrific 0.969Lowest fear intensity: volunteer 0.031lines 0.031 romance 0.031Scores are in the range 0 (lowest intensity) to 1 (highest intensity).
+
+
+--- PAGE 23 ---
+Reliability (Reproducibility) of Annotations Average split-half reliability (SHR): a commonly used approach to determine consistency (Kuder and Richardson, 1937; Cronbach, 1946)
+23
+
+
+--- PAGE 24 ---
+Split-Half Reliability: Affect Intensity Annotations
+EmotionSpearman Corr. (r)Pearson Corr. (⍴)anger0.9060.912fear0.9100.912joy0.9250.924sadness0.9040.909
+24
+High correlation numbers indicate a high degree of reproducibility.
+
+
+--- PAGE 25 ---
+Circumplex Model of Emotions (Russell, 1980)
+25
+Primary dimensions of affectual adjectivesvalence: positive/pleasure –negative/displeasurearousal: active/stimulated –sluggish/boreddominance: powerful/strong –powerless/weakEmotion is point in the multi-dimensional space
+valence
+arousal
+dominance
+
+
+--- PAGE 26 ---
+Obtaining Valence, Arousal, and Dominance Annotations (with BWS)
+26
+Includes:Terms from the NRC Emotion LexiconTerms from the Warriner et al. (2013) VAD lexiconAnd some other sources
+ACL-2018 Paper
+
+
+--- PAGE 27 ---
+Example Entries in the VAD Lexicon
+Scores are in the range 0 (lowest V/A/D) to 1 (highest V/A/D).
+27
+ACL-2018 Paper
+
+
+--- PAGE 28 ---
+Split-Half Reliability Scores for the VAD AnnotationsAnnotations# Terms# AnnotationsVADWarriner et al. (2013)13,91520 per term0.9140.7890.770
+28
+ACL-2018 Paper
+
+
+--- PAGE 29 ---
+Split-Half Reliability Scores for the VAD AnnotationsAnnotations# Terms# AnnotationsVADWarriner et al. (2013)13,91520 per term0.9140.7890.770Ours (Warriner terms)13,9156 per tuple0.9520.9050.906
+29
+ACL-2018 Paper
+
+
+--- PAGE 30 ---
+Split-Half Reliability Scores for the VAD AnnotationsAnnotations# Terms# AnnotationsVADWarriner et al. (2013)13,91520 per term0.9140.7890.770Ours (Warriner terms)13,9156 per tuple0.9520.9050.906Ours (all terms)20,0076 per tuple0.9500.8990.902
+30
+ACL-2018 Paper
+Obtaining Reliable Human Ra/ngs of Valence, Arousal, and Dominance for 20,000 English Words. Saif M. Mohammad. InProceedings ofthe 56th Annual Mee/ng of the Associa/on for Computa/onal Linguis/cs (ACL), Melbourne, Australia, July 2018.
+
+
+--- PAGE 31 ---
+Relationships Between Affect Dimensions
+31
+
+--- PAGE 32 ---
+Average VAD Scores for the Four Emotions 
+32
+The cells are in shades of green with the darkness proportional to the score.
+on average, joy words have higher valence scores (are more positive) than the anger, fear, and sadness words joy words also have somewhat lower arousal scores (are more passive) and higher dominance scoreanger and fear have a very similar profile of average VAD scores
+
+
+--- PAGE 33 ---
+Dominance–Arousal scatter plots for words associated with the four emotions
+33The size of the point is proportional to the intensity of the emotion. 
+Negative emotion words belong to an overlapping range of arousal and dominance scoresThe range of scores overlaps markedly with the joy words as well
+
+
+--- PAGE 34 ---
+Summary
+34
+We created the NRC Affect Intensity Lexicon:◦has entries for close to 6,000 English words ◦has fine-grained real-valued scores of intensity for four basic emotions◦showed that the annotations are reliable (high split-half reliability scores)Useful for:◦studying the relationships between affect dimensionsespecially, when used in combination with the NRC VAD Lexicon◦training and testing automatic algorithms that predict word-emotion intensities◦a wide variety of sentiment and emotion related tasksin recent tweet tasks (EmoInt2017, SemEval-2018 Task 1): the top teams have made substantial use of the Affect Intensity Lexicon 
+
+
+--- PAGE 35 ---
+Resources Available at: www.saifmohammad.comNRC Affect Intensity LexiconNRC Valence, Arousal, and Dominance LexiconOther lexicons and emotion-labeled tweets datasetsLinks to shared tasksInteractive visualizations
+Saif M. Mohammadsaif.mohammad@nrc-cnrc.gc.ca
+35
+
+
+--- PAGE 36 ---
+Emotion is any conscious experience characterized by intense mental activity and a high degree of pleasure or displeasure. Scientific discourse has drifted to other meanings and there is no consensus on a definition. --Wikipedia
+36
+
+--- PAGE 37 ---
+Valence–Arousal scatter plots for words associated with the four emotions
+37
+The size of the point is proportional to the intensity of the emotion. 
+Joy stands out in terms of high valencePoints for the negative emotions are in a large common overlapping space
+
+--- PAGE 38 ---
+A histogram of word–anger intensities
+38
+Anger intensity scores are grouped in bins of size 0.05. The colors of the bars go from gray to orange in increasing order of affect intensity. 
+
+
+--- PAGE 39 ---
+Word-Emotion AssociationsWords are associations with emotions:attackandpublic speakingare associated with fearyummyandvacationare associated with joylossandcryingare associated with sadnessWords are associated with high/low valence, arousal, and dominance:yummyandvacationare associated with high valencethiefandinfectedare associated with low valenceexcitedandpublic speakingare associated with high arousalsiestaanddepressionare associated with low arousalsuperheroandinfluentialare associated with high dominancesickandunemployedare associated with low dominance39
+
+--- PAGE 40 ---
+Best‒Worst ScalingEach of these BWS questions can be presented to multiple annotators. We can obtain real-valued scores for all the terms using a simple counting method (Orme, 2009)score(w) = (#best(w) -#worst(w)) / #annotations(w)the scores range from: -1 (least association with anger) to    1 (most association with anger)◦the scores can then be used to rank all the terms
+40
+
+--- PAGE 41 ---
+Split-Half Reliability Scores for Past Work onValence, Arousal, and Dominance (VAD) AnnotationsAnnotations# Terms# AnnotationsVADWarriner et al. (2013)13,91520 per term0.9140.7890.770
+41
+Other earlier work on creating valence, arousal, dominance lexicons:Affective Norms for English Words (ANEW)
+Use rating scales (not BWS)
+1 9
+
+--- PAGE 42 ---
+Comparative AnnotationsPaired Comparisons (Thurstone, 1927; David, 1963):If X is the property of interest (positive, useful, etc.), give two terms and ask which is more XNeed a method that preserves the comparison aspect, without greatly increasing the number of annotations needed. Possible solution:Best‒Worst Scaling (Louviere & Woodworth, 1990): (a.k.a. Maximum Difference Scaling or MaxDiff)
+42
+
+
+--- PAGE 43 ---
+Affect Intensity Lexicon: Examples entries
+43

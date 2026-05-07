@@ -1,0 +1,308 @@
+﻿Saif | Emotion and Sentiment Data 
+
+Home 
+
+Research 
+ 
+ Publications 
+ 
+ Lexicons 
+ 
+ Labeled
+ Data 
+ 
+ Invited
+ Talks 
+ 
+ Contact 
+
+Emotion,
+ Sentiment, and Stance Labeled Data 
+ 
+ This page lists various collections of sentences,
+ tweets and documents annotated for categories such as
+ sentiment, emotion, stance, and metaphor. Several word-emotion lexicons
+ (such as the NRC Emotion Lexicon) and word-sentiment
+ lexicons (such as our sentiment composition lexicons)
+ are available on this other
+ page . If you are a student
+ interested in working with me, go
+ here . 
+
+Contact: Saif M. Mohammad 
+ (saif.mohammad@nrc-cnrc.gc.ca) 
+
+Terms
+ of use: 
+
+The resources listed here are available free for
+ research purposes. Cite the papers associated with the
+ resources in your research papers and articles that make
+ use of them. (The papers associated with each resource
+ are listed below, and also in the individual READMEs.) 
+
+Do not redistribute the data. Direct interested
+ parties to this page: 
+
+ http://saifmohammad.com/WebPages/SentimentEmotionLabeledData.html 
+
+National Research Council Canada (NRC) disclaims any
+ responsibility for the use of the lexicons listed here
+ and does not provide technical support. However, the
+ contact listed above will be happy to respond to queries
+ and clarifications. 
+
+See full terms of use at the bottom of ths page. 
+ 
+ Emotion, Sentiment, and
+ Stance Labeled Data 
+ 
+ Art annotated for emotion, likability, and more 
+
+The WikiArt Emotions Dataset 
+ 
+WikiArt Emotions: An Annotated Dataset of Emotions Evoked by Art. Saif M. Mohammad and Svetlana Kiritchenko. In  Proceedings of the 11th Edition of the Language Resources and Evaluation Conference (LREC-2018) , May 2018, Miyazaki, Japan.
+
+ Paper (pdf)      BibTeX        Poster        Project
+ 
+ Page and Data 
+
+Tweets annotated for emotion and sentiment intensity 
+
+SemEval-2018
+ Task 1: Affect in Tweets Data : available at the
+ webpage for shared task (includes 31 different datasets corresponding to various taks and languages).
+
+Saif M. Mohammad, Felipe Bravo-Marquez, Mohammad
+ Salameh, and Svetlana Kiritchenko. 2018. Semeval-2018
+ Task 1: Affect in tweets. In Proceedings of
+ International Workshop on Semantic Evaluation
+ (SemEval-2018), New Orleans, LA, USA, June 2018. 
+ Understanding Emotions: A Dataset of Tweets to Study
+ Interactions between Affect Categories. Saif M. Mohammad
+ and Svetlana Kiritchenko. In Proceedings of the 11th
+ Edition of the Language Resources and Evaluation
+ Conference (LREC-2018), May 2018, Miyazaki, Japan.
+
+EmoInt2017
+ Data : available at the webpage for shared task on
+ detecting emotion intensity at WASSA-2017. (Includes four datasets pertaining to four emotions.)
+
+WASSA-2017
+ Shared Task on Emotion Intensity. Saif M.
+ Mohammad and Felipe Bravo-Marquez. In Proceedings
+ of the EMNLP 2017 Workshop on Computational
+ Approaches to Subjectivity, Sentiment, and Social
+ Media (WASSA) , September 2017, Copenhagen,
+ Denmark.
+
+ Paper
+ (pdf)    BibTex 
+     
+ Data
+ and Shared Task     
+ Presentation 
+ 
+ Emotion
+ Intensities in Tweets. Saif M. Mohammad and
+ Felipe Bravo-Marquez. In Proceedings of the Sixth
+ Joint Conference on Lexical and Computational
+ Semantics (*Sem) , August 2017, Vancouver,
+ Canada.
+
+ Paper
+ (pdf)     
+ BibTex
+     
+ Data
+ and Shared Task      AffectiveTweets
+ package     
+ Presentation 
+
+Tweets with emotion word hashtags 
+
+#Emotional Tweets , Saif Mohammad, In
+ Proceedings of the First Joint Conference on Lexical and
+ Computational Semantics (*Sem), June 2012, Montreal,
+ Canada. 
+
+ Paper
+ (pdf)     BibTeX
+
+The Hashtag
+ Emotion Corpus (aka Twitter Emotion Corpus, or TEC) 
+ has tweets with emotion word hashtags. It was used to
+ create the NRC Hashtag
+ Emotion Lexicon . 
+
+Tweets annotated for sentiment and stance towards
+ pre-chosen targets 
+
+Detecting Stance in Tweets And Analyzing its
+ Interaction with Sentiment. Parinaz Sobhani,
+ Saif M. Mohammad, and Svetlana Kiritchenko. In Proceedings
+ of the Joint Conference on Lexical and Computational
+ Semantics (*Sem) , August 2016, Berlin, Germany. 
+
+ Paper
+ (pdf)     BibTeX     
+ Presentation 
+    Data
+ and Visualization 
+
+Tweets annotated for sentiment, and part of the
+ SemEval-2015 share task #10 
+
+Data available at the webpage for SemEval-2015
+ shared task #10: Sentiment Analysis in Twitter. 
+ 
+ Developing
+ a Successful SemEval Task in Sentiment Analysis of
+ Twitter and Other Social Media Texts . Preslav
+ Nakov, Sara Rosenthal, Svetlana Kiritchenko, Saif M.
+ Mohammad, Zornitsa Kozareva, Alan Ritter, Veselin
+ Stoyanov, and Xiaodan Zhu. Language Resources and
+ Evaluation. March 2016, Volume 50, Issue 1, pages
+ 35-65.
+
+ Paper
+ (pdf)    Preprint
+ Version     BibTeX 
+ 
+ SemEval-2015 Task 10: Sentiment Analysis in
+ Twitter . Sara Rosenthal, Preslav Nakov,
+ Svetlana Kiritchenko, Saif M Mohammad, Alan Ritter, and
+ Veselin Stoyanov. In Proceedings of the ninth
+ international workshop on Semantic Evaluation Exercises
+ (SemEval-2015), June 2015, Denver, Colorado.
+
+ Paper
+ (pdf)     BibTeX 
+
+Electoral/Political tweets annotated for sentiment,
+ emotion, purpose and style 
+
+Sentiment,
+ Emotion, Purpose, and Style in Electoral Tweets. 
+ Saif M. Mohammad, Svetlana Kiritchenko, Xiaodan Zhu, and
+ Joel Martin. Information Processing and Management ,
+ Volume 51, Issue 4, July 2015, Pages 480–499. 
+
+ Paper
+ (pdf)     BibTeX 
+     AnnotatedData    
+ UnannotatedData 
+ 
+ Semantic Role Labeling of Emotions in Tweets. 
+ Saif M. Mohammad, Xiaodan Zhu, and Joel Martin, In
+ Proceedings of the ACL 2014 Workshop on Computational
+ Approaches to Subjectivity, Sentiment, and Social Media
+ (WASSA), June 2014, Baltimore, MD.
+
+ Paper (pdf)    
+ BibTeX 
+     AnnotatedData 
+
+Arabic
+ BBN blog posts and Syrian tweets 
+ translated manaually and automatically into English and
+ annotated for sentiment. The original Arabic text is
+ also annotated for sentiment. 
+
+BBN blog posts: A subset of 1200 Arabic (Levantine
+ dialect) sentences chosen from the BBN
+ Arabic-Dialect/English Parallel Text . The
+ sentences are extracted social media posts and provided
+ with their translation. We manually annotated this
+ subset and its translations (both manual and automatic)
+ for sentiment (positive, negative, or neutral). 
+ 
+Syrian tweets: dataset of 2000 tweets originating from
+ Syria (a country where Levantine dialectal Arabic is
+ commonly spoken). These tweets were collected in May
+ 2014 by polling the Twitter API. This dataset is not
+ provided with manual English translation. We manually
+ annotated this subset and its translations (both manual
+ and automatic) for sentiment (positive, negative, or
+ neutral). 
+ 
+ Sentiment
+ After Translation: A Case-Study on Arabic Social Media
+ Posts . Mohammad Salameh, Saif M Mohammad and
+ Svetlana Kiritchenko, In Proceedings of the
+ North American Chapter of the Association for
+ Computational Linguistics (NAACL-2015), June
+ 2015, Denver, Colorado.
+
+ Paper
+ (pdf)     BibTeX   
+ Data:
+ Arabic Sentiment Lexicons 
+
+WordNet sentences annotated for metaphoric vs.
+ literal and emotional vs. not emotional impact of verbs. 
+
+Metaphor as a Medium for Emotion: An Empirical
+ Study , Saif M. Mohammad, Ekaterina Shutova,
+ and Peter Turney. In Proceedings of the Joint
+ Conference on Lexical and Computational Semantics
+ (*Sem) , August 2016, Berlin, Germany. 
+
+ Paper
+ (pdf)     BibTeX  
+    Presentation      
+ Data
+ and Interactive Visualization 
+
+Documents 
+
+Collections 
+ of love letters, hate mail, and suicide notes.
+
+ A mapping 
+ of directory names in the Enron email corpus to email
+ ids and to gender. 
+
+Designated Contact Person: 
+
+Dr. Saif M. Mohammad 
+
+ Senior Research Officer at NRC (and one of the creators of the resource on this page)
+
+ saif.mohammad@nrc-cnrc.gc.ca 
+
+Terms of Use: 
+
+All rights for the resource(s) listed on this page are held by National Research Council Canada. 
+
+The resources listed here are available free for research purposes. If you make use of them, cite the paper(s) associated with the resource in your research papers and articles. 
+
+If interested in commercial use of any of these resources, send email to the designated contact person. A nominal one-time licensing fee may apply. 
+
+If referenced in news articles and online posts, then cite the resource appropriately. For example: "This application/product/tool makes use of the <resource name>, created by <author(s)> at the National Research Council Canada." If possible, hyperlink the resource name to this page. 
+
+If you use the resource in a product or application, then acknowledge this in the 'About' page and other relevant documentation of the application by stating the name of the resource, the authors, and NRC. For example: "This application/product/tool makes use of the <resource name>, created by <author(s)> at the National Research Council Canada." If possible, hyperlink the resource name to this page. 
+
+Do not redistribute the resource/data. Direct interested parties to this page. They can also email the designated contact person. 
+
+If you create a derivative resource from one of the resources listed on this page:  
+
+Please ask users to cite the source data paper (in addition to your paper).  
+
+Do not distribute the source data. See #6 above. 
+
+Examples of derivative resources include: translations into other languages, added annotations to the text instances, aggregations of multiple datasets, etc. 
+
+If you are interested in uploading our resource on a third-party website or to include the resource in any collection/aggregate of datasets, then: 
+
+Email the designated contact person to begin the process to obtain permission. 
+
+After obtaining permission, any curator of datasets that includes a resource listed here must take steps to ensure that users of the aggregate dataset still cite the papers associated with the individual datasets. This includes at minimum: stating this clearly in the README and providing the citing information of the source dataset. 
+
+By default, no one other than the creators of the resource have permission to upload the resource on a third-party website or to include the resource in any collection/aggregate of datasets. 
+
+National Research Council Canada (NRC) disclaims any responsibility for the use of the resource(s) listed on this page and does not provide technical support. However, the contact listed above will be happy to respond to queries and clarifications. 
+
+If you send us an email, we will be thrilled to know about how you have used the resource. 
+
+Last Updated: March 2016

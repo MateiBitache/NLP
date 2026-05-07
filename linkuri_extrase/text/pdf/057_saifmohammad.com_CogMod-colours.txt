@@ -1,0 +1,455 @@
+--- PAGE 1 ---
+Saif Mohammad!
+National Research Council Canada
+Colourful Language: !
+Measuring Word-Colour Associations
+
+
+--- PAGE 2 ---
+Examples of Concrete Concepts!
+white
+iceberg
+vegetation
+green
+2Colourful Language. Saif Mohammad.
+
+
+--- PAGE 3 ---
+Examples of Abstract Concepts!
+danger
+red
+honesty
+white
+3Colourful Language. Saif Mohammad.
+
+--- PAGE 4 ---
+ Introduction and Motivation
+ Related Work
+ Manual Annotation
+◦ Analysis and ﬁndings
+ Manifestation of associations in WordNet and in text
+◦ Automatic methods
+Road Map!
+4Colourful Language. Saif Mohammad.
+
+--- PAGE 5 ---
+Colour is a vital component of:
+◦ information visualization (Christ, 1975; Card et al., 1999)
+◦ product marketing (Sable and Akcay, 2010)
+◦ webpage design (Meier, 1988; Pribadi et al., 1990)
+“Itʼs always good to be able to articulate design choices to your 
+clients; why you put something where, why you chose the color 
+scheme you did, etc. This is one of the biggest differences 
+between a designer and a non-designer.”
+-- Jeff Archibald  
+(founder of Paper Leaf, a graphic- and web-design company)
+Good Design!
+5Colourful Language. Saif Mohammad.
+
+--- PAGE 6 ---
+Source: Paper Leaf
+Colour Choices!
+6Colourful Language. Saif Mohammad.
+
+--- PAGE 7 ---
+Source: Paper Leaf
+Colour Choices!
+7Colourful Language. Saif Mohammad.
+
+--- PAGE 8 ---
+Colours can !
+Complement Linguistic Information!
+ Strengthens the message (improves semantic 
+coherence)
+ Eases cognitive load on the receiver
+ Conveys the message quickly
+ Evokes the desired emotional response
+8Colourful Language. Saif Mohammad.
+
+--- PAGE 9 ---
+Expressions Involving Colour!
+turned green with envy (was envious)
+given the red carpet (given special treatment)
+looking through rose-tinted glasses (being optimistic)
+grey with uncertainty (uncertain) 
+[from Bianca Madisonʼs poem Confusion]
+Concept–colour associations may also help:
+◦ textual entailment
+◦ paraphrasing
+◦ machine translation
+◦ sentiment analysis
+9Colourful Language. Saif Mohammad.
+
+--- PAGE 10 ---
+Related Work!
+ On word-colour associations: 
+ Academic: nothing on a large scale
+ Commercial: Cymbolism
+ On colour, language, and cognition:  
+Brown and Lenneberg, 1954; Ratner, 1989; Bornstein, 1985
+ On age and gender preferences for colour:  
+Child et al. 1968; Ou et al. 2011
+ On emotions evoked by colour:  
+Luscher, 1969; Xin et al., 2004; Kaya, 2004
+10Colourful Language. Saif Mohammad.
+
+--- PAGE 11 ---
+Related Work (continued)!
+ Berlin and Kay, 1969, and later Kay and Mafﬁ (1999)
+ If a language has only two colours: white and black.
+ If a language has three: white, black, red.
+ And so on till eleven colours.
+ Berlin and Kay order:
+1. white, 2. black, 3. red, 4. green, 5. yellow, 6. blue, 
+7. brown, 8. pink, 9. purple, 10. orange, 11. grey
+ We used these eleven colours in our annotations.
+ Hundreds more:  
+http://en.wikipedia.org/wiki/List_of_colors
+11Colourful Language. Saif Mohammad.
+
+--- PAGE 12 ---
+Just 
+the A’s!
+
+--- PAGE 13 ---
+Manual Annotation and Analysis!
+
+--- PAGE 14 ---
+ Annotations:  
+ Amazonʼs Mechanical Turk: 5 annotations per term
+ Target terms:  
+ Macquarie Thesaurus, Google N-gram Corpus 
+ Questionnaire:
+Q1. Which word is closest in meaning to sleep?
+        car        tree        nap        king
+Q2. Which colour is associated with sleep?
+        black     green     purple… 
+                          … (11 colour options in random order)
+ No “not associated with any colour” option.
+Crowdsourcing!
+14Colourful Language. Saif Mohammad.
+
+--- PAGE 15 ---
+Post-processing!
+ Annotations discarded due to Q1:
+◦ about 10%
+ Other discards:
+◦ terms with less than 3 valid annotations
+ Remaining set:
+◦ annotations for 8,813 word-sense pairs
+ Valid annotations per term: 
+◦ 4.45
+15Colourful Language. Saif Mohammad.
+
+--- PAGE 16 ---
+Associations with Colours!
+0
+4
+8
+12
+raw
+0
+5
+10
+15
+20
+25
+voted
+Berlin and Kay order!
+% of annotations!
+% of terms!
+16Colourful Language. Saif Mohammad.
+
+--- PAGE 17 ---
+Agreement!
+34.4
+58.6
+6.5 0.5 0.007
+65
+7
+0.5
+15.1
+52.9
+22.4
+7.3 2.1
+84.9
+32
+9.4
+0
+20
+40
+60
+80
+100
+one two three four ﬁve > one> two> three
+random 
+ observed
+ Majority class:
+1 (maximum disagreement), 2, 3, 4, 5 (maximum agreement)
+ Random annotation and observed percentages of the majority 
+class:
+% of terms!
+17Colourful Language. Saif Mohammad.
+
+--- PAGE 18 ---
+Thesaurus Categories!
+ Sets of closely related words
+ For each category
+◦ determined the colour c most associated with it
+ Strength of color association of a category cat: 
+                     # of words in cat associated with c
+ 33.1% of the Macquarie Thesaurus categories had an 
+association greater than 0.5
+◦ Gold standard category-colour associations!
+= 
+# of words in the cat 
+
+--- PAGE 19 ---
+Imageability and Colour Association !
+Is there a correlation between imageability and tendency  
+to have a colour association?
+ MRC Psycholinguistic Database (Coltheart, 1981) 
+◦ imageability ratings: 9240 words
+◦ scale: 100 (hard to visualize) to 700 (easy to visualize)
+ Imageability of a thesaurus category:
+◦ Average imageability of its constituent words
+
+--- PAGE 20 ---
+Scatter Plot of Thesaurus Categories!
+Pearsonʼs product moment correlation: 0.116
+
+--- PAGE 21 ---
+Do emotion words have a colour 
+association?!
+ Combined the term-colour lexicon with the term-emotion 
+lexicon (Mohammad and Turney, 2010)
+ Determined the colours associated with emotion words.
+% of surprise words associated with different colours!
+0
+10
+20
+30
+
+--- PAGE 22 ---
+% of sadness words associated with different colours!
+0
+10
+20
+30
+40
+% of joy words associated with different colours!
+0
+10
+20
+30
+
+--- PAGE 23 ---
+0
+5
+10
+15
+20
+25
+30
+0
+5
+10
+15
+20
+25
+% of negative words associated with different colours!
+% of positive words associated with different colours!
+23Colourful Language. Saif Mohammad.
+
+--- PAGE 24 ---
+Manifestation of Word–Colour 
+Associations in WordNet and in Text!
+24Colourful Language. Saif Mohammad.
+
+--- PAGE 25 ---
+Colours in WordNet!
+0
+5
+10
+15
+20
+25
+30
+# of senses!
+Are words and their associated colours close to each 
+other in WordNet?
+ darkness: hypernym of black
+ inﬂammation: one hop away from red
+25Colourful Language. Saif Mohammad.
+
+--- PAGE 26 ---
+WordNet-based Automatic Method !
+ Determine colour closest to target terms in WordNet
+ Choose colour closest to most terms in a thesaurus category
+ Compare with gold standard category-colour associations
+0
+10
+20
+30
+40
+random most 
+associated
+Jiang 
+Conrath
+Lin Lesk gloss 
+vector
+Accuracy, in %!
+unsupervised!
+baseline!
+supervised!
+baseline!
+similarity!
+measures!
+relatedness!
+measures!
+26Colourful Language. Saif Mohammad.
+
+--- PAGE 27 ---
+0
+50
+100
+150
+200
+250
+ GNC
+GBC
+Frequency per million words.!
+Rank correlation with Berlin and Kay order:!
+Google N-gram Corpus (GNC): 0.884   Google Books Corpus (GBC): 0.918!
+Do words co-occur with their associated colours more often than 
+any other colour?
+ darkness with black
+ inﬂammation with red
+27Colourful Language. Saif Mohammad.
+
+--- PAGE 28 ---
+Corpus-based Automatic Method !
+ Determine colour that co-occurs most with target terms
+ Conditional probability
+ Choose colour associated most with terms in a 
+thesaurus category
+ Compare with gold standard category-colour 
+associations
+28Colourful Language. Saif Mohammad.
+
+--- PAGE 29 ---
+Results!
+0
+10
+20
+30
+40
+50
+Accuracy, in %!
+ Above baselines, but not by that much.
+ Can polarity help?
+unsupervised!
+baselines!
+supervised!
+baseline!
+WordNet-based!
+methods!
+corpus-based!
+methods!
+29Colourful Language. Saif Mohammad.
+
+--- PAGE 30 ---
+0
+5
+10
+15
+20
+25
+30
+0
+5
+10
+15
+20
+25
+% of negative words associated with different colours!
+% of positive words associated with different colours!
+30Colourful Language. Saif Mohammad.
+
+--- PAGE 31 ---
+Polarity Cues!
+ Updated algorithm:
+ If a term is positive:
+ co-occurrence is used to choose from only the 
+positive colours
+ If a term is negative:
+ co-occurrence is used to choose from only the 
+negative colours
+ Macquarie Semantic Orientation Lexicon (MSOL) 
+(Mohammad et al. 2009):
+ Automatically created
+ 76,400 terms marked as positive or negative
+31Colourful Language. Saif Mohammad.
+
+--- PAGE 32 ---
+Results!
+0
+10
+20
+30
+40
+50
+60
+Accuracy, in %!
+unsupervised!
+baselines!
+supervised!
+baseline!
+WordNet-based!
+methods!
+corpus-based!
+methods!
+with !
+polarity cues!
+32Colourful Language. Saif Mohammad.32Colourful Language. Saif Mohammad.
+
+--- PAGE 33 ---
+Conclusions!
+ Created a large word-colour association lexicon by 
+crowdsourcing
+ More than 32% of the words, and 33% of thesaurus 
+categories had strong colour associations
+ Abstract concepts just as likely to have colour associations
+ Frequencies of associations follow the Berlin and Kay order
+ As do frequencies of colour terms in corpora
+ Automatic methods of association obtain 60% accuracy 
+ Features: co-occurrence and polarity
+ Supervised baseline: 33.3%
+33Colourful Language. Saif Mohammad.
+
+--- PAGE 34 ---
+Ongoing and Future Work!
+ Created a much larger lexicon
+ Source: Roget Thesaurus
+ Size: 24,000 word-sense pairs
+ Improve performance of automatic methods
+ Other features? Image data?
+ Determine performance at word-level
+ Show usefulness in NLP tasks
+ Sentiment analysis
+ Textual entailment
+34Colourful Language. Saif Mohammad.
+
+--- PAGE 35 ---
+Ongoing and Future Work (continued)!
+ Consider theoretical questions
+ What do these analyses tell us about how we think about 
+colour? 
+ What do gender and age differences tell us?  
+(Child et al. 1968, Ou et al. 2011)
+ Release data for users at large
+ Information Visualization groups
+ Graphic- and web-design teams
+ Psychologists
+ Cognitive scientists
+35Colourful Language. Saif Mohammad.

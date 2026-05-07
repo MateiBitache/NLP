@@ -1,0 +1,7 @@
+@inproceedings{worrywords-emnlp2024,
+  title={WorryWords: Norms of Anxiety Association for 44,450 English Words},
+  author={Mohammad, Saif M.},
+    booktitle={Proceedings of The Annual Conference of the Empirical Methods on Natural Language Processing (EMNLP 2024, main)},
+    year={2024},
+    address={Miami, FL}
+}

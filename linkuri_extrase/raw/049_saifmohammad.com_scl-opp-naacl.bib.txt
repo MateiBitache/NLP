@@ -1,0 +1,6 @@
+@inproceedings{kiritchenkoM2016scl-opp,
+  title={Sentiment composition of words with opposing polarities},
+  author={Kiritchenko, Svetlana and Mohammad, Saif M.},
+  booktitle={Proceedings of The 15th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL), San Diego, California},
+  year={2016}
+}

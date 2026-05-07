@@ -1,0 +1,8 @@
+﻿git.exe : Cloning into 'C:\Users\matei\Desktop\NLP Materiale\linkuri_extrase\github_repos\felipebravom__AffectiveTweets
+'...
+At C:\Users\matei\Desktop\NLP Materiale\collect_links.ps1:119 char:9
++         & git clone $cloneUrl $dest 2>&1 | Out-File -Encoding UTF8 -F ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Cloning into 'C...ctiveTweets'...:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

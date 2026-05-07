@@ -1,0 +1,50 @@
+\section{Task and Resources}
+
+\subsection{Task Definition}
+
+Given an input text $x$, the system predicts a score distribution over the set of emotions:
+
+\[
+E = \{\text{anger}, \text{anticipation}, \text{disgust}, \text{fear}, \text{joy}, \text{sadness}, \text{surprise}, \text{trust}\}.
+\]
+
+The output is a vector:
+
+\[
+\mathbf{s}(x) = [s_{\text{anger}}, s_{\text{anticipation}}, \ldots, s_{\text{trust}}],
+\]
+
+where each score is non-negative and the normalized scores sum to 1 for methods that produce positive evidence. The dominant emotion is:
+
+\[
+\hat{y} = \arg\max_{e \in E} s_e(x).
+\]
+
+For practical use, the system returns the full score vector, the dominant emotion, the confidence score $s_{\hat{y}}(x)$, and optional interpretability information.
+
+\subsection{NRC Hashtag Emotion Lexicon}
+
+The primary resource is the NRC Hashtag Emotion Lexicon v0.2. According to its documentation, it contains word associations with eight emotions: anger, fear, anticipation, trust, surprise, sadness, joy, and disgust. The associations were computed from tweets containing emotion-word hashtags such as \texttt{\#happy} or \texttt{\#anger}. Each line has the format:
+
+\begin{quote}
+\texttt{<AffectCategory><tab><term><tab><score>}
+\end{quote}
+
+The score indicates the strength of association between the term and the emotion. The implementation loads the lexicon from the local extracted resources directory:
+
+\begin{quote}
+\small
+\url{../linkuri_extrase/archives/.../NRC-Hashtag-Emotion-Lexicon-v0.2.txt}
+\end{quote}
+
+The code also supports a custom lexicon path through the \texttt{--lexicon} command-line option or the \texttt{EMOTION\_LEXICON\_PATH} environment variable.
+
+\subsection{Evaluation Data}
+
+To provide a complete experimental loop, a small manually constructed dataset was added in:
+
+\begin{quote}
+\texttt{rezolvari/data/final\_eval\_texts.csv}
+\end{quote}
+
+It contains 24 short English texts: three examples for each of the eight emotions. The examples are divided into three domains: social, news, and blog. This dataset is intentionally small and transparent. It is suitable for demonstrating the implementation and comparing methods, but it should not be interpreted as a large benchmark.

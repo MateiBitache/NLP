@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Best-Worst Scaling</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<! Menu code>
+<style>
+body{
+	background: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	margin-left: 12%;
+	margin-right: 12%;
+	text-align: right;
+}#menu_wrap{position:relative;margin-top:20px;margin-left:auto;margin-right:auto;padding:0; padding-right:10px;width:100%;height:40px;list-style-type:none;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;-webkit-box-shadow:0 1px 3px rgba(0,0,0,.2);-moz-box-shadow:0 1px 3px rgba(0,0,0,.2);box-shadow:0 1px 3px rgba(0,0,0,.2)}.button a{cursor:pointer;text-align:center;font:14px/100% Arial, Helvetica, sans-serif;font-weight:bold;position:relative;min-width:50px;height:20px;float:left;padding:10px;padding-top:10px;padding-bottom:10px;text-decoration:none;text-shadow:0 1px 1px rgba(0,0,0,.3)}.button:first-child a{-webkit-border-top-left-radius:0px;-webkit-border-bottom-left-radius:0px;-moz-border-topleft-radius:0px;-moz-border-bottomleft-radius:0px;border-top-left-radius:0;border-bottom-left-radius:0px}.Gray,.Gray .button a{color:#e9e9e9;background: #888888;border-right:solid 1px #575757;background: -moz-linear-gradient(top, #888888 0%, #575757 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#888888), color-stop(100%,#575757));background: -webkit-linear-gradient(top, #888888 0%,#575757 100%);background: -o-linear-gradient(top, #888888 0%,#575757 100%);background: -ms-linear-gradient(top, #888888 0%,#575757 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#575757',GradientType=0 );background: linear-gradient(top, #888888 0%,#575757 100%);}.Gray .button a:hover,.Gray .button a:focus{background: #757575;background: -moz-linear-gradient(top, #757575 0%, #4b4b4b 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#757575), color-stop(100%,#4b4b4b));background: -webkit-linear-gradient(top, #757575 0%,#4b4b4b 100%);background: -o-linear-gradient(top, #757575 0%,#4b4b4b 100%);background: -ms-linear-gradient(top, #757575 0%,#4b4b4b 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', endColorstr='#4b4b4b',GradientType=0 );background: linear-gradient(top, #757575 0%,#4b4b4b 100%);}.Gray .button a:active{color:#afafaf;background: #575757;background: -moz-linear-gradient(top, #575757 0%, #888888 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#575757), color-stop(100%,#888888));background: -webkit-linear-gradient(top, #575757 0%,#888888 100%);background: -o-linear-gradient(top, #575757 0%,#888888 100%);background: -ms-linear-gradient(top, #575757 0%,#888888 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#575757', endColorstr='#888888',GradientType=0 );background: linear-gradient(top, #575757 0%,#888888 100%);}.button:last-child a{float:left;border:none; -webkit-border-top-right-radius:0px;-webkit-border-bottom-right-radius:0px;-moz-border-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+<! End Menu code>
+<script src='/google_analytics_auto.js'></script></head>
+
+<body>
+
+<! Menu code>
+<ul id="menu_wrap" class="Gray">
+  <li class="button"><a href="http://saifmohammad.com">Home</a></li><li class="button"><a href="http://saifmohammad.com/WebPages/meetsaif.htm">About Saif</a></li>
+   <li class="button"><a href="http://saifmohammad.com/WebPages/ResearchAreas.html">Research</a></li>
+  <li class="button"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html">Publications</a></li>
+  <li class="button"><a href="http://saifmohammad.com/WebPages/lexicons.html">Lexicons</a></li>
+<li class="button"><a href="http://saifmohammad.com/WebPages/SentimentEmotionLabeledData.html">Labeled Data</a></li>
+  <li class="button"><a href="http://saifmohammad.com/WebPages/invitedtalks.html">Invited Talks</a></li><li class="button"><a href="http://saifmohammad.com/WebPages/contact.htm">Contact</a></li></ul>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="70%">
+      <p><font color="#990000" size="4"><strong>Best-Worst Scaling aka Maximum Difference Scaling (MaxDiff)</strong></font></p></td>
+    <td width="30%" rowspan="2"><div align="center"></div></td>
+  </tr>
+  <tr>
+    <td><p>&nbsp;</p>
+      <p><strong>Contact: <br>
+        </strong>Saif M. Mohammad (saif.mohammad@nrc-cnrc.gc.ca)<strong><br>
+        </strong></p>
+      <p>
+</p></td>
+  </tr>
+  <tr>
+    <td height="2" colspan="2"><p><br>
+    </p></td>
+  </tr>
+</table>
+
+
+
+
+  
+  <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2"><div title="Page 1">
+        <div>
+          <div>
+        <p style="text-align: justify">Obtaining real-valued  annotations has several challenges. Respondents are faced with a higher cognitive load when asked for real-valued  scores  as opposed to simply classifying terms into pre-chosen discrete classes. Besides, it is difficult for an annotator to remain consistent with his/her annotations. Further, the same  score may map to different sentiment scores in the minds of different annotators. One could overcome these problems by providing annotators with pairs of terms and asking which is stronger in terms of association with the property of interest (a comparative approach); however, that requires a much larger set of annotations (order NxN, where N is the number of instances to be annotated). </p>
+        <div title="Page 2">
+          <div>
+            <div>
+              <p style="text-align: justify">Best&ndash;Worst Scaling (BWS), also sometimes referred to as Maximum Difference Scaling (MaxDiff), is an annotation scheme that exploits the comparative approach to annotation (Louviere and Woodworth, 1990; Cohen, 2003; Louviere et al., 2015). Annotators are given four items (4-tuple) and asked which item is the Best (highest in terms of the property of interest) and which is the Worst (least in terms of the property of interest). These annotations can then be easily converted into real-valued scores of association between the items and the property, which eventually allows for creating a ranked list of items as per their association with the property of interest. </p>
+              <p style="text-align: justify">We show that ranking of terms remains remarkably consistent even when the annotation process is repeated with a different set of annotators (Kiritchenko and Mohammad, 2016, 2017). Go here for details on <a href="bwsVrs.html#SHR">Reliability of the Annotations</a> and <a href="bwsVrs.html">a comparison of BWS with Rating Scales.</a></p>
+              <div title="Page 1">
+                <div>
+                  <div></div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+          </div></div></div><div title="Page 2"><div><div></div>
+          </div>
+      </div></td>
+    </tr>
+    <tr>
+      <td width="65%">&nbsp;</td>
+      <td width="35%">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="2"><p><strong>BWS Datasets:</strong></p>
+        <ul>
+          <li>Affect/Emotion Intensity Labeled Tweets
+            <ul>
+              <li><a href="EmotionIntensity-SharedTask.html">Tweet Emotion Intensity Dataset</a> - used in the WASSA-2017 Shared Task on Emotion Intensity<br>
+              Four datasets of tweets manually annotated for intensity of anger, fear, joy, and sadness, respectively, using best-worst scaling. The annotations are converted into real-valued scores between 0 and 1.                </li>
+              <li><span style="color: #900">Affect in Tweets Dataset</span> - to be used in the SemEval-2018 Task #1: Affect in Tweets<br>
+                Nine datasets of tweets manually annotated for intensity of nine emotions, using best-worst scaling. The annotations are converted into real-valued scores between 0 and 1. A tenth dataset is annotated for valence, arousal, and dominance.<br>
+                <br>
+              </li>
+            </ul>
+          </li>
+          <li>Affect/Emotion Intensity Lexicons
+            <ul>
+              <li><a href="AffectIntensity.htm">NRC Affect Intensity Lexicon</a><br>
+                Provides real-valued affect intensity scores for four basic emotions (anger, fear, sadness, joy). We will be adding entries for four more emotions, as well as, valence, arousal, and dominance, shortly.&nbsp;                <br>
+                <br>
+              </li>
+            </ul>
+          </li>
+          <li>Sentiment Intensity (Valence) and Sentiment Composition Lexicons (both the phrases and their constituent content words are annotated with real-valued scores of sentiment intensity)
+            <ul>
+            <li><span style="font-style: normal; font-weight: 400;"><a href="SCL.html#OPP">Sentiment Composition Lexicon of Opposing Polarity Phrases (SCL-OPP) </a><a href="SCL.html#OPP">aka SemEval-2016 English Twitter Mixed Polarity Lexicon</a> - </span>one of the official test sets in SemEval-2016 Task #7: Determining Sentiment Intensity of English and Arabic Phrases<br>
+            Includes phrases that have at least one positive and at least one negative word&mdash;for example, phrases such as happy accident, best winter break, couldn&rsquo;t stop smiling, and lazy sundays.              </li>
+            <li><span style="font-style: normal; font-weight: 400;"><a href="SCL.html#NMA">Sentiment Composition Lexicon of Negators, Modals, and Adverbs (SCL-NMA)</a></span> <a href="SCL.html#NMA"><span style="font-style: normal; font-weight: 400;"> aka SemEval-2016 General English Sentiment Modifiers Lexicon</span></a> - one of the official tests set in the SemEval-2016 Task #7: Detecting Sentiment Intensity of English and Arabic Phrases<br>
+            Includes phrases that have negators (such as&nbsp;<em>no</em>&nbsp;and&nbsp;<em>cannot</em>), modals (such as&nbsp;<em>would have been</em>&nbsp;and&nbsp;<em>could</em>), degree adverbs (such as&nbsp;<em>quite</em>&nbsp;and&nbsp;<em>less</em>), and their combinations.              </li>
+            <li><a href="SCL.html#ATSL">SemEval-2016 Arabic Twitter Sentiment Lexicon</a> - one of the official test sets in the SemEval-2016  Task #7: Detecting Sentiment Intensity of English and Arabic Phrases<br>
+              Includes terms from Arabic Tweets.            </li>
+            <li><a href="SCL.html#ETSL">SemEval-2015 English Twitter Sentiment Lexicon - </a>official test set in the SemEval-2015  Task #10: Subtask E<br>
+              Includes terms from English Tweets.        <br>
+              <br>
+            </li>
+            </ul>
+          </li>
+          <li>Relational Similarity Dataset
+            <ul>
+              <li><a href="https://sites.google.com/site/semeval2012task2/home">Official training and test data  for SemEval-2012 Task #2: Measuring Degrees of Relational Similarity</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div title="Page 1">
+          <div>
+            <div>
+              <p style="text-align: justify"><strong>Papers:</strong></p>
+              <blockquote>
+                <p><a href="../WebDocs/BWS-naacl2016.pdf">Capturing Reliable Fine-Grained Sentiment Associations by Crowdsourcing  and Best-Worst Scaling.</a> Svetlana Kiritchenko and Saif M. Mohammad. In <em>Proceedings of the</em> <em>15th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. </em>June 2016. San Diego, CA.<br>
+                  <a href="../WebDocs/BWS-naacl2016.pdf">Paper (pdf)</a><a href="WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp;<a href="../WebPages/Abstracts/BWS-naacl16.bib.txt">BibTeX</a>&nbsp;&nbsp;&nbsp; <span style="text-align: left"><a href="../WebDocs/NAACL-2016-best-worst.pdf">Presentation</a></span>&nbsp;&nbsp;&nbsp;</p>
+                <p><a href="../WebDocs/BWS-reliable-ACL2017.pdf">Best-Worst Scaling More Reliable than Rating Scales: A Case Study on Sentiment Intensity Annotation.</a> Kiritchenko, S. and Mohammad, S. In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL-2017)</em>, Vancouver, Canada, 2017.<br>
+                  <a href="../WebDocs/BWS-reliable-ACL2017.pdf">Paper (pdf)</a><a href="WebDocs/semeval-2015-task10.pdf">&nbsp;</a>&nbsp;&nbsp; BibTeX&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../WebDocs/ACL2017-BWS-vs-RS.pdf">Poster&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; All Data&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../WebDocs/bwsvsrs/RSquestionnaire.pdf">Rating Scale Questionnaire</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../WebDocs/bwsvsrs/BWSquestionnaire.pdf">BWS Questionnaire&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                <a href="../WebDocs/bwsvsrs/RS_annotations.csv">Rating Scale Annotations</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../WebDocs/bwsvsrs/RS-scores.txt">Scores Obtained By Rating Scale</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../WebDocs/bwsvsrs/BWS_annotations.csv">BWS Annotations</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../WebDocs/bwsvsrs/BWS-scores.txt">Scores Obtained by BWS</a>&nbsp;</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <p><strong style="color: #930"><a href="../WebDocs/Best-Worst-Scaling-Scripts.zip">Scripts</a></strong> <em>(last updated May, 2017)</em>: Code to assist with best-worst-scaling annotations can be downloaded by clicking <a href="../WebDocs/Best-Worst-Scaling-Scripts.zip">here</a>. It includes a script to produce 4-tuples with desired term distributions, a script to produce real-valued scores from best-worst annotations, as well as a script to calculate <a href="bwsVrs.html#SHR">split-half reliability of the annotations</a>.</p>
+      <p>&nbsp;</p></td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: right">Last updated: July 2017.</td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+</div>
+</body>
+</html>

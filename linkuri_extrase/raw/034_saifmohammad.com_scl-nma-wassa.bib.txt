@@ -1,0 +1,7 @@
+@InProceedings{SCL-NMA,
+  title={The Effect of Negators, Modals, and Degree Adverbs on Sentiment Composition},
+  author={Kiritchenko, Svetlana and Mohammad, Saif M.},
+    booktitle={Proceedings of the Workshop on Computational Approaches to
+Subjectivity, Sentiment and Social Media Analysis (WASSA)},
+    year={2016},
+}

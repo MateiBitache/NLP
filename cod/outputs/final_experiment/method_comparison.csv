@@ -1,0 +1,4 @@
+method,accuracy,macro_f1,total
+lexicon,0.9167,0.9187,24
+nb,0.7917,0.778,24
+hybrid,0.875,0.8708,24

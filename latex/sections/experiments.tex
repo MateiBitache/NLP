@@ -1,0 +1,41 @@
+\section{Experimental Setup}
+
+\subsection{Compared Methods}
+
+The experiment compares three methods:
+
+\begin{enumerate}
+    \item \textbf{Lexicon}: the weighted NRC Hashtag Emotion Lexicon scorer.
+    \item \textbf{NB}: the weakly supervised Naive Bayes model trained from lexicon entries.
+    \item \textbf{Hybrid}: score-level combination of lexicon and Naive Bayes scores.
+\end{enumerate}
+
+The same preprocessing pipeline and emotion label set are used across all methods.
+
+\subsection{Dataset}
+
+The evaluation dataset contains 24 labeled texts. It is balanced across the eight emotion labels, with three examples per emotion. It also includes a \texttt{domain} column with three values: \texttt{social}, \texttt{news}, and \texttt{blog}. Each domain contains 8 examples.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lrl}
+\toprule
+\textbf{Property} & \textbf{Value} & \textbf{Description} \\
+\midrule
+Rows & 24 & total examples \\
+Emotion labels & 8 & anger, anticipation, disgust, fear, joy, sadness, surprise, trust \\
+Examples per emotion & 3 & balanced label distribution \\
+Domains & 3 & social, news, blog \\
+Examples per domain & 8 & balanced domain distribution \\
+\bottomrule
+\end{tabular}
+\caption{Evaluation dataset summary.}
+\label{tab:dataset}
+\end{table}
+
+\subsection{Metrics}
+
+The main metrics are accuracy and macro-F1. Accuracy measures the fraction of examples where the predicted dominant emotion matches the gold label. Macro-F1 is the average of the F1 scores computed independently for each emotion. Macro-F1 is useful for multi-class emotion analysis because it treats all emotions equally.
+
+The experiment also writes confusion matrices and per-domain metrics to support qualitative analysis.

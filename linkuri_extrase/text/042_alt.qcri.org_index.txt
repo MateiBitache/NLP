@@ -1,0 +1,131 @@
+﻿Determining Sentiment Intensity of English and Arabic Phrases < SemEval-2016 Task 7 
+
+Home 
+
+ Important Dates 
+
+ Data and Tools 
+
+SemEval-2016 Task 7 
+
+Determining Sentiment Intensity of English and Arabic Phrases 
+
+The objective of the task is to test an automatic system’s ability to predict a sentiment intensity (aka evaluativeness and sentiment association) score for a word or a phrase. Phrases include negators, modals, intensifiers, and diminishers ­-- categories known to be challenging for sentiment analysis. Specifically, the participants will be given a list of terms (single words and multi­word phrases) and be asked to provide a score between 0 and 1 that is indicative of the term’s strength of association with positive sentiment. A score of 1 indicates maximum association with positive sentiment (or least association with negative sentiment) and a score of 0 indicates least association with positive sentiment (or maximum association with negative sentiment). If a term is more positive than another, then it should have a higher score than the other.  
+
+We introduced this task as part of the SemEval­-2015 Task 10 Sentiment Analysis in Twitter, Subtask E (Rosenthal et al., 2015), where the target terms were taken from Twitter. In SemEval­-2016, we broaden the scope of the task and include three different domains: general English, English Twitter, and Arabic Twitter. The Twitter domain differs significantly from the general English domain; it includes hashtags, that are often a composition of several words (e.g., #f​eelingood)​, misspellings, shortings, slang, etc.  
+
+Subtasks 
+
+We will have three subtasks, one for each of the three domains: 
+
+General English Sentiment Modifiers Set: This test set has phrases formed by combining a word and a modifier, where a modifier is a negator, an auxilary verb, a degree adverb, or a combination of those.  For example, 'would be very easy', 'did not harm', and 'would have been nice'. (See development data  for more examples.) The test set also includes single word terms (as separate entries). These terms are chosen from the set of words that are part of the multi-word phrases.  For example, 'easy', 'harm', and 'nice'. The terms in the test set will have the same form as the terms in the development set, but can involve different words and modifiers.
+
+English Twitter Mixed Polarity Set: This test set focuses on phrases made up of opposite polarity terms. For example, phrases such as 'lazy sundays', 'best winter break', 'happy accident', and 'couldn't stop smiling'. Observe that 'lazy' is associated with negative sentiment whereas 'sundays' is associated with positive sentiment. Automatic systems have to determine the degree of association of the whole phrase with positive sentiment. The test set also includes single word terms (as separate entries). These terms are chosen from the set of words that are part of the multi-word phrases. For example, terms such as 'lazy', 'sundays', 'best', 'winter', and so on. This allows the evaluation to determine how good the automatic systems are at determining sentiment association of individual words as well as how good they are at determining sentiment of phrases formed by their combinations. The multi-word phrases and single-word terms are drawn from a corpus of tweets, and may include a small number of hashtag words and creatively spelled words. However, a majority of the terms are those that one would use in everyday English.
+
+Arabic Twitter Set: This test set includes single words and phrases commonly found in Arabic tweets. The phrases in this set are formed only by combining a negator and a word. See  development data  for examples. 
+
+In each subtask the target terms are chosen from the corresponding domain. We will provide a development set  and a test set for each domain. No separate training data will be provided. The development sets will be large enough to be used for tuning or even for training. The test sets and the development sets will have no terms in common. The participants are free to use any additional manually or automatically generated resources; however, we will require that all resources be clearly identified in the submission files and in the system description paper. 
+
+All of these terms will be manually annotated to obtain their strength of association scores. We will use CrowdFlower to crowdsource the annotations. We use the MaxDiff method of annotation. Kiritchenko et al. (2014) showed that even though annotators might disagree about answers to individual questions, the aggregated scores produced with MaxDiff and the corresponding term ranking are consistent. We verified this by randomly selecting ten groups of five answers to each question and comparing the scores and rankings obtained from these groups of annotations. On average, the scores of the terms from the data we have previously annotated (SemEval­-2015 Subtask E Twitter data and SemEval­-2016 general English terms) differed only by 0.02-­0.04 per term, and the Spearman rank correlation coefficient between two sets of rankings was 0.97-0.98. 
+
+Evaluation 
+
+The participants can submit results for any one, two, or all three subtasks. We will provide separate test files for each subtask. The test file will contain a list of terms from the corresponding domain. The participating systems are expected to assign a sentiment intensity score to each term. The order of the terms in the submissions can be arbitrary. 
+
+System ratings for terms in each subtask will be evaluated by first ranking the terms according to sentiment score and then comparing this ranked list to a ranked list obtained from human annotations. Kendall's Tau (Kendall, 1938) will be used as the metric to compare the ranked lists. We will provide scores for Spearman's Rank Correlation as well, but participating teams will be ranked by Kendall's Tau. 
+
+We have released an evaluation script so that participants can: 
+
+make sure their output is in the right format; 
+
+track the progress of their system's performance on the development data. 
+
+Each team can make no more than one submission per subtask. Within a week or two of the end of evaluation period, we will release the gold data. This will allow participants to test outputs from alternative versions of your system. In the system description paper that you will eventually write, we encouraged participants to make comparisons with alternative runs. (If describing multiple runs, participants must clearly mark in the paper which run was submitted to the competition.) 
+
+Note that your team's submissions to Task 7 do not limit the number of submissions your team can make to other  SemEval tasks. 
+
+EVALUATION PERIOD 
+
+Task 7 (all three subtasks) will have the following evaluation period: Jan 11th (Mon) to Jan 18 (Mon). That is, test data all be released by 12:00AM Pacific Standard Time (GMT-8) Jan 11, and only submissions made by 11:59PM Pacific Standard Time (GMT-8) Jan 18th will be accepted for evaluation. 
+
+Background and Motivation 
+
+Many of the top performing sentiment analysis systems in recent SemEval competitions (2013 Task 2, 2014 Task 4, and 2014 Task 9) rely on automatically generated sentiment lexicons. Sentiment lexicons are lists of words (and phrases) with prior associations to positive and negative sentiments. Some lexicons can additionally provide a sentiment score for a term to indicate its strength of evaluative intensity. Higher scores indicate greater intensity. Existing manually created sentiment lexicons tend to only have discrete labels for terms (positive, negative, neutral) but no real-­valued scores indicating the intensity of sentiment. Here for the first time we manually create a dataset of words with real-­valued scores of intensity. The goal of this task is to evaluate automatic methods for determining sentiment scores of words and phrases. Many of the phrases in the test set will include negators (such as n​o ​and d​oesn’t )​, modals (such as c​ould and m​ay be )​, and intensifiers and diminishers (such as v​ery and s​lightly )​. This task will enable researchers to examine methods for estimating how each of these word categories impact intensity of sentiment. 
+
+Other Related Shared Tasks 
+
+WASSA-2017 Shared Task on Emotion Intensity (EmoInt) 
+
+SemEval-2018 Task 1: Detecting Affect Intensities in Tweets 
+
+References 
+
+Almquist, E., and Lee, J. 2009. What do customers really want? Harvard Business Review. 
+
+Esuli, A., and Sebastiani, F. 2006. SENTIWORDNET: A publicly available lexical resource for opinion mining. In Proceedings of the 5th Conference on Language Resources and Evaluation (LREC­2006), pp. 417­-422. 
+
+Hatzivassiloglou, V., and McKeown, K. R. 1997. Predicting the semantic orientation of adjectives. In Proceedings of the 8th Conference of European Chapter of the Association for Computational Linguistics (EACL­1997), pp. 174-­181, Madrid, Spain. 
+
+Hu, M., and Liu, B. 2004. Mining and summarizing customer reviews. In Proceedings of the 10th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD­2004), pp. 168­-177, New York, NY, USA. ACM. 
+
+Jurgens, D., Mohammad, S. M., Turney, P., and Holyoak, K. 2012. Semeval­-2012 Task 2: Measuring degrees of relational similarity. In Proceedings of the 6th International￼￼ ￼Workshop on Semantic Evaluation (SemEval­-2012), pp. 356-­364, Montreal, Canada. 
+
+Kendall, M. 1938. A New Measure of Rank Correlation. Biometrika 30 (1–2): 81–89. 
+
+Kiritchenko, S., Zhu, X., and Mohammad, S. 2014. Sentiment Analysis of Short Informal Texts. Journal of Artificial Intelligence Research, vol. 50, pages 723-­762. 
+
+Louviere, J. 1991. Best­worst scaling: A model for the largest difference judgments. Working Paper. 
+
+Mohammad, S. M., Dunne, C., & Dorr, B. 2009. Generating high­coverage semantic orientation lexicons from overtly marked words and a thesaurus. In Proceedings of the Conference on Empirical Methods in Natural Language Processing: Volume 2 (EMNLP­-2009), pp. 599-­608. 
+
+Mohammad, S., Kiritchenko, S., and Zhu, X. 2013. NRC­-Canada: Building the State­-of-­the-­Art in Sentiment Analysis of Tweets. In Proceedings of the 7th International Workshop on Semantic Evaluation Exercises (SemEval-­2013). 
+
+Mohammad, S., and Turney, P. 2010. Emotions evoked by common words and phrases: Using Mechanical Turk to create an emotion lexicon. In Proceedings of the NAACL-­HLT Workshop on Computational Approaches to Analysis and Generation of Emotion in Text, LA, California. 
+
+Nakov, P., Kozareva, Z., Ritter, A., Rosenthal, S., Stoyanov, V., and Wilson, T. 2013. Semeval­-2013 Task 2: Sentiment Analysis in Twitter. In Proceedings of the 7th International Workshop on Semantic Evaluation (SemEval­-2013). 
+
+Orme, B. 2009. MaxDiff analysis: Simple counting, individual­level logit, and HB. Sawtooth Software, Inc. 
+
+Rosenthal, S., Nakov, P., Kiritchenko, S., Mohammad, S., Ritter, A., and Stoyanov, V. 2015. SemEval­-2015 Task 10: Sentiment Analysis in Twitter. In Proceedings of the 9th International Workshop on Semantic Evaluation (SemEval-­2015). 
+
+Rosenthal, S., Nakov, P, Ritter, A, and Stoyanov, V. 2014. SemEval-­2014 Task 9: Sentiment Analysis in Twitter. In Proceedings of the 8th International Workshop on Semantic Evaluation (SemEval­-2014), Dublin, Ireland. 
+
+Stone, P., Dunphy, D. C., Smith, M. S., Ogilvie, D. M., & associates. 1966. The General Inquirer: A Computer Approach to Content Analysis. The MIT Press. 
+
+Tang, D., Wei, F., Qin, B., Zhou, M., and Liu, T. 2014. Building Large­-Scale Twitter-­Specific Sentiment Lexicon: A Representation Learning Approach. In Proceedings of the 25th International Conference on Computational Linguistics (COLING­-2014), pages 172–182. 
+
+Turney, P., and Littman, M. L. 2003. Measuring praise and criticism: Inference of semantic orientation from association. ACM Transactions on Information Systems, 21 (4). 
+
+Wilson, T., Wiebe, J., and Hoffmann, P. 2005. Recognizing contextual polarity in phrase-­level sentiment analysis. In Proceedings of the Conference on Human Language Technology and Empirical Methods in Natural Language Processing (HLT-­2005), pp. 347-­354, Stroudsburg, PA, USA. 
+
+Contact Info 
+
+Organizers 
+
+Svetlana Kiritchenko
+National Research Council Canada 
+
+Saif M Mohammad
+National Research Council Canada 
+
+Mohammad Salameh
+University of Alberta 
+
+email: SemEval-SentimentIntensity
+@googlegroups.com 
+
+Other Info 
+
+Announcements 
+
+Results have been announced. 
+
+Test data has been released. 
+
+ Task 7 (all three subtasks) will have the following evaluation period: Jan 11th (Mon) to Jan 18 (Mon). 
+ 
+ Trial data have been released for all three domains. 
+
+Copyright 2026 - SemEval-2016 Task 7. All Right Reserved
+
+Designed by BhMad Studio  |  Powered by GetSimple

@@ -1,0 +1,7 @@
+@inproceedings{LREC18-AIL,
+    author = {Mohammad, Saif M.},
+    title = {Word Affect Intensities},
+    booktitle = {Proceedings of the 11th Edition of the Language Resources and Evaluation Conference (LREC-2018)},
+    year = {2018},
+    address={Miyazaki, Japan}
+}

@@ -1,0 +1,162 @@
+Saif | VAD Lexicon 
+
+Home 
+
+Research 
+ 
+ Publications 
+ 
+ Lexicons 
+
+ Labeled Data 
+ 
+ Invited Talks 
+ Contact 
+
+The NRC Valence, Arousal, and Dominance (NRC-VAD) Lexicon 
+ 
+Contact: Saif M. Mohammad (saif.mohammad@nrc-cnrc.gc.ca)
+
+ Copyright (C) 2011 National Research Council Canada (NRC) 
+
+Version : 2.1
+
+ Released : March 2025
+
+ Created By : Dr. Saif M. Mohammad
+
+ Home Page : http://saifmohammad.com/WebPages/nrc-vad.html
+
+ Download v2.1 of the the NRC Valence, Arousal, and Dominance Lexicon (Non-Commercial Use Only -- Research or Educational) 
+ 
+ Readme Last Updated : March 2025 
+ 
+ Version : 1
+
+ Released : July 2018
+
+ Created By : Dr. Saif M. Mohammad
+
+ Home Page : http://saifmohammad.com/WebPages/nrc-vad.html
+
+ Download v1 of the the NRC Valence, Arousal, and Dominance Lexicon (Non-Commercial Use Only -- Research or Educational) 
+ 
+ Readme Last Updated : August 2022
+
+ Automatic translations from English to 108 languages was last updated : August 2022 
+ 
+ Contact: Dr. Saif M. Mohammad (Principal Research Scientist, National Research Council Canada)
+
+ saif.mohammad@nrc-cnrc.gc.ca, uvgotsaif@gmail.com 
+
+See terms of use at the bottom of the page.
+
+ See the Emotion Lexicons: Ethics and Data Statement before using the lexicon.
+
+You may also be interested in these companion lexicons: NRC Emotion Lexicon and NRC Emotion Intensity Lexicon.  The full list of word-emotion, word-sentiment, and word-colour lexicons is available in the Lexicons page ) 
+ 
+See video describing the work .
+
+Papers 
+
+NRC VAD Lexicon v2: Norms for Valence, Arousal, and Dominance for over 55k English Terms. Saif M. Mohammad.
+ In arxiv preprint arXiv:2503.23547. 2025.
+
+ Paper (pdf)      BibTeX 
+ 
+ Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words. Saif M. Mohammad.
+ In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics, Melbourne, Australia, July 2018.
+
+ Paper (pdf)      BibTeX       Interactive Visualization        Key Ideas        Presentation      Video      Poster 
+ 
+ This study was approved by the NRC Research Ethics Board (NRC-REB) under protocol number 2017-98. REB review seeks to ensure that research projects involving humans as participants meet Canadian standards of ethics. 
+
+Practical and Ethical Considerations 
+
+Please see the papers below for ethical considerations involved in automatic emotion detection and the use of emotion lexicons. (These also acts as the Ethics and Data Statements for the lexicon.) 
+
+Ethics Sheet for Automatic Emotion Recognition and Sentiment Analysis . Computational Linguistics .  June 2022. 
+
+ Paper (pdf)    BibTeX     Slides 
+
+Best Practices in the Creation and Use of Emotion Lexicons. 
+
+Saif M. Mohammad. Findings of the Association for Computational Linguistics: EACL 2023. Dubrovnik, Croatia. 2023.
+
+ Paper (pdf)     BibTex 
+
+Python Code to Analyze Emotions in Text 
+
+There are many third party software packages that can be used in conjunction with the NRC Emotion Lexicon to analyze emotion word use in text. We recommend Emotion Dynamics . 
+ 
+It is the primary package that we use to analyze text using the NRC Emotion Lexicon and the NRC VAD Lexicon. It can be used to generate a csv file with a number of emotion features pertaining to the text of interest, including metrics of utterance emotion dynamics. 
+
+Summary
+
+Words play a central role in language and thought. Several influential factor analysis studies have shown that the primary dimensions of word meaning are valence, arousal, and dominance (VAD) (Osgood et al., 1957; Russell, 1980, 2003). 
+
+valence is the positive--negative or pleasure--displeasure dimension; 
+ 
+arousal is the excited--calm or active--passive dimension; and 
+ 
+dominance is the powerful--weak or 'have full control'--'have no control' dimension. 
+
+The NRC Valence, Arousal, and Dominance (VAD) Lexicon includes a list of more than 20,000 English words and their valence, arousal, and dominance scores. For a given word and a dimension (V/A/D), the scores range from 0 (lowest V/A/D) to 1 (highest V/A/D). The lexicon with its fine-grained real-valued scores was created by manual annotation using Best--Worst Scaling . The lexicon is markedly larger than any of the existing VAD lexicons. We also show that the ratings obtained are substantially more reliable than those in existing lexicons. (See associated paper for details.) 
+
+NRC-VAD Lexicon in Various Languages 
+ 
+The NRC VAD Lexicon has affect annotations for English words. Despite some cultural differences, it has been shown that a majority of affective norms are stable acrosslanguages. Thus, we provide versions of the lexicon in over 100 languages by translating the English terms using Google Translate (August 2022). 
+ 
+The lexicon is thus available for English and these languages: 
+ 
+Afrikaans, Albanian, Amharic, Arabic, Armenian, Azerbaijani, Basque, Belarusian, Bengali, Bosnian, Bulgarian, Burmese, Catalan, Cebuano, Chichewa, Corsican, Croatian, Czech, Danish, Dutch, Esperanto, Estonian, Filipino, Finnish, French, Frisian, Gaelic, Galician, Georgian, German, Greek, Gujarati, HaitianCreole, Hausa, Hawaiian, Hebrew, Hindi, Hmong, Hungarian, Icelandic, Igbo, Indonesian, Irish, Italian, Japanese, Javanese, Kannada, Kazakh, Khmer, Kinyarwanda, Korean, Kurmanji, Kyrgyz, Lao, Latin, Latvian, Lithuanian, Luxembourgish, Macedonian, Malagasy, Malay, Malayalam, Maltese, Maori, Marathi, Mongolian, Nepali, Norwegian, Odia, Pashto, Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Samoan, Sanskrit, Serbian, Sesotho, Shona, Simplified, Sindhi, Sinhala, Slovak, Slovenian, Somali, Spanish, Sundanese, Swahili, Swedish, Tajik, Tamil, Tatar, Telugu, Thai, Traditional, Turkish, Turkmen, Ukranian, Urdu, Uyghur, Uzbek, Vietnamese, Welsh, Xhosa, Yiddish, Yoruba, Zulu 
+ 
+Note that an earlier version included translations obtained in 2018. The current 2022 translations are markedly better. That said, some of the translations may still be incorrect or they may simply be transliterations of the original English terms. 
+ 
+Applications 
+ 
+The NRC VAD Lexicon has a broad range of applications in Computational Lingustics, Psychology, Digital Humanities, Computational Social Sciences, and beyond. Notably it can be used to: 
+
+study how people use words to convey emotions. 
+ 
+study how emotions are conveyed through literature, stories, and characters. 
+ 
+obtain features for machine learning systems in sentiment, emotion, and other affect-related tasks and to create emotion-aware word embeddings and emotion-aware sentence representations. 
+ 
+evaluate automatic methods of determining V, A, and D (using NRC VAD entries as gold/reference scores). 
+ 
+study the interplay between the basic emotion model and the VAD model of emotions (Mohammad, 2018: LREC paper). 
+ 
+study the role of high VAD words in high emotion intensity sentences, tweets, snippets from literature. 
+
+An Interactive Visualization of the NRC VAD Lexicon 
+
+Key Ideas 
+
+Some slides about this work are shown below. You can also acess the full presentation by clicking here . 
+
+Terms of Use 
+
+Research Use: The lexicon mentioned in this page can be used freely for non-commercial research and educational purposes.
+
+Citation: Cite the papers associated with the lexicon in your research papers and articles that make use of them. 
+
+Media Mentions: In news articles and online posts on work using the lexicon, cite the lexicon. For example: "We make use of the <resource name>, created by <author(s)> at the National Research Council Canada." We would appreciate a hyperlink to the lexicon home page and an email to the contact author (saif.mohammad@nrc-cnrc.gc.ca). (Authors and homepage information provided at the top of the README.)
+
+Credit: If you use the lexicon in a product or application, then acknowledge this in the 'About' page and other relevant documentation of the application by stating the name of the resource, the authors, and NRC. For example: "This application/product/tool makes use of the <resource name>, created by <author(s)> at the National Research Council Canada." We would appreciate a hyperlink to the lexicon home page and an email to the contact author (saif.mohammad@nrc-cnrc.gc.ca).
+
+No Redistribution: Do not redistribute the data. Direct interested parties to the lexicon home page. You may not rent or license the use of the lexicon nor otherwise permit third parties to use it. 
+
+Proprietary Notice: You will ensure that any copyright notices, trademarks or other proprietary right notices placed by NRC on the lexicon remains in evidence.
+
+Title: All intellectual property rights in and to the lexicon shall remain the property of NRC. All proprietary interests, rights, unencumbered titles, copyrights, or other Intellectual Property Rights in the lexicon and all copies thereof remain at all times with NRC.
+
+Commercial License: If interested in commercial use of the lexicon, contact the author: saif.mohammad@nrc-cnrc.gc.ca
+
+Disclaimer: National Research Council Canada (NRC) disclaims any responsibility for the use of the lexicon and does not provide technical support. NRC makes no representation and gives no warranty of any kind with respect to the accuracy, usefulness, novelty, validity, scope, or completeness of the lexicon and expressly disclaims any implied warranty of merchantability or fitness for a particular purpose of the lexicon. That said, the contact listed above welcomes queries and clarifications.
+
+Limitation of Liability: You will not make claims of any kind whatsoever upon or against NRC or the creators of the lexicon, either on your own account or on behalf of any third party, arising directly or indirectly out of your use of the lexicon. In no event will NRC or the creators be liable on any theory of liability, whether in an action of contract or strict liability (including negligence or otherwise), for any losses or damages incurred by you, whether direct, indirect, incidental, special, exemplary or
+
+ consequential, including lost or anticipated profits, savings, interruption to business, loss of business opportunities, loss of business information, the cost of recovering such lost information, the cost of substitute intellectual property or any other pecuniary loss arising from the use of, or the inability to use, the lexicon regardless of whether you have advised NRC or NRC has advised you of the possibility of such damages. 
+
+Poster (click to download the pdf)

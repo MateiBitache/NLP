@@ -1,0 +1,7 @@
+@inproceedings{vad-acl2018,
+  title={Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words},
+  author={Mohammad, Saif M.},
+    booktitle={Proceedings of The Annual Conference of the Association for Computational Linguistics (ACL)},
+    year={2018},
+    address={Melbourne, Australia}
+}

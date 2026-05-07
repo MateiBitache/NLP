@@ -1,0 +1,177 @@
+Even the Abstract have Color: Consensus in Word-Colour Associations - ACL Anthology 
+ 
+ ACL Anthology 
+
+News (current) 
+ FAQ (current) 
+ Corrections (current) 
+ Submissions (current) 
+ GitHub 
+
+E ven the Abstract have Color: Consensus in Word-Colour Associations 
+ Saif Mohammad 
+
+Correct Metadata for 
+ 
+Use this form to create a GitHub issue with structured data describing the correction. You will need a GitHub account.
+Once you create that issue, the correction will be reviewed by a staff member. 
+⚠️ Mobile Users: Submitting this form to create a new issue will only work with github.com, not the GitHub Mobile app. 
+ Important : The Anthology treat PDFs as authoritative. Please use this form only to correct data
+that is out of line with the PDF. See our corrections
+guidelines if you need to change the PDF. 
+ Title 
+ Adjust the title. Retain tags such as
+<fixed-case>. 
+ Authors 
+ Adjust author names and order to match the
+PDF. 
+ Add Author 
+ Abstract 
+ Correct abstract if needed. Retain XML formatting tags such as <tex-math>. You may use <b>...</b> for bold , <i>...</i> for italic , and <url>...</url> for URLs. 
+ 
+ Verification against PDF 
+ Ensure that the new title/authors match the snapshot below. (If there
+is no snapshot or it is too small, consult the PDF .) 
+ Authors concatenated from the text boxes above: 
+
+ALL author names match the snapshot above—including
+middle initials, hyphens, and accents. Create GitHub issue for staff review 
+
+ Anthology ID: P11-2064 Volume: Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies Month: June Year: 2011 Address: Portland, Oregon, USA Editors: Dekang Lin ,
+ Yuji Matsumoto ,
+ Rada Mihalcea Venue: ACL SIG: Publisher: Association for Computational Linguistics Note: Pages: 368–373 Language: URL: https://aclanthology.org/P11-2064/ DOI: Bibkey: mohammad-2011-even Cite (ACL): Saif Mohammad. 2011. Even the Abstract have Color: Consensus in Word-Colour Associations . In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies , pages 368–373, Portland, Oregon, USA. Association for Computational Linguistics. Cite (Informal): Even the Abstract have Color: Consensus in Word-Colour Associations (Mohammad, ACL 2011) Copy Citation: BibTeX 
+ Markdown 
+ MODS XML 
+ Endnote 
+ More
+options… PDF: https://aclanthology.org/P11-2064.pdf 
+ PDF 
+ Cite 
+ Search 
+ 
+ Fix data 
+
+Export citation 
+
+BibTeX 
+ MODS XML 
+ Endnote 
+ Preformatted 
+
+ @inproceedings{mohammad-2011-even,
+ title = "{E}ven the Abstract have Color: Consensus in Word-Colour Associations",
+ author = "Mohammad, Saif",
+ editor = "Lin, Dekang and
+ Matsumoto, Yuji and
+ Mihalcea, Rada",
+ booktitle = "Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies",
+ month = jun,
+ year = "2011",
+ address = "Portland, Oregon, USA",
+ publisher = "Association for Computational Linguistics",
+ url = "https://aclanthology.org/P11-2064/",
+ pages = "368--373"
+} 
+ Download as
+File 
+ Copy to Clipboard 
+ <?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="mohammad-2011-even">
+ <titleInfo>
+ <title>Even the Abstract have Color: Consensus in Word-Colour Associations</title>
+ </titleInfo>
+ <name type="personal">
+ <namePart type="given">Saif</namePart>
+ <namePart type="family">Mohammad</namePart>
+ <role>
+ <roleTerm authority="marcrelator" type="text">author</roleTerm>
+ </role>
+ </name>
+ <originInfo>
+ <dateIssued>2011-06</dateIssued>
+ </originInfo>
+ <typeOfResource>text</typeOfResource>
+ <relatedItem type="host">
+ <titleInfo>
+ <title>Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies</title>
+ </titleInfo>
+ <name type="personal">
+ <namePart type="given">Dekang</namePart>
+ <namePart type="family">Lin</namePart>
+ <role>
+ <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+ </role>
+ </name>
+ <name type="personal">
+ <namePart type="given">Yuji</namePart>
+ <namePart type="family">Matsumoto</namePart>
+ <role>
+ <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+ </role>
+ </name>
+ <name type="personal">
+ <namePart type="given">Rada</namePart>
+ <namePart type="family">Mihalcea</namePart>
+ <role>
+ <roleTerm authority="marcrelator" type="text">editor</roleTerm>
+ </role>
+ </name>
+ <originInfo>
+ <publisher>Association for Computational Linguistics</publisher>
+ <place>
+ <placeTerm type="text">Portland, Oregon, USA</placeTerm>
+ </place>
+ </originInfo>
+ <genre authority="marcgt">conference publication</genre>
+ </relatedItem>
+ <identifier type="citekey">mohammad-2011-even</identifier>
+ <location>
+ <url>https://aclanthology.org/P11-2064/</url>
+ </location>
+ <part>
+ <date>2011-06</date>
+ <extent unit="page">
+ <start>368</start>
+ <end>373</end>
+ </extent>
+ </part>
+</mods>
+</modsCollection>
+ 
+ Download as
+File 
+ Copy to Clipboard 
+ %0 Conference Proceedings
+%T Even the Abstract have Color: Consensus in Word-Colour Associations
+%A Mohammad, Saif
+%Y Lin, Dekang
+%Y Matsumoto, Yuji
+%Y Mihalcea, Rada
+%S Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies
+%D 2011
+%8 June
+%I Association for Computational Linguistics
+%C Portland, Oregon, USA
+%F mohammad-2011-even
+%U https://aclanthology.org/P11-2064/
+%P 368-373 
+ Download as
+File 
+ Copy to Clipboard 
+
+Markdown (Informal) 
+[Even the Abstract have Color: Consensus in Word-Colour Associations](https://aclanthology.org/P11-2064/) (Mohammad, ACL 2011) 
+
+ Even the Abstract have Color: Consensus in Word-Colour Associations (Mohammad, ACL 2011) 
+ACL 
+
+Saif Mohammad. 2011. Even the Abstract have Color: Consensus in Word-Colour Associations . In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies , pages 368–373, Portland, Oregon, USA. Association for Computational Linguistics. 
+ Copy Markdown to
+Clipboard 
+ Copy ACL to
+Clipboard 
+
+ACL materials are Copyright © 1963–2026 ACL; other materials are copyrighted by their respective copyright holders. Materials prior to 2016 here are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 International License . Permission is granted to make copies for the purposes of teaching and research. Materials published in or after 2016 are licensed on a Creative Commons Attribution 4.0 International License . 
+The ACL Anthology is managed and built by the ACL Anthology team of volunteers. 
+ Site last built on 06 May 2026 at 21:18 UTC with commit 6035f01 .

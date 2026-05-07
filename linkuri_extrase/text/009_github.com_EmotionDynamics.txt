@@ -1,0 +1,576 @@
+﻿GitHub - Priya22/EmotionDynamics: Repository for the LREC 2022 submission on Emotion Word Dynamics in Geolocated Tweet data. Â· GitHub 
+
+Skip to content 
+
+Navigation Menu 
+
+Toggle navigation 
+
+Sign in
+
+Appearance settings 
+
+Platform 
+
+AI CODE CREATION 
+
+GitHub Copilot Write better code with AI 
+ 
+ GitHub Spark Build and deploy intelligent apps 
+ 
+ GitHub Models Manage and compare prompts 
+ 
+ MCP Registry New Integrate external tools 
+
+ DEVELOPER WORKFLOWS 
+
+Actions Automate any workflow 
+ 
+ Codespaces Instant dev environments 
+ 
+ Issues Plan and track work 
+ 
+ Code Review Manage code changes 
+
+ APPLICATION SECURITY 
+
+GitHub Advanced Security Find and fix vulnerabilities 
+ 
+ Code security Secure your code as you build 
+ 
+ Secret protection Stop leaks before they start 
+
+ EXPLORE 
+
+ Why GitHub 
+ Documentation 
+ Blog 
+ Changelog 
+ Marketplace 
+ View all features 
+
+ Solutions 
+
+BY COMPANY SIZE 
+
+ Enterprises 
+ Small and medium teams 
+ Startups 
+ Nonprofits 
+
+ BY USE CASE 
+
+ App Modernization 
+ DevSecOps 
+ DevOps 
+ CI/CD 
+ View all use cases 
+
+ BY INDUSTRY 
+
+ Healthcare 
+ Financial services 
+ Manufacturing 
+ Government 
+ View all industries 
+ View all solutions 
+
+ Resources 
+
+EXPLORE BY TOPIC 
+
+ AI 
+ Software Development 
+ DevOps 
+ Security 
+ View all topics 
+
+ EXPLORE BY TYPE 
+
+ Customer stories 
+ Events & webinars 
+ Ebooks & reports 
+ Business insights 
+ GitHub Skills 
+
+ SUPPORT & SERVICES 
+
+ Documentation 
+ Customer support 
+ Community forum 
+ Trust center 
+ Partners 
+ View all resources 
+
+ Open Source 
+
+COMMUNITY 
+
+GitHub Sponsors Fund open source developers 
+
+ PROGRAMS 
+
+ Security Lab 
+ Maintainer Community 
+ Accelerator 
+ GitHub Stars 
+ Archive Program 
+
+ REPOSITORIES 
+
+ Topics 
+ Trending 
+ Collections 
+
+ Enterprise 
+
+ENTERPRISE SOLUTIONS 
+
+Enterprise platform AI-powered developer platform 
+
+ AVAILABLE ADD-ONS 
+
+GitHub Advanced Security Enterprise-grade security features 
+ 
+ Copilot for Business Enterprise-grade AI features 
+ 
+ Premium Support Enterprise-grade 24/7 support 
+ Pricing 
+
+Search or jump to... 
+
+Search code, repositories, users, issues, pull requests... 
+
+--> 
+
+Search
+
+Clear 
+
+Search syntax tips 
+
+Provide feedback
+
+--> 
+ 
+We read every piece of feedback, and take your input very seriously. 
+
+Include my email address so I can be contacted 
+
+Cancel
+ 
+ Submit feedback
+
+Saved searches
+
+Use saved searches to filter your results more quickly 
+
+--> 
+
+Name 
+
+Query 
+
+To see all available qualifiers, see our documentation .
+
+Cancel
+ 
+ Create saved search
+
+Sign in
+
+Sign up
+
+Appearance settings 
+
+Resetting focus 
+
+You signed in with another tab or window. Reload to refresh your session. 
+ You signed out in another tab or window. Reload to refresh your session. 
+ You switched accounts on another tab or window. Reload to refresh your session. 
+
+Dismiss alert 
+
+{{ message }} 
+
+Priya22
+ 
+ / 
+ 
+ EmotionDynamics 
+
+Public 
+
+Notifications
+ You must be signed in to change notification settings 
+
+Fork
+ 30 
+
+Star
+ 112 
+
+Code 
+
+Issues 
+ 5 
+
+Pull requests 
+ 0 
+
+Actions 
+
+Projects 
+
+Security and quality 
+ 0 
+
+Insights 
+
+Additional navigation options 
+
+Code
+
+Issues
+
+Pull requests
+
+Actions
+
+Projects
+
+Security and quality
+
+Insights
+
+Priya22/EmotionDynamics 
+
+Â  master 
+ 
+ Branches Tags 
+
+Go to file Code 
+ Open more actions menu 
+
+Folders and files 
+ 
+ Name Name 
+ Last commit message 
+ Last commit date 
+
+Latest commit 
+Â  
+
+History 24 Commits 
+ 
+ 24 Commits 
+
+code 
+
+code 
+Â  
+
+Â  
+
+data 
+
+data 
+Â  
+
+Â  
+
+lexicons 
+
+lexicons 
+Â  
+
+Â  
+
+.gitignore 
+
+.gitignore 
+Â  
+
+Â  
+
+.gitmodules 
+
+.gitmodules 
+Â  
+
+Â  
+
+LICENSE 
+
+LICENSE 
+Â  
+
+Â  
+
+README.md 
+
+README.md 
+Â  
+
+Â  
+ 
+ View all files 
+
+Repository files navigation 
+
+ README 
+ License 
+
+Emotion Dynamics 
+
+Emotion dynamics is a framework from Psychology for measuring how an individualâ€™s emotional state changes over time ( Hollenstein, 2015 ; Kuppens and Verduyn, 2017 ). Hipson and Mohammad (2020) introduced an analogous framework for changes in emotional state associated with one's utterances. They refer to it as Utterance Emotion Dynamics (UED). Specifically, they proposed a set of metrics (such as home base, density, variability, rise rate, etc.) that quantify various characteristics of change in one's emotional state as reflected in their utterances. This Python package allows the user to calculate these UED metrics from text. 
+
+To calculate the UED metrics one needs to specify: 
+
+Utterances by various speakers 
+
+Temporal information about the utterances, for e.g., time stamps associated with the utterances, or simply an ordering of utterances by time (even if the exact time of utterance is not known) 
+
+How to capture emotion states associated with the text 
+
+This package allows one to capture emotion states using features drawn from emotion lexicons such as the NRC VAD Lexicon . Rolling windows of words (moving forward one-word at a time) determine the sequence of emotional states. (UED metrics can be calculated using other forms of emotion features too, e.g., predictions of supervised emotion detection systems on individual utterances; however, that is not supported yet.) Further details about the code and input specifications can be found in the code folder of this repository. 
+
+If you use any of the resources provided in this repository, cite the following work: 
+
+ @inproceedings{VM2022-TED,
+ title={Tweet Emotion Dynamics: Emotion Word Usage in Tweets from US and Canada},
+ author={Krishnapriya Vishnubhotla and Saif M. Mohammad},
+ booktitle={Proceedings of the Thirteenth International Conference on Language Resources and Evaluation (LREC 2022)},
+ address={Marseille, France},
+ year={2022}
+ }
+
+If you use the emotion dynamics package for your dataset, also cite the following work: 
+
+ @article{hipson2021emotion,
+doi = {10.1371/journal.pone.0256153},
+author = {Hipson, Will E. AND Mohammad, Saif M.},
+journal = {PLOS ONE},
+publisher = {Public Library of Science},
+title = {Emotion dynamics in movie dialogues},
+year = {2021},
+month = {09},
+volume = {16},
+url = {https://doi.org/10.1371/journal.pone.0256153},
+pages = {1-19}
+
+} 
+
+What does this repository provide? 
+
+This repository consists of two main submodules: 
+
+Code to run the Emotion Dynamics framework. The code has been designed to work with any temporally-ordered text data, including but not limited to tweets. See the Readme within the code folder for further instructions. 
+
+The TUSC tweet dataset described in the paper Tweet Emotion Dynamics:
+Emotion Word Usage in Tweets from US and Canada . 
+
+Where can you use the Emotion Dynamics framework? 
+
+The framework can be used to characterize the emotional state and trajectory of a speaker via their textual utterances over a period of time. Hipson and Mohammad apply it to analyze characters in a corpus of movie dialogues. The code folder of this repository shows a sample usage on character dialogue in literary novels. Our Tweet Dyanmics work applies it to individual tweeters -- one can do so with other data as well (e.g., posts from Reddit, self-reported diaries, political discussions, etc.). 
+
+Hipson and Mohammed (2021) 
+
+ Hipson and Mohammad apply the UED framework to utterances from a corpus of movie dialogues, which are naturally ordered along a temporal axis.
+They represented emotional state in a two-dimensional valence--arousal space. The co-ordinates are determined by the average valence and arousal scores of the words (using the NRC VAD lexicon)
+in a small window of recent utterances (usually spanning 20 to 50 words). Rolling windows of words (moving forward one-word at a time) determine the sequence of emotional states. Here, we apply that framework to tweets. However, in this work we consider each of the valence, arousal, and dominance dimensions separately (separate one-dimensional axes). Their R code can be found at https://github.com/whipson/edyn . 
+
+What is Tweet Emotion Dynamics? 
+
+Tweet Emotion Dynamics, or TED, is a set of metrics that quantify the emotional characteristics of a set of tweets and tweeters. A large portion of the metrics are directly adapted from the Utterance Emotion Dynamics (UED) framework of Hipson and Mohammad . 
+
+These metrics can be broadly described by the following three questions: 
+
+On average, what is the emotion score of the tweets for a particular tweeter? (Section 4.1) 
+
+On average, how many tweets of a particular tweeter contain emotion-indicating words? (Section 4.2) 
+
+How can we quantify how the average emotionality of tweets varies over time, for a particular tweeter? (Utterance Emotion Dynamics; Section 5) 
+
+Folder Structure 
+
+data/ : Tweet IDs for tusc-city and tusc-country subsets. Each folder is split by city/country, and further by month. Each file contains the ID of the tweet. 
+
+code/ : Code for running the emotion dynamics and emotion word usage analyses. 
+
+clean_data.py : functions to tokenize tweets and identify URLs. 
+
+ avgEmoValues.py : functions to obtain number of tokens per tweet, number of lexicon tokens per tweet, and the average emotion value of words in that tweet, given an emotion lexicon. 
+
+ uedLib /: code to run emotion dynamics on tweet data.
+
+run_ued.py : sample call to the main UED library. 
+
+ lib/ued.py : main UED module that takes a config file as input and outputs emotion dynamic metrics. 
+
+lexicons/ : Files with words and associated values for different emotion dimensions. 
+
+ Note : Please see terms of use for these lexicons from their original source at http://saifmohammad.com/WebPages/lexicons.html . If you wish to run the emotion dynamics code with any of these lexicons, please download from the original source . The complete list of lexicons and their sources is described in the next section. 
+
+This folder contains three main categories of lexicons for each of the valence-arousal-dominance dimensions: 
+
+<dim>.csv : The complete lexicon 
+
+ <dim>_polar.csv : Does not contain words with a score between (0.33, 0.67). 
+
+ <dim>_low.csv : Terms with scores <=0.33 
+
+ <dim>_high.csv : Terms with scores >=0.67 
+
+All lexicon files have two columns: word and val . 
+
+Lexicons 
+
+The following lexicons are provided for ease of running the code in the lexicons/ folder, but must be downloaded directly from the associated sources: 
+
+The valence , arousal , and dominance lexicons 
+
+These are sourced from the NRC-VAD Lexicon . See terms of use at the bottom of the linked page. Cite the following work if you use these lexicons: 
+
+ @inproceedings{vad-acl2018,
+ title={Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words},
+ author={Mohammad, Saif M.},
+ booktitle={Proceedings of The Annual Conference of the Association for Computational Linguistics (ACL)},
+ year={2018},
+ address={Melbourne, Australia}
+ }
+
+Lexicons for the eight basic emotions ( anger , fear , anticipation , trust , surprise , sadness , joy , disgust ) and two sentiments ( negative and positive ) 
+
+These are sourced from the NRC Word-Emotion Association Lexicon, or EmoLex . Download the lexicons by going to the linked page and selecting the appropriate usage license. Cite the following works if you use these lexicons: 
+
+ @article{Mohammad13,
+ Author = {Mohammad, Saif M. and Turney, Peter D.},
+ Journal = {Computational Intelligence},
+ Number = {3},
+ Pages = {436--465},
+ Title = {Crowdsourcing a Word-Emotion Association Lexicon},
+ Volume = {29},
+ Year = {2013}
+ }
+
+ @inproceedings{mohammad-turney-2010-emotions,
+ title = "Emotions Evoked by Common Words and Phrases: Using {M}echanical {T}urk to Create an Emotion Lexicon",
+ author = "Mohammad, Saif and
+ Turney, Peter",
+ booktitle = "Proceedings of the {NAACL} {HLT} 2010 Workshop on Computational Approaches to Analysis and Generation of Emotion in Text",
+ month = jun,
+ year = "2010",
+ address = "Los Angeles, CA",
+ publisher = "Association for Computational Linguistics",
+ url = "https://aclanthology.org/W10-0204",
+ pages = "26--34",
+ }
+
+Ethical Considerations 
+
+Any analysis involving the use of emotion and sentiment lexicons must be preceded by a consideration of the relevant ethical ramifications, and the intended as well as potential uses of the associated results and tools. See the papers below: 
+
+Ethics Sheet for Automatic Emotion Recognition and Sentiment Analysis : for fifty ethical considerations relevant to the use of Automatic Emotion Recognition (AER) systems. 
+
+Ethics Sheets for AI Tasks : for a more general framework, and ethics sheet, for thinking about the ethical consideratios involved in any AI task. 
+
+Practical and Ethical Considerations in the Effective use of Emotion and Sentiment Lexicons :
+for specific tips and considerations in the use of emotion lexicons. 
+
+Authors 
+
+For any queries, you can contact the authors: 
+
+Krishnapriya Vishnubhotla (University of Toronto) 
+
+ Saif M. Mohammad (National Research Council Canada) 
+
+Contact: vkpriya@cs.toronto.edu , saif.mohammad@nrc-cnrc.gc.ca 
+
+About 
+
+Repository for the LREC 2022 submission on Emotion Word Dynamics in Geolocated Tweet data.
+
+Resources 
+
+Readme
+
+License 
+
+MIT license
+
+Uh oh!
+
+There was an error while loading. Please reload this page . 
+
+Activity 
+
+Stars 
+
+112 
+ stars 
+
+Watchers 
+
+4 
+ watching 
+
+Forks 
+
+30 
+ forks 
+
+Report repository
+
+Releases 
+
+No releases published 
+
+Packages
+ 0 
+
+Uh oh!
+
+There was an error while loading. Please reload this page . 
+
+Uh oh!
+
+There was an error while loading. Please reload this page . 
+
+Contributors 
+
+Uh oh!
+
+There was an error while loading. Please reload this page . 
+
+Languages 
+
+Python 
+ 100.0% 
+
+Footer 
+
+© 2026 GitHub, Inc.
+
+Footer navigation 
+
+Terms 
+
+Privacy 
+
+Security 
+
+Status 
+
+Community 
+
+Docs 
+
+Contact 
+
+Manage cookies
+
+Do not share my personal information
+
+You canâ€™t perform that action at this time.

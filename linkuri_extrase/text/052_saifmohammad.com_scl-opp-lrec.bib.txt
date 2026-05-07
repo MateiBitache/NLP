@@ -1,0 +1,7 @@
+@InProceedings{OPP-lrec,
+  author    = {Kiritchenko, Svetlana and Mohammad, Saif M.},
+  title     = {Happy Accident: A Sentiment Composition Lexicon for Opposing Polarity Phrases},
+  booktitle = {Proceedings of 10th edition of the the Language Resources and Evaluation Conference (LREC)},
+  year      = {2016},
+  address   = {Portoro\v{z}, Slovenia}
+}

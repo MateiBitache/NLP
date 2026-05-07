@@ -1,0 +1,123 @@
+Open Dataset | Yelp Data Licensing 
+
+Back to Yelp for Business 
+
+Back to Yelp for Business 
+
+Products 
+
+Back 
+
+Yelp Places API 
+
+Yelp Insights API 
+
+Yelp AI API 
+
+Solutions 
+
+Back 
+
+Location Intelligence 
+
+Insurance & Risk 
+
+Banking & Finance 
+
+Local Search & Reco’s 
+
+Mapping & Automotive 
+
+Social Analytics 
+
+Food & Beverage Insights 
+
+Natural Language Search 
+
+Sales Insights 
+
+Agentic AI 
+
+Resources 
+
+Back 
+
+Open Dataset 
+
+Pricing 
+
+Documentation 
+
+Manage API Access 
+
+AI Playground 
+
+Book a demo 
+
+Book a demo 
+
+Yelp Open Dataset 
+
+The Yelp Open Dataset is a subset of Yelp data that is intended for educational use. It provides real-world data related to businesses including reviews, photos, check-ins, and attributes like hours, parking availability, and ambience. 
+
+The Dataset 
+
+6,990,280 
+Reviews 
+
+150,346 
+Businesses 
+
+11 
+Metropolitan areas 
+
+200,100 
+Pictures 
+
+Download 
+
+This download contains 1 compressed TAR file (4.35 GB). Uncompressed it contains 1 PDF and 5 JSON files (8.65 GB). Documentation is included. 
+
+Download JSON 
+
+This download contains one compressed TAR file (7.45 GB). Uncompressed it contains 1 JSON file, 1 text file, 1 PDF and 1 folder containing 200,000 photos (7.11 GB). Documentation is included. 
+
+Download photos 
+
+The Dataset 
+
+200,100 
+
+Pictures 
+
+200,100 
+
+Pictures 
+
+200,100 
+
+Pictures 
+
+200,100 
+
+Pictures 
+
+Products 
+
+B2C Yelp Data API 
+
+ B2B Yelp Data API 
+
+ Yelp Conversational AI API 
+
+Download our app 
+
+Go mobile with the Yelp for Business app for iOS and Android. 
+
+Yelp, , and related marks are registered trademarks of Yelp. 
+
+Copyright © 2004–2026 Yelp Inc. 
+
+Privacy Policy 
+ 
+ Terms of Service

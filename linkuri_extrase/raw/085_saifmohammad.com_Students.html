@@ -1,0 +1,188 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Best-Worst Scaling</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<! Menu code>
+<style>
+body{
+	background: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	margin-left: 12%;
+	margin-right: 12%;
+	text-align: right;
+}#menu_wrap{position:relative;margin-top:20px;margin-left:auto;margin-right:auto;padding:0; padding-right:10px;width:100%;height:40px;list-style-type:none;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;-webkit-box-shadow:0 1px 3px rgba(0,0,0,.2);-moz-box-shadow:0 1px 3px rgba(0,0,0,.2);box-shadow:0 1px 3px rgba(0,0,0,.2)}.button a{cursor:pointer;text-align:center;font:14px/100% Arial, Helvetica, sans-serif;font-weight:bold;position:relative;min-width:50px;height:20px;float:left;padding:10px;padding-top:10px;padding-bottom:10px;text-decoration:none;text-shadow:0 1px 1px rgba(0,0,0,.3)}.button:first-child a{-webkit-border-top-left-radius:0px;-webkit-border-bottom-left-radius:0px;-moz-border-topleft-radius:0px;-moz-border-bottomleft-radius:0px;border-top-left-radius:0;border-bottom-left-radius:0px}.Gray,.Gray .button a{color:#e9e9e9;background: #888888;border-right:solid 1px #575757;background: -moz-linear-gradient(top, #888888 0%, #575757 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#888888), color-stop(100%,#575757));background: -webkit-linear-gradient(top, #888888 0%,#575757 100%);background: -o-linear-gradient(top, #888888 0%,#575757 100%);background: -ms-linear-gradient(top, #888888 0%,#575757 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#575757',GradientType=0 );background: linear-gradient(top, #888888 0%,#575757 100%);}.Gray .button a:hover,.Gray .button a:focus{background: #757575;background: -moz-linear-gradient(top, #757575 0%, #4b4b4b 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#757575), color-stop(100%,#4b4b4b));background: -webkit-linear-gradient(top, #757575 0%,#4b4b4b 100%);background: -o-linear-gradient(top, #757575 0%,#4b4b4b 100%);background: -ms-linear-gradient(top, #757575 0%,#4b4b4b 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', endColorstr='#4b4b4b',GradientType=0 );background: linear-gradient(top, #757575 0%,#4b4b4b 100%);}.Gray .button a:active{color:#afafaf;background: #575757;background: -moz-linear-gradient(top, #575757 0%, #888888 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#575757), color-stop(100%,#888888));background: -webkit-linear-gradient(top, #575757 0%,#888888 100%);background: -o-linear-gradient(top, #575757 0%,#888888 100%);background: -ms-linear-gradient(top, #575757 0%,#888888 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#575757', endColorstr='#888888',GradientType=0 );background: linear-gradient(top, #575757 0%,#888888 100%);}.button:last-child a{float:left;border:none; -webkit-border-top-right-radius:0px;-webkit-border-bottom-right-radius:0px;-moz-border-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+<! End Menu code>
+<script src='/google_analytics_auto.js'></script></head>
+
+<body>
+
+<! Menu code>
+<ul id="menu_wrap" class="Gray">
+  <li class="button"><a href="http://saifmohammad.com">Home</a></li><li class="button"></li>
+   <li class="button"><a href="http://saifmohammad.com/WebPages/ResearchAreas.html">Research</a></li>
+  <li class="button"><a href="http://saifmohammad.com/WebPages/ResearchInterests.html">Publications</a></li>
+  <li class="button"><a href="http://saifmohammad.com/WebPages/lexicons.html">Sentiment and Emotion Lexicons</a></li>
+<li class="button"><a href="http://saifmohammad.com/WebPages/SentimentEmotionLabeledData.html">Sentiment and Emotion Labeled Data</a></li>
+  <li class="button"><a href="http://saifmohammad.com/WebPages/invitedtalks.html">Invited Talks</a></li><li class="button"><a href="http://saifmohammad.com/WebPages/contact.htm">Contact</a></li></ul>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="70%"><h2 style="color: #900">Student Research Collaborations </h2></td>
+    <td width="30%" rowspan="2"><div align="center"></div></td>
+  </tr>
+  <tr>
+    <td><p>&nbsp;</p>
+      <p><strong>Contact: <br>
+        </strong>Saif M. Mohammad (saif.mohammad@nrc-cnrc.gc.ca)<br>
+        <strong><br>
+        </strong></p>
+      <p>
+</p></td>
+  </tr>
+  <tr>
+    <td height="2" colspan="2"><p><br>
+    </p></td>
+  </tr>
+</table>
+
+
+
+
+  
+  <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td style="text-align: justify"><h3><span style="color: #900"><strong>Background and How</strong></span><strong style="color: #900"> to Apply</strong></h3>
+        <p>We view student research collaborations as an important part of our work. These collaborations are usually with graduate students in Ph.D. programs, but they can be with undergraduate students, master's students, and post-doctoral researchers as well. Canadian and international students are all welcome. An interested student can pursue a  collaboration through any of the following means: </p>
+        <ul>
+          <li><strong>Internship or Co-op at NRC:</strong> NRC regularly advertises for internship positions. They are usually for four months, although, the iternship can often also be extended by an additional four months. They are usually posted for the summer, fall, and winter terms, but start and end dates are quite flexible.  I, personally, get to hire only one or two interns a year. The NRC remuneration is great and often travel expenses are also reimbursed. NRC will provide you with office space and a computer. We will also give you accounts in our high-performance and GPU machines if needed. There is a bunch of paper work and security clearances to get through, but the NRC staff are quite helpful.<br>
+          <br>
+          </li>
+          <li><strong>Visiting Independent Researcher at NRC: </strong>If you do not require financial support (e.g., you are funding yourself through your Ph.D. scholarship, grant money, etc.) and wish to work with me, we can invite you to visit our office here in Ottawa as an independent researcher. NRC will provide you with office space and a computer. We will also give you accounts in our high-performance and GPU machines if needed. Some travel and housing costs may be reimbursable. The length of stay is extremely flexible, but we recommend three to four months. There is a bunch of paper work and security clearances to get through, but the NRC staff are quite helpful. Since NRC is not paying you, international students *may* not need a work visa. Follow official CIC guidelines to make sure, though.<strong><br>
+          </strong><br>
+          </li>
+          <li><strong>Collaboration from Home University:</strong> This is a regular research collaboration option. If you would like work with me on a project that we are both interested in, but you cannot leave your home University to visit here in Ottawa, we can still collaborate remotely.</li>
+        </ul>
+        <p>If you are interested in any of the above options, start by sending me an email or talking to me at the next conference.</p>
+        <h3><span style="color: #900"><strong>Topic and Objectives</strong></span></h3>
+        <p>Our current topics of interest include Computational Affect (Emotion Analysis, Sentiment Analysis) and their applications. However, we do have interests in lexical semantics, crowdsourcing, social media analytics, etc. as well. See <a href="../WebDocs/CA-poster-final.pdf">this poster</a> for an overview of the kind of work we have done in the last few years. </p>
+        <p>We always want to work on something that is compelling and exciting. The goal is to do work that will have the most impact (through a paper, software, data, or application). We almost always write a paper  as it is a great way to document and disseminate the research. The usual policy is to select a topic where all involved can bring in their strengths and also learn from each other's expertise. The topic is *not* what the student is already doing, but rather something that adds a different dimension to the students' research, something which can easily be included in the student's Ph.D. thesis as a chapter.        We work out a project plan before the student arrives so that we make the most of the short three-to-four month stay here. The usual goal is to do enough work for at least one publishable unit, work out a plan for the paper, and often we end up finishing the paper after the student is back in their University.&nbsp;<br>
+          <br>
+        Our typical internships are a little different from the traditional advisor--advisee relationship. We certainly have that component, but often NRC researchers are actively working on the same project with the student. So there is a clear collaborative effort. In fact, for all practical purposes, we consider these as research collaborations. Also, working at NRC allows you to interact and work with various researchers exploring different problems within computational Linguistis / Natural Language Processing, Machine Learning, Computer Vision, etc.        </p>
+        <p><a href="../WebDocs/CA-poster-final.pdf"><img src="../WebDocs/CA-poster-final.jpg" width="1407" height="857"  alt=""/></a></p>
+        <h3><span style="color: #900"><strong>Current Students</strong></span></h3>
+        <ul>
+          <li><em>Michael Wojatzki</em><br>
+            <br>
+<ul>
+            <li>Quantifying Qualitative Data for Understanding Controversial Issues. Michael Wojatzki, Saif M. Mohammad, Torsten Zesch, Svetlana Kiritchenko. Submitted.<br>
+                <br>
+            </li>
+            </ul>
+          </li>
+          <li><em>Habibeh Naderi</em><br>
+          </li>
+        </ul>
+        <h3><br>
+        <span style="color: #900"><strong>Past Students</strong></span>        </h3>
+        <ul>
+          <li><em>Felipe Bravo-Marquez</em><br>
+            <br>
+  <ul>
+    <li>WASSA-2017 Shared Task on Emotion Intensity. Saif M. Mohammad and Felipe Bravo-Marquez. In&nbsp;<em>Proceedings of the EMNLP 2017 Workshop on Computational Approaches to Subjectivity, Sentiment, and Social Media (WASSA)</em>, September 2017, Copenhagen, Denmark.<br>
+      Paper (pdf)&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/Abstracts/WASSA-EmoInt.bib.txt">BibTex</a>&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html">Data and Shared Task</a>&nbsp;&nbsp; Presentation            <br>
+      <br>
+      </li>
+    <li><a href="http://saifmohammad.com/WebDocs/TweetEmotionIntensities-starsem2017.pdf">Emotion Intensities in Tweets.</a>&nbsp;Saif M. Mohammad and Felipe Bravo-Marquez. In&nbsp;<em>Proceedings of the Sixth Joint Conference on Lexical and Computational Semantics (*Sem)</em>, August 2017, Vancouver, Canada.<br>
+      <a href="http://saifmohammad.com/WebDocs/TweetEmotionIntensities-starsem2017.pdf">Paper (pdf)</a>&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/Abstracts/StarSem-EmoIntData.bib.txt">BibTex&nbsp;</a>&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html">Data and Shared Task</a>&nbsp;&nbsp;<a href="https://github.com/felipebravom/AffectiveTweets">&nbsp;AffcetiveTweets package</a>&nbsp;&nbsp; Presentation<br>
+      <br>
+      </li>
+    <li>Determining Word-Emotion Associations from Tweets by Multi-Label Classification.&nbsp;Felipe Bravo-Marquez, Eibe Frank, Saif Mohammad, and Bernhard Pfahringer. In&nbsp;<em>Proceedings of the 2016 IEEE/WIC/ACM International Conference on Web Intelligence (WI'16), Omaha, Nebraska, USA.&nbsp;</em><br>
+      <a href="http://www.cs.waikato.ac.nz/~fjb11/publications/wi2016a.pdf">Paper (pdf)</a>&nbsp;&nbsp;&nbsp; BibTeX&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.cs.waikato.ac.nz/ml/sa/lex.html">Data<br>
+        <br>
+        </a></li>
+  </ul>
+          </li>
+          <li><em>Parinaz Sobhani</em><br>
+            <br>
+  <ul>
+    <li><strong>Stance and Sentiment in Tweets.</strong>&nbsp;Saif M. Mohammad, Parinaz Sobhani, and Svetlana Kiritchenko.&nbsp;<em>Special Section of the ACM Transactions on Internet Technology on Argumentation in Social Media,&nbsp;</em>2017,&nbsp;17(3)<em>.</em><br>
+      <a href="http://saifmohammad.com/WebDocs/1605.01655v1.pdf">Paper (pdf)</a>&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/Abstracts/stance-toit.bib.txt">BibTeX</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/StanceDataset.htm">Data and Visualization</a>            <br>
+      <br>
+      </li>
+    <li><strong>Detecting Stance in Tweets And Analyzing its Interaction with Sentiment.</strong>&nbsp;Parinaz Sobhani, Saif M. Mohammad, and Svetlana Kiritchenko. In&nbsp;<em>Proceedings of the Joint Conference on Lexical and Computational Semantics (*Sem)</em>, August 2016, Berlin, Germany.&nbsp;<br>
+      <a href="http://saifmohammad.com/WebDocs/StarSem2016-stance-tweets.pdf">Paper (pdf)</a>&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/Abstracts/stance-sem.bib.txt">BibTeX</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/WebDocs/StarSem-stance-talk.pdf">Presentation</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/StanceDataset.htm">Data and Visualization</a><br>
+      <br>
+      </li>
+    <li><strong>Semeval-2016 Task 6: Detecting Stance in Tweets.</strong>&nbsp;Saif M. Mohammad, Svetlana Kiritchenko, Parinaz Sobhani, Xiaodan Zhu, and Colin Cherry. In&nbsp;<em>Proceedings of the International Workshop on Semantic Evaluation (SemEval &rsquo;16)</em>. June 2016. San Diego, California.<br>
+      <a href="http://saifmohammad.com/WebDocs/semeval2016-task6-stance.pdf">Paper (pdf)</a>&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/Abstracts/Sem16-Task6.bib.txt">BibTeX</a>&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebDocs/SemEval16-stance-talk-short.pdf">Presentation</a>&nbsp;&nbsp;&nbsp;<a href="http://alt.qcri.org/semeval2016/task6/">Task Website</a>            <br>
+      <br>
+      </li>
+    <li><strong>A Dataset for Detecting Stance in Tweets.&nbsp;</strong>Saif M. Mohammad, Svetlana Kiritchenko, Parinaz Sobhani, Xiaodan Zhu, and Colin Cherry. In&nbsp;<em>Proceedings of the 10th edition of the Language Resources and Evaluation Conference</em>, May 2016, Portorož (Slovenia).<br>
+      <a href="http://saifmohammad.com/WebDocs/StanceDataset-LREC2016.pdf">Paper (pdf)</a>&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/Abstracts/stance-lrec.bib.txt">BibTeX</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebDocs/LREC-stance-talk.pdf">Presentation</a>&nbsp;&nbsp;&nbsp; Data:&nbsp;<a href="http://saifmohammad.com/WebPages/StanceDataset.htm">Stance Dataset</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/StanceDataset.htm">Interactive Visualization<br>
+        <em><br>
+          </em></a></li>
+  </ul>
+  </li>
+          <li><em>Mohammad Salameh</em><br>
+            <br>
+  <ul>
+    <li><strong>Semeval-2016 Task 7: Determining Sentiment Intensity of English and Arabic Phrases.</strong>&nbsp;Svetlana Kiritchenko, Saif M. Mohammad, and Mohammad Salameh. In&nbsp;<em>Proceedings of the International Workshop on Semantic Evaluation (SemEval &rsquo;16)</em>. June 2016. San Diego, California.<br>
+      <a href="http://saifmohammad.com/WebDocs/semeval2016-task7.pdf">Paper (pdf)</a>&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/Abstracts/Sem16-Task7.bib.txt">BibTeX</a>&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebDocs/SemEval-2016-Task7.pdf">Presentation</a>&nbsp;&nbsp;&nbsp;<a href="http://alt.qcri.org/semeval2016/task7/">Task Website</a><br>
+      <br>
+      </li>
+    <li><strong>Sentiment Lexicons for Arabic Social Media.</strong>&nbsp;Saif M. Mohammad, Mohammad Salameh, and Svetlana Kiritchenko. In&nbsp;<em>Proceedings of the 10th edition of the Language Resources and Evaluation Conference</em>, May 2016, Portorož (Slovenia).<br>
+      <a href="http://saifmohammad.com/WebDocs/arabic-lex.pdf">Paper (pdf)</a>&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/Abstracts/ArabicLex-lrec.bib.txt">BibTeX</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebDocs/LREC-ArabicLex-talk.pdf">Presentation</a>&nbsp;<a href="http://saifmohammad.com/WebPages/ArabicSA.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Data: Arabic Sentiment Lexicons<br>
+        <br>
+        </a></li>
+    <li><strong><a href="http://www.jair.org/papers/paper4787.html">How Translation Alters Sentiment</a></strong><a href="http://www.jair.org/papers/paper4787.html">.</a>&nbsp;Saif M. Mohammad, Mohammad Salameh, and Svetlana Kiritchenko,&nbsp;<em><em><em>Journal of Artificial Intelligence Research</em></em></em>, 2016, Volume 55, pages 95-130.<br>
+      <a href="http://www.jair.org/media/4787/live-4787-9067-jair.pdf">Paper (pdf)</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/WebPages/Abstracts/ArabicSA-JAIR-bib.txt">BibTeX</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/ArabicSA.html">Data: Arabic Sentiment Lexicons</a><br>
+      <br>
+      </li>
+    <li><strong>Sentiment After Translation: A Case-Study on Arabic Social Media Posts</strong>. Mohammad Salameh, Saif M Mohammad and Svetlana Kiritchenko, In<em><em><em>&nbsp;Proceedings of the&nbsp;</em>North American Chapter of the Association for Computational Linguistics (NAACL-2015),&nbsp;</em></em>June 2016, Denver, Colorado.<br>
+      <a href="http://saifmohammad.com/WebDocs/SentimentAfterTranslation.pdf">Paper (pdf)</a>&nbsp;&nbsp;&nbsp;<a href="http://aclweb.org/anthology/N/N15/N15-1078.bib">BibTeX</a>&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebPages/ArabicSA.html">Data: Arabic Sentiment Lexicons</a><br>
+      <br>
+      </li>
+    </ul>
+          </li>
+          <li><em>Hannah Davis</em><br>
+            <br>
+  <ul>
+    <li><strong>Generating Music from Literature.&nbsp;</strong>Hannah Davis and Saif M. Mohammad, In&nbsp;<em>Proceedings of the EACL Workshop on Computational Linguistics for Literature</em>, April 2014, Gothenburg, Sweden.&nbsp;<br>
+      <a href="http://arxiv.org/pdf/1403.2124v1.pdf">Paper (pdf)</a>&nbsp;&nbsp;&nbsp;<a href="http://www.aclweb.org/anthology/W/W14/W14-0901.bib">BibTeX</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.musicfromtext.com/">TransProse Website</a><br>
+      <br>
+      <strong>Notable Press Mentions:</strong>&nbsp;<a href="https://medium.com/the-physics-arxiv-blog/cfaaa96198e2">The Physics arXiv Blog</a>, March 20, 2014,&nbsp;<a href="http://time.com/90259/classic-novels-music/">TIME</a>, May 7, 2014,&nbsp;<a href="http://www.pcworld.idg.com.au/article/545180/ai_system_reads_novels_writes_music_them/">PC World</a>, May 15, 2014,&nbsp;<a href="http://www.popsci.com/article/technology/robot-reads-novels-writes-songs-about-them">Popular Science</a>, May 14, 2014,&nbsp;<a href="http://io9.com/researchers-train-computers-to-manipulate-human-emotion-1574939380/all">io9</a>, May 12, 2014,&nbsp;<a href="http://www.livescience.com/45500-literature-emotions-music.html">LiveScience</a>, May 11, 2014.<br>
+      <br>
+      </li>
+    </ul>
+          </li>
+          <li><em>Tony Yang</em><br>
+            <br>
+  <ul>
+    <li><strong>Tracking Sentiment in Mail: How Genders Differ on Emotional Axes</strong>, Saif Mohammad and Tony Yang, In Proceedings of the ACL 2011 Workshop on Computational Approaches to Subjectivity and Sentiment Analysis (WASSA), June 2011, Portland, OR.<br>
+      <a href="http://aclweb.org/anthology/W/W11/W11-1709.pdf">Paper (pdf)</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://aclweb.org/anthology/W/W11/W11-1709.bib">BibTeX</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://saifmohammad.com/WebDocs/WASSA-emotions-in-email.pdf">Presentation</a>&nbsp;</li>
+    </ul>
+          </li>
+      </ul></td>
+    </tr>
+    <tr>
+      <td width="100%" style="text-align: right">Last updated: October 2017.</td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+</div>
+</body>
+</html>

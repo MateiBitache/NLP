@@ -1,0 +1,137 @@
+﻿NRC Affect Intensity Lexicon 
+
+Home 
+
+Research 
+ 
+ Publications 
+ 
+ Lexicons 
+
+ Labeled Data 
+ 
+ Invited Talks 
+ Contact 
+
+The NRC Emotion Intensity Lexicon (NRC-EIL) 
+
+The NRC Emotion Intensity Lexicon (version 1) is a list of English words with real-valued scores of intensity for eight basic emotions (anger, anticipation, disgust, fear, joy, sadness, surprise, and trust). (Note that an earlier version of the lexicon (v0.5) included intensity scores for four basic emotions: anger, fear, sadness, joy. The earlier version was called NRC Affect Intensity Lexicon (NRC-AIL). However, we now refer to it as the NRC Emotion Intensity Lexicon as that better conveys its relationship with the NRC Emotion Lexicon -- it provides intensity scores for many of the words in the NRC Emotion Lexicon.) 
+ 
+ Download the NRC Emotion Intensity Lexicon (Non-Commercial Use Only -- Research or Educational) 
+
+ Copyright (C) 2011 National Research Council Canada (NRC) 
+
+Version : 1
+
+ Released : March 2020
+
+ Created By : Dr. Saif M. Mohammad
+
+ Home Page : http://saifmohammad.com/WebPages/nrc-vad.html 
+ 
+ Readme Last Updated : August 2022
+
+ Automatic translations from English to 108 languages was last updated : August 2022 
+ 
+ Contact: Dr. Saif M. Mohammad (Senior Research Scientist, National Research Council Canada)
+
+ saif.mohammad@nrc-cnrc.gc.ca, uvgotsaif@gmail.com 
+
+See terms of use at the bottom of the page.
+
+See the Emotion Lexicons: Ethics and Data Statement before using the lexicon. 
+ 
+You may also be interested in these companion lexicons: NRC Emotion Lexicon and NRC Valence, Arousal, and Dominance Lexicon . (The full list of word-emotion, word-sentiment, and word-colour lexicons is available in the Lexicons page .)
+
+Details 
+ 
+ Words can be associated with different intensities (or degrees) of an emotion. For example, most people will agree that the word condemn is associated with a greater degree of anger (or more anger) than the word irritate. However, annotating instances for fine-grained degrees of affect is a substantially more difficult undertaking than categorical annotation: respondents are presented with greater cognitive load and it is particularly hard to ensure consistency (both across responses by different annotators and within the responses produced by the same annotator). We created an affect intensity lexicon with real-valued scores of association using best--worst scaling . We refer to this lexicon as the NRC Emotion/Affect Intensity Lexicon . You can access a copy for non-commercial use by clicking on the download button above. (See terms of use at the bottom of this page.) 
+ 
+For a given word w and emotion e , the scores range from 0 to 1. 
+
+A score of 1 means that the w conveys the highest amount of emotion e . 
+ 
+A score of 0 means that the w conveys the lowest amount of emotion e . 
+
+Papers 
+
+Word Affect Intensities. Saif M. Mohammad. In  Proceedings of the 11th Edition of the Language Resources and Evaluation Conference (LREC-2018) , May 2018, Miyazaki, Japan.
+
+ Paper (pdf)      BibTeX        Presentation 
+ 
+ This study has been approved by the NRC Research Ethics Board (NRC-REB) under protocol number 2017-98. REB review seeks to ensure that research projects involving humans as participants meet Canadian standards of ethics. 
+
+Practical and Ethical Considerations 
+
+Please see the papers below for ethical considerations involved in automatic emotion detection and the use of emotion lexicons. (These also acts as the Ethics and Data Statements for the lexicon.) 
+
+Ethics Sheet for Automatic Emotion Recognition and Sentiment Analysis . Computational Linguistics .  June 2022. 
+
+ Paper (pdf)    BibTeX     Slides 
+
+Practical and Ethical Considerations in the Effective use of Emotion and Sentiment Lexicons 
+
+ Saif M. Mohammad. arXiv preprint arXiv:2011.03492. December 2020. 
+
+ Paper (pdf)     BibTex 
+ 
+ Python Code to Analyze Emotions in Text 
+
+There are many third party software packages that can be used in conjunction with the NRC Emotion Lexicon to analyze emotion word use in text. We recommend Emotion Dynamics . 
+ 
+It is the primary package that we use to analyze text using the NRC Emotion Lexicon and the NRC VAD Lexicon. It can be used to generate a csv file with a number of emotion features pertaining to the text of interest, including metrics of utterance emotion dynamics. 
+
+Details 
+ 
+The lexicon has close to 10,000 entries for eight emotions that Robert Plutchik argued to be basic or universal. It includes common English terms as well as terms that are more prominent in social media platforms, such as Twitter. It includes terms that are associated with emotions to various degrees. For a given emotion, this even includes some terms that may not predominantly convey that emotion (or that convey an antonymous emotion), and yet tend to co-occur with terms that do. (Antonymous terms tend to co-occur with each other more often than chance, and are particularly problematic when one uses automatic co-occurrence-based statistical methods to capture word--emotion connotations.) Example entries from the lexicon are shown below. 
+
+NRC EIL in Various Languages 
+ 
+The NRC EIL Lexicon has affect annotations for English words. Despite some cultural differences, it has been shown that a majority of affective norms are stable acrosslanguages. Thus, we provide versions of the lexicon in over 100 languages by translating the English terms using Google Translate (August 2022). 
+ 
+The lexicon is thus available for English and these languages: 
+ 
+Afrikaans, Albanian, Amharic, Arabic, Armenian, Azerbaijani, Basque, Belarusian, Bengali, Bosnian, Bulgarian, Burmese, Catalan, Cebuano, Chichewa, Corsican, Croatian, Czech, Danish, Dutch, Esperanto, Estonian, Filipino, Finnish, French, Frisian, Gaelic, Galician, Georgian, German, Greek, Gujarati, HaitianCreole, Hausa, Hawaiian, Hebrew, Hindi, Hmong, Hungarian, Icelandic, Igbo, Indonesian, Irish, Italian, Japanese, Javanese, Kannada, Kazakh, Khmer, Kinyarwanda, Korean, Kurmanji, Kyrgyz, Lao, Latin, Latvian, Lithuanian, Luxembourgish, Macedonian, Malagasy, Malay, Malayalam, Maltese, Maori, Marathi, Mongolian, Nepali, Norwegian, Odia, Pashto, Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Samoan, Sanskrit, Serbian, Sesotho, Shona, Simplified, Sindhi, Sinhala, Slovak, Slovenian, Somali, Spanish, Sundanese, Swahili, Swedish, Tajik, Tamil, Tatar, Telugu, Thai, Traditional, Turkish, Turkmen, Ukranian, Urdu, Uyghur, Uzbek, Vietnamese, Welsh, Xhosa, Yiddish, Yoruba, Zulu 
+ 
+Note that an earlier version included translations obtained in 2018. The current 2022 translations are markedly better. That said, some of the translations may still be incorrect or they may simply be transliterations of the original English terms. 
+
+Terms of use: 
+
+Research Use: The lexicon mentioned in this page can be used freely for non-commercial research and educational purposes.
+
+Citation: Cite the papers associated with the lexicon in your research papers and articles that make use of them. 
+
+Media Mentions: In news articles and online posts on work using the lexicon, cite the lexicon. For example: "We make use of the <resource name>, created by <author(s)> at the National Research Council Canada." We would appreciate a hyperlink to the lexicon home page and an email to the contact author (saif.mohammad@nrc-cnrc.gc.ca). (Authors and homepage information provided at the top of the README.)
+
+Credit: If you use the lexicon in a product or application, then acknowledge this in the 'About' page and other relevant documentation of the application by stating the name of the resource, the authors, and NRC. For example: "This application/product/tool makes use of the <resource name>, created by <author(s)> at the National Research Council Canada." We would appreciate a hyperlink to the lexicon home page and an email to the contact author (saif.mohammad@nrc-cnrc.gc.ca).
+
+No Redistribution: Do not redistribute the data. Direct interested parties to the lexicon home page. You may not rent or license the use of the lexicon nor otherwise permit third parties to use it. 
+
+Proprietary Notice: You will ensure that any copyright notices, trademarks or other proprietary right notices placed by NRC on the lexicon remains in evidence.
+
+Title: All intellectual property rights in and to the lexicon shall remain the property of NRC. All proprietary interests, rights, unencumbered titles, copyrights, or other Intellectual Property Rights in the lexicon and all copies thereof remain at all times with NRC.
+
+Commercial License: If interested in commercial use of the lexicon, contact the author: saif.mohammad@nrc-cnrc.gc.ca
+
+Disclaimer: National Research Council Canada (NRC) disclaims any responsibility for the use of the lexicon and does not provide technical support. NRC makes no representation and gives no warranty of any kind with respect to the accuracy, usefulness, novelty, validity, scope, or completeness of the lexicon and expressly disclaims any implied warranty of merchantability or fitness for a particular purpose of the lexicon. That said, the contact listed above welcomes queries and clarifications.
+
+Limitation of Liability: You will not make claims of any kind whatsoever upon or against NRC or the creators of the lexicon, either on your own account or on behalf of any third party, arising directly or indirectly out of your use of the lexicon. In no event will NRC or the creators be liable on any theory of liability, whether in an action of contract or strict liability (including negligence or otherwise), for any losses or damages incurred by you, whether direct, indirect, incidental, special, exemplary or
+
+ consequential, including lost or anticipated profits, savings, interruption to business, loss of business opportunities, loss of business information, the cost of recovering such lost information, the cost of substitute intellectual property or any other pecuniary loss arising from the use of, or the inability to use, the lexicon regardless of whether you have advised NRC or NRC has advised you of the possibility of such damages. 
+
+We will be happy to hear from you. For example: 
+
+telling us what you are using the lexicon for; 
+ 
+providing feedback regarding the lexicon; 
+ 
+if you are interested in having us analyze your data for sentiment, emotion, and other affectual information; 
+ 
+if you are interested in a collaborative research project. 
+
+We regularly collaborate with graduate students, post-docs, faculty, and research professional from Computer Science, Psychology, Digital Humanities, Linguistics, Social Science, etc. 
+ 
+ Email: Dr. Saif M. Mohammad (saif.mohammad@nrc-cnrc.gc.ca, uvgotsaif@gmail.com) 
+ @SaifMMohammad 
+
+Last updated: August 2022

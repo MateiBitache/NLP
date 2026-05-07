@@ -1,0 +1,25 @@
+id,domain,label,text
+anger_1,social,anger,I am furious that the company ignored every complaint.
+anger_2,news,anger,Residents were angry after officials delayed the promised repairs.
+anger_3,blog,anger,The rude answer made me irritated and upset for the rest of the day.
+anticipation_1,social,anticipation,I am waiting for the results and feeling excited about what comes next.
+anticipation_2,news,anticipation,Investors expected the announcement and watched the market closely.
+anticipation_3,blog,anticipation,Tomorrow's trip makes me curious hopeful and full of anticipation.
+disgust_1,social,disgust,The spoiled food smelled awful and made everyone disgusted.
+disgust_2,news,disgust,The report described filthy rooms and unacceptable hygiene problems.
+disgust_3,blog,disgust,I felt repulsed by the gross mess left in the kitchen.
+fear_1,social,fear,I was afraid during the storm because the windows kept shaking.
+fear_2,news,fear,The emergency warning created fear among families near the river.
+fear_3,blog,fear,Walking alone at night made me nervous scared and anxious.
+joy_1,social,joy,I am happy proud and delighted about the scholarship.
+joy_2,news,joy,The team celebrated a joyful victory after the final whistle.
+joy_3,blog,joy,Her smile and kind words made the whole morning wonderful.
+sadness_1,social,sadness,I felt lonely and sad after reading the last message.
+sadness_2,news,sadness,The community mourned the tragic loss of a beloved teacher.
+sadness_3,blog,sadness,It was a gloomy day and I missed my old friends terribly.
+surprise_1,social,surprise,I was shocked when my friends planned a sudden party.
+surprise_2,news,surprise,Analysts were amazed by the unexpected election result.
+surprise_3,blog,surprise,The plot twist was astonishing and completely unexpected.
+trust_1,social,trust,I trust the doctor because she explained the plan clearly.
+trust_2,news,trust,Officials expressed confidence in the safety of the new bridge.
+trust_3,blog,trust,His honest apology made me feel secure and reassured.

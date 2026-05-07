@@ -1,0 +1,9 @@
+@InProceedings{MohammadKZ2013,
+  author    = {Mohammad, Saif M. and Kiritchenko, Svetlana and Zhu, Xiaodan},
+  title     = {NRC-Canada: Building the State-of-the-Art in Sentiment Analysis of Tweets},
+  booktitle = {Proceedings of the seventh international workshop on Semantic Evaluation Exercises (SemEval-2013)},
+  month     = {June},
+  year      = {2013},
+  address   = {Atlanta, Georgia, USA}
+}
+

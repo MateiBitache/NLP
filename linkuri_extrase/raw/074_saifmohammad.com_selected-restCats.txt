@@ -1,0 +1,59 @@
+BUSINESS	FREQUENCY_IN_YELP_CORPUS
+Restaurants	4503
+Food	1616
+Mexican	630
+Bars	517
+Pizza	457
+Fast Food	386
+Sandwiches	382
+Coffee & Tea	322
+Chinese	289
+Italian	263
+Burgers	260
+Ice Cream & Frozen Yogurt	237
+Breakfast & Brunch	190
+Bakeries	161
+Delis	146
+Sports Bars	139
+Japanese	125
+Buffets	117
+Steakhouses	100
+Sushi Bars	94
+Lounges	94
+Barbeque	92
+Seafood	88
+Mediterranean	85
+Desserts	80
+Thai	79
+Greek	78
+Asian Fusion	76
+Donuts	68
+Tex-Mex	67
+Hot Dogs	63
+Diners	61
+Bagels	59
+Wine Bars	55
+Cafes	53
+Vietnamese	52
+Juice Bars & Smoothies	52
+Dive Bars	47
+Pubs	43
+Indian	39
+Middle Eastern	36
+Vegetarian	35
+Hawaiian	30
+Korean	27
+French	26
+Breweries	25
+Vegan	20
+Pakistani	17
+Caribbean	17
+Cajun/Creole	17
+Fish & Chips	14
+Irish	13
+Mongolian	12
+Filipino	12
+Soul Food	12
+Food Stands	12
+Soup	10
+Creperies	10

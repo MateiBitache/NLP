@@ -1,0 +1,25 @@
+id,domain,label,text,method,dominant_emotion,confidence,coverage,score_anger,score_anticipation,score_disgust,score_fear,score_joy,score_sadness,score_surprise,score_trust
+anger_1,social,anger,I am furious that the company ignored every complaint.,lexicon,anger,0.6045,0.7778,0.6045,0.0197,0.2979,0.0129,0.0,0.065,0.0,0.0
+anger_2,news,anger,Residents were angry after officials delayed the promised repairs.,lexicon,anger,0.3022,0.7778,0.3022,0.0919,0.0915,0.2674,0.0299,0.1045,0.0151,0.0975
+anger_3,blog,anger,The rude answer made me irritated and upset for the rest of the day.,lexicon,anger,0.458,0.6429,0.458,0.0102,0.1636,0.0089,0.1868,0.121,0.0514,0.0
+anticipation_1,social,anticipation,I am waiting for the results and feeling excited about what comes next.,lexicon,fear,0.4443,0.7692,0.0,0.4256,0.0,0.4443,0.1031,0.027,0.0,0.0
+anticipation_2,news,anticipation,Investors expected the announcement and watched the market closely.,lexicon,anticipation,0.5417,0.5556,0.0,0.5417,0.0246,0.1382,0.0208,0.0,0.2747,0.0
+anticipation_3,blog,anticipation,Tomorrow's trip makes me curious hopeful and full of anticipation.,lexicon,anticipation,0.4181,0.8,0.0148,0.4181,0.0551,0.3479,0.1559,0.0056,0.0,0.0025
+disgust_1,social,disgust,The spoiled food smelled awful and made everyone disgusted.,lexicon,disgust,0.7695,0.7778,0.1031,0.0,0.7695,0.0,0.0368,0.0183,0.0723,0.0
+disgust_2,news,disgust,The report described filthy rooms and unacceptable hygiene problems.,lexicon,disgust,0.5279,0.7778,0.1237,0.0,0.5279,0.0918,0.0,0.0,0.1146,0.142
+disgust_3,blog,disgust,I felt repulsed by the gross mess left in the kitchen.,lexicon,disgust,0.6248,0.6364,0.1046,0.0,0.6248,0.082,0.0859,0.0697,0.0263,0.0067
+fear_1,social,fear,I was afraid during the storm because the windows kept shaking.,lexicon,fear,0.533,0.7273,0.0734,0.0715,0.0,0.533,0.06,0.0,0.2104,0.0516
+fear_2,news,fear,The emergency warning created fear among families near the river.,lexicon,fear,0.4792,0.8,0.0166,0.0,0.0445,0.4792,0.1632,0.2739,0.0226,0.0
+fear_3,blog,fear,Walking alone at night made me nervous scared and anxious.,lexicon,fear,0.6833,0.9,0.0151,0.0526,0.0227,0.6833,0.0844,0.0768,0.065,0.0
+joy_1,social,joy,I am happy proud and delighted about the scholarship.,lexicon,joy,0.5974,0.6667,0.0,0.0284,0.0,0.0623,0.5974,0.0,0.1689,0.1429
+joy_2,news,joy,The team celebrated a joyful victory after the final whistle.,lexicon,joy,0.5265,0.7,0.0364,0.1961,0.0563,0.1103,0.5265,0.0178,0.0447,0.0119
+joy_3,blog,joy,Her smile and kind words made the whole morning wonderful.,lexicon,joy,0.6707,0.8,0.0187,0.0101,0.1182,0.0,0.6707,0.0598,0.1084,0.0141
+sadness_1,social,sadness,I felt lonely and sad after reading the last message.,lexicon,sadness,0.6576,0.7,0.0685,0.0869,0.0075,0.0021,0.0944,0.6576,0.083,0.0
+sadness_2,news,sadness,The community mourned the tragic loss of a beloved teacher.,lexicon,sadness,0.7261,0.5,0.0329,0.0156,0.0462,0.0,0.0886,0.7261,0.0289,0.0617
+sadness_3,blog,sadness,It was a gloomy day and I missed my old friends terribly.,lexicon,sadness,0.5995,0.75,0.0505,0.0,0.0776,0.0269,0.1176,0.5995,0.0488,0.079
+surprise_1,social,surprise,I was shocked when my friends planned a sudden party.,lexicon,surprise,0.3678,0.8,0.1232,0.1211,0.0996,0.0792,0.0623,0.1062,0.3678,0.0406
+surprise_2,news,surprise,Analysts were amazed by the unexpected election result.,lexicon,surprise,0.5553,0.75,0.0,0.2097,0.0141,0.1667,0.0419,0.0122,0.5553,0.0
+surprise_3,blog,surprise,The plot twist was astonishing and completely unexpected.,lexicon,surprise,0.8269,0.75,0.0,0.1114,0.0,0.0,0.0617,0.0,0.8269,0.0
+trust_1,social,trust,I trust the doctor because she explained the plan clearly.,lexicon,trust,0.4995,0.7,0.15,0.1038,0.1056,0.1274,0.0004,0.0,0.0134,0.4995
+trust_2,news,trust,Officials expressed confidence in the safety of the new bridge.,lexicon,fear,0.3537,0.6,0.1759,0.2054,0.1334,0.3537,0.04,0.0,0.0,0.0917
+trust_3,blog,trust,His honest apology made me feel secure and reassured.,lexicon,trust,0.4404,0.7778,0.017,0.0923,0.1648,0.0107,0.1583,0.0562,0.0602,0.4404

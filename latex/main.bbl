@@ -1,0 +1,40 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Mohammad(2012)]{mohammad2012emotional}
+Saif~M. Mohammad.
+\newblock \#emotional tweets.
+\newblock In \emph{Proceedings of the First Joint Conference on Lexical and
+  Computational Semantics}, Montreal, Canada, 2012.
+
+\bibitem[Mohammad and Kiritchenko(2015)]{mohammad2015hashtags}
+Saif~M. Mohammad and Svetlana Kiritchenko.
+\newblock Using hashtags to capture fine emotion categories from tweets.
+\newblock \emph{Computational Intelligence}, 31\penalty0 (2):\penalty0
+  301--326, 2015.
+
+\bibitem[Mohammad and Turney(2010)]{mohammad2010emotions}
+Saif~M. Mohammad and Peter~D. Turney.
+\newblock Emotions evoked by common words and phrases: Using mechanical turk to
+  create an emotion lexicon.
+\newblock In \emph{Proceedings of the NAACL HLT 2010 Workshop on Computational
+  Approaches to Analysis and Generation of Emotion in Text}, pages 26--34, Los
+  Angeles, California, 2010.
+
+\bibitem[Mohammad and Turney(2013)]{mohammad2013crowdsourcing}
+Saif~M. Mohammad and Peter~D. Turney.
+\newblock Crowdsourcing a word--emotion association lexicon.
+\newblock \emph{Computational Intelligence}, 29\penalty0 (3):\penalty0
+  436--465, 2013.
+
+\bibitem[Pang and Lee(2008)]{pang2008opinion}
+Bo~Pang and Lillian Lee.
+\newblock Opinion mining and sentiment analysis.
+\newblock \emph{Foundations and Trends in Information Retrieval}, 2\penalty0
+  (1--2):\penalty0 1--135, 2008.
+
+\end{thebibliography}

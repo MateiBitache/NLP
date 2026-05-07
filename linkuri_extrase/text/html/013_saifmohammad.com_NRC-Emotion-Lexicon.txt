@@ -1,0 +1,330 @@
+NRC Emotion Lexicon 
+
+Home 
+
+Research 
+ 
+ Publications 
+ 
+ Lexicons 
+
+ Labeled Data 
+ 
+ Invited Talks 
+ Contact 
+
+NRC Word-Emotion Association Lexicon (aka EmoLex) 
+
+The NRC Emotion Lexicon is a list of English words and their associations with eight basic emotions (anger, fear, anticipation, trust, surprise, sadness, joy, and disgust) and two sentiments (negative and positive). The annotations were manually done by crowdsourcing. 
+ 
+ Email: saif.mohammad@nrc-cnrc.gc.ca
+
+ @SaifMMohammad 
+
+Download the NRC Word-Emotion Association Lexicon (Non-Commercial Use Only — Research or Educational) 
+
+ Copyright (C) 2011 National Research Council Canada (NRC) 
+
+Version : 0.92
+
+ Publicly Released : 10 July 2011
+
+ Created By : Dr. Saif M. Mohammad, Dr. Peter Turney
+
+ Home Page : http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm 
+ 
+ Readme Last Updated : August 2022
+
+ Automatic translations from English to 108 languages was last updated : August 2022 
+ 
+ Contact: Dr. Saif M. Mohammad (Senior Research Scientist, National Research Council Canada)
+
+ saif.mohammad@nrc-cnrc.gc.ca, uvgotsaif@gmail.com 
+
+ Non-Commercial Research Use ( full suite of NRC Sentiment and Emotion Lexicons including the NRC Word-Emotion Association Lexicon , Valence, Arousal, and Dominance Lexicon, Affect Intensity Lexicon, etc.) 
+
+Commercial Use 
+ --> 
+ 
+See terms of use at the bottom of the page.
+
+See the Emotion Lexicons: Ethics and Data Statement before using the lexicon. 
+ 
+You may also be interested in these companion lexicons: NRC Valence, Arousal, and Dominance Lexicon and NRC Emotion Intensity Lexicon . (The full list of word-emotion, word-sentiment, and word-colour lexicons is available in the Lexicons page .) 
+ 
+ Papers 
+
+Crowdsourcing a Word-Emotion Association Lexicon , Saif 
+ Mohammad and Peter Turney, Computational Intelligence, 29 (3), 
+ 436-465, 2013.
+
+ Paper 
+ (pdf)     BibTeX 
+
+Emotions Evoked by Common Words 
+ and Phrases: Using Mechanical Turk to Create an Emotion Lexicon , 
+ Saif Mohammad and Peter Turney , In Proceedings of the NAACL-HLT 2010 Workshop on Computational 
+ Approaches to Analysis and Generation of Emotion in Text, June 2010, LA, California.
+
+ Abstract     Paper (pdf)     BibTeX     Presentation 
+ 
+This study has been approved by the NRC Research Ethics Board (NRC-REB) under protocol number 2009-94. REB review seeks to ensure that research projects involving humans as participants meet Canadian standards of ethics. 
+
+Practical and Ethical Considerations 
+
+Please see the papers below for ethical considerations involved in automatic emotion detection and the use of emotion lexicons. (These also acts as the Ethics and Data Statements for the lexicon.) 
+
+Ethics Sheet for Automatic Emotion Recognition and Sentiment Analysis . Computational Linguistics .  June 2022. 
+
+ Paper (pdf)    BibTeX     Slides 
+
+Best Practices in the Creation and Use of Emotion Lexicons. 
+
+Saif M. Mohammad. Findings of the Association for Computational Linguistics: EACL 2023. Dubrovnik, Croatia. 2023.
+
+ Paper (pdf)     BibTex 
+
+Python Code to Analyze Emotions in Text 
+
+There are many third party software packages that can be used in conjunction with the NRC Emotion Lexicon to analyze emotion word use in text. We recommend Emotion Dynamics . 
+ 
+It is the primary package that we use to analyze text using the NRC Emotion Lexicon and the NRC VAD Lexicon. It can be used to generate a csv file with a number of emotion features pertaining to the text of interest, including metrics of utterance emotion dynamics. 
+
+May 2020, Ten years back, with some anticipation and lots of excitement, Peter Turney and I introduced the NRC Word-Emotion Association Lexicon . So grateful that, over the years, so many people have put their hopes and trust in it. Such joy to see them boldly shine a light on the human condition — the positives and the negatives; not shying away even from sadness, fear, and anger. This blog bost puts a spotlight on ten favorites (includes fun video and audio clips as well as links to papers and popular press articles): 
+
+Ten Years of the NRC Word-Emotion Association Lexicon 
+
+Summary Details of the NRC Emotion Lexicon 
+
+Association Lexicon 
+ 
+ Version
+
+# of Terms 
+ Categories 
+ Association Scores 
+ Method of Creation 
+
+Word-Emotion and Word-Sentiment Association Lexicon 
+
+NRC Word-Emotion Association Lexicon 
+
+ (also called EmoLex)
+
+0.92 
+ 
+(2010) 
+ 14,182 unigrams (words)
+
+sentiments: negative, positive
+
+ emotions: anger, anticipation, disgust, fear, joy, sadness, surprise, trust 
+ 0 (not associated) or 1 (associated) 
+ 
+ Manual: By crowdsourcing on Mechanical Turk. 
+ 
+ Domain: General 
+
+~25,000 senses
+
+not associated, weakly, moderately, or strongly associated 
+
+Survey paper on automatic emotion and sentiment analysis: 
+
+Sentiment Analysis: Automatically Detecting Valence, Emotions, and Other Affectual States from Text. Saif M. Mohammad, arXiv:2005.11882, Jan 2021.
+
+ To Appear as a Book chapter in The 2nd Edition of Emotion Measurement, Elsevier , 2021.
+
+ PDF      BibTeX 
+
+NRC Emotion Lexicon in Various Languages 
+ 
+The NRC Emotion Lexicon has affect annotations for English words. Despite some cultural differences, it has been shown that a majority of affective norms are stable acrosslanguages. Thus, we provide versions of the lexicon in over 100 languages by translating the English terms using Google Translate (August 2022). 
+ 
+The lexicon is thus available for English and these languages: 
+ 
+Afrikaans, Albanian, Amharic, Arabic, Armenian, Azerbaijani, Basque, Belarusian, Bengali, Bosnian, Bulgarian, Burmese, Catalan, Cebuano, Chichewa, Corsican, Croatian, Czech, Danish, Dutch, Esperanto, Estonian, Filipino, Finnish, French, Frisian, Gaelic, Galician, Georgian, German, Greek, Gujarati, HaitianCreole, Hausa, Hawaiian, Hebrew, Hindi, Hmong, Hungarian, Icelandic, Igbo, Indonesian, Irish, Italian, Japanese, Javanese, Kannada, Kazakh, Khmer, Kinyarwanda, Korean, Kurmanji, Kyrgyz, Lao, Latin, Latvian, Lithuanian, Luxembourgish, Macedonian, Malagasy, Malay, Malayalam, Maltese, Maori, Marathi, Mongolian, Nepali, Norwegian, Odia, Pashto, Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Samoan, Sanskrit, Serbian, Sesotho, Shona, Simplified, Sindhi, Sinhala, Slovak, Slovenian, Somali, Spanish, Sundanese, Swahili, Swedish, Tajik, Tamil, Tatar, Telugu, Thai, Traditional, Turkish, Turkmen, Ukranian, Urdu, Uyghur, Uzbek, Vietnamese, Welsh, Xhosa, Yiddish, Yoruba, Zulu 
+ 
+Note that an earlier version included translations obtained in 2017. The current 2022 translations are markedly better. That said, some of the translations may still be incorrect or they may simply be transliterations of the original English terms. 
+
+An Interactive Visualizer 
+
+Impact 
+
+Some notable ways in which the NRC Emotion Lexicon has made impact include:
+
+First of its kind: It was the first word-emotion association lexicon, with entries for eight basic emotions as well as positive and negative sentiment. It still remains the largest such lexicon. Prior work largely focused on positive and negative sentiment. While earlier work focused on words that *denotate* emotion, this work included the larger set of words that are associated with or connotate an emotion.
+
+Quality Control: Careful attention was paid to ensure appropriate annotations including the use of a separate word choice question to make sure annotators knew the word and to guide them to the desired sense of the word for which annotations were solicited. 
+
+Impact on NLP: The lexicon impacted work in sentiment and emotion analysis in NLP. Notably, facilitating work beyond just the positive-negative affect dimension. The lexicon has been used for word-, sentence-, tweet-, and document-level sentiment and emotion analysis, abusive language detection, personality trait identification, stance detection, etc. The lexicon is especially useful in unsupervised settings and when training data is limited or not available. However, even with the onset of deep learning methods, many top systems in shared tasks (such as SemEval-2018 Task 1 Affect in Tweets ) continue to benefit from the lexicon by using it to initialize their embeddings and adding additional lexicon-derived features. 
+
+Impact on fields beyond NLP:
+
+Work on Well-Being and Health Disorders: Used in work on understanding pandemic response, feelings towards influenza vaccinations, depression detection, hate speech detection, identifying cyber-bullying, etc. Proceedings of workshops such as CL-psych and i2b2 describe systems that use the NRC Emotion Lexicon.
+
+Psychology, Behavioural Science, Psycolinguistics, Fairness, and Social Science: Used in work on understanding how people express emotions, relationships between word characteristics (such as length and concreteness) with its associated emotion,  gender attitudes, as well as the role of emotions in the spread of information, especially news, fake news, and viral videos. The highly cited paper "The spread of true and false news online" uses the lexicon to determine associations of emotions with fake news and its virality. 
+
+Digital Humanities and Computational Literature (detecting narrative arcs in novels and fairy tales). Notable works include:
+
+From Once Upon a Time to Happily Ever After: Tracking Emotions in Novels and Fairy Tales . (picked up by SlashDot , Singularity Hub , etc., October, 2013).  
+
+Syuzhet Package by Matthew Jockers.
+
+Art: 
+
+on creations such as the Wishing Wall , that that were displayed in:  
+
+Barbican Centre, London, UK  
+ 
+Tekniska Museet, Stockholm, Sweden (Oct 14 Aug 15)  
+ 
+Onassis Cultural Centre, Athens (19th Oct15 10th Jan16)  
+ 
+Zorlu Centre in Istanbul (16th Feb 12th June16)
+
+on work like generating music that captures the flow of emotions in novels; with some music eventually being played at the Louvre:  
+
+TIME , May 7, 2014: This Is What Classic Novels Sound Like When a Computer Turns Them Into Piano Music. 
+
+Washington Post , CBS News , Columbia Tribune , and others, September 23, 2016. This symphony had both human and computer composers. 
+ 
+Articles about a symphony orchestra performed music composed using the NRC Emotion Lexicon under the glass of the Louvre museum in Paris on Sept. 20, 2016. Click here for a video of the performance . 
+ 
+ SlashDot , March23, 2014: Algorithm Composes Music By Text Analyzing the World's Best Novels.
+
+Human-Computer Interaction (virtual assistants, physiotherapy robots, etc.) 
+
+Ethics and Fairness (work on comparing attitudes towards men and women at work)
+
+Data Science : see example data science projects highlighted in popular press (bottom of this page). Also see: Chatty maps. Fast Company , March 25, 2016: An Emotional Map Of The City, As Captured Through Its Sounds. 
+
+Citations: 
+
+Papers that cite Crowdsourcing a Word–Emotion Association Lexicon 
+
+Papers that cite Emotions Evoked by Common Words and Phrases: Using Mechanical Turk to Create an Emotion Lexicon 
+
+Democratization of Emotion Analysis: The large lexicon allowed for the use of simple methods to track trends in emotions. This democratized emotion analysis and it was used not just by computer scientists, but also by journalists, psychologists, social scientists, and amateur data enthusiasts to detect trends in emotions in everything from the Brexit discourse, election tweets, Radiohead songs, abusive language, reddit posts, and more. 
+
+Esquire, February 23, 2017. All Radiohead Songs Are Sad, but This Graph Shows Which Are the Saddest. The NRC Emotion Lexicon is used to compute the degree of sadness for Radiohead songs. Interactive Chart.
+
+Also picked up in:  A Journal of Musical Things, February 24, 2017. Science Discovers Which Radiohead Song is the Saddest ; and A variation on the approach, February 28. Where I End and You Begin: Finding the Most Depressing Radiohead Songs using Crowd Data from SongMeanings. 
+
+The Telegraph , June 15, 2016: EU referendum: Remain uses Project Fear more in tweets than Leave, analysis shows. [Use of the NRC Emotion Lexicon, aka EmoLex, to track sentiment in EU referendum tweets (Brexit).] 
+
+The Crosstab, March 2, 2017. Trump's SOTU vs. the Past — Sentiment Analysis and Topic Modeling . 
+
+Variance Explained, August 6, 2016. Text analysis of Trump's tweets confirms he writes only the (angrier) Android half . News also picked up by NPR , Los Angeles Times , Scientific American , The Verge , and others. 
+
+Other Notable Press Coverage (of the lexicon and systems built using the lexicon over the years):
+
+Article in MIT Technology Review , September 5, 2013: How Mechanical Turkers Crowdsourced a Huge Lexicon of Links Between Words and Emotion. Also in its Spanish website and in crowdsourcing.org. 
+
+TIME , August 14, 2013: Main Tweet: Researchers Dig Into The Intersection of Politics and Twitter.
+
+The New Scientist, September 27: What your email style says about your personality. Also in Times of India, MSN, Pharmacon, Galileo, Amic, and others.
+
+SlashDot , October 1, 2013: Text Analyzer Reveals Emotional 'Temperature' of Novels and Fairy Tales.
+
+The Physics ArXiv , October 1, 2013: Text Analyser Reveals Emotional Temperature of Novels and Fairy Tales. Also in EduBits.
+
+SlashDot , October 4, 2013: Data Mining Reveals the Emotional Differences In Emails From Men and Women.
+
+Singularity Hub , November 10, 2013:Algorithm Tracks Literary Emotion in Shakespeare, the Brothers Grimm.
+
+Glass Hammer , December 3, 2013: Are Your Emails Communicating a Lack of Confidence? 
+
+Billboard, May 19, 2014. Computers, Classics and Cadenzas: Making Math Music From Literature . On our work on automatically generating music that captures the emotions in a novel.
+
+Washington Post, October 22, 2016. Donald Trump and Hillary Clinton took to the debate stage and made sweet, sweet music. The article mentions NRC in relation to the lexicons we created, which were used to generate music from the Trump-Hillary debate text. 
+
+Washington Post, August 12, 2016. Two people write Trump’s tweets. He writes the angrier ones. 
+
+BGR, August 11, 2016. Donald Trump’s angriest tweets are sent from his Android while the nice ones are sent from an iPhone .
+
+NYC Data Science Academy, August 7, 2016. Twitter Analysis of Presidential Candidates 2016. 
+
+April 13, 2017.  Faster but less furious: why the Fast and Furious franchise is a box office goldmine . The NRC Emotion Lexicon is used to analyze the emotions in the Fast and Furious series movie scripts.
+
+January 24, 2018. An examination of the Twitter habits of Kentucky lawmakers . The NRC Emotion Lexicon is used to analyze the tweets of Democrats and Republicans.
+
+Technical.ly, February 1, 2018. Who’s the angriest character on ‘Seinfeld’? The NRC Emotion Lexicon is used to analyze the language of the characters in Seinfeld. 
+
+SeekingAlpha, Apr. 30, 2018. A Sentiment Analysis Approach To Predicting Stock Returns. The NRC Emotion Lexicon is used to analyze 10-K reports of S&P 500 companies to predict future stock returns. 
+
+InformationWeek, November 15, 2018. Decoding Programmers: How Emotions Can Change Code . Analyzing developer comments to show that their emotions impact their code. 
+
+Psychology Today, December 27, 2018. Emotional Contagions Can Spread Like Wildfire Via YouTube. The NRC Emotion Lexicon is used to analyze the emotions in user comments on vlogs.  Original Paper: Multilevel emotion transfer on YouTube: Disentangling the effects of emotional contagion and homophily on video audiences. 
+
+Politico.mx, August 28, 2019. Enojo o sorpresa: emociones en Informes de López Portillo a Calderón . The NRC Emotion Lexicon is used to analyze the speeches of the Mexican President and other politicians.
+
+Tech Xplore, February 26, 2020. A language generation system that can compose creative poetry . The NRC Emotion Lexicon is used along with a deep learning system for automatic poetry generation. Original paper: Introducing Aspects of Creativity in Automatic Poetry Generation .
+
+AdNews, April 20, 2020. Coronavirus: Analysing stories from the Twitter frontline . Use of the NRC Emotion lexicon to Analyze emotions in tweets during the Covid-19 pandemic.
+
+Availability: The lexicon is made freely available for research , and has been commercially licensed to companies for a small fee. 
+
+Terms of Use 
+
+Research Use: The lexicon mentioned in this page can be used freely for non-commercial research and educational purposes.
+
+Citation: Cite the papers associated with the lexicon in your research papers and articles that make use of them. 
+
+Media Mentions: In news articles and online posts on work using the lexicon, cite the lexicon. For example: "We make use of the <resource name>, created by <author(s)> at the National Research Council Canada." We would appreciate a hyperlink to the lexicon home page and an email to the contact author (saif.mohammad@nrc-cnrc.gc.ca). (Authors and homepage information provided at the top of the README.)
+
+Credit: If you use the lexicon in a product or application, then acknowledge this in the 'About' page and other relevant documentation of the application by stating the name of the resource, the authors, and NRC. For example: "This application/product/tool makes use of the <resource name>, created by <author(s)> at the National Research Council Canada." We would appreciate a hyperlink to the lexicon home page and an email to the contact author (saif.mohammad@nrc-cnrc.gc.ca).
+
+No Redistribution: Do not redistribute the data. Direct interested parties to the lexicon home page. You may not rent or license the use of the lexicon nor otherwise permit third parties to use it. 
+
+Proprietary Notice: You will ensure that any copyright notices, trademarks or other proprietary right notices placed by NRC on the lexicon remains in evidence.
+
+Title: All intellectual property rights in and to the lexicon shall remain the property of NRC. All proprietary interests, rights, unencumbered titles, copyrights, or other Intellectual Property Rights in the lexicon and all copies thereof remain at all times with NRC.
+
+Commercial License: If interested in commercial use of the lexicon, contact the author: saif.mohammad@nrc-cnrc.gc.ca
+
+Disclaimer: National Research Council Canada (NRC) disclaims any responsibility for the use of the lexicon and does not provide technical support. NRC makes no representation and gives no warranty of any kind with respect to the accuracy, usefulness, novelty, validity, scope, or completeness of the lexicon and expressly disclaims any implied warranty of merchantability or fitness for a particular purpose of the lexicon. That said, the contact listed above welcomes queries and clarifications.
+
+Limitation of Liability: You will not make claims of any kind whatsoever upon or against NRC or the creators of the lexicon, either on your own account or on behalf of any third party, arising directly or indirectly out of your use of the lexicon. In no event will NRC or the creators be liable on any theory of liability, whether in an action of contract or strict liability (including negligence or otherwise), for any losses or damages incurred by you, whether direct, indirect, incidental, special, exemplary or
+
+ consequential, including lost or anticipated profits, savings, interruption to business, loss of business opportunities, loss of business information, the cost of recovering such lost information, the cost of substitute intellectual property or any other pecuniary loss arising from the use of, or the inability to use, the lexicon regardless of whether you have advised NRC or NRC has advised you of the possibility of such damages. 
+
+Code 
+ 
+There are many third party software packages that can be used in conjunction with the NRC Emotion Lexicon to analyze emotion word use in text. We recommend Emotion Dynamics . It is the primary package that we use to analyze text using the NRC Emotion Lexicon andthe NRC VAD Lexicon. It can be used to generate a csv file with a number of emotion features pertaining to the text of interest, including metrics of utterance emotion dynamics. Associated Paper . 
+ 
+For earlier R code, see: 
+
+Emotion Dynamics package. 
+
+ Paper (pdf)     BibTeX     Code 
+
+For generating Weka features, see: 
+
+The AffectiveTweets Package : Felipe Bravo-Marquez implemented AffectiveTweets for the Weka machine learning workbench that provides a collection of filters for extracting features from tweets for sentiment classification/regression and other related tasks. The package is especially useful to generate feature vectors from a large number of affect lexicons. The vector can then be concatenated to other features vectors (say dense-distributed representations of the text) to improve perfomance. (You can use the feature vector with any classifier -- not just one with support from Weka.) 
+
+These third party packages also faculitate the use of the NRC Emotion Lexicon: 
+
+TidyText : See this guide and this introduction to TidyText . 
+
+R package Lexicon : See docimentation here. 
+
+Syuzhet : For literary analysis. 
+
+Feedback 
+
+We will be happy to hear from you. For example: 
+
+telling us what you are using the lexicon for; 
+ 
+providing feedback regarding the lexicon; 
+ 
+if you are interested in having us analyze your data for sentiment, emotion, and other affectual information; 
+ 
+if you are interested in a collaborative research project. 
+
+We regularly collaborate with graduate students, post-docs, faculty, and research professional from Computer Science, Psychology, Digital Humanities, Linguistics, Social Science, etc. 
+ 
+ Email: Dr. Saif M. Mohammad (saif.mohammad@nrc-cnrc.gc.ca, uvgotsaif@gmail.com)
+
+@SaifMMohammad
