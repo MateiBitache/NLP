@@ -1,121 +1,513 @@
 id,domain,label,text
-anger_social_01,social,anger,I am furious that the company ignored every complaint.
-anger_social_02,social,anger,This update broke everything again and I am angry about it.
-anger_social_03,social,anger,The rude reply made me irritated for the rest of the day.
-anger_social_04,social,anger,I hate how they keep promising fixes and doing nothing.
-anger_social_05,social,anger,People in the comments were mad about the unfair decision.
-anger_news_01,news,anger,Residents were angry after officials delayed the promised repairs.
-anger_news_02,news,anger,Workers protested after the company refused to pay overtime.
-anger_news_03,news,anger,Parents criticized the school board for ignoring safety complaints.
-anger_news_04,news,anger,The mayor faced public outrage after the budget cuts.
-anger_news_05,news,anger,Customers accused the airline of disrespectful treatment during cancellations.
-anger_blog_01,blog,anger,The rude answer made me upset and tense all evening.
-anger_blog_02,blog,anger,I slammed the laptop shut after the same error returned.
-anger_blog_03,blog,anger,It annoys me when simple requests are treated like a burden.
-anger_blog_04,blog,anger,My patience disappeared after waiting three hours for help.
-anger_blog_05,blog,anger,The unfair criticism left me resentful and frustrated.
-anticipation_social_01,social,anticipation,I am waiting for the results and feeling excited about what comes next.
-anticipation_social_02,social,anticipation,Only two hours until the announcement and everyone is refreshing the page.
-anticipation_social_03,social,anticipation,I cannot sleep because tomorrow might change everything.
-anticipation_social_04,social,anticipation,The countdown has started and I keep imagining the surprise.
-anticipation_social_05,social,anticipation,We are all eager to see the first trailer tonight.
-anticipation_news_01,news,anticipation,Investors expected the announcement and watched the market closely.
-anticipation_news_02,news,anticipation,Fans waited outside the stadium before the final team list.
-anticipation_news_03,news,anticipation,Scientists prepared for the launch scheduled before sunrise.
-anticipation_news_04,news,anticipation,Voters looked ahead to the debate for clearer answers.
-anticipation_news_05,news,anticipation,Analysts predicted a major decision before the end of the week.
-anticipation_blog_01,blog,anticipation,Tomorrow's trip makes me curious hopeful and full of anticipation.
-anticipation_blog_02,blog,anticipation,I packed early because I am eager for the weekend retreat.
-anticipation_blog_03,blog,anticipation,The unopened letter sat on my desk like a promise.
-anticipation_blog_04,blog,anticipation,I kept checking the doorway hoping she would arrive soon.
-anticipation_blog_05,blog,anticipation,The smell of fresh paint made me imagine the finished room.
-disgust_social_01,social,disgust,The spoiled food smelled awful and made everyone disgusted.
-disgust_social_02,social,disgust,That filthy bathroom photo made me feel sick.
-disgust_social_03,social,disgust,I cannot believe they served something so gross.
-disgust_social_04,social,disgust,The comments about cheating were vile and repulsive.
-disgust_social_05,social,disgust,Seeing trash dumped in the park made me nauseous.
-disgust_news_01,news,disgust,The report described filthy rooms and unacceptable hygiene problems.
-disgust_news_02,news,disgust,Inspectors found rotten supplies in the restaurant kitchen.
-disgust_news_03,news,disgust,The investigation exposed disgusting conditions inside the facility.
-disgust_news_04,news,disgust,Officials condemned the toxic waste left near homes.
-disgust_news_05,news,disgust,Residents complained about sewage smells spreading through the street.
-disgust_blog_01,blog,disgust,I felt repulsed by the gross mess left in the kitchen.
-disgust_blog_02,blog,disgust,The moldy bread and sour milk ruined my appetite.
-disgust_blog_03,blog,disgust,I wanted to leave as soon as I saw the dirty table.
-disgust_blog_04,blog,disgust,The slimy texture made me push the plate away.
-disgust_blog_05,blog,disgust,His cruel joke felt ugly and made me uncomfortable.
-fear_social_01,social,fear,I was afraid during the storm because the windows kept shaking.
-fear_social_02,social,fear,The strange noise outside made my hands tremble.
-fear_social_03,social,fear,I feel scared walking home after those warnings.
-fear_social_04,social,fear,Everyone panicked when the lights went out.
-fear_social_05,social,fear,My heart raced when the phone showed the emergency alert.
-fear_news_01,news,fear,The emergency warning created fear among families near the river.
-fear_news_02,news,fear,Evacuation orders frightened residents as the fire moved closer.
-fear_news_03,news,fear,Doctors warned that the outbreak could spread quickly.
-fear_news_04,news,fear,The crash raised concerns about safety on the route.
-fear_news_05,news,fear,Parents worried after reports of threats near the school.
-fear_blog_01,blog,fear,Walking alone at night made me nervous scared and anxious.
-fear_blog_02,blog,fear,I froze when the elevator stopped between floors.
-fear_blog_03,blog,fear,The medical results made me fear the worst.
-fear_blog_04,blog,fear,I kept imagining everything that could go wrong.
-fear_blog_05,blog,fear,The dark hallway made every small sound feel dangerous.
-joy_social_01,social,joy,I am happy proud and delighted about the scholarship.
-joy_social_02,social,joy,We finally won and I cannot stop smiling.
-joy_social_03,social,joy,This birthday message made my whole day brighter.
-joy_social_04,social,joy,I feel grateful excited and full of joy right now.
-joy_social_05,social,joy,Our group chat exploded with happy celebration.
-joy_news_01,news,joy,The team celebrated a joyful victory after the final whistle.
-joy_news_02,news,joy,Students cheered after the school received new funding.
-joy_news_03,news,joy,The rescued family smiled as they thanked the volunteers.
-joy_news_04,news,joy,The festival opened with music dancing and laughter.
-joy_news_05,news,joy,Supporters celebrated the historic win in the city center.
-joy_blog_01,blog,joy,Her smile and kind words made the whole morning wonderful.
-joy_blog_02,blog,joy,Baking with my sister filled the kitchen with warmth and laughter.
-joy_blog_03,blog,joy,I felt peaceful and happy watching the sunrise.
-joy_blog_04,blog,joy,The little gift made me feel loved and appreciated.
-joy_blog_05,blog,joy,Finishing the project gave me a deep sense of satisfaction.
-sadness_social_01,social,sadness,I felt lonely and sad after reading the last message.
-sadness_social_02,social,sadness,Missing the old team chat made me feel empty.
-sadness_social_03,social,sadness,I cried when I saw the goodbye post.
-sadness_social_04,social,sadness,The cancelled visit left me disappointed and low.
-sadness_social_05,social,sadness,Everyone moved on and I felt forgotten.
-sadness_news_01,news,sadness,The community mourned the tragic loss of a beloved teacher.
-sadness_news_02,news,sadness,Families gathered in grief after the accident.
-sadness_news_03,news,sadness,The closing factory left workers facing a painful future.
-sadness_news_04,news,sadness,The memorial honored victims of the devastating flood.
-sadness_news_05,news,sadness,Residents described heartbreak after losing their homes.
-sadness_blog_01,blog,sadness,It was a gloomy day and I missed my old friends terribly.
-sadness_blog_02,blog,sadness,The quiet apartment felt heavier after she left.
-sadness_blog_03,blog,sadness,I reread the note and felt tears return.
-sadness_blog_04,blog,sadness,The empty chair at dinner made everyone silent.
-sadness_blog_05,blog,sadness,I felt a dull ache thinking about what we lost.
-surprise_social_01,social,surprise,I was shocked when my friends planned a sudden party.
-surprise_social_02,social,surprise,I opened the app and saw an unexpected message.
-surprise_social_03,social,surprise,No one expected that hilarious twist at the end.
-surprise_social_04,social,surprise,The announcement came out of nowhere and stunned everyone.
-surprise_social_05,social,surprise,I gasped when the hidden guest walked in.
-surprise_news_01,news,surprise,Analysts were amazed by the unexpected election result.
-surprise_news_02,news,surprise,The sudden resignation surprised officials across the country.
-surprise_news_03,news,surprise,Researchers discovered an unexpected signal in the data.
-surprise_news_04,news,surprise,The underdog victory shocked sports commentators.
-surprise_news_05,news,surprise,Markets reacted sharply to the surprising policy reversal.
-surprise_blog_01,blog,surprise,The plot twist was astonishing and completely unexpected.
-surprise_blog_02,blog,surprise,I found an old photo hidden inside the book.
-surprise_blog_03,blog,surprise,The recipe tasted completely different from what I imagined.
-surprise_blog_04,blog,surprise,She arrived early and caught me totally off guard.
-surprise_blog_05,blog,surprise,The small cafe turned out to be a secret music venue.
-trust_social_01,social,trust,I trust the doctor because she explained the plan clearly.
-trust_social_02,social,trust,Your honest update made me feel confident again.
-trust_social_03,social,trust,I believe the team will handle this carefully.
-trust_social_04,social,trust,She kept her promise and I feel safe with her.
-trust_social_05,social,trust,The clear instructions made everyone more confident.
-trust_news_01,news,trust,Officials expressed confidence in the safety of the new bridge.
-trust_news_02,news,trust,Auditors confirmed that the charity used funds responsibly.
-trust_news_03,news,trust,Doctors said the treatment plan was reliable and well tested.
-trust_news_04,news,trust,The agency assured residents that water quality remained safe.
-trust_news_05,news,trust,Independent experts backed the report and its conclusions.
-trust_blog_01,blog,trust,His honest apology made me feel secure and reassured.
-trust_blog_02,blog,trust,I relaxed because my friend had handled this before.
-trust_blog_03,blog,trust,Her calm explanation helped me believe the plan would work.
-trust_blog_04,blog,trust,The familiar routine made the new place feel safe.
-trust_blog_05,blog,trust,I left the keys with him because he has always been dependable.
+anger_social_001,social,anger,"People noticed the delay, and my friend felt furious about it after several complaints."
+anger_news_002,news,anger,"before the final vote, residents was angry and refused to stay silent about the phone call."
+anger_blog_003,blog,anger,The way the interview unfolded made the author called it unfair and insulting.
+anger_social_004,social,anger,"People noticed the change, and my teammate lost patience with the excuses while everyone was waiting."
+anger_news_005,news,anger,"while checking the details, the mayor felt irritated by the same problem again about the review."
+anger_blog_006,blog,anger,The way the exam unfolded made a small business owner was mad about the careless response.
+anger_social_007,social,anger,"People noticed the contract, and my colleague said the whole situation was unacceptable at the end of the day."
+anger_news_008,news,anger,"after the numbers were published, the company felt offended by the tone about the message."
+anger_blog_009,blog,anger,The way the meeting unfolded made a nurse blamed the team for wasting time.
+anger_social_010,social,anger,"People noticed the result, and my brother could not hide the frustration before the event."
+anger_news_011,news,anger,"when the room went quiet, the rescue team reacted sharply to the broken promise about the deadline."
+anger_blog_012,blog,anger,The way the mistake unfolded made a traveler was upset by the lack of respect.
+anger_social_013,social,anger,"People noticed the visit, and our project team complained that nobody took responsibility during the morning."
+anger_news_014,news,anger,"during the discussion, local leaders felt provoked by the decision about the repair."
+anger_blog_015,blog,anger,The way the schedule unfolded made a patient said the delay crossed a line.
+anger_social_016,social,anger,"People noticed the announcement, and the volunteers was annoyed by the repeated mistake after a long week."
+anger_news_017,news,anger,"after several complaints, the university argued that the answer was dishonest about the update."
+anger_blog_018,blog,anger,The way the report unfolded made a musician felt bitter after being ignored.
+anger_social_019,social,anger,"People noticed the email, and the support chat criticized the careless handling before the weekend."
+anger_news_020,news,anger,"while everyone was waiting, the newsroom was furious that the issue returned about the plan."
+anger_blog_021,blog,anger,The way the warning unfolded made an intern felt furious about it.
+anger_social_022,social,anger,"People noticed the campaign, and the local team was angry and refused to stay silent after the call ended."
+anger_news_023,news,anger,"at the end of the day, the factory called it unfair and insulting about the request."
+anger_blog_024,blog,anger,The way the delivery unfolded made a freelancer lost patience with the excuses.
+anger_social_025,social,anger,"People noticed the decision, and the parents felt irritated by the same problem again when the update arrived."
+anger_news_026,news,anger,"before the event, officials was mad about the careless response about the delay."
+anger_blog_027,blog,anger,The way the phone call unfolded made we said the whole situation was unacceptable.
+anger_social_028,social,anger,"People noticed the interview, and my neighbor felt offended by the tone during the first hour."
+anger_news_029,news,anger,"during the morning, workers blamed the team for wasting time about the change."
+anger_blog_030,blog,anger,The way the review unfolded made our team could not hide the frustration.
+anger_social_031,social,anger,"People noticed the exam, and the online community reacted sharply to the broken promise after the team reviewed it."
+anger_news_032,news,anger,"after a long week, the agency was upset by the lack of respect about the contract."
+anger_blog_033,blog,anger,The way the message unfolded made a teacher complained that nobody took responsibility.
+anger_social_034,social,anger,"People noticed the meeting, and our club felt provoked by the decision before the final vote."
+anger_news_035,news,anger,"before the weekend, the court said the delay crossed a line about the result."
+anger_blog_036,blog,anger,The way the deadline unfolded made a parent was annoyed by the repeated mistake.
+anger_social_037,social,anger,"People noticed the mistake, and the comments argued that the answer was dishonest while checking the details."
+anger_news_038,news,anger,"after the call ended, the ministry felt bitter after being ignored about the visit."
+anger_blog_039,blog,anger,The way the repair unfolded made a volunteer criticized the careless handling.
+anger_social_040,social,anger,"People noticed the schedule, and the forum was furious that the issue returned after the numbers were published."
+anger_news_041,news,anger,"when the update arrived, the airport felt furious about it about the announcement."
+anger_blog_042,blog,anger,The way the update unfolded made a reader was angry and refused to stay silent.
+anger_social_043,social,anger,"People noticed the report, and my roommate called it unfair and insulting when the room went quiet."
+anger_news_044,news,anger,"during the first hour, the charity lost patience with the excuses about the email."
+anger_blog_045,blog,anger,The way the plan unfolded made a customer felt irritated by the same problem again.
+anger_social_046,social,anger,"People noticed the warning, and the committee was mad about the careless response during the discussion."
+anger_news_047,news,anger,"after the team reviewed it, the city said the whole situation was unacceptable about the campaign."
+anger_blog_048,blog,anger,The way the request unfolded made a planner felt offended by the tone.
+anger_social_049,social,anger,"People noticed the delivery, and the organizer blamed the team for wasting time after several complaints."
+anger_news_050,news,anger,"before the final vote, the transport authority could not hide the frustration about the decision."
+anger_blog_051,blog,anger,The way the delay unfolded made I reacted sharply to the broken promise.
+anger_social_052,social,anger,"People noticed the phone call, and the group chat was upset by the lack of respect while everyone was waiting."
+anger_news_053,news,anger,"while checking the details, researchers complained that nobody took responsibility about the interview."
+anger_blog_054,blog,anger,The way the change unfolded made my partner felt provoked by the decision.
+anger_social_055,social,anger,"People noticed the review, and my family said the delay crossed a line at the end of the day."
+anger_news_056,news,anger,"after the numbers were published, the hospital was annoyed by the repeated mistake about the exam."
+anger_blog_057,blog,anger,The way the contract unfolded made a student argued that the answer was dishonest.
+anger_social_058,social,anger,"People noticed the message, and the class felt bitter after being ignored before the event."
+anger_news_059,news,anger,"when the room went quiet, the school board criticized the careless handling about the meeting."
+anger_blog_060,blog,anger,The way the result unfolded made a designer was furious that the issue returned.
+anger_social_061,social,anger,"People noticed the deadline, and my sister felt furious about it during the morning."
+anger_news_062,news,anger,"during the discussion, inspectors was angry and refused to stay silent about the mistake."
+anger_blog_063,blog,anger,The way the visit unfolded made a developer called it unfair and insulting.
+anger_social_064,social,anger,"People noticed the repair, and my cousin lost patience with the excuses after a long week."
+anticipation_social_001,social,anticipation,my friend was waiting with real excitement once the plan happened during the first hour.
+anticipation_news_002,news,anticipation,"residents said the warning mattered, and the school board expected good news soon."
+anticipation_blog_003,blog,anticipation,the author looked forward to the next step; the campaign changed the whole mood.
+anticipation_social_004,social,anticipation,my teammate kept checking for the final answer as soon as the request happened after the team reviewed it.
+anticipation_news_005,news,anticipation,"the mayor said the delivery mattered, and inspectors was hopeful about what would happen."
+anticipation_blog_006,blog,anticipation,a small business owner prepared carefully for the opportunity; the decision changed the whole mood.
+anticipation_social_007,social,anticipation,my colleague counted the hours until the result when the delay happened before the final vote.
+anticipation_news_008,news,anticipation,"the company said the phone call mattered, and the council imagined the outcome with nervous energy."
+anticipation_blog_009,blog,anticipation,a nurse planned the next move with optimism; the interview changed the whole mood.
+anticipation_social_010,social,anticipation,my brother felt ready for the upcoming change while the change happened while checking the details.
+anticipation_news_011,news,anticipation,"the rescue team said the review mattered, and the police watched for signs of progress."
+anticipation_blog_012,blog,anticipation,a traveler expected the launch to go well; the exam changed the whole mood.
+anticipation_social_013,social,anticipation,our project team was eager to see the response because the contract happened after the numbers were published.
+anticipation_news_014,news,anticipation,"local leaders said the message mattered, and the committee saved time for the important moment."
+anticipation_blog_015,blog,anticipation,a patient felt curious about the announcement; the meeting changed the whole mood.
+anticipation_social_016,social,anticipation,the volunteers kept thinking about tomorrow even though the result happened when the room went quiet.
+anticipation_news_017,news,anticipation,"the university said the deadline mattered, and the clinic was excited for the next meeting."
+anticipation_blog_018,blog,anticipation,a musician waited for confirmation with patience; the mistake changed the whole mood.
+anticipation_social_019,social,anticipation,the support chat felt the day could bring something better since the visit happened during the discussion.
+anticipation_news_020,news,anticipation,"the newsroom said the repair mattered, and residents prepared notes for the big reveal."
+anticipation_blog_021,blog,anticipation,an intern was waiting with real excitement; the schedule changed the whole mood.
+anticipation_social_022,social,anticipation,the local team expected good news soon after the announcement happened after several complaints.
+anticipation_news_023,news,anticipation,"the factory said the update mattered, and the mayor looked forward to the next step."
+anticipation_blog_024,blog,anticipation,a freelancer kept checking for the final answer; the report changed the whole mood.
+anticipation_social_025,social,anticipation,the parents was hopeful about what would happen once the email happened while everyone was waiting.
+anticipation_news_026,news,anticipation,"officials said the plan mattered, and the company prepared carefully for the opportunity."
+anticipation_blog_027,blog,anticipation,we counted the hours until the result; the warning changed the whole mood.
+anticipation_social_028,social,anticipation,my neighbor imagined the outcome with nervous energy as soon as the campaign happened at the end of the day.
+anticipation_news_029,news,anticipation,"workers said the request mattered, and the rescue team planned the next move with optimism."
+anticipation_blog_030,blog,anticipation,our team felt ready for the upcoming change; the delivery changed the whole mood.
+anticipation_social_031,social,anticipation,the online community watched for signs of progress when the decision happened before the event.
+anticipation_news_032,news,anticipation,"the agency said the delay mattered, and local leaders expected the launch to go well."
+anticipation_blog_033,blog,anticipation,a teacher was eager to see the response; the phone call changed the whole mood.
+anticipation_social_034,social,anticipation,our club saved time for the important moment while the interview happened during the morning.
+anticipation_news_035,news,anticipation,"the court said the change mattered, and the university felt curious about the announcement."
+anticipation_blog_036,blog,anticipation,a parent kept thinking about tomorrow; the review changed the whole mood.
+anticipation_social_037,social,anticipation,the comments was excited for the next meeting because the exam happened after a long week.
+anticipation_news_038,news,anticipation,"the ministry said the contract mattered, and the newsroom waited for confirmation with patience."
+anticipation_blog_039,blog,anticipation,a volunteer felt the day could bring something better; the message changed the whole mood.
+anticipation_social_040,social,anticipation,the forum prepared notes for the big reveal even though the meeting happened before the weekend.
+anticipation_news_041,news,anticipation,"the airport said the result mattered, and the factory was waiting with real excitement."
+anticipation_blog_042,blog,anticipation,a reader expected good news soon; the deadline changed the whole mood.
+anticipation_social_043,social,anticipation,my roommate looked forward to the next step since the mistake happened after the call ended.
+anticipation_news_044,news,anticipation,"the charity said the visit mattered, and officials kept checking for the final answer."
+anticipation_blog_045,blog,anticipation,a customer was hopeful about what would happen; the repair changed the whole mood.
+anticipation_social_046,social,anticipation,the committee prepared carefully for the opportunity after the schedule happened when the update arrived.
+anticipation_news_047,news,anticipation,"the city said the announcement mattered, and workers counted the hours until the result."
+anticipation_blog_048,blog,anticipation,a planner imagined the outcome with nervous energy; the update changed the whole mood.
+anticipation_social_049,social,anticipation,the organizer planned the next move with optimism once the report happened during the first hour.
+anticipation_news_050,news,anticipation,"the transport authority said the email mattered, and the agency felt ready for the upcoming change."
+anticipation_blog_051,blog,anticipation,I watched for signs of progress; the plan changed the whole mood.
+anticipation_social_052,social,anticipation,the group chat expected the launch to go well as soon as the warning happened after the team reviewed it.
+anticipation_news_053,news,anticipation,"researchers said the campaign mattered, and the court was eager to see the response."
+anticipation_blog_054,blog,anticipation,my partner saved time for the important moment; the request changed the whole mood.
+anticipation_social_055,social,anticipation,my family felt curious about the announcement when the delivery happened before the final vote.
+anticipation_news_056,news,anticipation,"the hospital said the decision mattered, and the ministry kept thinking about tomorrow."
+anticipation_blog_057,blog,anticipation,a student was excited for the next meeting; the delay changed the whole mood.
+anticipation_social_058,social,anticipation,the class waited for confirmation with patience while the phone call happened while checking the details.
+anticipation_news_059,news,anticipation,"the school board said the interview mattered, and the airport felt the day could bring something better."
+anticipation_blog_060,blog,anticipation,a designer prepared notes for the big reveal; the change changed the whole mood.
+anticipation_social_061,social,anticipation,my sister was waiting with real excitement because the review happened after the numbers were published.
+anticipation_news_062,news,anticipation,"inspectors said the exam mattered, and the charity expected good news soon."
+anticipation_blog_063,blog,anticipation,a developer looked forward to the next step; the contract changed the whole mood.
+anticipation_social_064,social,anticipation,my cousin kept checking for the final answer even though the message happened when the room went quiet.
+disgust_social_001,social,disgust,"when the room went quiet, my friend felt disgusted by the smell about the result."
+disgust_news_002,news,disgust,The way the deadline unfolded made residents called the behavior gross.
+disgust_blog_003,blog,disgust,"People noticed the mistake, and the author was repelled by the dirty conditions during the morning."
+disgust_social_004,social,disgust,"during the discussion, my teammate felt sick after seeing the mess about the visit."
+disgust_news_005,news,disgust,The way the repair unfolded made the mayor said the scene was revolting.
+disgust_blog_006,blog,disgust,"People noticed the schedule, and a small business owner wanted to avoid the spoiled food after a long week."
+disgust_social_007,social,disgust,"after several complaints, my colleague was disturbed by the careless hygiene about the announcement."
+disgust_news_008,news,disgust,The way the update unfolded made the company felt nauseated by the rotten odor.
+disgust_blog_009,blog,disgust,"People noticed the report, and a nurse found the comments vile before the weekend."
+disgust_social_010,social,disgust,"while everyone was waiting, my brother rejected the proposal as morally ugly about the email."
+disgust_news_011,news,disgust,The way the plan unfolded made the rescue team was disgusted by the corruption.
+disgust_blog_012,blog,disgust,"People noticed the warning, and a traveler could barely look at the waste after the call ended."
+disgust_social_013,social,disgust,"at the end of the day, our project team said the room was filthy about the campaign."
+disgust_news_014,news,disgust,The way the request unfolded made local leaders felt appalled by the cruel joke.
+disgust_blog_015,blog,disgust,"People noticed the delivery, and a patient described the taste as awful when the update arrived."
+disgust_social_016,social,disgust,"before the event, the volunteers was repulsed by the sticky surface about the decision."
+disgust_news_017,news,disgust,The way the delay unfolded made the university felt uneasy about the contaminated water.
+disgust_blog_018,blog,disgust,"People noticed the phone call, and a musician called the report sickening during the first hour."
+disgust_social_019,social,disgust,"during the morning, the support chat was grossed out by the mold about the interview."
+disgust_news_020,news,disgust,The way the change unfolded made the newsroom felt disgust after reading the details.
+disgust_blog_021,blog,disgust,"People noticed the review, and an intern felt disgusted by the smell after the team reviewed it."
+disgust_social_022,social,disgust,"after a long week, the local team called the behavior gross about the exam."
+disgust_news_023,news,disgust,The way the contract unfolded made the factory was repelled by the dirty conditions.
+disgust_blog_024,blog,disgust,"People noticed the message, and a freelancer felt sick after seeing the mess before the final vote."
+disgust_social_025,social,disgust,"before the weekend, the parents said the scene was revolting about the meeting."
+disgust_news_026,news,disgust,The way the result unfolded made officials wanted to avoid the spoiled food.
+disgust_blog_027,blog,disgust,"People noticed the deadline, and we was disturbed by the careless hygiene while checking the details."
+disgust_social_028,social,disgust,"after the call ended, my neighbor felt nauseated by the rotten odor about the mistake."
+disgust_news_029,news,disgust,The way the visit unfolded made workers found the comments vile.
+disgust_blog_030,blog,disgust,"People noticed the repair, and our team rejected the proposal as morally ugly after the numbers were published."
+disgust_social_031,social,disgust,"when the update arrived, the online community was disgusted by the corruption about the schedule."
+disgust_news_032,news,disgust,The way the announcement unfolded made the agency could barely look at the waste.
+disgust_blog_033,blog,disgust,"People noticed the update, and a teacher said the room was filthy when the room went quiet."
+disgust_social_034,social,disgust,"during the first hour, our club felt appalled by the cruel joke about the report."
+disgust_news_035,news,disgust,The way the email unfolded made the court described the taste as awful.
+disgust_blog_036,blog,disgust,"People noticed the plan, and a parent was repulsed by the sticky surface during the discussion."
+disgust_social_037,social,disgust,"after the team reviewed it, the comments felt uneasy about the contaminated water about the warning."
+disgust_news_038,news,disgust,The way the campaign unfolded made the ministry called the report sickening.
+disgust_blog_039,blog,disgust,"People noticed the request, and a volunteer was grossed out by the mold after several complaints."
+disgust_social_040,social,disgust,"before the final vote, the forum felt disgust after reading the details about the delivery."
+disgust_news_041,news,disgust,The way the decision unfolded made the airport felt disgusted by the smell.
+disgust_blog_042,blog,disgust,"People noticed the delay, and a reader called the behavior gross while everyone was waiting."
+disgust_social_043,social,disgust,"while checking the details, my roommate was repelled by the dirty conditions about the phone call."
+disgust_news_044,news,disgust,The way the interview unfolded made the charity felt sick after seeing the mess.
+disgust_blog_045,blog,disgust,"People noticed the change, and a customer said the scene was revolting at the end of the day."
+disgust_social_046,social,disgust,"after the numbers were published, the committee wanted to avoid the spoiled food about the review."
+disgust_news_047,news,disgust,The way the exam unfolded made the city was disturbed by the careless hygiene.
+disgust_blog_048,blog,disgust,"People noticed the contract, and a planner felt nauseated by the rotten odor before the event."
+disgust_social_049,social,disgust,"when the room went quiet, the organizer found the comments vile about the message."
+disgust_news_050,news,disgust,The way the meeting unfolded made the transport authority rejected the proposal as morally ugly.
+disgust_blog_051,blog,disgust,"People noticed the result, and I was disgusted by the corruption during the morning."
+disgust_social_052,social,disgust,"during the discussion, the group chat could barely look at the waste about the deadline."
+disgust_news_053,news,disgust,The way the mistake unfolded made researchers said the room was filthy.
+disgust_blog_054,blog,disgust,"People noticed the visit, and my partner felt appalled by the cruel joke after a long week."
+disgust_social_055,social,disgust,"after several complaints, my family described the taste as awful about the repair."
+disgust_news_056,news,disgust,The way the schedule unfolded made the hospital was repulsed by the sticky surface.
+disgust_blog_057,blog,disgust,"People noticed the announcement, and a student felt uneasy about the contaminated water before the weekend."
+disgust_social_058,social,disgust,"while everyone was waiting, the class called the report sickening about the update."
+disgust_news_059,news,disgust,The way the report unfolded made the school board was grossed out by the mold.
+disgust_blog_060,blog,disgust,"People noticed the email, and a designer felt disgust after reading the details after the call ended."
+disgust_social_061,social,disgust,"at the end of the day, my sister felt disgusted by the smell about the plan."
+disgust_news_062,news,disgust,The way the warning unfolded made inspectors called the behavior gross.
+disgust_blog_063,blog,disgust,"People noticed the campaign, and a developer was repelled by the dirty conditions when the update arrived."
+disgust_social_064,social,disgust,"before the event, my cousin felt sick after seeing the mess about the request."
+fear_social_001,social,fear,my friend felt afraid of what might happen; the meeting changed the whole mood.
+fear_news_002,news,fear,residents worried that the danger was close while the result happened while checking the details.
+fear_blog_003,blog,fear,"the author said the deadline mattered, and a designer was scared by the sudden noise."
+fear_social_004,social,fear,my teammate feared the situation could get worse; the mistake changed the whole mood.
+fear_news_005,news,fear,the mayor felt anxious about the warning because the visit happened after the numbers were published.
+fear_blog_006,blog,fear,"a small business owner said the repair mattered, and a developer froze when the alarm started."
+fear_social_007,social,fear,my colleague was nervous about the unknown risk; the schedule changed the whole mood.
+fear_news_008,news,fear,the company kept imagining the worst case even though the announcement happened when the room went quiet.
+fear_blog_009,blog,fear,"a nurse said the update mattered, and a coach felt unsafe after the report."
+fear_social_010,social,fear,my brother panicked when the lights went out; the report changed the whole mood.
+fear_news_011,news,fear,the rescue team was terrified by the threat since the email happened during the discussion.
+fear_blog_012,blog,fear,"a traveler said the plan mattered, and a writer felt dread before opening the door."
+fear_social_013,social,fear,our project team worried about losing control; the warning changed the whole mood.
+fear_news_014,news,fear,local leaders was frightened by the emergency message after the campaign happened after several complaints.
+fear_blog_015,blog,fear,"a patient said the request mattered, and a researcher felt tense during the silence."
+fear_social_016,social,fear,the volunteers feared another failure; the delivery changed the whole mood.
+fear_news_017,news,fear,the university was uneasy about the strange behavior once the decision happened while everyone was waiting.
+fear_blog_018,blog,fear,"a musician said the delay mattered, and a founder felt alarmed by the medical result."
+fear_social_019,social,fear,the support chat was scared to make the next call; the phone call changed the whole mood.
+fear_news_020,news,fear,the newsroom felt panic rising in the crowd as soon as the interview happened at the end of the day.
+fear_blog_021,blog,fear,"an intern said the change mattered, and the author felt afraid of what might happen."
+fear_social_022,social,fear,the local team worried that the danger was close; the review changed the whole mood.
+fear_news_023,news,fear,the factory was scared by the sudden noise when the exam happened before the event.
+fear_blog_024,blog,fear,"a freelancer said the contract mattered, and a small business owner feared the situation could get worse."
+fear_social_025,social,fear,the parents felt anxious about the warning; the message changed the whole mood.
+fear_news_026,news,fear,officials froze when the alarm started while the meeting happened during the morning.
+fear_blog_027,blog,fear,"we said the result mattered, and a nurse was nervous about the unknown risk."
+fear_social_028,social,fear,my neighbor kept imagining the worst case; the deadline changed the whole mood.
+fear_news_029,news,fear,workers felt unsafe after the report because the mistake happened after a long week.
+fear_blog_030,blog,fear,"our team said the visit mattered, and a traveler panicked when the lights went out."
+fear_social_031,social,fear,the online community was terrified by the threat; the repair changed the whole mood.
+fear_news_032,news,fear,the agency felt dread before opening the door even though the schedule happened before the weekend.
+fear_blog_033,blog,fear,"a teacher said the announcement mattered, and a patient worried about losing control."
+fear_social_034,social,fear,our club was frightened by the emergency message; the update changed the whole mood.
+fear_news_035,news,fear,the court felt tense during the silence since the report happened after the call ended.
+fear_blog_036,blog,fear,"a parent said the email mattered, and a musician feared another failure."
+fear_social_037,social,fear,the comments was uneasy about the strange behavior; the plan changed the whole mood.
+fear_news_038,news,fear,the ministry felt alarmed by the medical result after the warning happened when the update arrived.
+fear_blog_039,blog,fear,"a volunteer said the campaign mattered, and an intern was scared to make the next call."
+fear_social_040,social,fear,the forum felt panic rising in the crowd; the request changed the whole mood.
+fear_news_041,news,fear,the airport felt afraid of what might happen once the delivery happened during the first hour.
+fear_blog_042,blog,fear,"a reader said the decision mattered, and a freelancer worried that the danger was close."
+fear_social_043,social,fear,my roommate was scared by the sudden noise; the delay changed the whole mood.
+fear_news_044,news,fear,the charity feared the situation could get worse as soon as the phone call happened after the team reviewed it.
+fear_blog_045,blog,fear,"a customer said the interview mattered, and we felt anxious about the warning."
+fear_social_046,social,fear,the committee froze when the alarm started; the change changed the whole mood.
+fear_news_047,news,fear,the city was nervous about the unknown risk when the review happened before the final vote.
+fear_blog_048,blog,fear,"a planner said the exam mattered, and our team kept imagining the worst case."
+fear_social_049,social,fear,the organizer felt unsafe after the report; the contract changed the whole mood.
+fear_news_050,news,fear,the transport authority panicked when the lights went out while the message happened while checking the details.
+fear_blog_051,blog,fear,"I said the meeting mattered, and a teacher was terrified by the threat."
+fear_social_052,social,fear,the group chat felt dread before opening the door; the result changed the whole mood.
+fear_news_053,news,fear,researchers worried about losing control because the deadline happened after the numbers were published.
+fear_blog_054,blog,fear,"my partner said the mistake mattered, and a parent was frightened by the emergency message."
+fear_social_055,social,fear,my family felt tense during the silence; the visit changed the whole mood.
+fear_news_056,news,fear,the hospital feared another failure even though the repair happened when the room went quiet.
+fear_blog_057,blog,fear,"a student said the schedule mattered, and a volunteer was uneasy about the strange behavior."
+fear_social_058,social,fear,the class felt alarmed by the medical result; the announcement changed the whole mood.
+fear_news_059,news,fear,the school board was scared to make the next call since the update happened during the discussion.
+fear_blog_060,blog,fear,"a designer said the report mattered, and a reader felt panic rising in the crowd."
+fear_social_061,social,fear,my sister felt afraid of what might happen; the email changed the whole mood.
+fear_news_062,news,fear,inspectors worried that the danger was close after the plan happened after several complaints.
+fear_blog_063,blog,fear,"a developer said the warning mattered, and a customer was scared by the sudden noise."
+fear_social_064,social,fear,my cousin feared the situation could get worse; the campaign changed the whole mood.
+joy_social_001,social,joy,The way the update unfolded made my friend felt genuinely happy.
+joy_news_002,news,joy,"People noticed the report, and residents celebrated with a wide smile after the numbers were published."
+joy_blog_003,blog,joy,"when the update arrived, the author was delighted by the result about the email."
+joy_social_004,social,joy,The way the plan unfolded made my teammate laughed with relief and joy.
+joy_news_005,news,joy,"People noticed the warning, and the mayor felt proud and cheerful when the room went quiet."
+joy_blog_006,blog,joy,"during the first hour, a small business owner enjoyed the moment completely about the campaign."
+joy_social_007,social,joy,The way the request unfolded made my colleague shared the good news with excitement.
+joy_news_008,news,joy,"People noticed the delivery, and the company felt grateful and bright during the discussion."
+joy_blog_009,blog,joy,"after the team reviewed it, a nurse was thrilled by the surprise about the decision."
+joy_social_010,social,joy,The way the delay unfolded made my brother smiled because everything worked out.
+joy_news_011,news,joy,"People noticed the phone call, and the rescue team felt light after hearing the answer after several complaints."
+joy_blog_012,blog,joy,"before the final vote, a traveler celebrated the success with friends about the interview."
+joy_social_013,social,joy,The way the change unfolded made our project team was joyful about the achievement.
+joy_news_014,news,joy,"People noticed the review, and local leaders felt warm and hopeful while everyone was waiting."
+joy_blog_015,blog,joy,"while checking the details, a patient could not stop smiling about the exam."
+joy_social_016,social,joy,The way the contract unfolded made the volunteers was pleased with the final score.
+joy_news_017,news,joy,"People noticed the message, and the university felt happy after the kind message at the end of the day."
+joy_blog_018,blog,joy,"after the numbers were published, a musician enjoyed the calm celebration about the meeting."
+joy_social_019,social,joy,The way the result unfolded made the support chat felt energized by the win.
+joy_news_020,news,joy,"People noticed the deadline, and the newsroom was glad the plan succeeded before the event."
+joy_blog_021,blog,joy,"when the room went quiet, an intern felt genuinely happy about the mistake."
+joy_social_022,social,joy,The way the visit unfolded made the local team celebrated with a wide smile.
+joy_news_023,news,joy,"People noticed the repair, and the factory was delighted by the result during the morning."
+joy_blog_024,blog,joy,"during the discussion, a freelancer laughed with relief and joy about the schedule."
+joy_social_025,social,joy,The way the announcement unfolded made the parents felt proud and cheerful.
+joy_news_026,news,joy,"People noticed the update, and officials enjoyed the moment completely after a long week."
+joy_blog_027,blog,joy,"after several complaints, we shared the good news with excitement about the report."
+joy_social_028,social,joy,The way the email unfolded made my neighbor felt grateful and bright.
+joy_news_029,news,joy,"People noticed the plan, and workers was thrilled by the surprise before the weekend."
+joy_blog_030,blog,joy,"while everyone was waiting, our team smiled because everything worked out about the warning."
+joy_social_031,social,joy,The way the campaign unfolded made the online community felt light after hearing the answer.
+joy_news_032,news,joy,"People noticed the request, and the agency celebrated the success with friends after the call ended."
+joy_blog_033,blog,joy,"at the end of the day, a teacher was joyful about the achievement about the delivery."
+joy_social_034,social,joy,The way the decision unfolded made our club felt warm and hopeful.
+joy_news_035,news,joy,"People noticed the delay, and the court could not stop smiling when the update arrived."
+joy_blog_036,blog,joy,"before the event, a parent was pleased with the final score about the phone call."
+joy_social_037,social,joy,The way the interview unfolded made the comments felt happy after the kind message.
+joy_news_038,news,joy,"People noticed the change, and the ministry enjoyed the calm celebration during the first hour."
+joy_blog_039,blog,joy,"during the morning, a volunteer felt energized by the win about the review."
+joy_social_040,social,joy,The way the exam unfolded made the forum was glad the plan succeeded.
+joy_news_041,news,joy,"People noticed the contract, and the airport felt genuinely happy after the team reviewed it."
+joy_blog_042,blog,joy,"after a long week, a reader celebrated with a wide smile about the message."
+joy_social_043,social,joy,The way the meeting unfolded made my roommate was delighted by the result.
+joy_news_044,news,joy,"People noticed the result, and the charity laughed with relief and joy before the final vote."
+joy_blog_045,blog,joy,"before the weekend, a customer felt proud and cheerful about the deadline."
+joy_social_046,social,joy,The way the mistake unfolded made the committee enjoyed the moment completely.
+joy_news_047,news,joy,"People noticed the visit, and the city shared the good news with excitement while checking the details."
+joy_blog_048,blog,joy,"after the call ended, a planner felt grateful and bright about the repair."
+joy_social_049,social,joy,The way the schedule unfolded made the organizer was thrilled by the surprise.
+joy_news_050,news,joy,"People noticed the announcement, and the transport authority smiled because everything worked out after the numbers were published."
+joy_blog_051,blog,joy,"when the update arrived, I felt light after hearing the answer about the update."
+joy_social_052,social,joy,The way the report unfolded made the group chat celebrated the success with friends.
+joy_news_053,news,joy,"People noticed the email, and researchers was joyful about the achievement when the room went quiet."
+joy_blog_054,blog,joy,"during the first hour, my partner felt warm and hopeful about the plan."
+joy_social_055,social,joy,The way the warning unfolded made my family could not stop smiling.
+joy_news_056,news,joy,"People noticed the campaign, and the hospital was pleased with the final score during the discussion."
+joy_blog_057,blog,joy,"after the team reviewed it, a student felt happy after the kind message about the request."
+joy_social_058,social,joy,The way the delivery unfolded made the class enjoyed the calm celebration.
+joy_news_059,news,joy,"People noticed the decision, and the school board felt energized by the win after several complaints."
+joy_blog_060,blog,joy,"before the final vote, a designer was glad the plan succeeded about the delay."
+joy_social_061,social,joy,The way the phone call unfolded made my sister felt genuinely happy.
+joy_news_062,news,joy,"People noticed the interview, and inspectors celebrated with a wide smile while everyone was waiting."
+joy_blog_063,blog,joy,"while checking the details, a developer was delighted by the result about the change."
+joy_social_064,social,joy,The way the review unfolded made my cousin laughed with relief and joy.
+sadness_social_001,social,sadness,"when the room went quiet, my friend felt deeply sad about the result."
+sadness_news_002,news,sadness,The way the deadline unfolded made residents was lonely after the conversation.
+sadness_blog_003,blog,sadness,"People noticed the mistake, and the author cried quietly after reading it during the morning."
+sadness_social_004,social,sadness,"during the discussion, my teammate felt empty when the room cleared about the visit."
+sadness_news_005,news,sadness,The way the repair unfolded made the mayor missed the old routine.
+sadness_blog_006,blog,sadness,"People noticed the schedule, and a small business owner was disappointed by the final answer after a long week."
+sadness_social_007,social,sadness,"after several complaints, my colleague felt grief after the loss about the announcement."
+sadness_news_008,news,sadness,The way the update unfolded made the company sat in silence with a heavy heart.
+sadness_blog_009,blog,sadness,"People noticed the report, and a nurse was hurt by the goodbye before the weekend."
+sadness_social_010,social,sadness,"while everyone was waiting, my brother felt discouraged by the failure about the email."
+sadness_news_011,news,sadness,The way the plan unfolded made the rescue team could not hide the sadness.
+sadness_blog_012,blog,sadness,"People noticed the warning, and a traveler felt low for the rest of the day after the call ended."
+sadness_social_013,social,sadness,"at the end of the day, our project team was heartbroken by the news about the campaign."
+sadness_news_014,news,sadness,The way the request unfolded made local leaders felt blue after the cancellation.
+sadness_blog_015,blog,sadness,"People noticed the delivery, and a patient struggled with the painful memory when the update arrived."
+sadness_social_016,social,sadness,"before the event, the volunteers felt sorrow about the ending about the decision."
+sadness_news_017,news,sadness,The way the delay unfolded made the university was upset that the chance disappeared.
+sadness_blog_018,blog,sadness,"People noticed the phone call, and a musician felt tired and defeated during the first hour."
+sadness_social_019,social,sadness,"during the morning, the support chat missed the person who left about the interview."
+sadness_news_020,news,sadness,The way the change unfolded made the newsroom felt down after the meeting.
+sadness_blog_021,blog,sadness,"People noticed the review, and an intern felt deeply sad after the team reviewed it."
+sadness_social_022,social,sadness,"after a long week, the local team was lonely after the conversation about the exam."
+sadness_news_023,news,sadness,The way the contract unfolded made the factory cried quietly after reading it.
+sadness_blog_024,blog,sadness,"People noticed the message, and a freelancer felt empty when the room cleared before the final vote."
+sadness_social_025,social,sadness,"before the weekend, the parents missed the old routine about the meeting."
+sadness_news_026,news,sadness,The way the result unfolded made officials was disappointed by the final answer.
+sadness_blog_027,blog,sadness,"People noticed the deadline, and we felt grief after the loss while checking the details."
+sadness_social_028,social,sadness,"after the call ended, my neighbor sat in silence with a heavy heart about the mistake."
+sadness_news_029,news,sadness,The way the visit unfolded made workers was hurt by the goodbye.
+sadness_blog_030,blog,sadness,"People noticed the repair, and our team felt discouraged by the failure after the numbers were published."
+sadness_social_031,social,sadness,"when the update arrived, the online community could not hide the sadness about the schedule."
+sadness_news_032,news,sadness,The way the announcement unfolded made the agency felt low for the rest of the day.
+sadness_blog_033,blog,sadness,"People noticed the update, and a teacher was heartbroken by the news when the room went quiet."
+sadness_social_034,social,sadness,"during the first hour, our club felt blue after the cancellation about the report."
+sadness_news_035,news,sadness,The way the email unfolded made the court struggled with the painful memory.
+sadness_blog_036,blog,sadness,"People noticed the plan, and a parent felt sorrow about the ending during the discussion."
+sadness_social_037,social,sadness,"after the team reviewed it, the comments was upset that the chance disappeared about the warning."
+sadness_news_038,news,sadness,The way the campaign unfolded made the ministry felt tired and defeated.
+sadness_blog_039,blog,sadness,"People noticed the request, and a volunteer missed the person who left after several complaints."
+sadness_social_040,social,sadness,"before the final vote, the forum felt down after the meeting about the delivery."
+sadness_news_041,news,sadness,The way the decision unfolded made the airport felt deeply sad.
+sadness_blog_042,blog,sadness,"People noticed the delay, and a reader was lonely after the conversation while everyone was waiting."
+sadness_social_043,social,sadness,"while checking the details, my roommate cried quietly after reading it about the phone call."
+sadness_news_044,news,sadness,The way the interview unfolded made the charity felt empty when the room cleared.
+sadness_blog_045,blog,sadness,"People noticed the change, and a customer missed the old routine at the end of the day."
+sadness_social_046,social,sadness,"after the numbers were published, the committee was disappointed by the final answer about the review."
+sadness_news_047,news,sadness,The way the exam unfolded made the city felt grief after the loss.
+sadness_blog_048,blog,sadness,"People noticed the contract, and a planner sat in silence with a heavy heart before the event."
+sadness_social_049,social,sadness,"when the room went quiet, the organizer was hurt by the goodbye about the message."
+sadness_news_050,news,sadness,The way the meeting unfolded made the transport authority felt discouraged by the failure.
+sadness_blog_051,blog,sadness,"People noticed the result, and I could not hide the sadness during the morning."
+sadness_social_052,social,sadness,"during the discussion, the group chat felt low for the rest of the day about the deadline."
+sadness_news_053,news,sadness,The way the mistake unfolded made researchers was heartbroken by the news.
+sadness_blog_054,blog,sadness,"People noticed the visit, and my partner felt blue after the cancellation after a long week."
+sadness_social_055,social,sadness,"after several complaints, my family struggled with the painful memory about the repair."
+sadness_news_056,news,sadness,The way the schedule unfolded made the hospital felt sorrow about the ending.
+sadness_blog_057,blog,sadness,"People noticed the announcement, and a student was upset that the chance disappeared before the weekend."
+sadness_social_058,social,sadness,"while everyone was waiting, the class felt tired and defeated about the update."
+sadness_news_059,news,sadness,The way the report unfolded made the school board missed the person who left.
+sadness_blog_060,blog,sadness,"People noticed the email, and a designer felt down after the meeting after the call ended."
+sadness_social_061,social,sadness,"at the end of the day, my sister felt deeply sad about the plan."
+sadness_news_062,news,sadness,The way the warning unfolded made inspectors was lonely after the conversation.
+sadness_blog_063,blog,sadness,"People noticed the campaign, and a developer cried quietly after reading it when the update arrived."
+sadness_social_064,social,sadness,"before the event, my cousin felt empty when the room cleared about the request."
+surprise_social_001,social,surprise,"my friend said the phone call mattered, and the class was shocked by the outcome."
+surprise_news_002,news,surprise,residents did not expect that answer; the interview changed the whole mood.
+surprise_blog_003,blog,surprise,the author was amazed by the sudden change when the change happened before the event.
+surprise_social_004,social,surprise,"my teammate said the review mattered, and my sister gasped when the result appeared."
+surprise_news_005,news,surprise,the mayor felt stunned by the announcement; the exam changed the whole mood.
+surprise_blog_006,blog,surprise,a small business owner was caught off guard completely while the contract happened during the morning.
+surprise_social_007,social,surprise,"my colleague said the message mattered, and my cousin could not believe what happened."
+surprise_news_008,news,surprise,the company was surprised by the hidden detail; the meeting changed the whole mood.
+surprise_blog_009,blog,surprise,a nurse blinked at the unexpected message because the result happened after a long week.
+surprise_social_010,social,surprise,"my brother said the deadline mattered, and my manager was astonished by the quick turnaround."
+surprise_news_011,news,surprise,the rescue team reacted with disbelief; the mistake changed the whole mood.
+surprise_blog_012,blog,surprise,a traveler felt startled by the noise even though the visit happened before the weekend.
+surprise_social_013,social,surprise,"our project team said the repair mattered, and our study group was amazed that the plan worked."
+surprise_news_014,news,surprise,local leaders looked surprised when the door opened; the schedule changed the whole mood.
+surprise_blog_015,blog,surprise,a patient found the result unexpected since the announcement happened after the call ended.
+surprise_social_016,social,surprise,"the volunteers said the update mattered, and my mentor was stunned by the generous offer."
+surprise_news_017,news,surprise,the university felt surprised by the timing; the report changed the whole mood.
+surprise_blog_018,blog,surprise,a musician did not see the decision coming after the email happened when the update arrived.
+surprise_social_019,social,surprise,"the support chat said the plan mattered, and my friend was shocked to hear the name."
+surprise_news_020,news,surprise,the newsroom felt amazed after seeing the final version; the warning changed the whole mood.
+surprise_blog_021,blog,surprise,an intern was shocked by the outcome once the campaign happened during the first hour.
+surprise_social_022,social,surprise,"the local team said the request mattered, and my teammate did not expect that answer."
+surprise_news_023,news,surprise,the factory was amazed by the sudden change; the delivery changed the whole mood.
+surprise_blog_024,blog,surprise,a freelancer gasped when the result appeared as soon as the decision happened after the team reviewed it.
+surprise_social_025,social,surprise,"the parents said the delay mattered, and my colleague felt stunned by the announcement."
+surprise_news_026,news,surprise,officials was caught off guard completely; the phone call changed the whole mood.
+surprise_blog_027,blog,surprise,we could not believe what happened when the interview happened before the final vote.
+surprise_social_028,social,surprise,"my neighbor said the change mattered, and my brother was surprised by the hidden detail."
+surprise_news_029,news,surprise,workers blinked at the unexpected message; the review changed the whole mood.
+surprise_blog_030,blog,surprise,our team was astonished by the quick turnaround while the exam happened while checking the details.
+surprise_social_031,social,surprise,"the online community said the contract mattered, and our project team reacted with disbelief."
+surprise_news_032,news,surprise,the agency felt startled by the noise; the message changed the whole mood.
+surprise_blog_033,blog,surprise,a teacher was amazed that the plan worked because the meeting happened after the numbers were published.
+surprise_social_034,social,surprise,"our club said the result mattered, and the volunteers looked surprised when the door opened."
+surprise_news_035,news,surprise,the court found the result unexpected; the deadline changed the whole mood.
+surprise_blog_036,blog,surprise,a parent was stunned by the generous offer even though the mistake happened when the room went quiet.
+surprise_social_037,social,surprise,"the comments said the visit mattered, and the support chat felt surprised by the timing."
+surprise_news_038,news,surprise,the ministry did not see the decision coming; the repair changed the whole mood.
+surprise_blog_039,blog,surprise,a volunteer was shocked to hear the name since the schedule happened during the discussion.
+surprise_social_040,social,surprise,"the forum said the announcement mattered, and the local team felt amazed after seeing the final version."
+surprise_news_041,news,surprise,the airport was shocked by the outcome; the update changed the whole mood.
+surprise_blog_042,blog,surprise,a reader did not expect that answer after the report happened after several complaints.
+surprise_social_043,social,surprise,"my roommate said the email mattered, and the parents was amazed by the sudden change."
+surprise_news_044,news,surprise,the charity gasped when the result appeared; the plan changed the whole mood.
+surprise_blog_045,blog,surprise,a customer felt stunned by the announcement once the warning happened while everyone was waiting.
+surprise_social_046,social,surprise,"the committee said the campaign mattered, and my neighbor was caught off guard completely."
+surprise_news_047,news,surprise,the city could not believe what happened; the request changed the whole mood.
+surprise_blog_048,blog,surprise,a planner was surprised by the hidden detail as soon as the delivery happened at the end of the day.
+surprise_social_049,social,surprise,"the organizer said the decision mattered, and the online community blinked at the unexpected message."
+surprise_news_050,news,surprise,the transport authority was astonished by the quick turnaround; the delay changed the whole mood.
+surprise_blog_051,blog,surprise,I reacted with disbelief when the phone call happened before the event.
+surprise_social_052,social,surprise,"the group chat said the interview mattered, and our club felt startled by the noise."
+surprise_news_053,news,surprise,researchers was amazed that the plan worked; the change changed the whole mood.
+surprise_blog_054,blog,surprise,my partner looked surprised when the door opened while the review happened during the morning.
+surprise_social_055,social,surprise,"my family said the exam mattered, and the comments found the result unexpected."
+surprise_news_056,news,surprise,the hospital was stunned by the generous offer; the contract changed the whole mood.
+surprise_blog_057,blog,surprise,a student felt surprised by the timing because the message happened after a long week.
+surprise_social_058,social,surprise,"the class said the meeting mattered, and the forum did not see the decision coming."
+surprise_news_059,news,surprise,the school board was shocked to hear the name; the result changed the whole mood.
+surprise_blog_060,blog,surprise,a designer felt amazed after seeing the final version even though the deadline happened before the weekend.
+surprise_social_061,social,surprise,"my sister said the mistake mattered, and my roommate was shocked by the outcome."
+surprise_news_062,news,surprise,inspectors did not expect that answer; the visit changed the whole mood.
+surprise_blog_063,blog,surprise,a developer was amazed by the sudden change since the repair happened after the call ended.
+surprise_social_064,social,surprise,"my cousin said the schedule mattered, and the committee gasped when the result appeared."
+trust_social_001,social,trust,"People noticed the delay, and my friend trusted the explanation after several complaints."
+trust_news_002,news,trust,"before the final vote, residents felt safe with the team about the phone call."
+trust_blog_003,blog,trust,The way the interview unfolded made the author believed the plan was honest.
+trust_social_004,social,trust,"People noticed the change, and my teammate relied on the expert advice while everyone was waiting."
+trust_news_005,news,trust,"while checking the details, the mayor felt confident in the decision about the review."
+trust_blog_006,blog,trust,The way the exam unfolded made a small business owner accepted the promise because it was clear.
+trust_social_007,social,trust,"People noticed the contract, and my colleague trusted the process at the end of the day."
+trust_news_008,news,trust,"after the numbers were published, the company felt reassured by the calm answer about the message."
+trust_blog_009,blog,trust,The way the meeting unfolded made a nurse believed the report was accurate.
+trust_social_010,social,trust,"People noticed the result, and my brother counted on the group to help before the event."
+trust_news_011,news,trust,"when the room went quiet, the rescue team felt secure after the update about the deadline."
+trust_blog_012,blog,trust,The way the mistake unfolded made a traveler had confidence in the doctor.
+trust_social_013,social,trust,"People noticed the visit, and our project team trusted the careful preparation during the morning."
+trust_news_014,news,trust,"during the discussion, local leaders felt supported by the clear communication about the repair."
+trust_blog_015,blog,trust,The way the schedule unfolded made a patient believed the team would follow through.
+trust_social_016,social,trust,"People noticed the announcement, and the volunteers felt protected by the rules after a long week."
+trust_news_017,news,trust,"after several complaints, the university trusted the partner to be fair about the update."
+trust_blog_018,blog,trust,The way the report unfolded made a musician felt sure the information was reliable.
+trust_social_019,social,trust,"People noticed the email, and the support chat relied on the instructions before the weekend."
+trust_news_020,news,trust,"while everyone was waiting, the newsroom felt confident that help would arrive about the plan."
+trust_blog_021,blog,trust,The way the warning unfolded made an intern trusted the explanation.
+trust_social_022,social,trust,"People noticed the campaign, and the local team felt safe with the team after the call ended."
+trust_news_023,news,trust,"at the end of the day, the factory believed the plan was honest about the request."
+trust_blog_024,blog,trust,The way the delivery unfolded made a freelancer relied on the expert advice.
+trust_social_025,social,trust,"People noticed the decision, and the parents felt confident in the decision when the update arrived."
+trust_news_026,news,trust,"before the event, officials accepted the promise because it was clear about the delay."
+trust_blog_027,blog,trust,The way the phone call unfolded made we trusted the process.
+trust_social_028,social,trust,"People noticed the interview, and my neighbor felt reassured by the calm answer during the first hour."
+trust_news_029,news,trust,"during the morning, workers believed the report was accurate about the change."
+trust_blog_030,blog,trust,The way the review unfolded made our team counted on the group to help.
+trust_social_031,social,trust,"People noticed the exam, and the online community felt secure after the update after the team reviewed it."
+trust_news_032,news,trust,"after a long week, the agency had confidence in the doctor about the contract."
+trust_blog_033,blog,trust,The way the message unfolded made a teacher trusted the careful preparation.
+trust_social_034,social,trust,"People noticed the meeting, and our club felt supported by the clear communication before the final vote."
+trust_news_035,news,trust,"before the weekend, the court believed the team would follow through about the result."
+trust_blog_036,blog,trust,The way the deadline unfolded made a parent felt protected by the rules.
+trust_social_037,social,trust,"People noticed the mistake, and the comments trusted the partner to be fair while checking the details."
+trust_news_038,news,trust,"after the call ended, the ministry felt sure the information was reliable about the visit."
+trust_blog_039,blog,trust,The way the repair unfolded made a volunteer relied on the instructions.
+trust_social_040,social,trust,"People noticed the schedule, and the forum felt confident that help would arrive after the numbers were published."
+trust_news_041,news,trust,"when the update arrived, the airport trusted the explanation about the announcement."
+trust_blog_042,blog,trust,The way the update unfolded made a reader felt safe with the team.
+trust_social_043,social,trust,"People noticed the report, and my roommate believed the plan was honest when the room went quiet."
+trust_news_044,news,trust,"during the first hour, the charity relied on the expert advice about the email."
+trust_blog_045,blog,trust,The way the plan unfolded made a customer felt confident in the decision.
+trust_social_046,social,trust,"People noticed the warning, and the committee accepted the promise because it was clear during the discussion."
+trust_news_047,news,trust,"after the team reviewed it, the city trusted the process about the campaign."
+trust_blog_048,blog,trust,The way the request unfolded made a planner felt reassured by the calm answer.
+trust_social_049,social,trust,"People noticed the delivery, and the organizer believed the report was accurate after several complaints."
+trust_news_050,news,trust,"before the final vote, the transport authority counted on the group to help about the decision."
+trust_blog_051,blog,trust,The way the delay unfolded made I felt secure after the update.
+trust_social_052,social,trust,"People noticed the phone call, and the group chat had confidence in the doctor while everyone was waiting."
+trust_news_053,news,trust,"while checking the details, researchers trusted the careful preparation about the interview."
+trust_blog_054,blog,trust,The way the change unfolded made my partner felt supported by the clear communication.
+trust_social_055,social,trust,"People noticed the review, and my family believed the team would follow through at the end of the day."
+trust_news_056,news,trust,"after the numbers were published, the hospital felt protected by the rules about the exam."
+trust_blog_057,blog,trust,The way the contract unfolded made a student trusted the partner to be fair.
+trust_social_058,social,trust,"People noticed the message, and the class felt sure the information was reliable before the event."
+trust_news_059,news,trust,"when the room went quiet, the school board relied on the instructions about the meeting."
+trust_blog_060,blog,trust,The way the result unfolded made a designer felt confident that help would arrive.
+trust_social_061,social,trust,"People noticed the deadline, and my sister trusted the explanation during the morning."
+trust_news_062,news,trust,"during the discussion, inspectors felt safe with the team about the mistake."
+trust_blog_063,blog,trust,The way the visit unfolded made a developer believed the plan was honest.
+trust_social_064,social,trust,"People noticed the repair, and my cousin relied on the expert advice after a long week."

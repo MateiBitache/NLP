@@ -1,121 +1,513 @@
 ID,source_id,domain,label,text,method,dominant_emotion,prediction,confidence,coverage,score_anger,score_anticipation,score_disgust,score_fear,score_joy,score_sadness,score_surprise,score_trust
-anger_social_01,anger_social_01,social,anger,I am furious that the company ignored every complaint.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-anger_social_02,anger_social_02,social,anger,This update broke everything again and I am angry about it.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-anger_social_03,anger_social_03,social,anger,The rude reply made me irritated for the rest of the day.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-anger_social_04,anger_social_04,social,anger,I hate how they keep promising fixes and doing nothing.,nb,anger,anger,0.9886,0.0,0.9886,0.0,0.0,0.0,0.0,0.0,0.0,0.0114
-anger_social_05,anger_social_05,social,anger,People in the comments were mad about the unfair decision.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-anger_news_01,anger_news_01,news,anger,Residents were angry after officials delayed the promised repairs.,nb,anger,anger,0.6719,0.0,0.6719,0.0,0.0164,0.3116,0.0,0.0,0.0,0.0
-anger_news_02,anger_news_02,news,anger,Workers protested after the company refused to pay overtime.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-anger_news_03,anger_news_03,news,anger,Parents criticized the school board for ignoring safety complaints.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-anger_news_04,anger_news_04,news,anger,The mayor faced public outrage after the budget cuts.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-anger_news_05,anger_news_05,news,anger,Customers accused the airline of disrespectful treatment during cancellations.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-anger_blog_01,anger_blog_01,blog,anger,The rude answer made me upset and tense all evening.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-anger_blog_02,anger_blog_02,blog,anger,I slammed the laptop shut after the same error returned.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-anger_blog_03,anger_blog_03,blog,anger,It annoys me when simple requests are treated like a burden.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-anger_blog_04,anger_blog_04,blog,anger,My patience disappeared after waiting three hours for help.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-anger_blog_05,anger_blog_05,blog,anger,The unfair criticism left me resentful and frustrated.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-anticipation_social_01,anticipation_social_01,social,anticipation,I am waiting for the results and feeling excited about what comes next.,nb,fear,fear,0.9746,0.0,0.0,0.0254,0.0,0.9746,0.0,0.0,0.0,0.0
-anticipation_social_02,anticipation_social_02,social,anticipation,Only two hours until the announcement and everyone is refreshing the page.,nb,fear,fear,0.6063,0.0,0.0,0.3937,0.0,0.6063,0.0,0.0,0.0,0.0
-anticipation_social_03,anticipation_social_03,social,anticipation,I cannot sleep because tomorrow might change everything.,nb,fear,fear,0.9404,0.0,0.0466,0.013,0.0,0.9404,0.0,0.0,0.0,0.0
-anticipation_social_04,anticipation_social_04,social,anticipation,The countdown has started and I keep imagining the surprise.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-anticipation_social_05,anticipation_social_05,social,anticipation,We are all eager to see the first trailer tonight.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-anticipation_news_01,anticipation_news_01,news,anticipation,Investors expected the announcement and watched the market closely.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-anticipation_news_02,anticipation_news_02,news,anticipation,Fans waited outside the stadium before the final team list.,nb,fear,fear,0.9999,0.0,0.0,0.0001,0.0,0.9999,0.0,0.0,0.0,0.0
-anticipation_news_03,anticipation_news_03,news,anticipation,Scientists prepared for the launch scheduled before sunrise.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-anticipation_news_04,anticipation_news_04,news,anticipation,Voters looked ahead to the debate for clearer answers.,nb,anticipation,anticipation,0.995,0.0,0.0,0.995,0.0049,0.0,0.0,0.0,0.0,0.0
-anticipation_news_05,anticipation_news_05,news,anticipation,Analysts predicted a major decision before the end of the week.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-anticipation_blog_01,anticipation_blog_01,blog,anticipation,Tomorrow's trip makes me curious hopeful and full of anticipation.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-anticipation_blog_02,anticipation_blog_02,blog,anticipation,I packed early because I am eager for the weekend retreat.,nb,fear,fear,0.5529,0.0,0.0,0.4471,0.0,0.5529,0.0,0.0,0.0,0.0
-anticipation_blog_03,anticipation_blog_03,blog,anticipation,The unopened letter sat on my desk like a promise.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
-anticipation_blog_04,anticipation_blog_04,blog,anticipation,I kept checking the doorway hoping she would arrive soon.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-anticipation_blog_05,anticipation_blog_05,blog,anticipation,The smell of fresh paint made me imagine the finished room.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-disgust_social_01,disgust_social_01,social,disgust,The spoiled food smelled awful and made everyone disgusted.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-disgust_social_02,disgust_social_02,social,disgust,That filthy bathroom photo made me feel sick.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-disgust_social_03,disgust_social_03,social,disgust,I cannot believe they served something so gross.,nb,disgust,disgust,0.9902,0.0,0.0,0.0,0.9902,0.0,0.0,0.0,0.0,0.0098
-disgust_social_04,disgust_social_04,social,disgust,The comments about cheating were vile and repulsive.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-disgust_social_05,disgust_social_05,social,disgust,Seeing trash dumped in the park made me nauseous.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-disgust_news_01,disgust_news_01,news,disgust,The report described filthy rooms and unacceptable hygiene problems.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-disgust_news_02,disgust_news_02,news,disgust,Inspectors found rotten supplies in the restaurant kitchen.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-disgust_news_03,disgust_news_03,news,disgust,The investigation exposed disgusting conditions inside the facility.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-disgust_news_04,disgust_news_04,news,disgust,Officials condemned the toxic waste left near homes.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-disgust_news_05,disgust_news_05,news,disgust,Residents complained about sewage smells spreading through the street.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-disgust_blog_01,disgust_blog_01,blog,disgust,I felt repulsed by the gross mess left in the kitchen.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-disgust_blog_02,disgust_blog_02,blog,disgust,The moldy bread and sour milk ruined my appetite.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-disgust_blog_03,disgust_blog_03,blog,disgust,I wanted to leave as soon as I saw the dirty table.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-disgust_blog_04,disgust_blog_04,blog,disgust,The slimy texture made me push the plate away.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-disgust_blog_05,disgust_blog_05,blog,disgust,His cruel joke felt ugly and made me uncomfortable.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-fear_social_01,fear_social_01,social,fear,I was afraid during the storm because the windows kept shaking.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-fear_social_02,fear_social_02,social,fear,The strange noise outside made my hands tremble.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-fear_social_03,fear_social_03,social,fear,I feel scared walking home after those warnings.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-fear_social_04,fear_social_04,social,fear,Everyone panicked when the lights went out.,nb,fear,fear,0.9385,0.0,0.0615,0.0,0.0,0.9385,0.0,0.0,0.0,0.0
-fear_social_05,fear_social_05,social,fear,My heart raced when the phone showed the emergency alert.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-fear_news_01,fear_news_01,news,fear,The emergency warning created fear among families near the river.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-fear_news_02,fear_news_02,news,fear,Evacuation orders frightened residents as the fire moved closer.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-fear_news_03,fear_news_03,news,fear,Doctors warned that the outbreak could spread quickly.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-fear_news_04,fear_news_04,news,fear,The crash raised concerns about safety on the route.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-fear_news_05,fear_news_05,news,fear,Parents worried after reports of threats near the school.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-fear_blog_01,fear_blog_01,blog,fear,Walking alone at night made me nervous scared and anxious.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-fear_blog_02,fear_blog_02,blog,fear,I froze when the elevator stopped between floors.,nb,anger,anger,0.9007,0.0,0.9007,0.0,0.0,0.0993,0.0,0.0,0.0,0.0
-fear_blog_03,fear_blog_03,blog,fear,The medical results made me fear the worst.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-fear_blog_04,fear_blog_04,blog,fear,I kept imagining everything that could go wrong.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
-fear_blog_05,fear_blog_05,blog,fear,The dark hallway made every small sound feel dangerous.,nb,fear,fear,0.705,0.0,0.295,0.0,0.0,0.705,0.0,0.0,0.0,0.0
-joy_social_01,joy_social_01,social,joy,I am happy proud and delighted about the scholarship.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-joy_social_02,joy_social_02,social,joy,We finally won and I cannot stop smiling.,nb,anticipation,anticipation,0.7514,0.0,0.0009,0.7514,0.0,0.0,0.2477,0.0,0.0,0.0
-joy_social_03,joy_social_03,social,joy,This birthday message made my whole day brighter.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-joy_social_04,joy_social_04,social,joy,I feel grateful excited and full of joy right now.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-joy_social_05,joy_social_05,social,joy,Our group chat exploded with happy celebration.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-joy_news_01,joy_news_01,news,joy,The team celebrated a joyful victory after the final whistle.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-joy_news_02,joy_news_02,news,joy,Students cheered after the school received new funding.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-joy_news_03,joy_news_03,news,joy,The rescued family smiled as they thanked the volunteers.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-joy_news_04,joy_news_04,news,joy,The festival opened with music dancing and laughter.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-joy_news_05,joy_news_05,news,joy,Supporters celebrated the historic win in the city center.,nb,anticipation,anticipation,0.9989,0.0,0.0,0.9989,0.0,0.0,0.0011,0.0,0.0,0.0
-joy_blog_01,joy_blog_01,blog,joy,Her smile and kind words made the whole morning wonderful.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-joy_blog_02,joy_blog_02,blog,joy,Baking with my sister filled the kitchen with warmth and laughter.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-joy_blog_03,joy_blog_03,blog,joy,I felt peaceful and happy watching the sunrise.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-joy_blog_04,joy_blog_04,blog,joy,The little gift made me feel loved and appreciated.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-joy_blog_05,joy_blog_05,blog,joy,Finishing the project gave me a deep sense of satisfaction.,nb,surprise,surprise,0.9945,0.0,0.0,0.0002,0.0,0.0,0.0,0.0,0.9945,0.0052
-sadness_social_01,sadness_social_01,social,sadness,I felt lonely and sad after reading the last message.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
-sadness_social_02,sadness_social_02,social,sadness,Missing the old team chat made me feel empty.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
-sadness_social_03,sadness_social_03,social,sadness,I cried when I saw the goodbye post.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
-sadness_social_04,sadness_social_04,social,sadness,The cancelled visit left me disappointed and low.,nb,sadness,sadness,0.9999,0.0,0.0001,0.0,0.0,0.0,0.0,0.9999,0.0,0.0
-sadness_social_05,sadness_social_05,social,sadness,Everyone moved on and I felt forgotten.,nb,trust,trust,0.9911,0.0,0.0,0.0,0.0089,0.0,0.0,0.0,0.0,0.9911
-sadness_news_01,sadness_news_01,news,sadness,The community mourned the tragic loss of a beloved teacher.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
-sadness_news_02,sadness_news_02,news,sadness,Families gathered in grief after the accident.,nb,fear,fear,0.9875,0.0,0.0,0.0,0.0,0.9875,0.0,0.0125,0.0,0.0
-sadness_news_03,sadness_news_03,news,sadness,The closing factory left workers facing a painful future.,nb,fear,fear,0.9104,0.0,0.0,0.0,0.0,0.9104,0.0001,0.0895,0.0,0.0
-sadness_news_04,sadness_news_04,news,sadness,The memorial honored victims of the devastating flood.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
-sadness_news_05,sadness_news_05,news,sadness,Residents described heartbreak after losing their homes.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
-sadness_blog_01,sadness_blog_01,blog,sadness,It was a gloomy day and I missed my old friends terribly.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
-sadness_blog_02,sadness_blog_02,blog,sadness,The quiet apartment felt heavier after she left.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-sadness_blog_03,sadness_blog_03,blog,sadness,I reread the note and felt tears return.,nb,sadness,sadness,0.8029,0.0,0.0,0.197,0.0,0.0,0.0,0.8029,0.0,0.0
-sadness_blog_04,sadness_blog_04,blog,sadness,The empty chair at dinner made everyone silent.,nb,anger,anger,0.9969,0.0,0.9969,0.0,0.0001,0.0,0.0001,0.0,0.0,0.0029
-sadness_blog_05,sadness_blog_05,blog,sadness,I felt a dull ache thinking about what we lost.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
-surprise_social_01,surprise_social_01,social,surprise,I was shocked when my friends planned a sudden party.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
-surprise_social_02,surprise_social_02,social,surprise,I opened the app and saw an unexpected message.,nb,surprise,surprise,0.9994,0.0,0.0,0.0006,0.0,0.0,0.0,0.0,0.9994,0.0
-surprise_social_03,surprise_social_03,social,surprise,No one expected that hilarious twist at the end.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
-surprise_social_04,surprise_social_04,social,surprise,The announcement came out of nowhere and stunned everyone.,nb,anger,anger,0.9531,0.0,0.9531,0.0469,0.0,0.0,0.0,0.0,0.0,0.0
-surprise_social_05,surprise_social_05,social,surprise,I gasped when the hidden guest walked in.,nb,anticipation,anticipation,0.9993,0.0,0.0001,0.9993,0.0,0.0,0.0,0.0,0.0005,0.0
-surprise_news_01,surprise_news_01,news,surprise,Analysts were amazed by the unexpected election result.,nb,anticipation,anticipation,0.8705,0.0,0.0,0.8705,0.0,0.0,0.0,0.0,0.1295,0.0
-surprise_news_02,surprise_news_02,news,surprise,The sudden resignation surprised officials across the country.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-surprise_news_03,surprise_news_03,news,surprise,Researchers discovered an unexpected signal in the data.,nb,anticipation,anticipation,0.9995,0.0,0.0,0.9995,0.0,0.0,0.0,0.0,0.0005,0.0
-surprise_news_04,surprise_news_04,news,surprise,The underdog victory shocked sports commentators.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-surprise_news_05,surprise_news_05,news,surprise,Markets reacted sharply to the surprising policy reversal.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-surprise_blog_01,surprise_blog_01,blog,surprise,The plot twist was astonishing and completely unexpected.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
-surprise_blog_02,surprise_blog_02,blog,surprise,I found an old photo hidden inside the book.,nb,surprise,surprise,0.9988,0.0,0.0,0.0012,0.0,0.0,0.0,0.0,0.9988,0.0
-surprise_blog_03,surprise_blog_03,blog,surprise,The recipe tasted completely different from what I imagined.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
-surprise_blog_04,surprise_blog_04,blog,surprise,She arrived early and caught me totally off guard.,nb,fear,fear,0.5742,0.0,0.0574,0.3678,0.0,0.5742,0.0,0.0001,0.0006,0.0
-surprise_blog_05,surprise_blog_05,blog,surprise,The small cafe turned out to be a secret music venue.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
-trust_social_01,trust_social_01,social,trust,I trust the doctor because she explained the plan clearly.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
-trust_social_02,trust_social_02,social,trust,Your honest update made me feel confident again.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
-trust_social_03,trust_social_03,social,trust,I believe the team will handle this carefully.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
-trust_social_04,trust_social_04,social,trust,She kept her promise and I feel safe with her.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
-trust_social_05,trust_social_05,social,trust,The clear instructions made everyone more confident.,nb,fear,fear,0.9999,0.0,0.0,0.0,0.0,0.9999,0.0,0.0,0.0,0.0001
-trust_news_01,trust_news_01,news,trust,Officials expressed confidence in the safety of the new bridge.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-trust_news_02,trust_news_02,news,trust,Auditors confirmed that the charity used funds responsibly.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-trust_news_03,trust_news_03,news,trust,Doctors said the treatment plan was reliable and well tested.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-trust_news_04,trust_news_04,news,trust,The agency assured residents that water quality remained safe.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-trust_news_05,trust_news_05,news,trust,Independent experts backed the report and its conclusions.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-trust_blog_01,trust_blog_01,blog,trust,His honest apology made me feel secure and reassured.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
-trust_blog_02,trust_blog_02,blog,trust,I relaxed because my friend had handled this before.,nb,joy,joy,0.9999,0.0,0.0,0.0,0.0,0.0,0.9999,0.0,0.0,0.0001
-trust_blog_03,trust_blog_03,blog,trust,Her calm explanation helped me believe the plan would work.,nb,anger,anger,0.9906,0.0,0.9906,0.0,0.0,0.0,0.0016,0.0,0.0032,0.0047
-trust_blog_04,trust_blog_04,blog,trust,The familiar routine made the new place feel safe.,nb,joy,joy,0.9995,0.0,0.0,0.0,0.0,0.0005,0.9995,0.0,0.0,0.0
-trust_blog_05,trust_blog_05,blog,trust,I left the keys with him because he has always been dependable.,nb,trust,trust,0.6511,0.0,0.3489,0.0,0.0,0.0,0.0,0.0,0.0,0.6511
+anger_social_001,anger_social_001,social,anger,"People noticed the delay, and my friend felt furious about it after several complaints.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_news_002,anger_news_002,news,anger,"before the final vote, residents was angry and refused to stay silent about the phone call.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_blog_003,anger_blog_003,blog,anger,The way the interview unfolded made the author called it unfair and insulting.,nb,anger,anger,0.9776,0.0,0.9776,0.0,0.0208,0.0016,0.0,0.0,0.0,0.0
+anger_social_004,anger_social_004,social,anger,"People noticed the change, and my teammate lost patience with the excuses while everyone was waiting.",nb,anger,anger,0.8486,0.0,0.8486,0.0,0.1514,0.0,0.0,0.0,0.0,0.0
+anger_news_005,anger_news_005,news,anger,"while checking the details, the mayor felt irritated by the same problem again about the review.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_blog_006,anger_blog_006,blog,anger,The way the exam unfolded made a small business owner was mad about the careless response.,nb,fear,fear,0.9944,0.0,0.0056,0.0,0.0,0.9944,0.0,0.0,0.0,0.0
+anger_social_007,anger_social_007,social,anger,"People noticed the contract, and my colleague said the whole situation was unacceptable at the end of the day.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_news_008,anger_news_008,news,anger,"after the numbers were published, the company felt offended by the tone about the message.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+anger_blog_009,anger_blog_009,blog,anger,The way the meeting unfolded made a nurse blamed the team for wasting time.,nb,anger,anger,0.9584,0.0,0.9584,0.0,0.0,0.0416,0.0,0.0,0.0,0.0
+anger_social_010,anger_social_010,social,anger,"People noticed the result, and my brother could not hide the frustration before the event.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_news_011,anger_news_011,news,anger,"when the room went quiet, the rescue team reacted sharply to the broken promise about the deadline.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anger_blog_012,anger_blog_012,blog,anger,The way the mistake unfolded made a traveler was upset by the lack of respect.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+anger_social_013,anger_social_013,social,anger,"People noticed the visit, and our project team complained that nobody took responsibility during the morning.",nb,anger,anger,0.6819,0.0,0.6819,0.0,0.3181,0.0,0.0,0.0,0.0,0.0
+anger_news_014,anger_news_014,news,anger,"during the discussion, local leaders felt provoked by the decision about the repair.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_blog_015,anger_blog_015,blog,anger,The way the schedule unfolded made a patient said the delay crossed a line.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anger_social_016,anger_social_016,social,anger,"People noticed the announcement, and the volunteers was annoyed by the repeated mistake after a long week.",nb,anger,anger,0.9999,0.0,0.9999,0.0001,0.0,0.0,0.0,0.0,0.0,0.0
+anger_news_017,anger_news_017,news,anger,"after several complaints, the university argued that the answer was dishonest about the update.",nb,anger,anger,0.97,0.0,0.97,0.0,0.0,0.0,0.0,0.0,0.0,0.03
+anger_blog_018,anger_blog_018,blog,anger,The way the report unfolded made a musician felt bitter after being ignored.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+anger_social_019,anger_social_019,social,anger,"People noticed the email, and the support chat criticized the careless handling before the weekend.",nb,disgust,disgust,0.9995,0.0,0.0,0.0,0.9995,0.0005,0.0,0.0,0.0,0.0
+anger_news_020,anger_news_020,news,anger,"while everyone was waiting, the newsroom was furious that the issue returned about the plan.",nb,disgust,disgust,0.9985,0.0,0.0015,0.0,0.9985,0.0,0.0,0.0,0.0,0.0
+anger_blog_021,anger_blog_021,blog,anger,The way the warning unfolded made an intern felt furious about it.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_social_022,anger_social_022,social,anger,"People noticed the campaign, and the local team was angry and refused to stay silent after the call ended.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_news_023,anger_news_023,news,anger,"at the end of the day, the factory called it unfair and insulting about the request.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_blog_024,anger_blog_024,blog,anger,The way the delivery unfolded made a freelancer lost patience with the excuses.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_social_025,anger_social_025,social,anger,"People noticed the decision, and the parents felt irritated by the same problem again when the update arrived.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_news_026,anger_news_026,news,anger,"before the event, officials was mad about the careless response about the delay.",nb,anger,anger,0.6033,0.0,0.6033,0.0001,0.0007,0.3959,0.0,0.0,0.0,0.0
+anger_blog_027,anger_blog_027,blog,anger,The way the phone call unfolded made we said the whole situation was unacceptable.,nb,anger,anger,0.9546,0.0,0.9546,0.0,0.0,0.0,0.0,0.0,0.0,0.0454
+anger_social_028,anger_social_028,social,anger,"People noticed the interview, and my neighbor felt offended by the tone during the first hour.",nb,fear,fear,0.9378,0.0,0.0518,0.0104,0.0,0.9378,0.0,0.0,0.0,0.0
+anger_news_029,anger_news_029,news,anger,"during the morning, workers blamed the team for wasting time about the change.",nb,anger,anger,0.9977,0.0,0.9977,0.0,0.0023,0.0,0.0,0.0,0.0,0.0
+anger_blog_030,anger_blog_030,blog,anger,The way the review unfolded made our team could not hide the frustration.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_social_031,anger_social_031,social,anger,"People noticed the exam, and the online community reacted sharply to the broken promise after the team reviewed it.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anger_news_032,anger_news_032,news,anger,"after a long week, the agency was upset by the lack of respect about the contract.",nb,disgust,disgust,0.9971,0.0,0.0,0.0,0.9971,0.0029,0.0,0.0,0.0,0.0
+anger_blog_033,anger_blog_033,blog,anger,The way the message unfolded made a teacher complained that nobody took responsibility.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_social_034,anger_social_034,social,anger,"People noticed the meeting, and our club felt provoked by the decision before the final vote.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anger_news_035,anger_news_035,news,anger,"before the weekend, the court said the delay crossed a line about the result.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anger_blog_036,anger_blog_036,blog,anger,The way the deadline unfolded made a parent was annoyed by the repeated mistake.,nb,anger,anger,0.9998,0.0,0.9998,0.0,0.0,0.0002,0.0,0.0,0.0,0.0
+anger_social_037,anger_social_037,social,anger,"People noticed the mistake, and the comments argued that the answer was dishonest while checking the details.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_news_038,anger_news_038,news,anger,"after the call ended, the ministry felt bitter after being ignored about the visit.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+anger_blog_039,anger_blog_039,blog,anger,The way the repair unfolded made a volunteer criticized the careless handling.,nb,disgust,disgust,0.9493,0.0,0.0505,0.0,0.9493,0.0,0.0002,0.0,0.0,0.0
+anger_social_040,anger_social_040,social,anger,"People noticed the schedule, and the forum was furious that the issue returned after the numbers were published.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anger_news_041,anger_news_041,news,anger,"when the update arrived, the airport felt furious about it about the announcement.",nb,fear,fear,0.9978,0.0,0.0022,0.0,0.0,0.9978,0.0,0.0,0.0,0.0
+anger_blog_042,anger_blog_042,blog,anger,The way the update unfolded made a reader was angry and refused to stay silent.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_social_043,anger_social_043,social,anger,"People noticed the report, and my roommate called it unfair and insulting when the room went quiet.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+anger_news_044,anger_news_044,news,anger,"during the first hour, the charity lost patience with the excuses about the email.",nb,disgust,disgust,0.5337,0.0,0.0,0.0,0.5337,0.4663,0.0,0.0,0.0,0.0
+anger_blog_045,anger_blog_045,blog,anger,The way the plan unfolded made a customer felt irritated by the same problem again.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_social_046,anger_social_046,social,anger,"People noticed the warning, and the committee was mad about the careless response during the discussion.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_news_047,anger_news_047,news,anger,"after the team reviewed it, the city said the whole situation was unacceptable about the campaign.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anger_blog_048,anger_blog_048,blog,anger,The way the request unfolded made a planner felt offended by the tone.,nb,anger,anger,0.9989,0.0,0.9989,0.0,0.0,0.0011,0.0,0.0,0.0,0.0
+anger_social_049,anger_social_049,social,anger,"People noticed the delivery, and the organizer blamed the team for wasting time after several complaints.",nb,anger,anger,0.9999,0.0,0.9999,0.0,0.0,0.0,0.0,0.0,0.0001,0.0
+anger_news_050,anger_news_050,news,anger,"before the final vote, the transport authority could not hide the frustration about the decision.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anger_blog_051,anger_blog_051,blog,anger,The way the delay unfolded made I reacted sharply to the broken promise.,nb,sadness,sadness,0.705,0.0,0.295,0.0,0.0,0.0,0.0,0.705,0.0,0.0
+anger_social_052,anger_social_052,social,anger,"People noticed the phone call, and the group chat was upset by the lack of respect while everyone was waiting.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_news_053,anger_news_053,news,anger,"while checking the details, researchers complained that nobody took responsibility about the interview.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_blog_054,anger_blog_054,blog,anger,The way the change unfolded made my partner felt provoked by the decision.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+anger_social_055,anger_social_055,social,anger,"People noticed the review, and my family said the delay crossed a line at the end of the day.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anger_news_056,anger_news_056,news,anger,"after the numbers were published, the hospital was annoyed by the repeated mistake about the exam.",nb,disgust,disgust,0.9999,0.0,0.0,0.0,0.9999,0.0001,0.0,0.0,0.0,0.0
+anger_blog_057,anger_blog_057,blog,anger,The way the contract unfolded made a student argued that the answer was dishonest.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_social_058,anger_social_058,social,anger,"People noticed the message, and the class felt bitter after being ignored before the event.",nb,disgust,disgust,0.9985,0.0,0.0015,0.0,0.9985,0.0,0.0,0.0,0.0,0.0
+anger_news_059,anger_news_059,news,anger,"when the room went quiet, the school board criticized the careless handling about the meeting.",nb,disgust,disgust,0.9999,0.0,0.0,0.0,0.9999,0.0001,0.0,0.0,0.0,0.0
+anger_blog_060,anger_blog_060,blog,anger,The way the result unfolded made a designer was furious that the issue returned.,nb,anger,anger,0.7281,0.0,0.7281,0.0,0.0,0.0007,0.0,0.0,0.0,0.2712
+anger_social_061,anger_social_061,social,anger,"People noticed the deadline, and my sister felt furious about it during the morning.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_news_062,anger_news_062,news,anger,"during the discussion, inspectors was angry and refused to stay silent about the mistake.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_blog_063,anger_blog_063,blog,anger,The way the visit unfolded made a developer called it unfair and insulting.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anger_social_064,anger_social_064,social,anger,"People noticed the repair, and my cousin lost patience with the excuses after a long week.",nb,anger,anger,0.9835,0.0,0.9835,0.0,0.0,0.0165,0.0,0.0,0.0,0.0
+anticipation_social_001,anticipation_social_001,social,anticipation,my friend was waiting with real excitement once the plan happened during the first hour.,nb,fear,fear,0.9682,0.0,0.0,0.0,0.0,0.9682,0.0,0.0,0.0318,0.0
+anticipation_news_002,anticipation_news_002,news,anticipation,"residents said the warning mattered, and the school board expected good news soon.",nb,anticipation,anticipation,0.9869,0.0,0.0,0.9869,0.0,0.0131,0.0,0.0,0.0,0.0
+anticipation_blog_003,anticipation_blog_003,blog,anticipation,the author looked forward to the next step; the campaign changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_social_004,anticipation_social_004,social,anticipation,my teammate kept checking for the final answer as soon as the request happened after the team reviewed it.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_news_005,anticipation_news_005,news,anticipation,"the mayor said the delivery mattered, and inspectors was hopeful about what would happen.",nb,surprise,surprise,0.4803,0.0,0.448,0.0,0.0716,0.0,0.0,0.0,0.4803,0.0
+anticipation_blog_006,anticipation_blog_006,blog,anticipation,a small business owner prepared carefully for the opportunity; the decision changed the whole mood.,nb,fear,fear,0.9995,0.0,0.0,0.0,0.0,0.9995,0.0,0.0,0.0,0.0005
+anticipation_social_007,anticipation_social_007,social,anticipation,my colleague counted the hours until the result when the delay happened before the final vote.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_news_008,anticipation_news_008,news,anticipation,"the company said the phone call mattered, and the council imagined the outcome with nervous energy.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_blog_009,anticipation_blog_009,blog,anticipation,a nurse planned the next move with optimism; the interview changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_social_010,anticipation_social_010,social,anticipation,my brother felt ready for the upcoming change while the change happened while checking the details.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_news_011,anticipation_news_011,news,anticipation,"the rescue team said the review mattered, and the police watched for signs of progress.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_blog_012,anticipation_blog_012,blog,anticipation,a traveler expected the launch to go well; the exam changed the whole mood.,nb,fear,fear,0.9998,0.0,0.0,0.0001,0.0,0.9998,0.0,0.0,0.0,0.0
+anticipation_social_013,anticipation_social_013,social,anticipation,our project team was eager to see the response because the contract happened after the numbers were published.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_news_014,anticipation_news_014,news,anticipation,"local leaders said the message mattered, and the committee saved time for the important moment.",nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+anticipation_blog_015,anticipation_blog_015,blog,anticipation,a patient felt curious about the announcement; the meeting changed the whole mood.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_social_016,anticipation_social_016,social,anticipation,the volunteers kept thinking about tomorrow even though the result happened when the room went quiet.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_news_017,anticipation_news_017,news,anticipation,"the university said the deadline mattered, and the clinic was excited for the next meeting.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_blog_018,anticipation_blog_018,blog,anticipation,a musician waited for confirmation with patience; the mistake changed the whole mood.,nb,trust,trust,0.9995,0.0,0.0,0.0,0.0,0.0005,0.0,0.0,0.0,0.9995
+anticipation_social_019,anticipation_social_019,social,anticipation,the support chat felt the day could bring something better since the visit happened during the discussion.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+anticipation_news_020,anticipation_news_020,news,anticipation,"the newsroom said the repair mattered, and residents prepared notes for the big reveal.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_blog_021,anticipation_blog_021,blog,anticipation,an intern was waiting with real excitement; the schedule changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_social_022,anticipation_social_022,social,anticipation,the local team expected good news soon after the announcement happened after several complaints.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_news_023,anticipation_news_023,news,anticipation,"the factory said the update mattered, and the mayor looked forward to the next step.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_blog_024,anticipation_blog_024,blog,anticipation,a freelancer kept checking for the final answer; the report changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_social_025,anticipation_social_025,social,anticipation,the parents was hopeful about what would happen once the email happened while everyone was waiting.,nb,anger,anger,0.9742,0.0,0.9742,0.0,0.0,0.0258,0.0,0.0,0.0,0.0
+anticipation_news_026,anticipation_news_026,news,anticipation,"officials said the plan mattered, and the company prepared carefully for the opportunity.",nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+anticipation_blog_027,anticipation_blog_027,blog,anticipation,we counted the hours until the result; the warning changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_social_028,anticipation_social_028,social,anticipation,my neighbor imagined the outcome with nervous energy as soon as the campaign happened at the end of the day.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_news_029,anticipation_news_029,news,anticipation,"workers said the request mattered, and the rescue team planned the next move with optimism.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_blog_030,anticipation_blog_030,blog,anticipation,our team felt ready for the upcoming change; the delivery changed the whole mood.,nb,anger,anger,0.8228,0.0,0.8228,0.1043,0.0,0.0729,0.0,0.0,0.0,0.0
+anticipation_social_031,anticipation_social_031,social,anticipation,the online community watched for signs of progress when the decision happened before the event.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+anticipation_news_032,anticipation_news_032,news,anticipation,"the agency said the delay mattered, and local leaders expected the launch to go well.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_blog_033,anticipation_blog_033,blog,anticipation,a teacher was eager to see the response; the phone call changed the whole mood.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_social_034,anticipation_social_034,social,anticipation,our club saved time for the important moment while the interview happened during the morning.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_news_035,anticipation_news_035,news,anticipation,"the court said the change mattered, and the university felt curious about the announcement.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_blog_036,anticipation_blog_036,blog,anticipation,a parent kept thinking about tomorrow; the review changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_social_037,anticipation_social_037,social,anticipation,the comments was excited for the next meeting because the exam happened after a long week.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_news_038,anticipation_news_038,news,anticipation,"the ministry said the contract mattered, and the newsroom waited for confirmation with patience.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_blog_039,anticipation_blog_039,blog,anticipation,a volunteer felt the day could bring something better; the message changed the whole mood.,nb,anger,anger,0.8286,0.0,0.8286,0.0,0.0,0.0,0.1714,0.0,0.0,0.0
+anticipation_social_040,anticipation_social_040,social,anticipation,the forum prepared notes for the big reveal even though the meeting happened before the weekend.,nb,fear,fear,0.9816,0.0,0.0,0.0184,0.0,0.9816,0.0,0.0,0.0,0.0
+anticipation_news_041,anticipation_news_041,news,anticipation,"the airport said the result mattered, and the factory was waiting with real excitement.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_blog_042,anticipation_blog_042,blog,anticipation,a reader expected good news soon; the deadline changed the whole mood.,nb,fear,fear,0.9995,0.0,0.0,0.0005,0.0,0.9995,0.0,0.0,0.0,0.0
+anticipation_social_043,anticipation_social_043,social,anticipation,my roommate looked forward to the next step since the mistake happened after the call ended.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+anticipation_news_044,anticipation_news_044,news,anticipation,"the charity said the visit mattered, and officials kept checking for the final answer.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_blog_045,anticipation_blog_045,blog,anticipation,a customer was hopeful about what would happen; the repair changed the whole mood.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_social_046,anticipation_social_046,social,anticipation,the committee prepared carefully for the opportunity after the schedule happened when the update arrived.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_news_047,anticipation_news_047,news,anticipation,"the city said the announcement mattered, and workers counted the hours until the result.",nb,anticipation,anticipation,0.7441,0.0,0.0,0.7441,0.0,0.2559,0.0,0.0,0.0,0.0
+anticipation_blog_048,anticipation_blog_048,blog,anticipation,a planner imagined the outcome with nervous energy; the update changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_social_049,anticipation_social_049,social,anticipation,the organizer planned the next move with optimism once the report happened during the first hour.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_news_050,anticipation_news_050,news,anticipation,"the transport authority said the email mattered, and the agency felt ready for the upcoming change.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_blog_051,anticipation_blog_051,blog,anticipation,I watched for signs of progress; the plan changed the whole mood.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_social_052,anticipation_social_052,social,anticipation,the group chat expected the launch to go well as soon as the warning happened after the team reviewed it.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_news_053,anticipation_news_053,news,anticipation,"researchers said the campaign mattered, and the court was eager to see the response.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_blog_054,anticipation_blog_054,blog,anticipation,my partner saved time for the important moment; the request changed the whole mood.,nb,trust,trust,0.7833,0.0,0.0,0.0,0.0,0.0,0.2167,0.0,0.0,0.7833
+anticipation_social_055,anticipation_social_055,social,anticipation,my family felt curious about the announcement when the delivery happened before the final vote.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_news_056,anticipation_news_056,news,anticipation,"the hospital said the decision mattered, and the ministry kept thinking about tomorrow.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_blog_057,anticipation_blog_057,blog,anticipation,a student was excited for the next meeting; the delay changed the whole mood.,nb,fear,fear,0.9672,0.0,0.0,0.0328,0.0,0.9672,0.0,0.0,0.0,0.0
+anticipation_social_058,anticipation_social_058,social,anticipation,the class waited for confirmation with patience while the phone call happened while checking the details.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_news_059,anticipation_news_059,news,anticipation,"the school board said the interview mattered, and the airport felt the day could bring something better.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+anticipation_blog_060,anticipation_blog_060,blog,anticipation,a designer prepared notes for the big reveal; the change changed the whole mood.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+anticipation_social_061,anticipation_social_061,social,anticipation,my sister was waiting with real excitement because the review happened after the numbers were published.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_news_062,anticipation_news_062,news,anticipation,"inspectors said the exam mattered, and the charity expected good news soon.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_blog_063,anticipation_blog_063,blog,anticipation,a developer looked forward to the next step; the contract changed the whole mood.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+anticipation_social_064,anticipation_social_064,social,anticipation,my cousin kept checking for the final answer even though the message happened when the room went quiet.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_001,disgust_social_001,social,disgust,"when the room went quiet, my friend felt disgusted by the smell about the result.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_002,disgust_news_002,news,disgust,The way the deadline unfolded made residents called the behavior gross.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_003,disgust_blog_003,blog,disgust,"People noticed the mistake, and the author was repelled by the dirty conditions during the morning.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_004,disgust_social_004,social,disgust,"during the discussion, my teammate felt sick after seeing the mess about the visit.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_005,disgust_news_005,news,disgust,The way the repair unfolded made the mayor said the scene was revolting.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_006,disgust_blog_006,blog,disgust,"People noticed the schedule, and a small business owner wanted to avoid the spoiled food after a long week.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+disgust_social_007,disgust_social_007,social,disgust,"after several complaints, my colleague was disturbed by the careless hygiene about the announcement.",nb,disgust,disgust,0.9998,0.0,0.0,0.0002,0.9998,0.0,0.0,0.0,0.0,0.0
+disgust_news_008,disgust_news_008,news,disgust,The way the update unfolded made the company felt nauseated by the rotten odor.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_009,disgust_blog_009,blog,disgust,"People noticed the report, and a nurse found the comments vile before the weekend.",nb,disgust,disgust,0.9874,0.0,0.0054,0.0,0.9874,0.0072,0.0,0.0,0.0,0.0
+disgust_social_010,disgust_social_010,social,disgust,"while everyone was waiting, my brother rejected the proposal as morally ugly about the email.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_011,disgust_news_011,news,disgust,The way the plan unfolded made the rescue team was disgusted by the corruption.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_012,disgust_blog_012,blog,disgust,"People noticed the warning, and a traveler could barely look at the waste after the call ended.",nb,disgust,disgust,0.9991,0.0,0.0009,0.0,0.9991,0.0,0.0,0.0,0.0,0.0
+disgust_social_013,disgust_social_013,social,disgust,"at the end of the day, our project team said the room was filthy about the campaign.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_014,disgust_news_014,news,disgust,The way the request unfolded made local leaders felt appalled by the cruel joke.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_015,disgust_blog_015,blog,disgust,"People noticed the delivery, and a patient described the taste as awful when the update arrived.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_016,disgust_social_016,social,disgust,"before the event, the volunteers was repulsed by the sticky surface about the decision.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+disgust_news_017,disgust_news_017,news,disgust,The way the delay unfolded made the university felt uneasy about the contaminated water.,nb,fear,fear,0.9996,0.0,0.0,0.0,0.0,0.9996,0.0,0.0,0.0,0.0004
+disgust_blog_018,disgust_blog_018,blog,disgust,"People noticed the phone call, and a musician called the report sickening during the first hour.",nb,surprise,surprise,0.9916,0.0,0.0,0.0,0.0084,0.0,0.0,0.0,0.9916,0.0
+disgust_social_019,disgust_social_019,social,disgust,"during the morning, the support chat was grossed out by the mold about the interview.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_020,disgust_news_020,news,disgust,The way the change unfolded made the newsroom felt disgust after reading the details.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_021,disgust_blog_021,blog,disgust,"People noticed the review, and an intern felt disgusted by the smell after the team reviewed it.",nb,disgust,disgust,0.9994,0.0,0.0,0.0,0.9994,0.0006,0.0,0.0,0.0,0.0
+disgust_social_022,disgust_social_022,social,disgust,"after a long week, the local team called the behavior gross about the exam.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_023,disgust_news_023,news,disgust,The way the contract unfolded made the factory was repelled by the dirty conditions.,nb,anger,anger,0.6669,0.0,0.6669,0.1218,0.2074,0.0,0.0038,0.0,0.0,0.0
+disgust_blog_024,disgust_blog_024,blog,disgust,"People noticed the message, and a freelancer felt sick after seeing the mess before the final vote.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_025,disgust_social_025,social,disgust,"before the weekend, the parents said the scene was revolting about the meeting.",nb,disgust,disgust,0.9982,0.0,0.0,0.0,0.9982,0.0018,0.0,0.0,0.0,0.0
+disgust_news_026,disgust_news_026,news,disgust,The way the result unfolded made officials wanted to avoid the spoiled food.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_027,disgust_blog_027,blog,disgust,"People noticed the deadline, and we was disturbed by the careless hygiene while checking the details.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_028,disgust_social_028,social,disgust,"after the call ended, my neighbor felt nauseated by the rotten odor about the mistake.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_029,disgust_news_029,news,disgust,The way the visit unfolded made workers found the comments vile.,nb,disgust,disgust,0.9971,0.0,0.0029,0.0,0.9971,0.0,0.0,0.0,0.0,0.0
+disgust_blog_030,disgust_blog_030,blog,disgust,"People noticed the repair, and our team rejected the proposal as morally ugly after the numbers were published.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_031,disgust_social_031,social,disgust,"when the update arrived, the online community was disgusted by the corruption about the schedule.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+disgust_news_032,disgust_news_032,news,disgust,The way the announcement unfolded made the agency could barely look at the waste.,nb,fear,fear,0.9986,0.0,0.0014,0.0,0.0,0.9986,0.0,0.0,0.0,0.0
+disgust_blog_033,disgust_blog_033,blog,disgust,"People noticed the update, and a teacher said the room was filthy when the room went quiet.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_034,disgust_social_034,social,disgust,"during the first hour, our club felt appalled by the cruel joke about the report.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_035,disgust_news_035,news,disgust,The way the email unfolded made the court described the taste as awful.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_036,disgust_blog_036,blog,disgust,"People noticed the plan, and a parent was repulsed by the sticky surface during the discussion.",nb,disgust,disgust,0.8546,0.0,0.0,0.1454,0.8546,0.0,0.0,0.0,0.0,0.0
+disgust_social_037,disgust_social_037,social,disgust,"after the team reviewed it, the comments felt uneasy about the contaminated water about the warning.",nb,fear,fear,0.9998,0.0,0.0,0.0,0.0002,0.9998,0.0,0.0,0.0,0.0
+disgust_news_038,disgust_news_038,news,disgust,The way the campaign unfolded made the ministry called the report sickening.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_039,disgust_blog_039,blog,disgust,"People noticed the request, and a volunteer was grossed out by the mold after several complaints.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_040,disgust_social_040,social,disgust,"before the final vote, the forum felt disgust after reading the details about the delivery.",nb,disgust,disgust,0.8856,0.0,0.0,0.1144,0.8856,0.0,0.0,0.0,0.0,0.0
+disgust_news_041,disgust_news_041,news,disgust,The way the decision unfolded made the airport felt disgusted by the smell.,nb,disgust,disgust,0.9504,0.0,0.0,0.0,0.9504,0.0496,0.0,0.0,0.0,0.0
+disgust_blog_042,disgust_blog_042,blog,disgust,"People noticed the delay, and a reader called the behavior gross while everyone was waiting.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_043,disgust_social_043,social,disgust,"while checking the details, my roommate was repelled by the dirty conditions about the phone call.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_044,disgust_news_044,news,disgust,The way the interview unfolded made the charity felt sick after seeing the mess.,nb,disgust,disgust,0.9993,0.0,0.0,0.0,0.9993,0.0007,0.0,0.0,0.0,0.0
+disgust_blog_045,disgust_blog_045,blog,disgust,"People noticed the change, and a customer said the scene was revolting at the end of the day.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_046,disgust_social_046,social,disgust,"after the numbers were published, the committee wanted to avoid the spoiled food about the review.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_047,disgust_news_047,news,disgust,The way the exam unfolded made the city was disturbed by the careless hygiene.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_048,disgust_blog_048,blog,disgust,"People noticed the contract, and a planner felt nauseated by the rotten odor before the event.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+disgust_social_049,disgust_social_049,social,disgust,"when the room went quiet, the organizer found the comments vile about the message.",nb,disgust,disgust,0.9999,0.0,0.0001,0.0,0.9999,0.0,0.0,0.0,0.0,0.0
+disgust_news_050,disgust_news_050,news,disgust,The way the meeting unfolded made the transport authority rejected the proposal as morally ugly.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_051,disgust_blog_051,blog,disgust,"People noticed the result, and I was disgusted by the corruption during the morning.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_052,disgust_social_052,social,disgust,"during the discussion, the group chat could barely look at the waste about the deadline.",nb,disgust,disgust,0.997,0.0,0.003,0.0,0.997,0.0,0.0,0.0,0.0,0.0
+disgust_news_053,disgust_news_053,news,disgust,The way the mistake unfolded made researchers said the room was filthy.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_054,disgust_blog_054,blog,disgust,"People noticed the visit, and my partner felt appalled by the cruel joke after a long week.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_055,disgust_social_055,social,disgust,"after several complaints, my family described the taste as awful about the repair.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_056,disgust_news_056,news,disgust,The way the schedule unfolded made the hospital was repulsed by the sticky surface.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+disgust_blog_057,disgust_blog_057,blog,disgust,"People noticed the announcement, and a student felt uneasy about the contaminated water before the weekend.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+disgust_social_058,disgust_social_058,social,disgust,"while everyone was waiting, the class called the report sickening about the update.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_059,disgust_news_059,news,disgust,The way the report unfolded made the school board was grossed out by the mold.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_060,disgust_blog_060,blog,disgust,"People noticed the email, and a designer felt disgust after reading the details after the call ended.",nb,disgust,disgust,0.9751,0.0,0.0,0.0249,0.9751,0.0,0.0,0.0,0.0,0.0
+disgust_social_061,disgust_social_061,social,disgust,"at the end of the day, my sister felt disgusted by the smell about the plan.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_news_062,disgust_news_062,news,disgust,The way the warning unfolded made inspectors called the behavior gross.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+disgust_blog_063,disgust_blog_063,blog,disgust,"People noticed the campaign, and a developer was repelled by the dirty conditions when the update arrived.",nb,fear,fear,0.9968,0.0,0.0,0.0032,0.0,0.9968,0.0,0.0,0.0,0.0
+disgust_social_064,disgust_social_064,social,disgust,"before the event, my cousin felt sick after seeing the mess about the request.",nb,fear,fear,0.9978,0.0,0.0013,0.0,0.0009,0.9978,0.0,0.0,0.0,0.0
+fear_social_001,fear_social_001,social,fear,my friend felt afraid of what might happen; the meeting changed the whole mood.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+fear_news_002,fear_news_002,news,fear,residents worried that the danger was close while the result happened while checking the details.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_003,fear_blog_003,blog,fear,"the author said the deadline mattered, and a designer was scared by the sudden noise.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_social_004,fear_social_004,social,fear,my teammate feared the situation could get worse; the mistake changed the whole mood.,nb,disgust,disgust,0.7042,0.0,0.0,0.0,0.7042,0.0,0.0,0.0,0.0,0.2958
+fear_news_005,fear_news_005,news,fear,the mayor felt anxious about the warning because the visit happened after the numbers were published.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_006,fear_blog_006,blog,fear,"a small business owner said the repair mattered, and a developer froze when the alarm started.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_social_007,fear_social_007,social,fear,my colleague was nervous about the unknown risk; the schedule changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_news_008,fear_news_008,news,fear,the company kept imagining the worst case even though the announcement happened when the room went quiet.,nb,anticipation,anticipation,0.9985,0.0,0.0,0.9985,0.0,0.0015,0.0,0.0,0.0,0.0
+fear_blog_009,fear_blog_009,blog,fear,"a nurse said the update mattered, and a coach felt unsafe after the report.",nb,fear,fear,0.8159,0.0,0.0,0.0,0.1841,0.8159,0.0,0.0,0.0,0.0
+fear_social_010,fear_social_010,social,fear,my brother panicked when the lights went out; the report changed the whole mood.,nb,anger,anger,0.7587,0.0,0.7587,0.0,0.0,0.2413,0.0,0.0,0.0,0.0
+fear_news_011,fear_news_011,news,fear,the rescue team was terrified by the threat since the email happened during the discussion.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_012,fear_blog_012,blog,fear,"a traveler said the plan mattered, and a writer felt dread before opening the door.",nb,anticipation,anticipation,0.9994,0.0,0.0,0.9994,0.0,0.0006,0.0,0.0,0.0,0.0
+fear_social_013,fear_social_013,social,fear,our project team worried about losing control; the warning changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_news_014,fear_news_014,news,fear,local leaders was frightened by the emergency message after the campaign happened after several complaints.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_015,fear_blog_015,blog,fear,"a patient said the request mattered, and a researcher felt tense during the silence.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+fear_social_016,fear_social_016,social,fear,the volunteers feared another failure; the delivery changed the whole mood.,nb,joy,joy,0.9929,0.0,0.0,0.0,0.0,0.0071,0.9929,0.0,0.0,0.0
+fear_news_017,fear_news_017,news,fear,the university was uneasy about the strange behavior once the decision happened while everyone was waiting.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_018,fear_blog_018,blog,fear,"a musician said the delay mattered, and a founder felt alarmed by the medical result.",nb,fear,fear,0.9956,0.0,0.0,0.0044,0.0,0.9956,0.0,0.0,0.0,0.0
+fear_social_019,fear_social_019,social,fear,the support chat was scared to make the next call; the phone call changed the whole mood.,nb,fear,fear,0.9999,0.0,0.0,0.0,0.0001,0.9999,0.0,0.0,0.0,0.0
+fear_news_020,fear_news_020,news,fear,the newsroom felt panic rising in the crowd as soon as the interview happened at the end of the day.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_021,fear_blog_021,blog,fear,"an intern said the change mattered, and the author felt afraid of what might happen.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+fear_social_022,fear_social_022,social,fear,the local team worried that the danger was close; the review changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_news_023,fear_news_023,news,fear,the factory was scared by the sudden noise when the exam happened before the event.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_024,fear_blog_024,blog,fear,"a freelancer said the contract mattered, and a small business owner feared the situation could get worse.",nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+fear_social_025,fear_social_025,social,fear,the parents felt anxious about the warning; the message changed the whole mood.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fear_news_026,fear_news_026,news,fear,officials froze when the alarm started while the meeting happened during the morning.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_027,fear_blog_027,blog,fear,"we said the result mattered, and a nurse was nervous about the unknown risk.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_social_028,fear_social_028,social,fear,my neighbor kept imagining the worst case; the deadline changed the whole mood.,nb,fear,fear,0.977,0.0,0.023,0.0,0.0,0.977,0.0,0.0,0.0,0.0
+fear_news_029,fear_news_029,news,fear,workers felt unsafe after the report because the mistake happened after a long week.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+fear_blog_030,fear_blog_030,blog,fear,"our team said the visit mattered, and a traveler panicked when the lights went out.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_social_031,fear_social_031,social,fear,the online community was terrified by the threat; the repair changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_news_032,fear_news_032,news,fear,the agency felt dread before opening the door even though the schedule happened before the weekend.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_033,fear_blog_033,blog,fear,"a teacher said the announcement mattered, and a patient worried about losing control.",nb,fear,fear,0.977,0.0,0.0,0.023,0.0,0.977,0.0,0.0,0.0,0.0
+fear_social_034,fear_social_034,social,fear,our club was frightened by the emergency message; the update changed the whole mood.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fear_news_035,fear_news_035,news,fear,the court felt tense during the silence since the report happened after the call ended.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_036,fear_blog_036,blog,fear,"a parent said the email mattered, and a musician feared another failure.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_social_037,fear_social_037,social,fear,the comments was uneasy about the strange behavior; the plan changed the whole mood.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+fear_news_038,fear_news_038,news,fear,the ministry felt alarmed by the medical result after the warning happened when the update arrived.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_039,fear_blog_039,blog,fear,"a volunteer said the campaign mattered, and an intern was scared to make the next call.",nb,anticipation,anticipation,0.9964,0.0,0.0,0.9964,0.0,0.0036,0.0,0.0,0.0,0.0
+fear_social_040,fear_social_040,social,fear,the forum felt panic rising in the crowd; the request changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_news_041,fear_news_041,news,fear,the airport felt afraid of what might happen once the delivery happened during the first hour.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+fear_blog_042,fear_blog_042,blog,fear,"a reader said the decision mattered, and a freelancer worried that the danger was close.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_social_043,fear_social_043,social,fear,my roommate was scared by the sudden noise; the delay changed the whole mood.,nb,anger,anger,0.6612,0.0,0.6612,0.0,0.3385,0.0003,0.0,0.0,0.0,0.0
+fear_news_044,fear_news_044,news,fear,the charity feared the situation could get worse as soon as the phone call happened after the team reviewed it.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_045,fear_blog_045,blog,fear,"a customer said the interview mattered, and we felt anxious about the warning.",nb,fear,fear,0.9997,0.0,0.0,0.0003,0.0,0.9997,0.0,0.0,0.0,0.0
+fear_social_046,fear_social_046,social,fear,the committee froze when the alarm started; the change changed the whole mood.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+fear_news_047,fear_news_047,news,fear,the city was nervous about the unknown risk when the review happened before the final vote.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_048,fear_blog_048,blog,fear,"a planner said the exam mattered, and our team kept imagining the worst case.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_social_049,fear_social_049,social,fear,the organizer felt unsafe after the report; the contract changed the whole mood.,nb,fear,fear,0.7369,0.0,0.0,0.0,0.2631,0.7369,0.0,0.0,0.0,0.0
+fear_news_050,fear_news_050,news,fear,the transport authority panicked when the lights went out while the message happened while checking the details.,nb,disgust,disgust,0.9823,0.0,0.0177,0.0,0.9823,0.0,0.0,0.0,0.0,0.0
+fear_blog_051,fear_blog_051,blog,fear,"I said the meeting mattered, and a teacher was terrified by the threat.",nb,fear,fear,0.9999,0.0,0.0,0.0,0.0001,0.9999,0.0,0.0,0.0,0.0
+fear_social_052,fear_social_052,social,fear,the group chat felt dread before opening the door; the result changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_news_053,fear_news_053,news,fear,researchers worried about losing control because the deadline happened after the numbers were published.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_054,fear_blog_054,blog,fear,"my partner said the mistake mattered, and a parent was frightened by the emergency message.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_social_055,fear_social_055,social,fear,my family felt tense during the silence; the visit changed the whole mood.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+fear_news_056,fear_news_056,news,fear,the hospital feared another failure even though the repair happened when the room went quiet.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_057,fear_blog_057,blog,fear,"a student said the schedule mattered, and a volunteer was uneasy about the strange behavior.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+fear_social_058,fear_social_058,social,fear,the class felt alarmed by the medical result; the announcement changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_news_059,fear_news_059,news,fear,the school board was scared to make the next call since the update happened during the discussion.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_blog_060,fear_blog_060,blog,fear,"a designer said the report mattered, and a reader felt panic rising in the crowd.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_social_061,fear_social_061,social,fear,my sister felt afraid of what might happen; the email changed the whole mood.,nb,anger,anger,0.85,0.0,0.85,0.0,0.0,0.15,0.0,0.0,0.0,0.0
+fear_news_062,fear_news_062,news,fear,inspectors worried that the danger was close after the plan happened after several complaints.,nb,fear,fear,0.9999,0.0,0.0,0.0,0.0,0.9999,0.0,0.0,0.0001,0.0
+fear_blog_063,fear_blog_063,blog,fear,"a developer said the warning mattered, and a customer was scared by the sudden noise.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+fear_social_064,fear_social_064,social,fear,my cousin feared the situation could get worse; the campaign changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+joy_social_001,joy_social_001,social,joy,The way the update unfolded made my friend felt genuinely happy.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_news_002,joy_news_002,news,joy,"People noticed the report, and residents celebrated with a wide smile after the numbers were published.",nb,fear,fear,0.946,0.0,0.0,0.054,0.0,0.946,0.0,0.0,0.0,0.0
+joy_blog_003,joy_blog_003,blog,joy,"when the update arrived, the author was delighted by the result about the email.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+joy_social_004,joy_social_004,social,joy,The way the plan unfolded made my teammate laughed with relief and joy.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_news_005,joy_news_005,news,joy,"People noticed the warning, and the mayor felt proud and cheerful when the room went quiet.",nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_blog_006,joy_blog_006,blog,joy,"during the first hour, a small business owner enjoyed the moment completely about the campaign.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+joy_social_007,joy_social_007,social,joy,The way the request unfolded made my colleague shared the good news with excitement.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+joy_news_008,joy_news_008,news,joy,"People noticed the delivery, and the company felt grateful and bright during the discussion.",nb,anticipation,anticipation,0.848,0.0,0.1514,0.848,0.0006,0.0,0.0,0.0,0.0,0.0
+joy_blog_009,joy_blog_009,blog,joy,"after the team reviewed it, a nurse was thrilled by the surprise about the decision.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+joy_social_010,joy_social_010,social,joy,The way the delay unfolded made my brother smiled because everything worked out.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+joy_news_011,joy_news_011,news,joy,"People noticed the phone call, and the rescue team felt light after hearing the answer after several complaints.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+joy_blog_012,joy_blog_012,blog,joy,"before the final vote, a traveler celebrated the success with friends about the interview.",nb,joy,joy,0.9639,0.0,0.0,0.0,0.0,0.0361,0.9639,0.0,0.0,0.0
+joy_social_013,joy_social_013,social,joy,The way the change unfolded made our project team was joyful about the achievement.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+joy_news_014,joy_news_014,news,joy,"People noticed the review, and local leaders felt warm and hopeful while everyone was waiting.",nb,fear,fear,0.9998,0.0,0.0,0.0002,0.0,0.9998,0.0,0.0,0.0,0.0
+joy_blog_015,joy_blog_015,blog,joy,"while checking the details, a patient could not stop smiling about the exam.",nb,fear,fear,0.9991,0.0,0.0009,0.0,0.0,0.9991,0.0,0.0,0.0,0.0
+joy_social_016,joy_social_016,social,joy,The way the contract unfolded made the volunteers was pleased with the final score.,nb,joy,joy,0.9998,0.0,0.0,0.0,0.0,0.0002,0.9998,0.0,0.0,0.0
+joy_news_017,joy_news_017,news,joy,"People noticed the message, and the university felt happy after the kind message at the end of the day.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+joy_blog_018,joy_blog_018,blog,joy,"after the numbers were published, a musician enjoyed the calm celebration about the meeting.",nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_social_019,joy_social_019,social,joy,The way the result unfolded made the support chat felt energized by the win.,nb,fear,fear,0.9996,0.0,0.0,0.0,0.0004,0.9996,0.0,0.0,0.0,0.0
+joy_news_020,joy_news_020,news,joy,"People noticed the deadline, and the newsroom was glad the plan succeeded before the event.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+joy_blog_021,joy_blog_021,blog,joy,"when the room went quiet, an intern felt genuinely happy about the mistake.",nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_social_022,joy_social_022,social,joy,The way the visit unfolded made the local team celebrated with a wide smile.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_news_023,joy_news_023,news,joy,"People noticed the repair, and the factory was delighted by the result during the morning.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+joy_blog_024,joy_blog_024,blog,joy,"during the discussion, a freelancer laughed with relief and joy about the schedule.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+joy_social_025,joy_social_025,social,joy,The way the announcement unfolded made the parents felt proud and cheerful.,nb,fear,fear,0.641,0.0,0.0,0.0051,0.0,0.641,0.3538,0.0,0.0,0.0
+joy_news_026,joy_news_026,news,joy,"People noticed the update, and officials enjoyed the moment completely after a long week.",nb,fear,fear,0.9999,0.0,0.0,0.0,0.0,0.9999,0.0,0.0,0.0,0.0
+joy_blog_027,joy_blog_027,blog,joy,"after several complaints, we shared the good news with excitement about the report.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+joy_social_028,joy_social_028,social,joy,The way the email unfolded made my neighbor felt grateful and bright.,nb,anger,anger,0.9997,0.0,0.9997,0.0,0.0,0.0,0.0003,0.0,0.0,0.0
+joy_news_029,joy_news_029,news,joy,"People noticed the plan, and workers was thrilled by the surprise before the weekend.",nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+joy_blog_030,joy_blog_030,blog,joy,"while everyone was waiting, our team smiled because everything worked out about the warning.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+joy_social_031,joy_social_031,social,joy,The way the campaign unfolded made the online community felt light after hearing the answer.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+joy_news_032,joy_news_032,news,joy,"People noticed the request, and the agency celebrated the success with friends after the call ended.",nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_blog_033,joy_blog_033,blog,joy,"at the end of the day, a teacher was joyful about the achievement about the delivery.",nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_social_034,joy_social_034,social,joy,The way the decision unfolded made our club felt warm and hopeful.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+joy_news_035,joy_news_035,news,joy,"People noticed the delay, and the court could not stop smiling when the update arrived.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+joy_blog_036,joy_blog_036,blog,joy,"before the event, a parent was pleased with the final score about the phone call.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+joy_social_037,joy_social_037,social,joy,The way the interview unfolded made the comments felt happy after the kind message.,nb,anger,anger,0.9955,0.0,0.9955,0.0,0.0,0.0005,0.004,0.0,0.0,0.0
+joy_news_038,joy_news_038,news,joy,"People noticed the change, and the ministry enjoyed the calm celebration during the first hour.",nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_blog_039,joy_blog_039,blog,joy,"during the morning, a volunteer felt energized by the win about the review.",nb,joy,joy,0.9814,0.0,0.0,0.0186,0.0,0.0,0.9814,0.0,0.0,0.0
+joy_social_040,joy_social_040,social,joy,The way the exam unfolded made the forum was glad the plan succeeded.,nb,surprise,surprise,0.6409,0.0,0.0,0.0,0.0,0.0064,0.0003,0.1167,0.6409,0.2357
+joy_news_041,joy_news_041,news,joy,"People noticed the contract, and the airport felt genuinely happy after the team reviewed it.",nb,fear,fear,0.9997,0.0,0.0003,0.0,0.0,0.9997,0.0,0.0,0.0,0.0
+joy_blog_042,joy_blog_042,blog,joy,"after a long week, a reader celebrated with a wide smile about the message.",nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_social_043,joy_social_043,social,joy,The way the meeting unfolded made my roommate was delighted by the result.,nb,fear,fear,0.999,0.0,0.0,0.0,0.0,0.999,0.001,0.0,0.0,0.0
+joy_news_044,joy_news_044,news,joy,"People noticed the result, and the charity laughed with relief and joy before the final vote.",nb,disgust,disgust,0.9049,0.0,0.0,0.0,0.9049,0.0951,0.0,0.0,0.0,0.0
+joy_blog_045,joy_blog_045,blog,joy,"before the weekend, a customer felt proud and cheerful about the deadline.",nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_social_046,joy_social_046,social,joy,The way the mistake unfolded made the committee enjoyed the moment completely.,nb,joy,joy,0.9993,0.0,0.0,0.0,0.0007,0.0,0.9993,0.0,0.0,0.0
+joy_news_047,joy_news_047,news,joy,"People noticed the visit, and the city shared the good news with excitement while checking the details.",nb,fear,fear,0.9754,0.0,0.0,0.0245,0.0,0.9754,0.0001,0.0,0.0,0.0
+joy_blog_048,joy_blog_048,blog,joy,"after the call ended, a planner felt grateful and bright about the repair.",nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_social_049,joy_social_049,social,joy,The way the schedule unfolded made the organizer was thrilled by the surprise.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+joy_news_050,joy_news_050,news,joy,"People noticed the announcement, and the transport authority smiled because everything worked out after the numbers were published.",nb,fear,fear,0.8975,0.0,0.0,0.0228,0.0797,0.8975,0.0,0.0,0.0,0.0
+joy_blog_051,joy_blog_051,blog,joy,"when the update arrived, I felt light after hearing the answer about the update.",nb,anger,anger,0.9924,0.0,0.9924,0.0,0.0,0.0076,0.0,0.0,0.0,0.0
+joy_social_052,joy_social_052,social,joy,The way the report unfolded made the group chat celebrated the success with friends.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_news_053,joy_news_053,news,joy,"People noticed the email, and researchers was joyful about the achievement when the room went quiet.",nb,anger,anger,0.7391,0.0,0.7391,0.2609,0.0,0.0,0.0,0.0,0.0,0.0
+joy_blog_054,joy_blog_054,blog,joy,"during the first hour, my partner felt warm and hopeful about the plan.",nb,joy,joy,0.5574,0.0,0.0,0.0,0.0,0.4426,0.5574,0.0,0.0,0.0
+joy_social_055,joy_social_055,social,joy,The way the warning unfolded made my family could not stop smiling.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_news_056,joy_news_056,news,joy,"People noticed the campaign, and the hospital was pleased with the final score during the discussion.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+joy_blog_057,joy_blog_057,blog,joy,"after the team reviewed it, a student felt happy after the kind message about the request.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+joy_social_058,joy_social_058,social,joy,The way the delivery unfolded made the class enjoyed the calm celebration.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_news_059,joy_news_059,news,joy,"People noticed the decision, and the school board felt energized by the win after several complaints.",nb,fear,fear,0.9805,0.0,0.0,0.0,0.0,0.9805,0.0,0.0,0.0195,0.0
+joy_blog_060,joy_blog_060,blog,joy,"before the final vote, a designer was glad the plan succeeded about the delay.",nb,joy,joy,0.8729,0.0,0.0,0.0028,0.0,0.0,0.8729,0.001,0.1111,0.0123
+joy_social_061,joy_social_061,social,joy,The way the phone call unfolded made my sister felt genuinely happy.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+joy_news_062,joy_news_062,news,joy,"People noticed the interview, and inspectors celebrated with a wide smile while everyone was waiting.",nb,anticipation,anticipation,0.9955,0.0,0.0,0.9955,0.0,0.0045,0.0,0.0,0.0,0.0
+joy_blog_063,joy_blog_063,blog,joy,"while checking the details, a developer was delighted by the result about the change.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+joy_social_064,joy_social_064,social,joy,The way the review unfolded made my cousin laughed with relief and joy.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+sadness_social_001,sadness_social_001,social,sadness,"when the room went quiet, my friend felt deeply sad about the result.",nb,joy,joy,0.9892,0.0,0.0,0.0,0.0,0.0,0.9892,0.0108,0.0,0.0
+sadness_news_002,sadness_news_002,news,sadness,The way the deadline unfolded made residents was lonely after the conversation.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_blog_003,sadness_blog_003,blog,sadness,"People noticed the mistake, and the author cried quietly after reading it during the morning.",nb,disgust,disgust,0.9904,0.0,0.0,0.0,0.9904,0.0028,0.0067,0.0001,0.0,0.0
+sadness_social_004,sadness_social_004,social,sadness,"during the discussion, my teammate felt empty when the room cleared about the visit.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+sadness_news_005,sadness_news_005,news,sadness,The way the repair unfolded made the mayor missed the old routine.,nb,disgust,disgust,0.9157,0.0,0.0355,0.0,0.9157,0.0,0.0,0.0488,0.0,0.0
+sadness_blog_006,sadness_blog_006,blog,sadness,"People noticed the schedule, and a small business owner was disappointed by the final answer after a long week.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_social_007,sadness_social_007,social,sadness,"after several complaints, my colleague felt grief after the loss about the announcement.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+sadness_news_008,sadness_news_008,news,sadness,The way the update unfolded made the company sat in silence with a heavy heart.,nb,joy,joy,0.9994,0.0,0.0,0.0,0.0,0.0,0.9994,0.0006,0.0,0.0
+sadness_blog_009,sadness_blog_009,blog,sadness,"People noticed the report, and a nurse was hurt by the goodbye before the weekend.",nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_social_010,sadness_social_010,social,sadness,"while everyone was waiting, my brother felt discouraged by the failure about the email.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_news_011,sadness_news_011,news,sadness,The way the plan unfolded made the rescue team could not hide the sadness.,nb,sadness,sadness,0.9993,0.0,0.0,0.0,0.0,0.0007,0.0,0.9993,0.0,0.0
+sadness_blog_012,sadness_blog_012,blog,sadness,"People noticed the warning, and a traveler felt low for the rest of the day after the call ended.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_social_013,sadness_social_013,social,sadness,"at the end of the day, our project team was heartbroken by the news about the campaign.",nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_news_014,sadness_news_014,news,sadness,The way the request unfolded made local leaders felt blue after the cancellation.,nb,anger,anger,0.958,0.0,0.958,0.0013,0.0,0.0,0.0,0.0,0.0,0.0408
+sadness_blog_015,sadness_blog_015,blog,sadness,"People noticed the delivery, and a patient struggled with the painful memory when the update arrived.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+sadness_social_016,sadness_social_016,social,sadness,"before the event, the volunteers felt sorrow about the ending about the decision.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_news_017,sadness_news_017,news,sadness,The way the delay unfolded made the university was upset that the chance disappeared.,nb,trust,trust,0.9985,0.0,0.0,0.0,0.0,0.0015,0.0,0.0,0.0,0.9985
+sadness_blog_018,sadness_blog_018,blog,sadness,"People noticed the phone call, and a musician felt tired and defeated during the first hour.",nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+sadness_social_019,sadness_social_019,social,sadness,"during the morning, the support chat missed the person who left about the interview.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_news_020,sadness_news_020,news,sadness,The way the change unfolded made the newsroom felt down after the meeting.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_blog_021,sadness_blog_021,blog,sadness,"People noticed the review, and an intern felt deeply sad after the team reviewed it.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_social_022,sadness_social_022,social,sadness,"after a long week, the local team was lonely after the conversation about the exam.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_news_023,sadness_news_023,news,sadness,The way the contract unfolded made the factory cried quietly after reading it.,nb,joy,joy,0.9998,0.0,0.0,0.0,0.0,0.0,0.9998,0.0,0.0002,0.0
+sadness_blog_024,sadness_blog_024,blog,sadness,"People noticed the message, and a freelancer felt empty when the room cleared before the final vote.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_social_025,sadness_social_025,social,sadness,"before the weekend, the parents missed the old routine about the meeting.",nb,fear,fear,0.9953,0.0,0.0044,0.0,0.0,0.9953,0.0004,0.0,0.0,0.0
+sadness_news_026,sadness_news_026,news,sadness,The way the result unfolded made officials was disappointed by the final answer.,nb,fear,fear,0.9863,0.0,0.0,0.0,0.0137,0.9863,0.0,0.0,0.0,0.0
+sadness_blog_027,sadness_blog_027,blog,sadness,"People noticed the deadline, and we felt grief after the loss while checking the details.",nb,fear,fear,0.9991,0.0,0.0,0.0,0.0009,0.9991,0.0,0.0,0.0,0.0
+sadness_social_028,sadness_social_028,social,sadness,"after the call ended, my neighbor sat in silence with a heavy heart about the mistake.",nb,joy,joy,0.9997,0.0,0.0,0.0,0.0,0.0,0.9997,0.0003,0.0,0.0
+sadness_news_029,sadness_news_029,news,sadness,The way the visit unfolded made workers was hurt by the goodbye.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_blog_030,sadness_blog_030,blog,sadness,"People noticed the repair, and our team felt discouraged by the failure after the numbers were published.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_social_031,sadness_social_031,social,sadness,"when the update arrived, the online community could not hide the sadness about the schedule.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_news_032,sadness_news_032,news,sadness,The way the announcement unfolded made the agency felt low for the rest of the day.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_blog_033,sadness_blog_033,blog,sadness,"People noticed the update, and a teacher was heartbroken by the news when the room went quiet.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+sadness_social_034,sadness_social_034,social,sadness,"during the first hour, our club felt blue after the cancellation about the report.",nb,sadness,sadness,0.9993,0.0,0.0,0.0,0.0,0.0007,0.0,0.9993,0.0,0.0
+sadness_news_035,sadness_news_035,news,sadness,The way the email unfolded made the court struggled with the painful memory.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_blog_036,sadness_blog_036,blog,sadness,"People noticed the plan, and a parent felt sorrow about the ending during the discussion.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+sadness_social_037,sadness_social_037,social,sadness,"after the team reviewed it, the comments was upset that the chance disappeared about the warning.",nb,fear,fear,0.9995,0.0,0.0,0.0,0.0005,0.9995,0.0,0.0,0.0,0.0
+sadness_news_038,sadness_news_038,news,sadness,The way the campaign unfolded made the ministry felt tired and defeated.,nb,fear,fear,0.8195,0.0,0.0,0.0,0.0,0.8195,0.0,0.0,0.0,0.1805
+sadness_blog_039,sadness_blog_039,blog,sadness,"People noticed the request, and a volunteer missed the person who left after several complaints.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+sadness_social_040,sadness_social_040,social,sadness,"before the final vote, the forum felt down after the meeting about the delivery.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_news_041,sadness_news_041,news,sadness,The way the decision unfolded made the airport felt deeply sad.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_blog_042,sadness_blog_042,blog,sadness,"People noticed the delay, and a reader was lonely after the conversation while everyone was waiting.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+sadness_social_043,sadness_social_043,social,sadness,"while checking the details, my roommate cried quietly after reading it about the phone call.",nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+sadness_news_044,sadness_news_044,news,sadness,The way the interview unfolded made the charity felt empty when the room cleared.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_blog_045,sadness_blog_045,blog,sadness,"People noticed the change, and a customer missed the old routine at the end of the day.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+sadness_social_046,sadness_social_046,social,sadness,"after the numbers were published, the committee was disappointed by the final answer about the review.",nb,disgust,disgust,0.9867,0.0,0.0,0.0,0.9867,0.0133,0.0,0.0,0.0,0.0
+sadness_news_047,sadness_news_047,news,sadness,The way the exam unfolded made the city felt grief after the loss.,nb,sadness,sadness,0.9995,0.0,0.0,0.0,0.0,0.0005,0.0,0.9995,0.0,0.0
+sadness_blog_048,sadness_blog_048,blog,sadness,"People noticed the contract, and a planner sat in silence with a heavy heart before the event.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_social_049,sadness_social_049,social,sadness,"when the room went quiet, the organizer was hurt by the goodbye about the message.",nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_news_050,sadness_news_050,news,sadness,The way the meeting unfolded made the transport authority felt discouraged by the failure.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_blog_051,sadness_blog_051,blog,sadness,"People noticed the result, and I could not hide the sadness during the morning.",nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_social_052,sadness_social_052,social,sadness,"during the discussion, the group chat felt low for the rest of the day about the deadline.",nb,fear,fear,0.9996,0.0,0.0,0.0,0.0004,0.9996,0.0,0.0,0.0,0.0
+sadness_news_053,sadness_news_053,news,sadness,The way the mistake unfolded made researchers was heartbroken by the news.,nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_blog_054,sadness_blog_054,blog,sadness,"People noticed the visit, and my partner felt blue after the cancellation after a long week.",nb,joy,joy,0.8773,0.0,0.0,0.0,0.0,0.0001,0.8773,0.0015,0.1211,0.0
+sadness_social_055,sadness_social_055,social,sadness,"after several complaints, my family struggled with the painful memory about the repair.",nb,sadness,sadness,0.9999,0.0,0.0,0.0,0.0,0.0,0.0001,0.9999,0.0,0.0
+sadness_news_056,sadness_news_056,news,sadness,The way the schedule unfolded made the hospital felt sorrow about the ending.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_blog_057,sadness_blog_057,blog,sadness,"People noticed the announcement, and a student was upset that the chance disappeared before the weekend.",nb,anger,anger,0.8943,0.0,0.8943,0.0001,0.0,0.1056,0.0,0.0,0.0,0.0
+sadness_social_058,sadness_social_058,social,sadness,"while everyone was waiting, the class felt tired and defeated about the update.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+sadness_news_059,sadness_news_059,news,sadness,The way the report unfolded made the school board missed the person who left.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_blog_060,sadness_blog_060,blog,sadness,"People noticed the email, and a designer felt down after the meeting after the call ended.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_social_061,sadness_social_061,social,sadness,"at the end of the day, my sister felt deeply sad about the plan.",nb,sadness,sadness,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+sadness_news_062,sadness_news_062,news,sadness,The way the warning unfolded made inspectors was lonely after the conversation.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_blog_063,sadness_blog_063,blog,sadness,"People noticed the campaign, and a developer cried quietly after reading it when the update arrived.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+sadness_social_064,sadness_social_064,social,sadness,"before the event, my cousin felt empty when the room cleared about the request.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+surprise_social_001,surprise_social_001,social,surprise,"my friend said the phone call mattered, and the class was shocked by the outcome.",nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_news_002,surprise_news_002,news,surprise,residents did not expect that answer; the interview changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+surprise_blog_003,surprise_blog_003,blog,surprise,the author was amazed by the sudden change when the change happened before the event.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+surprise_social_004,surprise_social_004,social,surprise,"my teammate said the review mattered, and my sister gasped when the result appeared.",nb,fear,fear,0.965,0.0,0.0,0.035,0.0,0.965,0.0,0.0,0.0,0.0
+surprise_news_005,surprise_news_005,news,surprise,the mayor felt stunned by the announcement; the exam changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+surprise_blog_006,surprise_blog_006,blog,surprise,a small business owner was caught off guard completely while the contract happened during the morning.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_social_007,surprise_social_007,social,surprise,"my colleague said the message mattered, and my cousin could not believe what happened.",nb,anger,anger,0.9994,0.0,0.9994,0.0004,0.0,0.0,0.0,0.0,0.0,0.0002
+surprise_news_008,surprise_news_008,news,surprise,the company was surprised by the hidden detail; the meeting changed the whole mood.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_blog_009,surprise_blog_009,blog,surprise,a nurse blinked at the unexpected message because the result happened after a long week.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_social_010,surprise_social_010,social,surprise,"my brother said the deadline mattered, and my manager was astonished by the quick turnaround.",nb,surprise,surprise,0.9985,0.0,0.0,0.0015,0.0,0.0,0.0,0.0,0.9985,0.0
+surprise_news_011,surprise_news_011,news,surprise,the rescue team reacted with disbelief; the mistake changed the whole mood.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+surprise_blog_012,surprise_blog_012,blog,surprise,a traveler felt startled by the noise even though the visit happened before the weekend.,nb,joy,joy,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+surprise_social_013,surprise_social_013,social,surprise,"our project team said the repair mattered, and our study group was amazed that the plan worked.",nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_news_014,surprise_news_014,news,surprise,local leaders looked surprised when the door opened; the schedule changed the whole mood.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_blog_015,surprise_blog_015,blog,surprise,a patient found the result unexpected since the announcement happened after the call ended.,nb,anticipation,anticipation,0.9188,0.0,0.0,0.9188,0.0,0.0812,0.0,0.0,0.0,0.0
+surprise_social_016,surprise_social_016,social,surprise,"the volunteers said the update mattered, and my mentor was stunned by the generous offer.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_news_017,surprise_news_017,news,surprise,the university felt surprised by the timing; the report changed the whole mood.,nb,fear,fear,0.7787,0.0,0.0,0.0062,0.0,0.7787,0.0,0.0,0.0,0.2151
+surprise_blog_018,surprise_blog_018,blog,surprise,a musician did not see the decision coming after the email happened when the update arrived.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+surprise_social_019,surprise_social_019,social,surprise,"the support chat said the plan mattered, and my friend was shocked to hear the name.",nb,disgust,disgust,0.9998,0.0,0.0,0.0,0.9998,0.0,0.0,0.0001,0.0002,0.0
+surprise_news_020,surprise_news_020,news,surprise,the newsroom felt amazed after seeing the final version; the warning changed the whole mood.,nb,disgust,disgust,0.6215,0.0,0.0,0.0,0.6215,0.0809,0.2976,0.0,0.0,0.0
+surprise_blog_021,surprise_blog_021,blog,surprise,an intern was shocked by the outcome once the campaign happened during the first hour.,nb,surprise,surprise,0.9975,0.0,0.0,0.0,0.0,0.0025,0.0,0.0,0.9975,0.0
+surprise_social_022,surprise_social_022,social,surprise,"the local team said the request mattered, and my teammate did not expect that answer.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_news_023,surprise_news_023,news,surprise,the factory was amazed by the sudden change; the delivery changed the whole mood.,nb,anger,anger,0.9998,0.0,0.9998,0.0,0.0,0.0,0.0,0.0,0.0002,0.0
+surprise_blog_024,surprise_blog_024,blog,surprise,a freelancer gasped when the result appeared as soon as the decision happened after the team reviewed it.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+surprise_social_025,surprise_social_025,social,surprise,"the parents said the delay mattered, and my colleague felt stunned by the announcement.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_news_026,surprise_news_026,news,surprise,officials was caught off guard completely; the phone call changed the whole mood.,nb,anger,anger,0.6288,0.0,0.6288,0.0,0.1775,0.0,0.0,0.0,0.1938,0.0
+surprise_blog_027,surprise_blog_027,blog,surprise,we could not believe what happened when the interview happened before the final vote.,nb,fear,fear,0.8866,0.0,0.0,0.0096,0.0,0.8866,0.0,0.0,0.1038,0.0
+surprise_social_028,surprise_social_028,social,surprise,"my neighbor said the change mattered, and my brother was surprised by the hidden detail.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_news_029,surprise_news_029,news,surprise,workers blinked at the unexpected message; the review changed the whole mood.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_blog_030,surprise_blog_030,blog,surprise,our team was astonished by the quick turnaround while the exam happened while checking the details.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_social_031,surprise_social_031,social,surprise,"the online community said the contract mattered, and our project team reacted with disbelief.",nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+surprise_news_032,surprise_news_032,news,surprise,the agency felt startled by the noise; the message changed the whole mood.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_blog_033,surprise_blog_033,blog,surprise,a teacher was amazed that the plan worked because the meeting happened after the numbers were published.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_social_034,surprise_social_034,social,surprise,"our club said the result mattered, and the volunteers looked surprised when the door opened.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_news_035,surprise_news_035,news,surprise,the court found the result unexpected; the deadline changed the whole mood.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+surprise_blog_036,surprise_blog_036,blog,surprise,a parent was stunned by the generous offer even though the mistake happened when the room went quiet.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_social_037,surprise_social_037,social,surprise,"the comments said the visit mattered, and the support chat felt surprised by the timing.",nb,anticipation,anticipation,0.6298,0.0,0.0,0.6298,0.0,0.0,0.0,0.0,0.3702,0.0
+surprise_news_038,surprise_news_038,news,surprise,the ministry did not see the decision coming; the repair changed the whole mood.,nb,fear,fear,0.7238,0.0,0.105,0.0,0.0,0.7238,0.1712,0.0,0.0,0.0
+surprise_blog_039,surprise_blog_039,blog,surprise,a volunteer was shocked to hear the name since the schedule happened during the discussion.,nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_social_040,surprise_social_040,social,surprise,"the forum said the announcement mattered, and the local team felt amazed after seeing the final version.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_news_041,surprise_news_041,news,surprise,the airport was shocked by the outcome; the update changed the whole mood.,nb,fear,fear,0.9997,0.0,0.0003,0.0,0.0,0.9997,0.0,0.0,0.0,0.0
+surprise_blog_042,surprise_blog_042,blog,surprise,a reader did not expect that answer after the report happened after several complaints.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_social_043,surprise_social_043,social,surprise,"my roommate said the email mattered, and the parents was amazed by the sudden change.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+surprise_news_044,surprise_news_044,news,surprise,the charity gasped when the result appeared; the plan changed the whole mood.,nb,fear,fear,0.9997,0.0,0.0,0.0,0.0003,0.9997,0.0,0.0,0.0,0.0
+surprise_blog_045,surprise_blog_045,blog,surprise,a customer felt stunned by the announcement once the warning happened while everyone was waiting.,nb,surprise,surprise,0.8609,0.0,0.1165,0.0225,0.0,0.0,0.0,0.0,0.8609,0.0
+surprise_social_046,surprise_social_046,social,surprise,"the committee said the campaign mattered, and my neighbor was caught off guard completely.",nb,anticipation,anticipation,0.9888,0.0,0.0112,0.9888,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_news_047,surprise_news_047,news,surprise,the city could not believe what happened; the request changed the whole mood.,nb,anger,anger,0.9088,0.0,0.9088,0.0,0.0,0.0,0.0,0.0,0.0,0.0912
+surprise_blog_048,surprise_blog_048,blog,surprise,a planner was surprised by the hidden detail as soon as the delivery happened at the end of the day.,nb,surprise,surprise,0.9942,0.0,0.0,0.0058,0.0,0.0,0.0,0.0,0.9942,0.0
+surprise_social_049,surprise_social_049,social,surprise,"the organizer said the decision mattered, and the online community blinked at the unexpected message.",nb,surprise,surprise,0.9965,0.0,0.0,0.0,0.0,0.0035,0.0,0.0,0.9965,0.0
+surprise_news_050,surprise_news_050,news,surprise,the transport authority was astonished by the quick turnaround; the delay changed the whole mood.,nb,anger,anger,0.9669,0.0,0.9669,0.0,0.0331,0.0,0.0,0.0,0.0,0.0
+surprise_blog_051,surprise_blog_051,blog,surprise,I reacted with disbelief when the phone call happened before the event.,nb,trust,trust,0.9897,0.0,0.0002,0.0,0.0,0.0101,0.0,0.0,0.0,0.9897
+surprise_social_052,surprise_social_052,social,surprise,"the group chat said the interview mattered, and our club felt startled by the noise.",nb,anticipation,anticipation,0.8068,0.0,0.0,0.8068,0.1848,0.0084,0.0,0.0,0.0,0.0
+surprise_news_053,surprise_news_053,news,surprise,researchers was amazed that the plan worked; the change changed the whole mood.,nb,surprise,surprise,0.9992,0.0,0.0008,0.0,0.0,0.0,0.0,0.0,0.9992,0.0
+surprise_blog_054,surprise_blog_054,blog,surprise,my partner looked surprised when the door opened while the review happened during the morning.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_social_055,surprise_social_055,social,surprise,"my family said the exam mattered, and the comments found the result unexpected.",nb,anticipation,anticipation,0.5018,0.0,0.0,0.5018,0.0,0.4982,0.0,0.0,0.0,0.0
+surprise_news_056,surprise_news_056,news,surprise,the hospital was stunned by the generous offer; the contract changed the whole mood.,nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+surprise_blog_057,surprise_blog_057,blog,surprise,a student felt surprised by the timing because the message happened after a long week.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_social_058,surprise_social_058,social,surprise,"the class said the meeting mattered, and the forum did not see the decision coming.",nb,fear,fear,0.8283,0.0,0.0,0.1717,0.0,0.8283,0.0,0.0,0.0,0.0
+surprise_news_059,surprise_news_059,news,surprise,the school board was shocked to hear the name; the result changed the whole mood.,nb,disgust,disgust,0.7844,0.0,0.0687,0.0,0.7844,0.1469,0.0,0.0,0.0,0.0
+surprise_blog_060,surprise_blog_060,blog,surprise,a designer felt amazed after seeing the final version even though the deadline happened before the weekend.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_social_061,surprise_social_061,social,surprise,"my sister said the mistake mattered, and my roommate was shocked by the outcome.",nb,disgust,disgust,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+surprise_news_062,surprise_news_062,news,surprise,inspectors did not expect that answer; the visit changed the whole mood.,nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+surprise_blog_063,surprise_blog_063,blog,surprise,a developer was amazed by the sudden change since the repair happened after the call ended.,nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+surprise_social_064,surprise_social_064,social,surprise,"my cousin said the schedule mattered, and the committee gasped when the result appeared.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_social_001,trust_social_001,social,trust,"People noticed the delay, and my friend trusted the explanation after several complaints.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+trust_news_002,trust_news_002,news,trust,"before the final vote, residents felt safe with the team about the phone call.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_blog_003,trust_blog_003,blog,trust,The way the interview unfolded made the author believed the plan was honest.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_social_004,trust_social_004,social,trust,"People noticed the change, and my teammate relied on the expert advice while everyone was waiting.",nb,trust,trust,0.83,0.0,0.037,0.074,0.0589,0.0,0.0,0.0,0.0,0.83
+trust_news_005,trust_news_005,news,trust,"while checking the details, the mayor felt confident in the decision about the review.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_blog_006,trust_blog_006,blog,trust,The way the exam unfolded made a small business owner accepted the promise because it was clear.,nb,trust,trust,0.9972,0.0,0.0,0.0,0.0,0.0028,0.0,0.0,0.0,0.9972
+trust_social_007,trust_social_007,social,trust,"People noticed the contract, and my colleague trusted the process at the end of the day.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+trust_news_008,trust_news_008,news,trust,"after the numbers were published, the company felt reassured by the calm answer about the message.",nb,disgust,disgust,0.998,0.0,0.0,0.0,0.998,0.002,0.0,0.0,0.0,0.0
+trust_blog_009,trust_blog_009,blog,trust,The way the meeting unfolded made a nurse believed the report was accurate.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_social_010,trust_social_010,social,trust,"People noticed the result, and my brother counted on the group to help before the event.",nb,anger,anger,0.9965,0.0,0.9965,0.0,0.0,0.0035,0.0,0.0,0.0,0.0
+trust_news_011,trust_news_011,news,trust,"when the room went quiet, the rescue team felt secure after the update about the deadline.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_blog_012,trust_blog_012,blog,trust,The way the mistake unfolded made a traveler had confidence in the doctor.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_social_013,trust_social_013,social,trust,"People noticed the visit, and our project team trusted the careful preparation during the morning.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_news_014,trust_news_014,news,trust,"during the discussion, local leaders felt supported by the clear communication about the repair.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+trust_blog_015,trust_blog_015,blog,trust,The way the schedule unfolded made a patient believed the team would follow through.,nb,anger,anger,0.9967,0.0,0.9967,0.0,0.0,0.0,0.0,0.0,0.0,0.0033
+trust_social_016,trust_social_016,social,trust,"People noticed the announcement, and the volunteers felt protected by the rules after a long week.",nb,anticipation,anticipation,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+trust_news_017,trust_news_017,news,trust,"after several complaints, the university trusted the partner to be fair about the update.",nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+trust_blog_018,trust_blog_018,blog,trust,The way the report unfolded made a musician felt sure the information was reliable.,nb,fear,fear,0.9997,0.0,0.0,0.0003,0.0,0.9997,0.0,0.0,0.0,0.0
+trust_social_019,trust_social_019,social,trust,"People noticed the email, and the support chat relied on the instructions before the weekend.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_news_020,trust_news_020,news,trust,"while everyone was waiting, the newsroom felt confident that help would arrive about the plan.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_blog_021,trust_blog_021,blog,trust,The way the warning unfolded made an intern trusted the explanation.,nb,fear,fear,0.9995,0.0,0.0005,0.0,0.0,0.9995,0.0,0.0,0.0,0.0
+trust_social_022,trust_social_022,social,trust,"People noticed the campaign, and the local team felt safe with the team after the call ended.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_news_023,trust_news_023,news,trust,"at the end of the day, the factory believed the plan was honest about the request.",nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+trust_blog_024,trust_blog_024,blog,trust,The way the delivery unfolded made a freelancer relied on the expert advice.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+trust_social_025,trust_social_025,social,trust,"People noticed the decision, and the parents felt confident in the decision when the update arrived.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_news_026,trust_news_026,news,trust,"before the event, officials accepted the promise because it was clear about the delay.",nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+trust_blog_027,trust_blog_027,blog,trust,The way the phone call unfolded made we trusted the process.,nb,anger,anger,0.9999,0.0,0.9999,0.0,0.0,0.0001,0.0,0.0,0.0,0.0
+trust_social_028,trust_social_028,social,trust,"People noticed the interview, and my neighbor felt reassured by the calm answer during the first hour.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_news_029,trust_news_029,news,trust,"during the morning, workers believed the report was accurate about the change.",nb,disgust,disgust,0.9998,0.0,0.0,0.0,0.9998,0.0,0.0,0.0002,0.0,0.0
+trust_blog_030,trust_blog_030,blog,trust,The way the review unfolded made our team counted on the group to help.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_social_031,trust_social_031,social,trust,"People noticed the exam, and the online community felt secure after the update after the team reviewed it.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_news_032,trust_news_032,news,trust,"after a long week, the agency had confidence in the doctor about the contract.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_blog_033,trust_blog_033,blog,trust,The way the message unfolded made a teacher trusted the careful preparation.,nb,trust,trust,0.9996,0.0,0.0,0.0,0.0,0.0004,0.0,0.0,0.0,0.9996
+trust_social_034,trust_social_034,social,trust,"People noticed the meeting, and our club felt supported by the clear communication before the final vote.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_news_035,trust_news_035,news,trust,"before the weekend, the court believed the team would follow through about the result.",nb,anger,anger,0.9003,0.0,0.9003,0.0,0.0,0.0,0.0,0.0,0.0,0.0997
+trust_blog_036,trust_blog_036,blog,trust,The way the deadline unfolded made a parent felt protected by the rules.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_social_037,trust_social_037,social,trust,"People noticed the mistake, and the comments trusted the partner to be fair while checking the details.",nb,disgust,disgust,0.7669,0.0,0.2331,0.0,0.7669,0.0,0.0,0.0,0.0,0.0
+trust_news_038,trust_news_038,news,trust,"after the call ended, the ministry felt sure the information was reliable about the visit.",nb,joy,joy,0.9129,0.0,0.0,0.0382,0.0,0.049,0.9129,0.0,0.0,0.0
+trust_blog_039,trust_blog_039,blog,trust,The way the repair unfolded made a volunteer relied on the instructions.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_social_040,trust_social_040,social,trust,"People noticed the schedule, and the forum felt confident that help would arrive after the numbers were published.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_news_041,trust_news_041,news,trust,"when the update arrived, the airport trusted the explanation about the announcement.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_blog_042,trust_blog_042,blog,trust,The way the update unfolded made a reader felt safe with the team.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_social_043,trust_social_043,social,trust,"People noticed the report, and my roommate believed the plan was honest when the room went quiet.",nb,disgust,disgust,0.9997,0.0,0.0,0.0,0.9997,0.0,0.0,0.0,0.0003,0.0
+trust_news_044,trust_news_044,news,trust,"during the first hour, the charity relied on the expert advice about the email.",nb,fear,fear,0.9924,0.0,0.0,0.0002,0.0002,0.9924,0.0,0.0,0.0,0.0072
+trust_blog_045,trust_blog_045,blog,trust,The way the plan unfolded made a customer felt confident in the decision.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_social_046,trust_social_046,social,trust,"People noticed the warning, and the committee accepted the promise because it was clear during the discussion.",nb,anticipation,anticipation,0.9531,0.0,0.0,0.9531,0.0263,0.0205,0.0,0.0,0.0,0.0001
+trust_news_047,trust_news_047,news,trust,"after the team reviewed it, the city trusted the process about the campaign.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_blog_048,trust_blog_048,blog,trust,The way the request unfolded made a planner felt reassured by the calm answer.,nb,fear,fear,0.5599,0.0,0.4401,0.0,0.0,0.5599,0.0,0.0,0.0,0.0
+trust_social_049,trust_social_049,social,trust,"People noticed the delivery, and the organizer believed the report was accurate after several complaints.",nb,surprise,surprise,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+trust_news_050,trust_news_050,news,trust,"before the final vote, the transport authority counted on the group to help about the decision.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_blog_051,trust_blog_051,blog,trust,The way the delay unfolded made I felt secure after the update.,nb,fear,fear,0.97,0.0,0.0229,0.0,0.0,0.97,0.0071,0.0,0.0,0.0
+trust_social_052,trust_social_052,social,trust,"People noticed the phone call, and the group chat had confidence in the doctor while everyone was waiting.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_news_053,trust_news_053,news,trust,"while checking the details, researchers trusted the careful preparation about the interview.",nb,anticipation,anticipation,0.981,0.0,0.0,0.981,0.0,0.019,0.0,0.0,0.0,0.0
+trust_blog_054,trust_blog_054,blog,trust,The way the change unfolded made my partner felt supported by the clear communication.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+trust_social_055,trust_social_055,social,trust,"People noticed the review, and my family believed the team would follow through at the end of the day.",nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+trust_news_056,trust_news_056,news,trust,"after the numbers were published, the hospital felt protected by the rules about the exam.",nb,fear,fear,0.8848,0.0,0.0,0.0,0.1152,0.8848,0.0,0.0,0.0,0.0
+trust_blog_057,trust_blog_057,blog,trust,The way the contract unfolded made a student trusted the partner to be fair.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+trust_social_058,trust_social_058,social,trust,"People noticed the message, and the class felt sure the information was reliable before the event.",nb,anger,anger,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+trust_news_059,trust_news_059,news,trust,"when the room went quiet, the school board relied on the instructions about the meeting.",nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_blog_060,trust_blog_060,blog,trust,The way the result unfolded made a designer felt confident that help would arrive.,nb,fear,fear,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+trust_social_061,trust_social_061,social,trust,"People noticed the deadline, and my sister trusted the explanation during the morning.",nb,fear,fear,0.9943,0.0,0.0,0.0,0.0,0.9943,0.0,0.0057,0.0,0.0
+trust_news_062,trust_news_062,news,trust,"during the discussion, inspectors felt safe with the team about the mistake.",nb,fear,fear,0.8816,0.0,0.0,0.0169,0.1014,0.8816,0.0,0.0,0.0,0.0
+trust_blog_063,trust_blog_063,blog,trust,The way the visit unfolded made a developer believed the plan was honest.,nb,trust,trust,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+trust_social_064,trust_social_064,social,trust,"People noticed the repair, and my cousin relied on the expert advice after a long week.",nb,trust,trust,0.9999,0.0,0.0,0.0,0.0,0.0001,0.0,0.0,0.0,0.9999
