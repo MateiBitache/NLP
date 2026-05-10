@@ -19,11 +19,17 @@
 \geometry{margin=1in}
 
 \title{Emotion Analysis in Text Using Lexicon-Based, Weakly Supervised, and Hybrid Methods}
-
 \author{
-Bitache Matei, Ungureanu Robert-Gabriel, Ungureanu Eduard-Mihai \\
-NLP Final Project
+    \textbf{Bitache Matei} \\
+    \small \texttt{matei.bitache@s.unibuc.ro}
+    \and
+    \textbf{Ungureanu Robert-Gabriel} \\
+    \small \texttt{robert-gabriel.ungureanu1@s.unibuc.ro}
+    \and
+    \textbf{Ungureanu Eduard-Mihai} \\
+    \small \texttt{eduard-mihai.ungureanu@s.unibuc.ro}
 }
+\date{\textbf{NLP Final Project}}
 
 \date{}
 
@@ -374,13 +380,6 @@ Fourth, the lexicon method uses simple heuristics for negation and intensificati
 
 Finally, the project does not include a Transformer model. Such a model would likely be stronger on large labeled datasets, but it would require additional dependencies and potentially GPU resources. This is left as future work.
 
-\section{Ethical Statement}
-
-Automatic emotion analysis should be used carefully. A model that predicts emotional categories from text is not a psychological diagnostic tool. It may be useful for aggregate analysis, exploratory research, or feature extraction, but it should not be used to make high-stakes judgments about individuals.
-
-The implementation uses the NRC Hashtag Emotion Lexicon for educational and research purposes. The lexicon documentation states that the resource may be used freely for non-commercial research and educational purposes, but it should not be redistributed as a standalone dataset. Therefore, the project code expects the lexicon to be present locally in the extracted resources folder rather than embedding the lexicon directly into the source code.
-
-The system can make errors, especially on ambiguous, sarcastic, multilingual, or context-dependent text. Any downstream use should report uncertainty, inspect examples, and avoid over-interpreting predicted emotions.
 
 \section{Future Work}
 
